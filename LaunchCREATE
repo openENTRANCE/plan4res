@@ -1,0 +1,19 @@
+#/bin/bash
+
+# this script launches creation of plan4res dataset (set of csv files) alone
+
+export P4R_SINGULARITY_IMAGE_PRESERVE=1 # avoid update of the container
+export P4R_ENV="../bin/p4r"
+export TIME_P4R_ENV="/usr/bin/time -v ${P4R_ENV}"
+export CONFIG="config/"
+export PYTHONSCRIPTS="scripts/python/plan4res-scripts/"
+export DATA="data/local/"
+
+# DATASET is the name of the directory within data/local
+export DATASET="ExampleRun"
+
+export INSTANCE="${DATA}${DATASET}/"
+rm -r ../${INSTANCE}
+
+# run script to create plan4res input dataset (ZV_ZineValues.csv ...)
+${P4R_ENV} python -W ignore ${PYTHONSCRIPTS}CreateInputPlan4res.py /${PYTHONSCRIPTS}settingsCreateInputPlan4res_simul.yml ${DATASET}

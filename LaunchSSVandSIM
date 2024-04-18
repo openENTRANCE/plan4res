@@ -1,0 +1,77 @@
+#/bin/bash
+
+# this scripts launches 
+# - creation of plan4res dataset (set of cev files)
+# - Computation of bellman values (SSV) 
+# - Simulation (SIM)
+# - Post treatment of results
+
+export P4R_ENV="../bin/p4r"
+export TIME_P4R_ENV="/usr/bin/time -v ${P4R_ENV}"
+export CONFIG="config/"
+export PYTHONSCRIPTS="scripts/python/plan4res-scripts/"
+export DATA="data/local/"
+
+# DATASET is the name of the directory within DATA
+export DATASET="ExampleRun"
+
+export INSTANCE="${DATA}${DATASET}/"
+#rm -r ../${INSTANCE}
+
+# run script to create plan4res input dataset (ZV_ZineValues.csv ...)
+# comment if you are using handmade datasets
+${P4R_ENV} python -W ignore ${PYTHONSCRIPTS}CreateInputPlan4res_simul.py /${PYTHONSCRIPTS}settingsCreateInputPlan4res_simul.yml ${DATASET}
+
+# run formatting script to create netcdf input files
+${P4R_ENV} python -W ignore ${PYTHONSCRIPTS}format.py /${PYTHONSCRIPTS}settings_format_optim.yml /${PYTHONSCRIPTS}settingsCreateInputPlan4res_simul.yml ${DATASET}
+
+# run sddp solver
+${TIME_P4R_ENV} sddp_solver -S ${CONFIG}sddp_solver2scen.txt -c ${CONFIG} -p ${INSTANCE}nc4_optim/ ${INSTANCE}nc4_optim/SDDPBlock.nc4
+
+rm -r ../${INSTANCE}results
+mkdir ../${INSTANCE}results/
+mv ../Bellman* ../${INSTANCE}results/
+mv ../cuts.txt ../${INSTANCE}results/
+rm ../regressors.sddp.* ../visited_states.sddp.* ../cuts.sddp* ../uc.lp
+cp ../${INSTANCE}results/cuts.txt ../${INSTANCE}bellmanvalues.csv
+cp ../${INSTANCE}results/BellmanValuesOUT.csv ../${INSTANCE}bellmanvalues.csv
+
+# run formatting script to create netcdf input files
+${P4R_ENV} python -W ignore ${PYTHONSCRIPTS}format.py /${PYTHONSCRIPTS}settings_format_simul.yml /${PYTHONSCRIPTS}settingsCreateInputPlan4res_simul.yml ${DATASET}
+
+mkdir ../${INSTANCE}results/Demand
+mkdir ../${INSTANCE}results/Volume
+mkdir ../${INSTANCE}results/MarginalCosts
+mkdir ../${INSTANCE}results/Flows
+mkdir ../${INSTANCE}results/ActivePower
+mkdir ../${INSTANCE}results/Primary
+mkdir ../${INSTANCE}results/Secondary
+mkdir ../${INSTANCE}results/MaxPower
+
+var=$(awk -F ':' '$1=="    Scenarios"' python/plan4res-scripts/settings_format_invest.yml)
+NBSCEN=$(echo $var | grep -o ',' | wc -l)
+
+echo "$NBSCEN scenarios"
+for (( scen=0; scen<$NBSCEN+1; scen++ ))
+do
+	echo "solve scenario $scen"
+	${P4R_ENV} sddp_solver -l ${INSTANCE}bellmanvalues.csv -s -i ${scen} -S ${CONFIG}sddp_greedy.txt -c ${CONFIG} -p ${INSTANCE}nc4_simul/ ${INSTANCE}nc4_simul/SDDPBlock.nc4
+
+	mv ../DemandOUT.csv ../${INSTANCE}results/Demand/Demand${scen}.csv
+	mv ../VolumeOUT.csv ../${INSTANCE}results/Volume/Volume${scen}.csv
+	mv ../MarginalCostActivePowerDemandOUT.csv ../${INSTANCE}results/MarginalCosts/MarginalCostActivePowerDemand${scen}.csv
+	mv ../MarginalCostFlowsOUT.csv ../${INSTANCE}results/MarginalCosts/MarginalCostFlows${scen}.csv
+	mv ../FlowsOUT.csv ../${INSTANCE}results/Flows/Flows${scen}.csv
+	mv ../ActivePowerOUT.csv ../${INSTANCE}results/ActivePower/ActivePower${scen}.csv
+	mv ../MarginalCostInertiaOUT.csv ../${INSTANCE}results/MarginalCosts/MarginalCostInertia${scen}.csv
+	mv ../MarginalCostPrimaryOUT.csv ../${INSTANCE}results/MarginalCosts/MarginalCostPrimary${scen}.csv
+	mv ../MarginalCostSecondaryOUT.csv ../${INSTANCE}results/MarginalCosts/MarginalCostSecondary${scen}.csv
+	mv ../MaxPowerOUT.csv ../${INSTANCE}results/MaxPower/MaxPower${scen}.csv
+	mv ../PrimaryOUT.csv ../${INSTANCE}results/Primary/Primary${scen}.csv
+	mv ../SecondaryOUT.csv ../${INSTANCE}results/Secondary/Secondary${scen}.csv
+done 
+rm ../uc.lp
+
+echo 'Simulation completed'
+echo 'Launch PostTreat'
+${P4R_ENV} python -W ignore ${PYTHONSCRIPTS}PostTreatPlan4res.py /${PYTHONSCRIPTS}settingsPostTreatPlan4res_simul.yml /${PYTHONSCRIPTS}settings_format_simul.yml /${PYTHONSCRIPTS}settingsCreateInputPlan4res_simul.yml ${DATASET}

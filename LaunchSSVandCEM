@@ -1,0 +1,85 @@
+#/bin/bash
+
+# this scripts launches 
+# - creation of plan4res dataset (set of cev files)
+# - Computation of bellman values (SSV) 
+# - Investment model (CEM)
+# - Simulation (SIM)
+# - Post treatment of results
+
+export P4R_ENV="../bin/p4r"
+export TIME_P4R_ENV="/usr/bin/time -v ${P4R_ENV}"
+export CONFIG="config/"
+export PYTHONSCRIPTS="scripts/python/plan4res-scripts/"
+export DATA="data/local/"
+
+# DATASET is the name of the directory within data/local
+export DATASET="ExampleRun"
+
+export INSTANCE="${DATA}${DATASET}/"
+
+# run script to create plan4res input dataset (ZV_ZineValues.csv ...)
+# comment if you are using handmade datasets
+${P4R_ENV} python -W ignore ${PYTHONSCRIPTS}CreateInputPlan4res.py /${PYTHONSCRIPTS}settingsCreateInputPlan4res_simul.yml ${DATASET}
+
+# run formatting script to create netcdf input files for running the ssv before the cem
+# comment if you already have bellman values computed
+${P4R_ENV} python -W ignore ${PYTHONSCRIPTS}format.py /${PYTHONSCRIPTS}settings_format_optim.yml /${PYTHONSCRIPTS}settingsCreateInputPlan4res_invest.yml ${DATASET}
+
+# run sddp solver
+# comment if you already have bellman values computed
+${TIME_P4R_ENV} sddp_solver -S ${CONFIG}sddp_solver2scen.txt -c ${CONFIG} -p ${INSTANCE}nc4_optim/ ${INSTANCE}nc4_optim/SDDPBlock.nc4
+
+rm -r ../${INSTANCE}results_invest/
+mkdir ../${INSTANCE}results_invest/
+mv ../Bellman* ../${INSTANCE}results_invest/
+mv ../cuts.txt ../${INSTANCE}results_invest/
+rm ../regressors.sddp.* ../visited_states.sddp.* ../cuts.sddp* ../uc.lp
+# in case sddp has not converged, use cuts instead of bellmanvaluesout
+cp ../${INSTANCE}results_invest/cuts.txt ../${INSTANCE}results_invest/bellmanvalues.csv
+cp ../${INSTANCE}results_invest/BellmanValuesOUT.csv ../${INSTANCE}results_invest/bellmanvalues.csv
+
+# run formatting script to create netcdf input files for the investment model
+${P4R_ENV} python -W ignore ${PYTHONSCRIPTS}format.py /${PYTHONSCRIPTS}settings_format_invest.yml /${PYTHONSCRIPTS}settingsCreateInputPlan4res_invest.yml ${DATASET}
+
+# bellman values may have been computed for more ssv timestpeps than required => remove them
+LASTSTEP=$(ls -l ../${INSTANCE}nc4_invest/Block* | wc -l)
+echo "$LASTSTEP steps"
+awk -v laststep=$LASTSTEP -F ',' '$1 < laststep' ../${INSTANCE}results_invest/bellmanvalues.csv > temp.csv
+mv temp.csv ../${INSTANCE}results_invest/bellmanvalues.csv
+
+mkdir ../${INSTANCE}results_invest/Demand
+mkdir ../${INSTANCE}results_invest/Volume
+mkdir ../${INSTANCE}results_invest/MarginalCosts
+mkdir ../${INSTANCE}results_invest/Flows
+mkdir ../${INSTANCE}results_invest/ActivePower
+mkdir ../${INSTANCE}results_invest/Primary
+mkdir ../${INSTANCE}results_invest/Secondary
+mkdir ../${INSTANCE}results_invest/MaxPower
+
+# run investment solver
+${P4R_ENV} investment_solver -l ${INSTANCE}results_invest/bellmanvalues.csv -o -e -S ${CONFIG}BSPar-Investment.txt -c ${CONFIG} -p ${INSTANCE}nc4_invest/ ${INSTANCE}nc4_invest/InvestmentBlock.nc4
+
+NBSCEN=$(ls ../Demand* | wc -l)
+echo "$NBSCEN scenarios"
+for (( scen=0; scen<$NBSCEN; scen++ ))
+do 
+	mv ../Demand_Scen${scen}_OUT.csv ../${INSTANCE}results_invest/Demand/Demand${scen}.csv
+	mv ../Volume_Scen${scen}_OUT.csv ../${INSTANCE}results_invest/Volume/Volume${scen}.csv
+	mv ../MarginalCostActivePowerDemand_Scen${scen}_OUT.csv ../${INSTANCE}results_invest/MarginalCosts/MarginalCostActivePowerDemand${scen}.csv
+	mv ../MarginalCostFlows_Scen${scen}_OUT.csv ../${INSTANCE}results_invest/MarginalCosts/MarginalCostFlows${scen}.csv
+	mv ../MarginalCostInertia_Scen${scen}_OUT.csv ../${INSTANCE}results_invest/MarginalCosts/MarginalCostInertia${scen}.csv
+	mv ../MarginalCostPrimary_Scen${scen}_OUT.csv ../${INSTANCE}results_invest/MarginalCosts/MarginalCostPrimary${scen}.csv
+	mv ../MarginalCostSecondary_Scen${scen}_OUT.csv ../${INSTANCE}results_invest/MarginalCosts/MarginalCostSecondary${scen}.csv
+	mv ../Flows_Scen${scen}_OUT.csv ../${INSTANCE}results_invest/Flows/Flows${scen}.csv
+	mv ../ActivePower_Scen${scen}_OUT.csv ../${INSTANCE}results_invest/ActivePower/ActivePower${scen}.csv
+	mv ../MaxPower_Scen${scen}_OUT.csv ../${INSTANCE}results_invest/MaxPower/MaxPower${scen}.csv
+	mv ../Primary_Scen${scen}_OUT.csv ../${INSTANCE}results_invest/Primary/Primary${scen}.csv
+	mv ../Secondary_Scen${scen}_OUT.csv ../${INSTANCE}results_invest/Secondary/Secondary${scen}.csv
+done
+rm ../uc.lp
+
+echo 'Simulation completed'
+echo 'Launch PostTreat'
+# run post treatment script
+${P4R_ENV} python -W ignore ${PYTHONSCRIPTS}PostTreatPlan4res.py /${PYTHONSCRIPTS}settingsPostTreatPlan4res_invest.yml /${PYTHONSCRIPTS}settings_format_invest.yml /${PYTHONSCRIPTS}settingsCreateInputPlan4res_invest.yml ${DATASET}
