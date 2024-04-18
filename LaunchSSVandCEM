@@ -28,7 +28,7 @@ ${P4R_ENV} python -W ignore ${PYTHONSCRIPTS}format.py /${PYTHONSCRIPTS}settings_
 
 # run sddp solver
 # comment if you already have bellman values computed
-${TIME_P4R_ENV} sddp_solver -S ${CONFIG}sddp_solver2scen.txt -c ${CONFIG} -p ${INSTANCE}nc4_optim/ ${INSTANCE}nc4_optim/SDDPBlock.nc4
+${TIME_P4R_ENV} sddp_solver -S ${CONFIG}sddp_solver.txt -c ${CONFIG} -p ${INSTANCE}nc4_optim/ ${INSTANCE}nc4_optim/SDDPBlock.nc4
 
 rm -r ../${INSTANCE}results_invest/
 mkdir ../${INSTANCE}results_invest/
