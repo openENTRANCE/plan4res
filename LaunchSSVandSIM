@@ -8,25 +8,31 @@
 
 export P4R_ENV="../bin/p4r"
 export TIME_P4R_ENV="/usr/bin/time -v ${P4R_ENV}"
-export CONFIG="config/"
 export PYTHONSCRIPTS="scripts/python/plan4res-scripts/"
 export DATA="data/local/"
 
-# DATASET is the name of the directory within DATA
-export DATASET="ExampleRun"
+# DATASET is the name of the directory within data/local
+if [ "$1" == "" ] ; then
+    echo "provide name of dataset in data/local/"
+    read DATASET
+else
+	echo $1
+	DATASET=$1
+	echo $DATASET
+fi
 
 export INSTANCE="${DATA}${DATASET}/"
-#rm -r ../${INSTANCE}
+export CONFIG="${DATA}${DATASET}/settings/"
 
 # run script to create plan4res input dataset (ZV_ZineValues.csv ...)
 # comment if you are using handmade datasets
-${P4R_ENV} python -W ignore ${PYTHONSCRIPTS}CreateInputPlan4res_simul.py /${PYTHONSCRIPTS}settingsCreateInputPlan4res_simul.yml ${DATASET}
+${P4R_ENV} python -W ignore ${PYTHONSCRIPTS}CreateInputPlan4res_simul.py /${CONFIG}settingsCreateInputPlan4res_simul.yml ${DATASET}
 
 # run formatting script to create netcdf input files
-${P4R_ENV} python -W ignore ${PYTHONSCRIPTS}format.py /${PYTHONSCRIPTS}settings_format_optim.yml /${PYTHONSCRIPTS}settingsCreateInputPlan4res_simul.yml ${DATASET}
+${P4R_ENV} python -W ignore ${PYTHONSCRIPTS}format.py /${CONFIG}settings_format_optim.yml /${CONFIG}settingsCreateInputPlan4res_simul.yml ${DATASET}
 
 # run sddp solver
-${TIME_P4R_ENV} sddp_solver -S ${CONFIG}sddp_solver.txt -c ${CONFIG} -p ${INSTANCE}nc4_optim/ ${INSTANCE}nc4_optim/SDDPBlock.nc4
+${TIME_P4R_ENV} sddp_solver -S ${CONFIG}sddp_solver2scen.txt -c ${CONFIG} -p ${INSTANCE}nc4_optim/ ${INSTANCE}nc4_optim/SDDPBlock.nc4
 
 rm -r ../${INSTANCE}results
 mkdir ../${INSTANCE}results/
@@ -37,7 +43,7 @@ cp ../${INSTANCE}results/cuts.txt ../${INSTANCE}bellmanvalues.csv
 cp ../${INSTANCE}results/BellmanValuesOUT.csv ../${INSTANCE}bellmanvalues.csv
 
 # run formatting script to create netcdf input files
-${P4R_ENV} python -W ignore ${PYTHONSCRIPTS}format.py /${PYTHONSCRIPTS}settings_format_simul.yml /${PYTHONSCRIPTS}settingsCreateInputPlan4res_simul.yml ${DATASET}
+${P4R_ENV} python -W ignore ${PYTHONSCRIPTS}format.py /${CONFIG}settings_format_simul.yml /${CONFIG}settingsCreateInputPlan4res_simul.yml ${DATASET}
 
 mkdir ../${INSTANCE}results/Demand
 mkdir ../${INSTANCE}results/Volume
@@ -48,7 +54,7 @@ mkdir ../${INSTANCE}results/Primary
 mkdir ../${INSTANCE}results/Secondary
 mkdir ../${INSTANCE}results/MaxPower
 
-var=$(awk -F ':' '$1=="    Scenarios"' python/plan4res-scripts/settings_format_invest.yml)
+var=$(awk -F ':' '$1=="    Scenarios"' ${CONFIG}settings_format_invest.yml)
 NBSCEN=$(echo $var | grep -o ',' | wc -l)
 
 echo "$NBSCEN scenarios"
@@ -74,4 +80,4 @@ rm ../uc.lp
 
 echo 'Simulation completed'
 echo 'Launch PostTreat'
-${P4R_ENV} python -W ignore ${PYTHONSCRIPTS}PostTreatPlan4res.py /${PYTHONSCRIPTS}settingsPostTreatPlan4res_simul.yml /${PYTHONSCRIPTS}settings_format_simul.yml /${PYTHONSCRIPTS}settingsCreateInputPlan4res_simul.yml ${DATASET}
+${P4R_ENV} python -W ignore ${PYTHONSCRIPTS}PostTreatPlan4res.py /${CONFIG}settingsPostTreatPlan4res_simul.yml /${CONFIG}settings_format_simul.yml /${CONFIG}settingsCreateInputPlan4res_simul.yml ${DATASET}

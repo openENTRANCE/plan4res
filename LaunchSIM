@@ -6,17 +6,24 @@
 export P4R_SINGULARITY_IMAGE_PRESERVE=1 # avoid update of the container
 export P4R_ENV="../bin/p4r"
 export TIME_P4R_ENV="/usr/bin/time -v ${P4R_ENV}"
-export CONFIG="config/"
 export PYTHONSCRIPTS="scripts/python/plan4res-scripts/"
 export DATA="data/local/"
 
 # DATASET is the name of the directory within data/local
-export DATASET="ExampleRun"
+if [ "$1" == "" ] ; then
+    echo "provide name of dataset in data/local/"
+    read DATASET
+else
+	echo $1
+	DATASET=$1
+	echo $DATASET
+fi
 
 export INSTANCE="${DATA}${DATASET}/"
+export CONFIG="${DATA}${DATASET}/settings/"
 
 # run formatting script to create netcdf input files
-${P4R_ENV} python -W ignore ${PYTHONSCRIPTS}format.py /${PYTHONSCRIPTS}settings_format_simul.yml /${PYTHONSCRIPTS}settingsCreateInputPlan4res_simul.yml ${DATASET}
+${P4R_ENV} python -W ignore ${PYTHONSCRIPTS}format.py /${CONFIG}settings_format_simul.yml /${CONFIG}settingsCreateInputPlan4res_simul.yml ${DATASET}
 
 mv ../Bellman* ../${INSTANCE}results/
 mv ../cuts.txt ../${INSTANCE}results/
@@ -32,7 +39,7 @@ mkdir ../${INSTANCE}results/Primary
 mkdir ../${INSTANCE}results/Secondary
 mkdir ../${INSTANCE}results/MaxPower
 
-var=$(awk -F ':' '$1=="    Scenarios"' python/plan4res-scripts/settings_format_invest.yml)
+var=$(awk -F ':' '$1=="    Scenarios"' ${CONFIG}settings_format_invest.yml)
 MAXSCEN=$(echo $var | grep -o ',' | wc -l)
 echo "last scenario: $MAXSCEN"
 for (( scen=0; scen<$MAXSCEN+1; scen++ ))
@@ -56,4 +63,4 @@ do
 done 
 echo 'Simulation completed'
 echo 'Launch PostTreat'
-${P4R_ENV} python -W ignore ${PYTHONSCRIPTS}PostTreatPlan4res.py /${PYTHONSCRIPTS}settingsPostTreatPlan4res_simul.yml /${PYTHONSCRIPTS}settings_format_simul.yml /${PYTHONSCRIPTS}settingsCreateInputPlan4res_simul.yml ${DATASET}
+${P4R_ENV} python -W ignore ${PYTHONSCRIPTS}PostTreatPlan4res.py /${CONFIG}settingsPostTreatPlan4res_simul.yml /${CONFIG}settings_format_simul.yml /${CONFIG}settingsCreateInputPlan4res_simul.yml ${DATASET}

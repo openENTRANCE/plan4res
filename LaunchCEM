@@ -5,21 +5,28 @@
 
 export P4R_ENV="../bin/p4r"
 export TIME_P4R_ENV="/usr/bin/time -v ${P4R_ENV}"
-export CONFIG="config/"
 export PYTHONSCRIPTS="scripts/python/plan4res-scripts/"
 export DATA="data/local/"
 
 # DATASET is the name of the directory within data/local
-export DATASET="ExampleRun"
+if [ "$1" == "" ] ; then
+    echo "provide name of dataset in data/local/"
+    read DATASET
+else
+	echo $1
+	DATASET=$1
+	echo $DATASET
+fi
 
 export INSTANCE="${DATA}${DATASET}/"
+export CONFIG="${DATA}${DATASET}/settings/"
 
 # in case sddp has not converged, use cuts instead of bellmanvaluesout
 cp ../${INSTANCE}results_invest/cuts.txt ../${INSTANCE}results_invest/bellmanvalues.csv
 cp ../${INSTANCE}results_invest/BellmanValuesOUT.csv ../${INSTANCE}results_invest/bellmanvalues.csv
 
 # run formatting script to create netcdf input files for the investment model
-${P4R_ENV} python -W ignore ${PYTHONSCRIPTS}format.py /${PYTHONSCRIPTS}settings_format_invest.yml /${PYTHONSCRIPTS}settingsCreateInputPlan4res_invest.yml ${DATASET}
+${P4R_ENV} python -W ignore ${PYTHONSCRIPTS}format.py /${CONFIG}settings_format_invest.yml /${CONFIG}settingsCreateInputPlan4res_invest.yml ${DATASET}
 
 # bellman values may have been computed for more ssv timestpeps than required => remove them
 LASTSTEP=$(ls -l ../${INSTANCE}nc4_invest/Block* | wc -l)
@@ -59,4 +66,4 @@ rm ../uc.lp
 echo 'Simulation completed'
 echo 'Launch PostTreat'
 # run post treatment script
-${P4R_ENV} python -W ignore ${PYTHONSCRIPTS}PostTreatPlan4res.py /${PYTHONSCRIPTS}settingsPostTreatPlan4res_invest.yml /${PYTHONSCRIPTS}settings_format_invest.yml /${PYTHONSCRIPTS}settingsCreateInputPlan4res_invest.yml ${DATASET}
+${P4R_ENV} python -W ignore ${PYTHONSCRIPTS}PostTreatPlan4res.py /${CONFIG}settingsPostTreatPlan4res_invest.yml /${CONFIG}settings_format_invest.yml /${CONFIG}settingsCreateInputPlan4res_invest.yml ${DATASET}
