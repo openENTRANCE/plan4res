@@ -41,7 +41,7 @@ mkdir ../${INSTANCE}results_simul/Secondary
 mkdir ../${INSTANCE}results_simul/MaxPower
 
 current_directory=$(dirname "$(readlink -f "$0")")/../
-rowsettings=$(awk -F ':' '$1=="    Scenarios"' $current_directory${CONFIG}settings_format_optim.yml)
+rowsettings=$(awk -F ':' '$1=="    Scenarios"' $current_directory${CONFIG}settings_format_simul.yml)
 StrNbCommas=$(echo $rowsettings | grep -o ',' | wc -l)
 let "NbCommas=$StrNbCommas"
 NbScen=`expr $NbCommas + 1`

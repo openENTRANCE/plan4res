@@ -83,6 +83,7 @@ ${P4R_ENV} investment_solver -l ${INSTANCE}results_invest/bellmanvalues.csv -o -
 
 NBSCEN=$(ls ../Demand* | wc -l)
 echo "$NBSCEN scenarios"
+mv ../Solution_OUT.csv ../${INSTANCE}results_invest/
 for (( scen=0; scen<$NBSCEN; scen++ ))
 do 
 	mv ../Demand_Scen${scen}_OUT.csv ../${INSTANCE}results_invest/Demand/Demand${scen}.csv

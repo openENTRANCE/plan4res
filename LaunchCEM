@@ -26,6 +26,7 @@ cp ../${INSTANCE}results_invest/cuts.txt ../${INSTANCE}results_invest/bellmanval
 cp ../${INSTANCE}results_invest/BellmanValuesOUT.csv ../${INSTANCE}results_invest/bellmanvalues.csv
 
 # run formatting script to create netcdf input files for the investment model
+rm ../${INSTANCE}nc4_invest/*.nc4
 ${P4R_ENV} python -W ignore ${PYTHONSCRIPTS}format.py /${CONFIG}settings_format_invest.yml /${CONFIG}settingsCreateInputPlan4res_invest.yml ${DATASET}
 
 # bellman values may have been computed for more ssv timestpeps than required => remove them
@@ -46,7 +47,14 @@ mkdir ../${INSTANCE}results_invest/MaxPower
 # run investment solver
 ${P4R_ENV} investment_solver -l ${INSTANCE}results_invest/bellmanvalues.csv -o -e -S ${CONFIG}BSPar-Investment.txt -c ${CONFIG} -p ${INSTANCE}nc4_invest/ ${INSTANCE}nc4_invest/InvestmentBlock.nc4
 
-for (( scen=0; scen<$NBSCEN; scen++ ))
+current_directory=$(dirname "$(readlink -f "$0")")/../
+rowsettings=$(awk -F ':' '$1=="    Scenarios"' $current_directory${CONFIG}settings_format_invest.yml)
+StrNbCommas=$(echo $rowsettings | grep -o ',' | wc -l)
+let "NbCommas=$StrNbCommas"
+NbScen=`expr $NbCommas + 1`
+echo "number scenarios: $NbScen"
+mv ../Solution_OUT.csv ../${INSTANCE}results_invest/
+for (( scen=0; scen<$NbScen; scen++ ))
 do 
 	mv ../Demand_Scen${scen}_OUT.csv ../${INSTANCE}results_invest/Demand/Demand${scen}.csv
 	mv ../Volume_Scen${scen}_OUT.csv ../${INSTANCE}results_invest/Volume/Volume${scen}.csv
