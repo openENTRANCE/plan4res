@@ -25,27 +25,41 @@ fi
 export INSTANCE="${DATA}${DATASET}/"
 export CONFIG="${DATA}${DATASET}/settings/"
 
-# run script to create plan4res input dataset (ZV_ZineValues.csv ...)
+# run script to create plan4res input dataset (ZV_ZoneValues.csv ...)
 # comment if you are using handmade datasets
-${P4R_ENV} python -W ignore ${PYTHONSCRIPTS}CreateInputPlan4res.py /${CONFIG}settingsCreateInputPlan4res_simul.yml ${DATASET}
+${P4R_ENV} python -W ignore ${PYTHONSCRIPTS}CreateInputPlan4res.py /${CONFIG}settingsCreateInputPlan4res_invest.yml ${DATASET}
 
 # run formatting script to create netcdf input files for running the ssv before the cem
 # comment if you already have bellman values computed
 ${P4R_ENV} python -W ignore ${PYTHONSCRIPTS}format.py /${CONFIG}settings_format_optim.yml /${CONFIG}settingsCreateInputPlan4res_invest.yml ${DATASET}
 
+# update sddp_solver configuration file to account for number of scenarios
+current_directory=$(dirname "$(readlink -f "$0")")/../
+rowsettings=$(awk -F ':' '$1=="    Scenarios"' $current_directory${CONFIG}settings_format_optim.yml)
+StrNbCommas=$(echo $rowsettings | grep -o ',' | wc -l)
+let "NbCommas=$StrNbCommas"
+newNbScen=`expr $NbCommas + 1`
+rowconfig=$(grep "intNbSimulCheckForConv" $current_directory${CONFIG}sddp_solver.txt)
+intNbSimulCheckForConv=$(echo "$rowconfig" | cut -d ' ' -f 2-)
+let "oldNbScen=$intNbSimulCheckForConv"
+echo "number scenarios in sddp_solver.txt: $oldNbScen, replaced by $newNbScen"
+toreplace="$oldNbScen"
+replacement="$newNbScen"
+newrowconfig=${rowconfig/"$toreplace"/"$replacement"}
+sed -i "s/$rowconfig/$newrowconfig/g" "$current_directory${CONFIG}sddp_solver.txt"
+
 # run sddp solver
 # comment if you already have bellman values computed
-${TIME_P4R_ENV} sddp_solver -S ${CONFIG}sddp_solver2scen.txt -c ${CONFIG} -p ${INSTANCE}nc4_optim/ ${INSTANCE}nc4_optim/SDDPBlock.nc4
+${TIME_P4R_ENV} sddp_solver -S ${CONFIG}sddp_solver.txt -c ${CONFIG} -p ${INSTANCE}nc4_optim/ ${INSTANCE}nc4_optim/SDDPBlock.nc4
 
-rm -r ../${INSTANCE}results_invest/
 mkdir ../${INSTANCE}results_invest/
-mv ../Bellman* ../${INSTANCE}results_invest/
-mv ../cuts.txt ../${INSTANCE}results_invest/
+mv ../Bellman* ../${INSTANCE}
+cp ../${INSTANCE}Bellman* ../${INSTANCE}results_invest/
+cp ../cuts.txt ../${INSTANCE}
+cp ../cuts.txt ../${INSTANCE}results_invest/
 rm ../regressors.sddp.* ../visited_states.sddp.* ../cuts.sddp* ../uc.lp
-# in case sddp has not converged, use cuts instead of bellmanvaluesout
-cp ../${INSTANCE}results_invest/cuts.txt ../${INSTANCE}results_invest/bellmanvalues.csv
-cp ../${INSTANCE}results_invest/BellmanValuesOUT.csv ../${INSTANCE}results_invest/bellmanvalues.csv
-
+cp ../${INSTANCE}cuts.txt ../${INSTANCE}bellmanvalues.csv
+cp ../${INSTANCE}BellmanValuesOUT.csv ../${INSTANCE}bellmanvalues.csv
 # run formatting script to create netcdf input files for the investment model
 ${P4R_ENV} python -W ignore ${PYTHONSCRIPTS}format.py /${CONFIG}settings_format_invest.yml /${CONFIG}settingsCreateInputPlan4res_invest.yml ${DATASET}
 

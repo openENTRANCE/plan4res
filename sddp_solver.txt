@@ -37,8 +37,9 @@ ComputeConfig # exact type of the ComputeConfig object
 intLogVerb                1 # log verbosity
 intNStepConv              10 # Frequency at which the convergence is checked
 intPrintTime              1 # Indicates whether computational time should be displayed
-intNbSimulForward         10 # Number of simulations considered in the forward pass
+intNbSimulForward         5 # Number of simulations considered in the forward pass
 intOutputFrequency        1
+intNbSimulCheckForConv 	  5   
 
 1 # number of double parameters
 

@@ -28,15 +28,35 @@ export CONFIG="${DATA}${DATASET}/settings/"
 # run formatting script to create netcdf input files
 #${P4R_ENV} python -W ignore ${PYTHONSCRIPTS}format.py /${CONFIG}settings_format_optim.yml /${CONFIG}settingsCreateInputPlan4res_simul.yml ${DATASET}
 
+# update sddp_solver configuration file to account for number of scenarios
+current_directory=$(dirname "$(readlink -f "$0")")/../
+rowsettings=$(awk -F ':' '$1=="    Scenarios"' $current_directory${CONFIG}settings_format_optim.yml)
+StrNbCommas=$(echo $rowsettings | grep -o ',' | wc -l)
+let "NbCommas=$StrNbCommas"
+newNbScen=`expr $NbCommas + 1`
+rowconfig=$(grep "intNbSimulCheckForConv" $current_directory${CONFIG}sddp_solver.txt)
+intNbSimulCheckForConv=$(echo "$rowconfig" | cut -d ' ' -f 2-)
+let "oldNbScen=$intNbSimulCheckForConv"
+echo "number scenarios in sddp_solver.txt: $oldNbScen, replaced by $newNbScen"
+toreplace="$oldNbScen"
+replacement="$newNbScen"
+newrowconfig=${rowconfig/"$toreplace"/"$replacement"}
+sed -i "s/$rowconfig/$newrowconfig/g" "$current_directory${CONFIG}sddp_solver.txt"
+
 # run sddp solver
 ${TIME_P4R_ENV} sddp_solver -S ${CONFIG}sddp_solver.txt -c ${CONFIG} -p ${INSTANCE}nc4_optim/ ${INSTANCE}nc4_optim/SDDPBlock.nc4
 
 # for hotstart (if last run did not converge) use following line instead
-#${TIME_P4R_ENV} sddp_solver -l ../cuts.txt -S ${CONFIG}sddp_solver2scen.txt -c ${CONFIG} -p ${INSTANCE}nc4_optim/ ${INSTANCE}nc4_optim/SDDPBlock.nc4
+#${TIME_P4R_ENV} sddp_solver -l ../cuts.txt -S ${CONFIG}sddp_solver.txt -c ${CONFIG} -p ${INSTANCE}nc4_optim/ ${INSTANCE}nc4_optim/SDDPBlock.nc4
 
-mkdir ../${INSTANCE}results/
-mv ../Bellman* ../${INSTANCE}results/
-mv ../cuts.txt ../${INSTANCE}results/
+mkdir ../${INSTANCE}results_simul/
+mkdir ../${INSTANCE}results_invest/
+mv ../Bellman* ../${INSTANCE}
+cp ../${INSTANCE}Bellman* ../${INSTANCE}results_invest/
+cp ../${INSTANCE}Bellman* ../${INSTANCE}results_simul/
+cp ../cuts.txt ../${INSTANCE}
+cp ../cuts.txt ../${INSTANCE}results_simul/
+cp ../cuts.txt ../${INSTANCE}results_invest/
 rm ../regressors.sddp.* ../visited_states.sddp.* ../cuts.sddp* ../uc.lp
-cp ../${INSTANCE}results/cuts.txt ../${INSTANCE}bellmanvalues.csv
-cp ../${INSTANCE}results/BellmanValuesOUT.csv ../${INSTANCE}bellmanvalues.csv
+cp ../${INSTANCE}cuts.txt ../${INSTANCE}bellmanvalues.csv
+cp ../${INSTANCE}BellmanValuesOUT.csv ../${INSTANCE}bellmanvalues.csv
