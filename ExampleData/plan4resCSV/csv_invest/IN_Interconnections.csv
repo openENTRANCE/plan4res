@@ -1,0 +1,6 @@
+Name,StartLine,EndLine,MaxPowerFlow,MinPowerFlow,MaxAddedCapacity,MaxRetCapacity,InvestmentCost
+DolAmroth>Gondor,DolAmroth,Gondor,2000.0,-2200,400.0,0.0,1025628.9102884091
+DolAmroth>Harad,DolAmroth,Harad,71.0,-100,14.200000000000001,0.0,1199039.061209182
+Gondor>Harad,Gondor,Harad,866.0,-1160,173.20000000000002,0.0,2008428.32419024
+Gondor>Mordor,Gondor,Mordor,100.0,-225,20.0,0.0,1362827.914002932
+Gondor>Rohan,Gondor,Rohan,1675.0,-1800,335.0,0.0,3033121.941667767

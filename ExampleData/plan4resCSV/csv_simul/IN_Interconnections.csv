@@ -1,0 +1,6 @@
+Name,StartLine,EndLine,MaxPowerFlow,MinPowerFlow
+DolAmroth>Gondor,DolAmroth,Gondor,2000.0,-2200
+DolAmroth>Harad,DolAmroth,Harad,71.0,-100
+Gondor>Harad,Gondor,Harad,866.0,-1160
+Gondor>Mordor,Gondor,Mordor,100.0,-225
+Gondor>Rohan,Gondor,Rohan,1675.0,-1800

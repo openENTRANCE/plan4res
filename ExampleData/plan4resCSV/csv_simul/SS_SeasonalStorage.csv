@@ -1,0 +1,6 @@
+Name,Zone,HydroSystem,NumberUnits,MaxPower,MinPower,MaxVolume,MinVolume,Inflows,InflowsProfile,InitialVolume,TurbineEfficiency,PumpingEfficiency
+Hydro|Reservoir,Mordor,0,1,2606.1899999999996,0,5212379.999999999,0,7533974.051999999,EDF__Inflow-HourlyCoefficient-PresentClimate-FR__18092019__18092019__v1.csv,2606189.9999999995,1.0,0.0
+Hydro|Reservoir,DolAmroth,0,1,15164.233344,0,30328466.688,0,40522888.76124746,EDF__Inflow-HourlyCoefficient-PresentClimate-AT__18092019__18092019__v1.csv,18197080.0128,1.0,0.0
+Hydro|Reservoir,Rohan,0,1,21324.304428000003,0,42648608.856000006,0,61644299.240462385,EDF__Inflow-HourlyCoefficient-PresentClimate-IT__18092019__18092019__v1.csv,34118887.084800005,1.0,0.0
+Hydro|Reservoir,Harad,0,1,5084.840265911997,0,10169680.531823995,0,14699256.240698399,EDF__Inflow-HourlyCoefficient-PresentClimate-AT__18092019__18092019__v1.csv,5084840.265911997,1.0,0.0
+Hydro|Reservoir,Gondor,0,1,30545.979776,0,61091959.552,0,84129077.76,EDF__Inflow-HourlyCoefficient-PresentClimate-AT__18092019__18092019__v1.csv,42764371.6864,1.0,0.0

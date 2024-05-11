@@ -1,0 +1,6 @@
+Name,Zone,NumberUnits,MaxPower,MaxVolume,TurbineEfficiency,PumpingEfficiency,MinPower,MinVolume
+Hydro|Pumped Storage,Mordor,1,1540.17,154017.0,0.866,0.866,-1540.17,0
+Hydro|Pumped Storage,DolAmroth,1,3302.0,330200.0,0.866,0.866,-3302.0,0
+Hydro|Pumped Storage,Rohan,1,4196.159999999999,419615.9999999999,0.866,0.866,-4196.159999999999,0
+Hydro|Pumped Storage,Harad,1,5920.72,592072.0,0.866,0.866,-5920.72,0
+Hydro|Pumped Storage,Gondor,1,6414.21,641420.9999999999,0.866,0.866,-6414.21,0

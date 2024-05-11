@@ -1,0 +1,31 @@
+Name,Zone,NumberUnits,MaxPower,MinPower,MaxPowerProfile,Energy,Capacity,MaxAddedCapacity,MaxRetCapacity,InvestmentCost
+Solar|PV|Rooftop|Commercial,DolAmroth,1,1.0,0,EDF__PV-LoadFactor-PresentClimate-DE__13082019__13082019__v1.csv,0.0,1.0,300,0,456000.0
+Solar|PV|Rooftop|Commercial,Harad,1,1.0,0,EDF__PV-LoadFactor-PresentClimate-CH__13082019__13082019__v1.csv,0.0,1.0,300,0,456000.0
+Solar|PV|Rooftop|Commercial,Rohan,1,1.0,0,EDF__PV-LoadFactor-PresentClimate-ES__13082019__13082019__v1.csv,0.0,1.0,300,0,456000.0
+Solar|PV|Rooftop|Commercial,Gondor,1,1.0,0,EDF__PV-LoadFactor-PresentClimate-IT__13082019__13082019__v1.csv,0.0,1.0,300,0,456000.0
+Solar|PV|Rooftop|Commercial,Mordor,1,1.0,0,EDF__PV-LoadFactor-PresentClimate-FR_C8__13082019__13082019__v1.csv,0.0,1.0,300,0,456000.0
+Solar|PV|Rooftop|Residential,DolAmroth,1,1.0,0,EDF__PV-LoadFactor-PresentClimate-DE__13082019__13082019__v1.csv,0.0,1.0,100,0,715000.0
+Solar|PV|Rooftop|Residential,Harad,1,1.0,0,EDF__PV-LoadFactor-PresentClimate-CH__13082019__13082019__v1.csv,0.0,1.0,100,0,715000.0
+Solar|PV|Rooftop|Residential,Rohan,1,1.0,0,EDF__PV-LoadFactor-PresentClimate-ES__13082019__13082019__v1.csv,0.0,1.0,100,0,715000.0
+Solar|PV|Rooftop|Residential,Gondor,1,1.0,0,EDF__PV-LoadFactor-PresentClimate-IT__13082019__13082019__v1.csv,0.0,1.0,100,0,715000.0
+Solar|PV|Rooftop|Residential,Mordor,1,1.0,0,EDF__PV-LoadFactor-PresentClimate-FR_C8__13082019__13082019__v1.csv,0.0,1.0,100,0,715000.0
+Solar|PV|Utility,DolAmroth,1,15196.99416373171,0,EDF__PV-LoadFactor-PresentClimate-DE__13082019__13082019__v1.csv,28220330.104712,15196.99416373171,1000,0,278000.0
+Solar|PV|Utility,Harad,1,73689.59358261043,0,EDF__PV-LoadFactor-PresentClimate-CH__13082019__13082019__v1.csv,134427233.9437979,73689.59358261043,1000,0,278000.0
+Solar|PV|Utility,Rohan,1,141695.72516081188,0,EDF__PV-LoadFactor-PresentClimate-ES__13082019__13082019__v1.csv,213002007.6412599,141695.72516081188,1000,0,278000.0
+Solar|PV|Utility,Gondor,1,124391.02991452979,0,EDF__PV-LoadFactor-PresentClimate-IT__13082019__13082019__v1.csv,204446594.36653042,124391.02991452979,1000,0,278000.0
+Solar|PV|Utility,Mordor,1,64589.84930650577,0,EDF__PV-LoadFactor-PresentClimate-FR_C8__13082019__13082019__v1.csv,131271165.00504625,64589.84930650577,1000,0,278000.0
+Wind|Onshore,DolAmroth,1,1475.4992474988312,0,EDF__WindOnshore-LoadFactor-PresentClimate-DE__13082019__13082019__v1.csv,2628392.778057823,1475.4992474988312,1000,0,1000000.0
+Wind|Onshore,Harad,1,7815.433432337225,0,EDF__WindOnshore-LoadFactor-PresentClimate-CH__13082019__13082019__v1.csv,9497896.620090209,7815.433432337225,1000,0,1000000.0
+Wind|Onshore,Rohan,1,7871.143945060408,0,EDF__WindOnshore-LoadFactor-PresentClimate-ES__13082019__13082019__v1.csv,12539275.980135804,7871.143945060408,1000,0,1000000.0
+Wind|Onshore,Gondor,1,21053.835621312508,0,EDF__WindOnshore-LoadFactor-PresentClimate-IT__13082019__13082019__v1.csv,44826812.2963538,21053.835621312508,1000,0,1000000.0
+Wind|Onshore,Mordor,1,4751.253749300267,0,EDF__WindOnshore-LoadFactor-PresentClimate-FR__13082019__13082019__v1.csv,7011513.223280899,4751.253749300267,1000,0,1000000.0
+Wind|Offshore,DolAmroth,1,1.0,0,EDF__WindOffshore-LoadFactor-PresentClimate-DE__25112019__25112019__v1.csv,0.0,1.0,1000,0,1939333.333333333
+Wind|Offshore,Harad,1,1.0,0,EDF__WindOffshore-LoadFactor-PresentClimate-DE__25112019__25112019__v1.csv,0.0,1.0,1000,0,1939333.333333333
+Wind|Offshore,Rohan,1,1.0,0,EDF__WindOffshore-LoadFactor-PresentClimate-UK__25112019__25112019__v1.csv,0.0,1.0,1000,0,1939333.333333333
+Wind|Offshore,Gondor,1,4557.030848016667,0,EDF__WindOffshore-LoadFactor-PresentClimate-UK__25112019__25112019__v1.csv,16078897.171292292,4557.030848016667,1000,0,1939333.333333333
+Wind|Offshore,Mordor,1,1.0,0,EDF__WindOffshore-LoadFactor-PresentClimate-UK__25112019__25112019__v1.csv,0.0,1.0,1000,0,1939333.333333333
+Hydro|Run of River,DolAmroth,1,20007995.87311735,0,EDF__RunOfRiver-HourlyCoefficient-PresentClimate-DE__18092019__18092019__v1.csv,20007995.87311735,6254.56,0,0,2560000.0
+Hydro|Run of River,Harad,1,19832488.434099562,0,EDF__RunOfRiver-HourlyCoefficient-PresentClimate-CH__18092019__18092019__v1.csv,19832488.434099562,7662.72,0,0,2560000.0
+Hydro|Run of River,Rohan,1,32609363.206463996,0,EDF__RunOfRiver-HourlyCoefficient-PresentClimate-ES__18092019__18092019__v1.csv,32609363.206463996,9602.249999999998,0,0,2560000.0
+Hydro|Run of River,Gondor,1,27311933.688288484,0,EDF__RunOfRiver-HourlyCoefficient-PresentClimate-IT__18092019__18092019__v1.csv,27311933.688288484,7848.280000000002,0,0,2560000.0
+Hydro|Run of River,Mordor,1,1515352.4262555367,0,EDF__RunOfRiver-HourlyCoefficient-PresentClimate-FR__18092019__18092019__v1.csv,1515352.4262555367,919.2006649698604,0,0,2560000.0

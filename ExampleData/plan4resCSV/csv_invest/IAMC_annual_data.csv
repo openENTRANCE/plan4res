@@ -1,0 +1,441 @@
+Model,Scenario,Region,Variable,Unit,2030
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Capacity|Electricity|Biomass|w/o CCS,MW,557.44
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Capacity|Electricity|Coal|Hard coal|w/o CCS,MW,11.923392000000101
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Capacity|Electricity|Gas|CCGT|w/o CCS,MW,2479.364361384583
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Capacity|Electricity|Gas|OCGT|w/o CCS,MW,7852.49877902039
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Capacity|Electricity|Hydro|Pumped Storage,MW,3302.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Capacity|Electricity|Hydro|Reservoir,MW,15164.233344
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Capacity|Electricity|Hydro|Run of River,MW,6254.56
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Capacity|Electricity|Oil|w/o CCS,MW,109.68964917128241
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Capacity|Electricity|Solar|PV|Utility,MW,15196.99416373171
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Capacity|Electricity|Wind|Onshore,MW,1475.4992474988312
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Capital Cost|Electricity|Biomass|w/ CCS,EUR/MW,3675000.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Capital Cost|Electricity|Biomass|w/o CCS,EUR/MW,2330000.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Capital Cost|Electricity|Coal|Hard coal|w/ CCS,EUR/MW,3007142.857
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Capital Cost|Electricity|Coal|Hard coal|w/o CCS,EUR/MW,1384333.333333333
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Capital Cost|Electricity|Coal|Lignite|w/o CCS,EUR/MW,1876666.666666667
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Capital Cost|Electricity|Gas|CCGT|w/ CCS,EUR/MW,1500000.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Capital Cost|Electricity|Gas|CCGT|w/o CCS,EUR/MW,10.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Capital Cost|Electricity|Gas|OCGT|w/o CCS,EUR/MW,10.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Capital Cost|Electricity|Geothermal,EUR/MW,4470000.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Capital Cost|Electricity|Hydrogen|OCGT,EUR/MW,10.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Capital Cost|Electricity|Hydro|Run of River,EUR/MW,2560000.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Capital Cost|Electricity|Nuclear,EUR/MW,6000000.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Capital Cost|Electricity|Oil|w/o CCS,EUR/MW,650000.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Capital Cost|Electricity|Solar|PV|Rooftop|Commercial,EUR/MW,456000.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Capital Cost|Electricity|Solar|PV|Rooftop|Residential,EUR/MW,715000.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Capital Cost|Electricity|Solar|PV|Utility,EUR/MW,278000.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Capital Cost|Electricity|Wind|Offshore,EUR/MW,1939333.333333333
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Capital Cost|Electricity|Wind|Onshore,EUR/MW,1000000.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Final Energy|Electricity,MWh,47641568.77524739
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Final Energy|Electricity|Heat,MWh,36738440.53866203
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Final Energy|Electricity|Transportation,MWh,10903128.23658535
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Fixed Cost|Electricity|Battery|Lithium-Ion,EUR/MW,280.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Fixed Cost|Electricity|Battery|Redox Flow,EUR/MW,14600.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Fixed Cost|Electricity|Biomass|w/ CCS,EUR/MW,69100.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Fixed Cost|Electricity|Biomass|w/o CCS,EUR/MW,41900.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Fixed Cost|Electricity|Coal|Hard coal|w/ CCS,EUR/MW,75178.57143000001
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Fixed Cost|Electricity|Coal|Hard coal|w/o CCS,EUR/MW,39566.66666666667
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Fixed Cost|Electricity|Coal|Lignite|w/o CCS,EUR/MW,44916.66666666666
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Fixed Cost|Electricity|Compressed Air,EUR/MW,6890.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Fixed Cost|Electricity|Gas|CCGT|w/ CCS,EUR/MW,37500.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Fixed Cost|Electricity|Geothermal,EUR/MW,80000.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Fixed Cost|Electricity|Hydro|Pumped Storage,EUR/MW,22500.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Fixed Cost|Electricity|Hydro|Run of River,EUR/MW,76800.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Fixed Cost|Electricity|Nuclear,EUR/MW,115000.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Fixed Cost|Electricity|Oil|w/o CCS,EUR/MW,6510.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Fixed Cost|Electricity|Solar|PV|Rooftop|Commercial,EUR/MW,6660.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Fixed Cost|Electricity|Solar|PV|Rooftop|Residential,EUR/MW,6660.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Fixed Cost|Electricity|Solar|PV|Utility,EUR/MW,5660.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Fixed Cost|Electricity|Wind|Offshore,EUR/MW,33666.66666666666
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Fixed Cost|Electricity|Wind|Onshore,EUR/MW,20000.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Maximum Storage|Electricity|Hydro|Pumped Storage,MW,330200.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Secondary Energy|Electricity|Hydro|Reservoir,MWh,40522888.76124746
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Secondary Energy|Electricity|Hydro|Run of River,MWh,20007995.87311735
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Secondary Energy|Electricity|Solar|PV|Utility,MWh,28220330.104712
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Secondary Energy|Electricity|Wind|Onshore,MWh,2628392.778057823
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Variable Cost (incl. Fuel Cost)|Electricity|Biomass|w/o CCS,EUR/MWh,41.118864311565105
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Variable Cost (incl. Fuel Cost)|Electricity|Coal|Hard coal|w/o CCS,EUR/MWh,17.016539209728467
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Variable Cost (incl. Fuel Cost)|Electricity|Coal|Lignite|w/o CCS,EUR/MWh,13.685936080457367
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Variable Cost (incl. Fuel Cost)|Electricity|Gas|CCGT|w/o CCS,EUR/MWh,110.07677251629387
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Variable Cost (incl. Fuel Cost)|Electricity|Gas|OCGT|w/o CCS,EUR/MWh,155.09345218205047
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Variable Cost (incl. Fuel Cost)|Electricity|Geothermal,EUR/MWh,2.5500000023999996
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Variable Cost (incl. Fuel Cost)|Electricity|Nuclear,EUR/MWh,13.772846398716045
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth,Variable Cost (incl. Fuel Cost)|Electricity|Oil|w/o CCS,EUR/MWh,78.91973909280647
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth>Gondor,Network|Electricity|Expansion Cost,EUR/MW,1025628.9102884091
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth>Gondor,Network|Electricity|Loss Factor,,3e-05
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth>Gondor,Network|Electricity|Maximum Flow,MW,2000.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth>Harad,Network|Electricity|Expansion Cost,EUR/MW,1199039.061209182
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth>Harad,Network|Electricity|Loss Factor,,3e-05
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth>Harad,Network|Electricity|Maximum Flow,MW,71.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth>Mordor,Network|Electricity|Expansion Cost,EUR/MW,1355270.441186203
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth>Mordor,Network|Electricity|Loss Factor,,3e-05
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth>Rohan,Network|Electricity|Expansion Cost,EUR/MW,3144382.9490772877
+GENeSYS-MOD.jl,Gondor_globalLimit_364,DolAmroth>Rohan,Network|Electricity|Loss Factor,,3e-05
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Capacity|Electricity|Biomass|w/o CCS,MW,7837.5
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Capacity|Electricity|Coal|Hard coal|w/o CCS,MW,5908.100000000001
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Capacity|Electricity|Gas|CCGT|w/o CCS,MW,46729.58420133819
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Capacity|Electricity|Gas|OCGT|w/o CCS,MW,26058.84892054521
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Capacity|Electricity|Hydro|Pumped Storage,MW,6414.21
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Capacity|Electricity|Hydro|Reservoir,MW,30545.979776
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Capacity|Electricity|Hydro|Run of River,MW,7848.280000000002
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Capacity|Electricity|Oil|w/o CCS,MW,356.6200000000001
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Capacity|Electricity|Solar|PV|Utility,MW,124391.02991452979
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Capacity|Electricity|Wind|Onshore,MW,21053.835621312508
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Capital Cost|Electricity|Biomass|w/ CCS,EUR/MW,2450003.333333334
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Capital Cost|Electricity|Biomass|w/o CCS,EUR/MW,1553336.666666667
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Capital Cost|Electricity|Coal|Hard coal|w/ CCS,EUR/MW,2004765.238
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Capital Cost|Electricity|Coal|Hard coal|w/o CCS,EUR/MW,992000.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Capital Cost|Electricity|Coal|Lignite|w/o CCS,EUR/MW,1876666.666666667
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Capital Cost|Electricity|Gas|CCGT|w/ CCS,EUR/MW,1000003.333333333
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Capital Cost|Electricity|Gas|CCGT|w/o CCS,EUR/MW,10.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Capital Cost|Electricity|Gas|OCGT|w/o CCS,EUR/MW,10.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Capital Cost|Electricity|Geothermal,EUR/MW,4470000.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Capital Cost|Electricity|Hydrogen|OCGT,EUR/MW,10.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Capital Cost|Electricity|Hydro|Run of River,EUR/MW,2560000.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Capital Cost|Electricity|Nuclear,EUR/MW,6000000.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Capital Cost|Electricity|Oil|w/o CCS,EUR/MW,433336.66666666657
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Capital Cost|Electricity|Solar|PV|Rooftop|Commercial,EUR/MW,456000.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Capital Cost|Electricity|Solar|PV|Rooftop|Residential,EUR/MW,715000.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Capital Cost|Electricity|Solar|PV|Utility,EUR/MW,278000.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Capital Cost|Electricity|Wind|Offshore,EUR/MW,1939333.333333333
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Capital Cost|Electricity|Wind|Onshore,EUR/MW,1000000.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Final Energy|Electricity,MWh,207057387.757567
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Final Energy|Electricity|Heat,MWh,105709910.98506157
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Final Energy|Electricity|Transportation,MWh,101347476.77250543
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Fixed Cost|Electricity|Battery|Lithium-Ion,EUR/MW,280.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Fixed Cost|Electricity|Battery|Redox Flow,EUR/MW,14600.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Fixed Cost|Electricity|Biomass|w/ CCS,EUR/MW,69100.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Fixed Cost|Electricity|Biomass|w/o CCS,EUR/MW,41900.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Fixed Cost|Electricity|Coal|Hard coal|w/ CCS,EUR/MW,75178.57143000001
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Fixed Cost|Electricity|Coal|Hard coal|w/o CCS,EUR/MW,39566.66666666667
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Fixed Cost|Electricity|Coal|Lignite|w/o CCS,EUR/MW,44916.66666666666
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Fixed Cost|Electricity|Compressed Air,EUR/MW,6890.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Fixed Cost|Electricity|Gas|CCGT|w/ CCS,EUR/MW,37500.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Fixed Cost|Electricity|Geothermal,EUR/MW,80000.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Fixed Cost|Electricity|Hydro|Pumped Storage,EUR/MW,22500.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Fixed Cost|Electricity|Hydro|Run of River,EUR/MW,76800.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Fixed Cost|Electricity|Nuclear,EUR/MW,115000.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Fixed Cost|Electricity|Oil|w/o CCS,EUR/MW,6510.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Fixed Cost|Electricity|Solar|PV|Rooftop|Commercial,EUR/MW,6660.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Fixed Cost|Electricity|Solar|PV|Rooftop|Residential,EUR/MW,6660.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Fixed Cost|Electricity|Solar|PV|Utility,EUR/MW,5660.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Fixed Cost|Electricity|Wind|Offshore,EUR/MW,33666.66666666666
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Fixed Cost|Electricity|Wind|Onshore,EUR/MW,20000.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Maximum Storage|Electricity|Hydro|Pumped Storage,MW,641420.9999999999
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Secondary Energy|Electricity|Hydro|Reservoir,MWh,84129077.76
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Secondary Energy|Electricity|Hydro|Run of River,MWh,27311933.688288484
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Secondary Energy|Electricity|Solar|PV|Utility,MWh,204446594.36653042
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Secondary Energy|Electricity|Wind|Onshore,MWh,44826812.2963538
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Variable Cost (incl. Fuel Cost)|Electricity|Biomass|w/o CCS,EUR/MWh,41.11886431156507
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Variable Cost (incl. Fuel Cost)|Electricity|Coal|Hard coal|w/o CCS,EUR/MWh,17.016539209728467
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Variable Cost (incl. Fuel Cost)|Electricity|Coal|Lignite|w/o CCS,EUR/MWh,13.685936080457367
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Variable Cost (incl. Fuel Cost)|Electricity|Gas|CCGT|w/o CCS,EUR/MWh,110.07677251629387
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Variable Cost (incl. Fuel Cost)|Electricity|Gas|OCGT|w/o CCS,EUR/MWh,155.09345218205047
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Variable Cost (incl. Fuel Cost)|Electricity|Geothermal,EUR/MWh,2.5500000023999996
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Variable Cost (incl. Fuel Cost)|Electricity|Nuclear,EUR/MWh,13.772846398716045
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Variable Cost (incl. Fuel Cost)|Electricity|Oil|w/o CCS,EUR/MWh,78.91973909280647
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Capacity|Electricity|Coal|Lignite|w/o CCS,MW,4439.6
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Capacity|Electricity|Wind|Offshore,MW,4557.030848016667
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Capital Cost|Electricity|Battery|Lithium-Ion,EUR/MW,10.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Capital Cost|Electricity|Battery|Redox Flow,EUR/MW,10.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Capital Cost|Electricity|Compressed Air,EUR/MW,10.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Capital Cost|Electricity|Hydro|Pumped Storage,EUR/MW,10.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,"Final Energy|Electricity|Other (excl. Heat, Transport)",MWh,43738038.74188725
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Secondary Energy|Electricity|Coal|Hard coal|w/o CCS,MWh,24960675.922285717
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Secondary Energy|Electricity|Coal|Lignite|w/o CCS,MWh,18756523.556571424
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Secondary Energy|Electricity|Gas|CCGT|w/o CCS,MWh,152498350.2612295
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor,Secondary Energy|Electricity|Wind|Offshore,MWh,16078897.171292292
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor>DolAmroth,Network|Electricity|Expansion Cost,EUR/MW,1025628.9102884091
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor>DolAmroth,Network|Electricity|Loss Factor,,3e-05
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor>DolAmroth,Network|Electricity|Maximum Flow,MW,2200.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor>Harad,Network|Electricity|Expansion Cost,EUR/MW,2008428.32419024
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor>Harad,Network|Electricity|Loss Factor,,3e-05
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor>Harad,Network|Electricity|Maximum Flow,MW,866.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor>Mordor,Network|Electricity|Expansion Cost,EUR/MW,1362827.914002932
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor>Mordor,Network|Electricity|Loss Factor,,3e-05
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor>Mordor,Network|Electricity|Maximum Flow,MW,100.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor>Rohan,Network|Electricity|Expansion Cost,EUR/MW,3033121.941667767
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor>Rohan,Network|Electricity|Loss Factor,,3e-05
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Gondor>Rohan,Network|Electricity|Maximum Flow,MW,1675.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Capacity|Electricity|Biomass|w/o CCS,MW,1924.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Capacity|Electricity|Coal|Hard coal|w/o CCS,MW,4616.586608799132
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Capacity|Electricity|Gas|CCGT|w/o CCS,MW,16408.50731171968
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Capacity|Electricity|Gas|OCGT|w/o CCS,MW,14594.55941475538
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Capacity|Electricity|Hydro|Pumped Storage,MW,5920.72
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Capacity|Electricity|Hydro|Reservoir,MW,5084.840265911997
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Capacity|Electricity|Hydro|Run of River,MW,7662.72
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Capacity|Electricity|Oil|w/o CCS,MW,10409.64662381738
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Capacity|Electricity|Solar|PV|Utility,MW,73689.59358261043
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Capacity|Electricity|Wind|Onshore,MW,7815.433432337225
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Capital Cost|Electricity|Biomass|w/ CCS,EUR/MW,2450003.333333334
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Capital Cost|Electricity|Biomass|w/o CCS,EUR/MW,1553336.666666667
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Capital Cost|Electricity|Coal|Hard coal|w/ CCS,EUR/MW,2004765.238
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Capital Cost|Electricity|Coal|Hard coal|w/o CCS,EUR/MW,992000.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Capital Cost|Electricity|Coal|Lignite|w/o CCS,EUR/MW,1876666.666666667
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Capital Cost|Electricity|Gas|CCGT|w/ CCS,EUR/MW,1000003.333333333
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Capital Cost|Electricity|Gas|CCGT|w/o CCS,EUR/MW,10.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Capital Cost|Electricity|Gas|OCGT|w/o CCS,EUR/MW,10.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Capital Cost|Electricity|Geothermal,EUR/MW,4470000.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Capital Cost|Electricity|Hydrogen|OCGT,EUR/MW,10.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Capital Cost|Electricity|Hydro|Run of River,EUR/MW,2560000.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Capital Cost|Electricity|Nuclear,EUR/MW,6000000.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Capital Cost|Electricity|Oil|w/o CCS,EUR/MW,433336.66666666657
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Capital Cost|Electricity|Solar|PV|Rooftop|Commercial,EUR/MW,456000.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Capital Cost|Electricity|Solar|PV|Rooftop|Residential,EUR/MW,715000.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Capital Cost|Electricity|Solar|PV|Utility,EUR/MW,278000.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Capital Cost|Electricity|Wind|Offshore,EUR/MW,1939333.333333333
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Capital Cost|Electricity|Wind|Onshore,EUR/MW,1000000.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Final Energy|Electricity,MWh,137192890.0724028
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Final Energy|Electricity|Heat,MWh,78952662.44536658
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Final Energy|Electricity|Transportation,MWh,58240227.627036214
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Fixed Cost|Electricity|Battery|Lithium-Ion,EUR/MW,280.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Fixed Cost|Electricity|Battery|Redox Flow,EUR/MW,14600.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Fixed Cost|Electricity|Biomass|w/ CCS,EUR/MW,69100.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Fixed Cost|Electricity|Biomass|w/o CCS,EUR/MW,41900.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Fixed Cost|Electricity|Coal|Hard coal|w/ CCS,EUR/MW,75178.57143000001
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Fixed Cost|Electricity|Coal|Hard coal|w/o CCS,EUR/MW,39566.66666666667
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Fixed Cost|Electricity|Coal|Lignite|w/o CCS,EUR/MW,44916.66666666666
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Fixed Cost|Electricity|Compressed Air,EUR/MW,6890.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Fixed Cost|Electricity|Gas|CCGT|w/ CCS,EUR/MW,37500.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Fixed Cost|Electricity|Geothermal,EUR/MW,80000.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Fixed Cost|Electricity|Hydro|Pumped Storage,EUR/MW,22500.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Fixed Cost|Electricity|Hydro|Run of River,EUR/MW,76800.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Fixed Cost|Electricity|Nuclear,EUR/MW,115000.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Fixed Cost|Electricity|Oil|w/o CCS,EUR/MW,6510.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Fixed Cost|Electricity|Solar|PV|Rooftop|Commercial,EUR/MW,6660.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Fixed Cost|Electricity|Solar|PV|Rooftop|Residential,EUR/MW,6660.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Fixed Cost|Electricity|Solar|PV|Utility,EUR/MW,5660.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Fixed Cost|Electricity|Wind|Offshore,EUR/MW,33666.66666666666
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Fixed Cost|Electricity|Wind|Onshore,EUR/MW,20000.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Maximum Storage|Electricity|Hydro|Pumped Storage,MW,592072.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Secondary Energy|Electricity|Hydro|Reservoir,MWh,14699256.240698399
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Secondary Energy|Electricity|Hydro|Run of River,MWh,19832488.434099562
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Secondary Energy|Electricity|Solar|PV|Utility,MWh,134427233.9437979
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Secondary Energy|Electricity|Wind|Onshore,MWh,9497896.620090209
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Variable Cost (incl. Fuel Cost)|Electricity|Biomass|w/o CCS,EUR/MWh,41.11886431156507
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Variable Cost (incl. Fuel Cost)|Electricity|Coal|Hard coal|w/o CCS,EUR/MWh,17.016539209728467
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Variable Cost (incl. Fuel Cost)|Electricity|Coal|Lignite|w/o CCS,EUR/MWh,13.685936080457367
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Variable Cost (incl. Fuel Cost)|Electricity|Gas|CCGT|w/o CCS,EUR/MWh,110.07677251629387
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Variable Cost (incl. Fuel Cost)|Electricity|Gas|OCGT|w/o CCS,EUR/MWh,155.09345218205047
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Variable Cost (incl. Fuel Cost)|Electricity|Geothermal,EUR/MWh,2.5500000023999996
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Variable Cost (incl. Fuel Cost)|Electricity|Nuclear,EUR/MWh,13.772846398716045
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Variable Cost (incl. Fuel Cost)|Electricity|Oil|w/o CCS,EUR/MWh,78.91973909280647
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Capital Cost|Electricity|Battery|Lithium-Ion,EUR/MW,10.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Capital Cost|Electricity|Battery|Redox Flow,EUR/MW,10.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Capital Cost|Electricity|Compressed Air,EUR/MW,10.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Capital Cost|Electricity|Hydro|Pumped Storage,EUR/MW,10.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,"Final Energy|Electricity|Other (excl. Heat, Transport)",MWh,516379611.34386694
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Secondary Energy|Electricity|Coal|Hard coal|w/o CCS,MWh,24380325.783542745
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad,Secondary Energy|Electricity|Gas|CCGT|w/o CCS,MWh,76984194.98777764
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad>DolAmroth,Network|Electricity|Expansion Cost,EUR/MW,1199039.061209182
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad>DolAmroth,Network|Electricity|Loss Factor,,3e-05
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad>DolAmroth,Network|Electricity|Maximum Flow,MW,100.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad>Gondor,Network|Electricity|Expansion Cost,EUR/MW,2008428.32419024
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad>Gondor,Network|Electricity|Loss Factor,,3e-05
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad>Gondor,Network|Electricity|Maximum Flow,MW,1160.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad>Mordor,Network|Electricity|Expansion Cost,EUR/MW,2525525.291083911
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad>Mordor,Network|Electricity|Loss Factor,,3e-05
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad>Rohan,Network|Electricity|Expansion Cost,EUR/MW,2150000.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Harad>Rohan,Network|Electricity|Loss Factor,,3e-05
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Capacity|Electricity|Biomass|w/o CCS,MW,478.2473035424258
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Capacity|Electricity|Coal|Hard coal|w/o CCS,MW,5010.114001611301
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Capacity|Electricity|Gas|CCGT|w/o CCS,MW,18166.1273925236
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Capacity|Electricity|Gas|OCGT|w/o CCS,MW,14163.60798404909
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Capacity|Electricity|Hydro|Pumped Storage,MW,1540.17
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Capacity|Electricity|Hydro|Reservoir,MW,2606.1899999999996
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Capacity|Electricity|Hydro|Run of River,MW,919.2006649698604
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Capacity|Electricity|Solar|PV|Utility,MW,64589.84930650577
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Capacity|Electricity|Wind|Onshore,MW,4751.253749300267
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Capital Cost|Electricity|Biomass|w/ CCS,EUR/MW,2450003.333333334
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Capital Cost|Electricity|Biomass|w/o CCS,EUR/MW,1553336.666666667
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Capital Cost|Electricity|Coal|Hard coal|w/ CCS,EUR/MW,2004765.238
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Capital Cost|Electricity|Coal|Hard coal|w/o CCS,EUR/MW,992000.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Capital Cost|Electricity|Coal|Lignite|w/o CCS,EUR/MW,1876666.666666667
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Capital Cost|Electricity|Gas|CCGT|w/ CCS,EUR/MW,1000003.333333333
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Capital Cost|Electricity|Gas|CCGT|w/o CCS,EUR/MW,10.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Capital Cost|Electricity|Gas|OCGT|w/o CCS,EUR/MW,10.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Capital Cost|Electricity|Geothermal,EUR/MW,4470000.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Capital Cost|Electricity|Hydrogen|OCGT,EUR/MW,10.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Capital Cost|Electricity|Hydro|Run of River,EUR/MW,2560000.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Capital Cost|Electricity|Nuclear,EUR/MW,6000000.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Capital Cost|Electricity|Oil|w/o CCS,EUR/MW,433336.66666666657
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Capital Cost|Electricity|Solar|PV|Rooftop|Commercial,EUR/MW,456000.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Capital Cost|Electricity|Solar|PV|Rooftop|Residential,EUR/MW,715000.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Capital Cost|Electricity|Solar|PV|Utility,EUR/MW,278000.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Capital Cost|Electricity|Wind|Offshore,EUR/MW,1939333.333333333
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Capital Cost|Electricity|Wind|Onshore,EUR/MW,1000000.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Final Energy|Electricity,MWh,91581067.25811307
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Final Energy|Electricity|Heat,MWh,62271538.13029016
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Final Energy|Electricity|Transportation,MWh,29309529.127822913
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Fixed Cost|Electricity|Battery|Lithium-Ion,EUR/MW,280.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Fixed Cost|Electricity|Battery|Redox Flow,EUR/MW,14600.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Fixed Cost|Electricity|Biomass|w/ CCS,EUR/MW,69100.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Fixed Cost|Electricity|Biomass|w/o CCS,EUR/MW,41900.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Fixed Cost|Electricity|Coal|Hard coal|w/ CCS,EUR/MW,75178.57143000001
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Fixed Cost|Electricity|Coal|Hard coal|w/o CCS,EUR/MW,39566.66666666667
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Fixed Cost|Electricity|Coal|Lignite|w/o CCS,EUR/MW,44916.66666666666
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Fixed Cost|Electricity|Compressed Air,EUR/MW,6890.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Fixed Cost|Electricity|Gas|CCGT|w/ CCS,EUR/MW,37500.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Fixed Cost|Electricity|Geothermal,EUR/MW,80000.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Fixed Cost|Electricity|Hydro|Pumped Storage,EUR/MW,22500.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Fixed Cost|Electricity|Hydro|Run of River,EUR/MW,76800.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Fixed Cost|Electricity|Nuclear,EUR/MW,115000.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Fixed Cost|Electricity|Oil|w/o CCS,EUR/MW,6510.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Fixed Cost|Electricity|Solar|PV|Rooftop|Commercial,EUR/MW,6660.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Fixed Cost|Electricity|Solar|PV|Rooftop|Residential,EUR/MW,6660.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Fixed Cost|Electricity|Solar|PV|Utility,EUR/MW,5660.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Fixed Cost|Electricity|Wind|Offshore,EUR/MW,33666.66666666666
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Fixed Cost|Electricity|Wind|Onshore,EUR/MW,20000.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Maximum Storage|Electricity|Hydro|Pumped Storage,MW,154017.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Secondary Energy|Electricity|Hydro|Reservoir,MWh,7533974.051999999
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Secondary Energy|Electricity|Hydro|Run of River,MWh,1515352.4262555367
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Secondary Energy|Electricity|Solar|PV|Utility,MWh,131271165.00504625
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Secondary Energy|Electricity|Wind|Onshore,MWh,7011513.223280899
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Variable Cost (incl. Fuel Cost)|Electricity|Biomass|w/o CCS,EUR/MWh,41.11886431156507
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Variable Cost (incl. Fuel Cost)|Electricity|Coal|Hard coal|w/o CCS,EUR/MWh,17.016539209728467
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Variable Cost (incl. Fuel Cost)|Electricity|Coal|Lignite|w/o CCS,EUR/MWh,13.68593608045737
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Variable Cost (incl. Fuel Cost)|Electricity|Gas|CCGT|w/o CCS,EUR/MWh,68.77895142263839
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Variable Cost (incl. Fuel Cost)|Electricity|Gas|OCGT|w/o CCS,EUR/MWh,96.90106791371774
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Variable Cost (incl. Fuel Cost)|Electricity|Geothermal,EUR/MWh,2.5500000023999996
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Variable Cost (incl. Fuel Cost)|Electricity|Nuclear,EUR/MWh,13.772846398716045
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Variable Cost (incl. Fuel Cost)|Electricity|Oil|w/o CCS,EUR/MWh,78.91973909280647
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Capacity|Electricity|Coal|Lignite|w/o CCS,MW,2034.3967163598847
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Capital Cost|Electricity|Battery|Lithium-Ion,EUR/MW,10.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Capital Cost|Electricity|Battery|Redox Flow,EUR/MW,10.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Capital Cost|Electricity|Compressed Air,EUR/MW,10.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Capital Cost|Electricity|Hydro|Pumped Storage,EUR/MW,10.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,"Final Energy|Electricity|Other (excl. Heat, Transport)",MWh,142628505.93760368
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Secondary Energy|Electricity|Coal|Hard coal|w/o CCS,MWh,24053236.108659327
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Secondary Energy|Electricity|Coal|Lignite|w/o CCS,MWh,8594965.747773616
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Secondary Energy|Electricity|Gas|CCGT|w/o CCS,MWh,76438644.3456526
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Capacity|Electricity|Nuclear,MW,1223.72352
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor,Secondary Energy|Electricity|Nuclear,MWh,6125610.305828571
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor>DolAmroth,Network|Electricity|Expansion Cost,EUR/MW,1355270.441186203
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor>DolAmroth,Network|Electricity|Loss Factor,,3e-05
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor>Gondor,Network|Electricity|Expansion Cost,EUR/MW,1362827.914002932
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor>Gondor,Network|Electricity|Loss Factor,,3e-05
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor>Gondor,Network|Electricity|Maximum Flow,MW,225.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor>Harad,Network|Electricity|Expansion Cost,EUR/MW,2525525.291083911
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor>Harad,Network|Electricity|Loss Factor,,3e-05
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor>Rohan,Network|Electricity|Expansion Cost,EUR/MW,4301294.533549103
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Mordor>Rohan,Network|Electricity|Loss Factor,,3e-05
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Capacity|Electricity|Biomass|w/o CCS,MW,757.9500000000002
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Capacity|Electricity|Coal|Hard coal|w/o CCS,MW,1497.9754107798672
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Capacity|Electricity|Gas|CCGT|w/o CCS,MW,44030.433407339966
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Capacity|Electricity|Gas|OCGT|w/o CCS,MW,5266.1113311009285
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Capacity|Electricity|Hydro|Pumped Storage,MW,4196.159999999999
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Capacity|Electricity|Hydro|Reservoir,MW,21324.304428000003
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Capacity|Electricity|Hydro|Run of River,MW,9602.249999999998
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Capacity|Electricity|Oil|w/o CCS,MW,6271.117201226469
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Capacity|Electricity|Solar|PV|Utility,MW,141695.72516081188
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Capacity|Electricity|Wind|Onshore,MW,7871.143945060408
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Capital Cost|Electricity|Biomass|w/ CCS,EUR/MW,2450003.333333334
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Capital Cost|Electricity|Biomass|w/o CCS,EUR/MW,1553336.666666667
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Capital Cost|Electricity|Coal|Hard coal|w/ CCS,EUR/MW,2004765.238
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Capital Cost|Electricity|Coal|Hard coal|w/o CCS,EUR/MW,992000.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Capital Cost|Electricity|Coal|Lignite|w/o CCS,EUR/MW,1876666.666666667
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Capital Cost|Electricity|Gas|CCGT|w/ CCS,EUR/MW,1000003.333333333
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Capital Cost|Electricity|Gas|CCGT|w/o CCS,EUR/MW,10.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Capital Cost|Electricity|Gas|OCGT|w/o CCS,EUR/MW,10.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Capital Cost|Electricity|Geothermal,EUR/MW,4470000.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Capital Cost|Electricity|Hydrogen|OCGT,EUR/MW,10.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Capital Cost|Electricity|Hydro|Run of River,EUR/MW,2560000.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Capital Cost|Electricity|Nuclear,EUR/MW,6000000.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Capital Cost|Electricity|Oil|w/o CCS,EUR/MW,433336.66666666657
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Capital Cost|Electricity|Solar|PV|Rooftop|Commercial,EUR/MW,456000.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Capital Cost|Electricity|Solar|PV|Rooftop|Residential,EUR/MW,715000.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Capital Cost|Electricity|Solar|PV|Utility,EUR/MW,278000.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Capital Cost|Electricity|Wind|Offshore,EUR/MW,1939333.333333333
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Capital Cost|Electricity|Wind|Onshore,EUR/MW,1000000.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Final Energy|Electricity,MWh,179309940.1675402
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Final Energy|Electricity|Heat,MWh,112730333.06324321
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Final Energy|Electricity|Transportation,MWh,66579607.10429699
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Fixed Cost|Electricity|Battery|Lithium-Ion,EUR/MW,280.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Fixed Cost|Electricity|Battery|Redox Flow,EUR/MW,14600.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Fixed Cost|Electricity|Biomass|w/ CCS,EUR/MW,69100.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Fixed Cost|Electricity|Biomass|w/o CCS,EUR/MW,41900.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Fixed Cost|Electricity|Coal|Hard coal|w/ CCS,EUR/MW,75178.57143000001
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Fixed Cost|Electricity|Coal|Hard coal|w/o CCS,EUR/MW,39566.66666666667
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Fixed Cost|Electricity|Coal|Lignite|w/o CCS,EUR/MW,44916.66666666666
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Fixed Cost|Electricity|Compressed Air,EUR/MW,6890.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Fixed Cost|Electricity|Gas|CCGT|w/ CCS,EUR/MW,37500.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Fixed Cost|Electricity|Geothermal,EUR/MW,80000.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Fixed Cost|Electricity|Hydro|Pumped Storage,EUR/MW,22500.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Fixed Cost|Electricity|Hydro|Run of River,EUR/MW,76800.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Fixed Cost|Electricity|Nuclear,EUR/MW,115000.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Fixed Cost|Electricity|Oil|w/o CCS,EUR/MW,6510.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Fixed Cost|Electricity|Solar|PV|Rooftop|Commercial,EUR/MW,6660.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Fixed Cost|Electricity|Solar|PV|Rooftop|Residential,EUR/MW,6660.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Fixed Cost|Electricity|Solar|PV|Utility,EUR/MW,5660.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Fixed Cost|Electricity|Wind|Offshore,EUR/MW,33666.66666666666
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Fixed Cost|Electricity|Wind|Onshore,EUR/MW,20000.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Maximum Storage|Electricity|Hydro|Pumped Storage,MW,419615.9999999999
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Secondary Energy|Electricity|Hydro|Reservoir,MWh,61644299.240462385
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Secondary Energy|Electricity|Hydro|Run of River,MWh,32609363.206463996
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Secondary Energy|Electricity|Solar|PV|Utility,MWh,213002007.6412599
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Secondary Energy|Electricity|Wind|Onshore,MWh,12539275.980135804
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Variable Cost (incl. Fuel Cost)|Electricity|Biomass|w/o CCS,EUR/MWh,41.11886431156507
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Variable Cost (incl. Fuel Cost)|Electricity|Coal|Hard coal|w/o CCS,EUR/MWh,17.016539209728467
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Variable Cost (incl. Fuel Cost)|Electricity|Coal|Lignite|w/o CCS,EUR/MWh,13.685936080457367
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Variable Cost (incl. Fuel Cost)|Electricity|Gas|CCGT|w/o CCS,EUR/MWh,110.07677251629387
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Variable Cost (incl. Fuel Cost)|Electricity|Gas|OCGT|w/o CCS,EUR/MWh,155.09345218205047
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Variable Cost (incl. Fuel Cost)|Electricity|Geothermal,EUR/MWh,2.5500000023999996
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Variable Cost (incl. Fuel Cost)|Electricity|Nuclear,EUR/MWh,13.772846398716045
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Variable Cost (incl. Fuel Cost)|Electricity|Oil|w/o CCS,EUR/MWh,78.91973909280647
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Capital Cost|Electricity|Battery|Lithium-Ion,EUR/MW,10.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Capital Cost|Electricity|Battery|Redox Flow,EUR/MW,10.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Capital Cost|Electricity|Compressed Air,EUR/MW,10.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Capital Cost|Electricity|Hydro|Pumped Storage,EUR/MW,10.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,"Final Energy|Electricity|Other (excl. Heat, Transport)",MWh,365951477.26498467
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Secondary Energy|Electricity|Coal|Hard coal|w/o CCS,MWh,4746510.566175556
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Secondary Energy|Electricity|Gas|CCGT|w/o CCS,MWh,76359857.67819315
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Capacity|Electricity|Nuclear,MW,47837.95001517865
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan,Secondary Energy|Electricity|Nuclear,MWh,294788237.1987164
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan>DolAmroth,Network|Electricity|Expansion Cost,EUR/MW,3144382.9490772877
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan>DolAmroth,Network|Electricity|Loss Factor,,3e-05
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan>Gondor,Network|Electricity|Expansion Cost,EUR/MW,3033121.941667767
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan>Gondor,Network|Electricity|Loss Factor,,3e-05
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan>Gondor,Network|Electricity|Maximum Flow,MW,1800.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan>Harad,Network|Electricity|Expansion Cost,EUR/MW,2150000.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan>Harad,Network|Electricity|Loss Factor,,3e-05
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan>Mordor,Network|Electricity|Expansion Cost,EUR/MW,4301294.533549103
+GENeSYS-MOD.jl,Gondor_globalLimit_364,Rohan>Mordor,Network|Electricity|Loss Factor,,3e-05
+GENeSYS-MOD.jl,Gondor_globalLimit_364,World,Charging Efficiency|Electricity|Battery|Lithium-Ion,,0.95
+GENeSYS-MOD.jl,Gondor_globalLimit_364,World,Charging Efficiency|Electricity|Battery|Redox Flow,,0.894
+GENeSYS-MOD.jl,Gondor_globalLimit_364,World,Charging Efficiency|Electricity|Compressed Air,,0.837
+GENeSYS-MOD.jl,Gondor_globalLimit_364,World,Charging Efficiency|Electricity|Hydro|Pumped Storage,,0.866
+GENeSYS-MOD.jl,Gondor_globalLimit_364,World,Discharging Efficiency|Electricity|Battery|Lithium-Ion,,0.95
+GENeSYS-MOD.jl,Gondor_globalLimit_364,World,Discharging Efficiency|Electricity|Battery|Redox Flow,,0.894
+GENeSYS-MOD.jl,Gondor_globalLimit_364,World,Discharging Efficiency|Electricity|Compressed Air,,0.837
+GENeSYS-MOD.jl,Gondor_globalLimit_364,World,Discharging Efficiency|Electricity|Hydro|Pumped Storage,,0.866
+GENeSYS-MOD.jl,Gondor_globalLimit_364,World,Emission Rate|CO2|Electricity|Biomass|w/ CCS,t CO2/MWh,-0.7567411765765317
+GENeSYS-MOD.jl,Gondor_globalLimit_364,World,Emission Rate|CO2|Electricity|Coal|Hard coal|w/ CCS,t CO2/MWh,0.10674947366926525
+GENeSYS-MOD.jl,Gondor_globalLimit_364,World,Emission Rate|CO2|Electricity|Coal|Hard coal|w/o CCS,t CO2/MWh,0.7511999999248801
+GENeSYS-MOD.jl,Gondor_globalLimit_364,World,Emission Rate|CO2|Electricity|Coal|Lignite|w/o CCS,t CO2/MWh,0.9497142857332801
+GENeSYS-MOD.jl,Gondor_globalLimit_364,World,Emission Rate|CO2|Electricity|Gas|CCGT|w/ CCS,t CO2/MWh,0.044640000003571205
+GENeSYS-MOD.jl,Gondor_globalLimit_364,World,Emission Rate|CO2|Electricity|Gas|CCGT|w/o CCS,t CO2/MWh,0.34634482757928003
+GENeSYS-MOD.jl,Gondor_globalLimit_364,World,Emission Rate|CO2|Electricity|Gas|OCGT|w/o CCS,t CO2/MWh,0.5286315788733601
+GENeSYS-MOD.jl,Gondor_globalLimit_364,World,Emission Rate|CO2|Electricity|Oil|w/o CCS,t CO2/MWh,0.7010526314808001
+GENeSYS-MOD.jl,Gondor_globalLimit_364,World,Lifetime|Electricity|Battery|Lithium-Ion,years,20.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,World,Lifetime|Electricity|Battery|Redox Flow,years,20.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,World,Lifetime|Electricity|Biomass|w/ CCS,years,31.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,World,Lifetime|Electricity|Biomass|w/o CCS,years,35.5
+GENeSYS-MOD.jl,Gondor_globalLimit_364,World,Lifetime|Electricity|Coal|Hard coal|w/ CCS,years,41.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,World,Lifetime|Electricity|Coal|Hard coal|w/o CCS,years,33.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,World,Lifetime|Electricity|Coal|Lignite|w/o CCS,years,33.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,World,Lifetime|Electricity|Compressed Air,years,40.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,World,Lifetime|Electricity|Gas|CCGT|w/ CCS,years,31.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,World,Lifetime|Electricity|Gas|CCGT|w/o CCS,years,27.66666666666667
+GENeSYS-MOD.jl,Gondor_globalLimit_364,World,Lifetime|Electricity|Gas|OCGT|w/o CCS,years,31.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,World,Lifetime|Electricity|Geothermal,years,30.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,World,Lifetime|Electricity|Hydrogen|OCGT,years,31.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,World,Lifetime|Electricity|Hydro|Pumped Storage,years,50.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,World,Lifetime|Electricity|Hydro|Run of River,years,50.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,World,Lifetime|Electricity|Nuclear,years,61.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,World,Lifetime|Electricity|Oil|w/o CCS,years,31.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,World,Lifetime|Electricity|Solar|PV|Rooftop|Commercial,years,35.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,World,Lifetime|Electricity|Solar|PV|Rooftop|Residential,years,35.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,World,Lifetime|Electricity|Solar|PV|Utility,years,35.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,World,Lifetime|Electricity|Wind|Offshore,years,30.0
+GENeSYS-MOD.jl,Gondor_globalLimit_364,World,Lifetime|Electricity|Wind|Onshore,years,27.0
