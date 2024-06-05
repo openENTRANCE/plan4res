@@ -22,7 +22,7 @@ mkdir ${INSTANCE}results_invest/MaxPower
 
 
 # run investment solver
-echo -e "\n${print_orange}Step 6 - run CEM using investment_solver:${no_color}${P4R_ENV} investment_solver -l ${INSTANCE}results_invest/bellmanvalues.csv -o -e -S ${CONFIG}BSPar-Investment.txt -c ${CONFIG} -p ${INSTANCE}nc4_invest/ ${INSTANCE}nc4_invest/InvestmentBlock.nc4"
+echo -e "\n${print_orange} - run CEM using investment_solver:${no_color}${P4R_ENV} investment_solver -l ${INSTANCE}results_invest/bellmanvalues.csv -o -e -S ${CONFIG}BSPar-Investment.txt -c ${CONFIG} -p ${INSTANCE}nc4_invest/ ${INSTANCE}nc4_invest/InvestmentBlock.nc4"
 ${P4R_ENV} investment_solver -l ${INSTANCE}results_invest/bellmanvalues.csv -o -e -S ${CONFIG}BSPar-Investment.txt -c ${CONFIG} -p ${INSTANCE}nc4_invest/ ${INSTANCE}nc4_invest/InvestmentBlock.nc4
 invest_status ./
 mv Solution_OUT.csv ${INSTANCE}results_invest/

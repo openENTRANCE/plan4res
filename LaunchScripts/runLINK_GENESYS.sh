@@ -1,7 +1,7 @@
 #/bin/bash
 
 # this script launches linkage script to create a IAMC file out of GENeSYS-MOD inputs and outputs
-source include.sh
+source include/utils.sh
 
 echo -e "\n${print_green}Launching GENeSYS-MOD linkage script for $DATASET - [$start_time]${no_color}"
 
