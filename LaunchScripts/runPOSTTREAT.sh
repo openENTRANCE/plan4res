@@ -21,4 +21,4 @@ fi
 phasecreate=$phasepostreat
 phaseformat=$phasepostreat
 
-source scripts/include/postreat.sh
+source include/postreat.sh

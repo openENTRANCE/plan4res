@@ -16,36 +16,37 @@ source include/utils.sh
 # comment if you are using handmade datasets
 phasecreate="invest"
 echo -e "\n${print_orange}Step 1 - Create plan4res input files ${no_color}"
-source scripts/include/create.sh 
+source include/create.sh 
 
 # run script to create netcdf files for ssv
 # comment if you are using aleady created nc4
 echo -e "\n${print_orange}Step 2 - Create netcdf input files to run the SSV "
 phaseformat="optim"
-source scripts/include/format.sh 
+source include/format.sh 
+
 
 # run sddp solver
 echo -e "\n${print_orange}Step 3 - run SSV with sddp_solver to compute Bellman values for storages${no_color}"
-source scripts/include/ssv.sh
+source include/ssv.sh
 
-rm -r ${INSTANCE}results_invest
-mkdir ${INSTANCE}results_invest
+rm -r ${INSTANCE}/results_invest
+mkdir ${INSTANCE}/results_invest
 
 # in case sddp has not converged, use cuts instead of bellmanvaluesout
-cp ${INSTANCE}cuts.txt ${INSTANCE}results_invest/
-cp ${INSTANCE}BellmanValuesOUT.csv ${INSTANCE}results_invest/
+cp ${INSTANCE}/cuts.txt ${INSTANCE}/results_invest/
+cp ${INSTANCE}/BellmanValuesOUT.csv ${INSTANCE}/results_invest/
 
 # run formatting script to create netcdf input files for the investment model
 echo -e "\n${print_orange}Step 4 - Create netcdf input files to run the CEM ${no_color}"
-rm -r ${INSTANCE}nc4_invest
+rm -r ${INSTANCE}/nc4_invest
 phaseformat="invest"
-source scripts/include/format.sh
+source include/format.sh
 
 # run investment solver
 echo -e "\n${print_orange}Step 5 - run CEM using investment_solver${no_color}"
-source scripts/include/cem.sh
+source include/cem.sh
 
 # run post treatment script
 phasepostreat="invest"
 echo -e "\n${print_orange}Step 6 - launch post treat${no_color}"
-source scripts/include/postreat.sh
+source include/postreat.sh

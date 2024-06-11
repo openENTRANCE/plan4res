@@ -26,12 +26,12 @@ echo $phaseformat
 
 # run script to create plan4res input dataset (ZV_ZineValues.csv ...)
 # comment if you are using handmade datasets
-source scripts/include/create.sh 
+source include/create.sh 
 
 # run script to create netcdf files for ssv
 # comment if you are using aleady created nc4
-source scripts/include/format.sh 
+source include/format.sh 
 
 # run sddp solver
-source scripts/include/ssv.sh
+source include/ssv.sh
 
