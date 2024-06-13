@@ -119,4 +119,6 @@ rowsettings=$(awk -F ':' '$1=="    Scenarios"' ${CONFIG}/settings_format_invest.
 StrNbCommas=$(echo $rowsettings | grep -o ',' | wc -l)
 let "NbCommas=$StrNbCommas"
 NBSCEN_CEM=`expr $NbCommas + 1`
-echo -e "${print_green}$(date +'%m/%d/%Y %H:%M:%S') - There are $NBSCEN scenarios in this dataset ${no_color}"
+echo -e "${print_green}$(date +'%m/%d/%Y %H:%M:%S') - There are $NBSCEN_OPT scenarios for optimisation (bellman values computation) in this dataset ${no_color}"
+echo -e "${print_green}$(date +'%m/%d/%Y %H:%M:%S') - There are $NBSCEN_SIM scenarios for simulation in this dataset ${no_color}"
+echo -e "${print_green}$(date +'%m/%d/%Y %H:%M:%S') - There are $NBSCEN_CEM scenarios for investments optimisation in this dataset ${no_color}"
