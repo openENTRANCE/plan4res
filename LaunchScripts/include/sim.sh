@@ -24,7 +24,7 @@ mkdir ${INSTANCE}/results_simul/MaxPower
 for (( scen=0; scen<$NBSCEN_SIM; scen++ ))
 do
 	echo -e "\n${print_blue} - run simulation for scenario $scen ${no_color}"
-	${P4R_ENV} sddp_solver -l ${INSTANCE_IN_P4R}/results_simul/bellmanvalues.csv -s -i ${scen} -S ${CONFIG_IN_P4R}/sddp_greedy.txt -c ${CONFIG_IN_P4R} -p ${INSTANCE_IN_P4R}/nc4_simul ${INSTANCE_IN_P4R}/nc4_simul/SDDPBlock.nc4
+	${P4R_ENV} sddp_solver -l ${INSTANCE_IN_P4R}/results_simul/bellmanvalues.csv -s -i ${scen} -S ${CONFIG_IN_P4R}/sddp_greedy.txt -c ${CONFIG_IN_P4R} -p ${INSTANCE_IN_P4R}/nc4_simul/ ${INSTANCE_IN_P4R}/nc4_simul/SDDPBlock.nc4
 
 	mv DemandOUT.csv ${INSTANCE}/results_simul/Demand/Demand${scen}.csv
 	mv VolumeOUT.csv ${INSTANCE}/results_simul/Volume/Volume${scen}.csv
