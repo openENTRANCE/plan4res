@@ -37,7 +37,7 @@ cp ${INSTANCE}/BellmanValuesOUT.csv ${INSTANCE}/results_simul/
 phaseformat="simul"
 echo -e "\n${print_orange}Step 4 - Create netcdf input files to run the SIM${no_color}"
 rm -r ${INSTANCE}/nc4_simul
-#source scripts/include/format.sh
+source scripts/include/format.sh
 
 # run simulations using sddp_solver
 echo -e "\n${print_orange}Step 5 - run SIM using sddp_solver${no_color}"
