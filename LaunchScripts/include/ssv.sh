@@ -15,11 +15,13 @@ echo -e "${print_blue} - successfully updated sddp_solver.txt configuration file
 # run sddp solver
 if [[ "$@" == *"HOTSTART"* ]]; then
 	# run in hotstart
-	echo -e "\n${print_blue} - Run Hotstart SSV with sddp_solver to compute Bellman values for storages: ${no_color}${P4R_ENV} sddp_solver -l ${INSTANCE_IN_P4R}/cuts.txt -S ${CONFIG_IN_P4R}/sddp_solver.txt -c ${CONFIG_IN_P4R} -p ${INSTANCE_IN_P4R}/nc4_optim ${INSTANCE_IN_P4R}/nc4_optim/SDDPBlock.nc4"
-	${P4R_ENV} sddp_solver -l ${INSTANCE_IN_P4R}/cuts.txt -S ${CONFIG_IN_P4R}/sddp_solver.txt -c ${CONFIG_IN_P4R} -p ${INSTANCE_IN_P4R}/nc4_optim ${INSTANCE_IN_P4R}/nc4_optim/SDDPBlock.nc4
+	echo -e "\n${print_blue} - Run SSV with sddp_solver to compute Bellman values for storages: ${no_color}"
+	echo -e "\n$${P4R_ENV}sddp_solver -l ${INSTANCE_IN_P4R}/cuts.txt -S ${CONFIG_IN_P4R}/sddp_solver.txt -c ${CONFIG_IN_P4R} -p ${INSTANCE_IN_P4R}/nc4_optim/ ${INSTANCE_IN_P4R}/nc4_optim/SDDPBlock.nc4"
+	${P4R_ENV} sddp_solver -l ${INSTANCE_IN_P4R}/cuts.txt -S ${CONFIG_IN_P4R}/sddp_solver.txt -c ${CONFIG_IN_P4R} -p ${INSTANCE_IN_P4R}/nc4_optim/ ${INSTANCE_IN_P4R}/nc4_optim/SDDPBlock.nc4
 else
-	echo -e "\n${print_blue} - Run SSV with sddp_solver to compute Bellman values for storages: ${no_color}${P4R_ENV}sddp_solver -S ${CONFIG_IN_P4R}/sddp_solver.txt -c ${CONFIG_IN_P4R} -p ${INSTANCE_IN_P4R}/nc4_optim ${INSTANCE_IN_P4R}/nc4_optim/SDDPBlock.nc4"
-	${P4R_ENV} sddp_solver -S ${CONFIG_IN_P4R}/sddp_solver.txt -c ${CONFIG_IN_P4R} -p ${INSTANCE_IN_P4R}/nc4_optim ${INSTANCE_IN_P4R}/nc4_optim/SDDPBlock.nc4
+	echo -e "\n${print_blue} - Run SSV with sddp_solver to compute Bellman values for storages: ${no_color}"
+	echo -e "\n$${P4R_ENV}sddp_solver -S ${CONFIG_IN_P4R}/sddp_solver.txt -c ${CONFIG_IN_P4R} -p ${INSTANCE_IN_P4R}/nc4_optim/ ${INSTANCE_IN_P4R}/nc4_optim/SDDPBlock.nc4"
+	${P4R_ENV} sddp_solver -S ${CONFIG_IN_P4R}/sddp_solver.txt -c ${CONFIG_IN_P4R} -p ${INSTANCE_IN_P4R}/nc4_optim/ ${INSTANCE_IN_P4R}/nc4_optim/SDDPBlock.nc4
 fi
 sddp_status ./
 

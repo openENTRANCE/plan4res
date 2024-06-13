@@ -8,23 +8,23 @@
 # 5 - launches SIM 
 # 6 - launches post treatments
 
-source include/utils.sh
+source scripts/include/utils.sh
 
 # run script to create plan4res input dataset (ZV_ZineValues.csv ...)
 # comment if you are using handmade datasets
 phasecreate="simul"
 echo -e "\n${print_orange}Step 1 - Create plan4res input files${no_color}"
-#source include/create.sh 
+source scripts/include/create.sh 
 
 # run script to create netcdf files for ssv
 # comment if you are using aleady created nc4
 phaseformat="optim"
 echo -e "\n${print_orange}Step 2 - Create netcdf input files to run the SSV${no_color}"
-#source include/format.sh 
+source scripts/include/format.sh 
 
 # run sddp solver
 echo -e "\n${print_orange}Step 3 - run SSV "
-#source include/ssv.sh
+source scripts/include/ssv.sh
 
 rm -r ${INSTANCE}/results_simul
 mkdir ${INSTANCE}/results_simul
@@ -37,16 +37,16 @@ cp ${INSTANCE}/BellmanValuesOUT.csv ${INSTANCE}/results_simul/
 phaseformat="simul"
 echo -e "\n${print_orange}Step 4 - Create netcdf input files to run the SIM${no_color}"
 rm -r ${INSTANCE}/nc4_simul
-#source include/format.sh
+#source scripts/include/format.sh
 
 # run simulations using sddp_solver
 echo -e "\n${print_orange}Step 5 - run SIM using sddp_solver${no_color}"
-source include/sim.sh
+source scripts/include/sim.sh
 # alternative: run simulations using investment_solver
 #echo -e "\n${print_orange}Step 5 - run SIM using investment_solver${no_color}"
-#source scripts/include/simCEM.sh
+#source scripts/scripts/include/simCEM.sh
 
 # run post treatment script
 phasepostreat="simul"
 echo -e "\n${print_orange}Step 6 - launch post treat${no_color}"
-source include/postreat.sh
+source scripts/include/postreat.sh

@@ -2,9 +2,9 @@
 
 echo "Loading utils."
 
-P4R_ENV="../bin/p4r"
-PYTHONSCRIPTS="../scripts/python/plan4res-scripts/"
-DATA="../data/local/"
+P4R_ENV="bin/p4r"
+PYTHONSCRIPTS="scripts/python/plan4res-scripts/"
+DATA="data/local/"
 
 # Do not modify below
 no_symlinks='on'
@@ -42,7 +42,7 @@ echo -e "\tINSTANCE      = ${INSTANCE}"
 echo -e "\tCONFIG        = ${CONFIG}"
 
 #if [[ "$USER" = "vagrant" ]]; then
-vagrant_cwd_file=../.vagrant/machines/default/virtualbox/vagrant_cwd
+vagrant_cwd_file=.vagrant/machines/default/virtualbox/vagrant_cwd
 if [ -f ${vagrant_cwd_file} ]; then
     echo "Using a vagrant environment"
     vagrant_cwd=$(head -n 1 ${vagrant_cwd_file})
