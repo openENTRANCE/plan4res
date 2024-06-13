@@ -1,0 +1,3 @@
+Type,PathwayScenario,Pathway,Scenario,Value
+":Type => ""Objective Value""",":PathwayScenario => ""Gondor_globalLimit_364""",":Pathway => ""Gondor""",":Scenario => ""globalLimit_364""",:Value => 4.80598063544511e6
+":Type => ""Elapsed Time""",":PathwayScenario => ""Gondor_globalLimit_364""",":Pathway => ""Gondor""",":Scenario => ""globalLimit_364""",:Value => Dates.Millisecond(131633)

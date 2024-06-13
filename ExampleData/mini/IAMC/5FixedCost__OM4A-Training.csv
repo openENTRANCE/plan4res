@@ -1,0 +1,1996 @@
+,Region,Unit,Year,Variable,Value
+0,DolAmroth,MEUR/GW,2018,Electricity|Battery|Lithium-Ion,0.686
+1,DolAmroth,MEUR/GW,2018,Electricity|Battery|Redox Flow,24.8
+2,DolAmroth,MEUR/GW,2018,Electricity|Biomass|w/ CCS,81.5
+3,DolAmroth,MEUR/GW,2018,Electricity|Biomass|w/o CCS,47.2
+4,DolAmroth,MEUR/GW,2018,Electricity|Coal|Hard coal|w/ CCS,83.75
+5,DolAmroth,MEUR/GW,2018,Electricity|Coal|Hard coal|w/o CCS,43.85
+6,DolAmroth,MEUR/GW,2018,Electricity|Coal|Lignite|w/ CCS,87.5
+7,DolAmroth,MEUR/GW,2018,Electricity|Coal|Lignite|w/o CCS,48.875
+8,DolAmroth,MEUR/GW,2018,Electricity|Compressed Air,7.8
+9,DolAmroth,MEUR/GW,2018,Electricity|Gas|CCGT|w/ CCS,37.5
+10,DolAmroth,MEUR/GW,2018,Electricity|Geothermal,80.0
+11,DolAmroth,MEUR/GW,2018,Electricity|Hydro|Pumped Storage,22.5
+12,DolAmroth,MEUR/GW,2018,Electricity|Hydro|Reservoir,49.5
+13,DolAmroth,MEUR/GW,2018,Electricity|Hydro|Run of River,76.8
+14,DolAmroth,MEUR/GW,2018,Electricity|Nuclear,120.0
+15,DolAmroth,MEUR/GW,2018,Electricity|Ocean,39.6
+16,DolAmroth,MEUR/GW,2018,Electricity|Oil|w/o CCS,6.96
+17,DolAmroth,MEUR/GW,2018,Electricity|Solar|CSP,193.496
+18,DolAmroth,MEUR/GW,2018,Electricity|Solar|PV|Rooftop|Commercial,9.13
+19,DolAmroth,MEUR/GW,2018,Electricity|Solar|PV|Rooftop|Residential,9.13
+20,DolAmroth,MEUR/GW,2018,Electricity|Solar|PV|Utility,7.760000000000001
+21,DolAmroth,MEUR/GW,2018,Electricity|Wind|Offshore,43.333333333333336
+22,DolAmroth,MEUR/GW,2018,Electricity|Wind|Onshore,23.0
+23,DolAmroth,MEUR/GW,2018,Heat|Industrial|Biomass,72.48533333333333
+24,DolAmroth,MEUR/GW,2018,Heat|Industrial|Coal,61.949999999999996
+25,DolAmroth,MEUR/GW,2018,Heat|Industrial|Electricity,90.20125
+26,DolAmroth,MEUR/GW,2018,Heat|Industrial|Gas,80.583461538
+27,DolAmroth,MEUR/GW,2018,Heat|Industrial|Geothermal,183.75
+28,DolAmroth,MEUR/GW,2018,Heat|Industrial|Hydrogen,68.969
+29,DolAmroth,MEUR/GW,2018,Heat|Industrial|Oil,10.5175
+30,DolAmroth,MEUR/GW,2018,Heat|Industrial|Solar,27.055
+31,DolAmroth,MEUR/GW,2018,Heat|Residential and Commercial|Biomass,101.15
+32,DolAmroth,MEUR/GW,2018,Heat|Residential and Commercial|Coal,63.0
+33,DolAmroth,MEUR/GW,2018,Heat|Residential and Commercial|Electricity,30.0
+34,DolAmroth,MEUR/GW,2018,Heat|Residential and Commercial|Gas,6.825
+35,DolAmroth,MEUR/GW,2018,Heat|Residential and Commercial|Geothermal,183.75
+36,DolAmroth,MEUR/GW,2018,Heat|Residential and Commercial|Oil,17.325
+37,DolAmroth,MEUR/GW,2018,Heat|Residential and Commercial|Solar,27.055
+38,DolAmroth,MEUR/GW,2025,Electricity|Battery|Lithium-Ion,0.31
+39,DolAmroth,MEUR/GW,2025,Electricity|Battery|Redox Flow,15.4
+40,DolAmroth,MEUR/GW,2025,Electricity|Biomass|w/ CCS,75.3
+41,DolAmroth,MEUR/GW,2025,Electricity|Biomass|w/o CCS,44.6
+42,DolAmroth,MEUR/GW,2025,Electricity|Coal|Hard coal|w/ CCS,78.03571429
+43,DolAmroth,MEUR/GW,2025,Electricity|Coal|Hard coal|w/o CCS,42.6
+44,DolAmroth,MEUR/GW,2025,Electricity|Coal|Lignite|w/ CCS,87.5
+45,DolAmroth,MEUR/GW,2025,Electricity|Coal|Lignite|w/o CCS,47.625
+46,DolAmroth,MEUR/GW,2025,Electricity|Compressed Air,7.345
+47,DolAmroth,MEUR/GW,2025,Electricity|Gas|CCGT|w/ CCS,37.5
+48,DolAmroth,MEUR/GW,2025,Electricity|Geothermal,80.0
+49,DolAmroth,MEUR/GW,2025,Electricity|Hydro|Pumped Storage,22.5
+50,DolAmroth,MEUR/GW,2025,Electricity|Hydro|Reservoir,49.5
+51,DolAmroth,MEUR/GW,2025,Electricity|Hydro|Run of River,76.8
+52,DolAmroth,MEUR/GW,2025,Electricity|Nuclear,117.5
+53,DolAmroth,MEUR/GW,2025,Electricity|Ocean,36.45
+54,DolAmroth,MEUR/GW,2025,Electricity|Oil|w/o CCS,6.66
+55,DolAmroth,MEUR/GW,2025,Electricity|Solar|CSP,183.312
+56,DolAmroth,MEUR/GW,2025,Electricity|Solar|PV|Rooftop|Commercial,7.66
+57,DolAmroth,MEUR/GW,2025,Electricity|Solar|PV|Rooftop|Residential,7.66
+58,DolAmroth,MEUR/GW,2025,Electricity|Solar|PV|Utility,6.510000000000001
+59,DolAmroth,MEUR/GW,2025,Electricity|Wind|Offshore,38.5
+60,DolAmroth,MEUR/GW,2025,Electricity|Wind|Onshore,21.2
+61,DolAmroth,MEUR/GW,2025,Heat|Industrial|Biomass,67.877
+62,DolAmroth,MEUR/GW,2025,Heat|Industrial|Coal,61.843333333333334
+63,DolAmroth,MEUR/GW,2025,Heat|Industrial|Electricity,81.12767856
+64,DolAmroth,MEUR/GW,2025,Heat|Industrial|Gas,71.270425288
+65,DolAmroth,MEUR/GW,2025,Heat|Industrial|Geothermal,165.2
+66,DolAmroth,MEUR/GW,2025,Heat|Industrial|Hydrogen,57.576142860000004
+67,DolAmroth,MEUR/GW,2025,Heat|Industrial|Oil,10.5175
+68,DolAmroth,MEUR/GW,2025,Heat|Industrial|Solar,27.055
+69,DolAmroth,MEUR/GW,2025,Heat|Residential and Commercial|Biomass,87.325
+70,DolAmroth,MEUR/GW,2025,Heat|Residential and Commercial|Coal,63.0
+71,DolAmroth,MEUR/GW,2025,Heat|Residential and Commercial|Electricity,26.141666666666666
+72,DolAmroth,MEUR/GW,2025,Heat|Residential and Commercial|Gas,6.825
+73,DolAmroth,MEUR/GW,2025,Heat|Residential and Commercial|Geothermal,165.2
+74,DolAmroth,MEUR/GW,2025,Heat|Residential and Commercial|Oil,17.325
+75,DolAmroth,MEUR/GW,2025,Heat|Residential and Commercial|Solar,27.055
+76,DolAmroth,MEUR/GW,2030,Electricity|Battery|Lithium-Ion,0.28
+77,DolAmroth,MEUR/GW,2030,Electricity|Battery|Redox Flow,14.6
+78,DolAmroth,MEUR/GW,2030,Electricity|Biomass|w/ CCS,69.1
+79,DolAmroth,MEUR/GW,2030,Electricity|Biomass|w/o CCS,41.9
+80,DolAmroth,MEUR/GW,2030,Electricity|Coal|Hard coal|w/ CCS,75.17857143
+81,DolAmroth,MEUR/GW,2030,Electricity|Coal|Hard coal|w/o CCS,41.35
+82,DolAmroth,MEUR/GW,2030,Electricity|Coal|Lignite|w/ CCS,87.5
+83,DolAmroth,MEUR/GW,2030,Electricity|Coal|Lignite|w/o CCS,46.375
+84,DolAmroth,MEUR/GW,2030,Electricity|Compressed Air,6.89
+85,DolAmroth,MEUR/GW,2030,Electricity|Gas|CCGT|w/ CCS,37.5
+86,DolAmroth,MEUR/GW,2030,Electricity|Geothermal,80.0
+87,DolAmroth,MEUR/GW,2030,Electricity|Hydro|Pumped Storage,22.5
+88,DolAmroth,MEUR/GW,2030,Electricity|Hydro|Reservoir,49.5
+89,DolAmroth,MEUR/GW,2030,Electricity|Hydro|Run of River,76.8
+90,DolAmroth,MEUR/GW,2030,Electricity|Nuclear,115.0
+91,DolAmroth,MEUR/GW,2030,Electricity|Ocean,33.3
+92,DolAmroth,MEUR/GW,2030,Electricity|Oil|w/o CCS,6.51
+93,DolAmroth,MEUR/GW,2030,Electricity|Solar|CSP,178.22
+94,DolAmroth,MEUR/GW,2030,Electricity|Solar|PV|Rooftop|Commercial,6.66
+95,DolAmroth,MEUR/GW,2030,Electricity|Solar|PV|Rooftop|Residential,6.66
+96,DolAmroth,MEUR/GW,2030,Electricity|Solar|PV|Utility,5.66
+97,DolAmroth,MEUR/GW,2030,Electricity|Wind|Offshore,33.666666666666664
+98,DolAmroth,MEUR/GW,2030,Electricity|Wind|Onshore,20.0
+99,DolAmroth,MEUR/GW,2030,Heat|Industrial|Biomass,66.41866666666667
+100,DolAmroth,MEUR/GW,2030,Heat|Industrial|Coal,61.79
+101,DolAmroth,MEUR/GW,2030,Heat|Industrial|Electricity,76.59089285249999
+102,DolAmroth,MEUR/GW,2030,Heat|Industrial|Gas,66.611611764
+103,DolAmroth,MEUR/GW,2030,Heat|Industrial|Geothermal,156.45
+104,DolAmroth,MEUR/GW,2030,Heat|Industrial|Hydrogen,53.94471428000001
+105,DolAmroth,MEUR/GW,2030,Heat|Industrial|Oil,10.5175
+106,DolAmroth,MEUR/GW,2030,Heat|Industrial|Solar,27.055
+107,DolAmroth,MEUR/GW,2030,Heat|Residential and Commercial|Biomass,82.95
+108,DolAmroth,MEUR/GW,2030,Heat|Residential and Commercial|Coal,63.0
+109,DolAmroth,MEUR/GW,2030,Heat|Residential and Commercial|Electricity,23.016666666666666
+110,DolAmroth,MEUR/GW,2030,Heat|Residential and Commercial|Gas,6.825
+111,DolAmroth,MEUR/GW,2030,Heat|Residential and Commercial|Geothermal,156.45
+112,DolAmroth,MEUR/GW,2030,Heat|Residential and Commercial|Oil,17.325
+113,DolAmroth,MEUR/GW,2030,Heat|Residential and Commercial|Solar,27.055
+114,DolAmroth,MEUR/GW,2035,Electricity|Battery|Lithium-Ion,0.28
+115,DolAmroth,MEUR/GW,2035,Electricity|Battery|Redox Flow,10.4
+116,DolAmroth,MEUR/GW,2035,Electricity|Biomass|w/ CCS,66.05
+117,DolAmroth,MEUR/GW,2035,Electricity|Biomass|w/o CCS,39.5
+118,DolAmroth,MEUR/GW,2035,Electricity|Coal|Hard coal|w/ CCS,72.32142857
+119,DolAmroth,MEUR/GW,2035,Electricity|Coal|Hard coal|w/o CCS,40.35
+120,DolAmroth,MEUR/GW,2035,Electricity|Coal|Lignite|w/ CCS,87.5
+121,DolAmroth,MEUR/GW,2035,Electricity|Coal|Lignite|w/o CCS,45.625
+122,DolAmroth,MEUR/GW,2035,Electricity|Compressed Air,6.76
+123,DolAmroth,MEUR/GW,2035,Electricity|Gas|CCGT|w/ CCS,37.5
+124,DolAmroth,MEUR/GW,2035,Electricity|Geothermal,80.0
+125,DolAmroth,MEUR/GW,2035,Electricity|Hydro|Pumped Storage,22.5
+126,DolAmroth,MEUR/GW,2035,Electricity|Hydro|Reservoir,49.5
+127,DolAmroth,MEUR/GW,2035,Electricity|Hydro|Run of River,76.8
+128,DolAmroth,MEUR/GW,2035,Electricity|Nuclear,111.5
+129,DolAmroth,MEUR/GW,2035,Electricity|Ocean,30.65
+130,DolAmroth,MEUR/GW,2035,Electricity|Oil|w/o CCS,6.36
+131,DolAmroth,MEUR/GW,2035,Electricity|Solar|CSP,170.582
+132,DolAmroth,MEUR/GW,2035,Electricity|Solar|PV|Rooftop|Commercial,5.88
+133,DolAmroth,MEUR/GW,2035,Electricity|Solar|PV|Rooftop|Residential,5.88
+134,DolAmroth,MEUR/GW,2035,Electricity|Solar|PV|Utility,5.0
+135,DolAmroth,MEUR/GW,2035,Electricity|Wind|Offshore,32.666666666666664
+136,DolAmroth,MEUR/GW,2035,Electricity|Wind|Onshore,19.3
+137,DolAmroth,MEUR/GW,2035,Heat|Industrial|Biomass,65.13533333333332
+138,DolAmroth,MEUR/GW,2035,Heat|Industrial|Coal,61.73666666666667
+139,DolAmroth,MEUR/GW,2035,Heat|Industrial|Electricity,72.0541071475
+140,DolAmroth,MEUR/GW,2035,Heat|Industrial|Gas,61.951120482
+141,DolAmroth,MEUR/GW,2035,Heat|Industrial|Geothermal,148.575
+142,DolAmroth,MEUR/GW,2035,Heat|Industrial|Hydrogen,51.67828572
+143,DolAmroth,MEUR/GW,2035,Heat|Industrial|Oil,10.5175
+144,DolAmroth,MEUR/GW,2035,Heat|Industrial|Solar,27.055
+145,DolAmroth,MEUR/GW,2035,Heat|Residential and Commercial|Biomass,79.1
+146,DolAmroth,MEUR/GW,2035,Heat|Residential and Commercial|Coal,63.0
+147,DolAmroth,MEUR/GW,2035,Heat|Residential and Commercial|Electricity,22.633333333333336
+148,DolAmroth,MEUR/GW,2035,Heat|Residential and Commercial|Gas,6.825
+149,DolAmroth,MEUR/GW,2035,Heat|Residential and Commercial|Geothermal,148.575
+150,DolAmroth,MEUR/GW,2035,Heat|Residential and Commercial|Oil,17.325
+151,DolAmroth,MEUR/GW,2035,Heat|Residential and Commercial|Solar,27.055
+152,DolAmroth,MEUR/GW,2040,Electricity|Battery|Lithium-Ion,0.28
+153,DolAmroth,MEUR/GW,2040,Electricity|Battery|Redox Flow,6.2
+154,DolAmroth,MEUR/GW,2040,Electricity|Biomass|w/ CCS,63.0
+155,DolAmroth,MEUR/GW,2040,Electricity|Biomass|w/o CCS,37.1
+156,DolAmroth,MEUR/GW,2040,Electricity|Coal|Hard coal|w/ CCS,69.46428571
+157,DolAmroth,MEUR/GW,2040,Electricity|Coal|Hard coal|w/o CCS,39.35
+158,DolAmroth,MEUR/GW,2040,Electricity|Coal|Lignite|w/ CCS,87.5
+159,DolAmroth,MEUR/GW,2040,Electricity|Coal|Lignite|w/o CCS,44.875
+160,DolAmroth,MEUR/GW,2040,Electricity|Compressed Air,6.63
+161,DolAmroth,MEUR/GW,2040,Electricity|Gas|CCGT|w/ CCS,37.5
+162,DolAmroth,MEUR/GW,2040,Electricity|Geothermal,80.0
+163,DolAmroth,MEUR/GW,2040,Electricity|Hydro|Pumped Storage,22.5
+164,DolAmroth,MEUR/GW,2040,Electricity|Hydro|Reservoir,49.5
+165,DolAmroth,MEUR/GW,2040,Electricity|Hydro|Run of River,76.8
+166,DolAmroth,MEUR/GW,2040,Electricity|Nuclear,108.0
+167,DolAmroth,MEUR/GW,2040,Electricity|Ocean,28.0
+168,DolAmroth,MEUR/GW,2040,Electricity|Oil|w/o CCS,6.21
+169,DolAmroth,MEUR/GW,2040,Electricity|Solar|CSP,162.944
+170,DolAmroth,MEUR/GW,2040,Electricity|Solar|PV|Rooftop|Commercial,5.26
+171,DolAmroth,MEUR/GW,2040,Electricity|Solar|PV|Rooftop|Residential,5.26
+172,DolAmroth,MEUR/GW,2040,Electricity|Solar|PV|Utility,4.47
+173,DolAmroth,MEUR/GW,2040,Electricity|Wind|Offshore,31.666666666666668
+174,DolAmroth,MEUR/GW,2040,Electricity|Wind|Onshore,18.8
+175,DolAmroth,MEUR/GW,2040,Heat|Industrial|Biomass,63.852
+176,DolAmroth,MEUR/GW,2040,Heat|Industrial|Coal,61.68333333333334
+177,DolAmroth,MEUR/GW,2040,Heat|Industrial|Electricity,67.51732144
+178,DolAmroth,MEUR/GW,2040,Heat|Industrial|Gas,57.28882716
+179,DolAmroth,MEUR/GW,2040,Heat|Industrial|Geothermal,140.7
+180,DolAmroth,MEUR/GW,2040,Heat|Industrial|Hydrogen,49.41185714
+181,DolAmroth,MEUR/GW,2040,Heat|Industrial|Oil,10.5175
+182,DolAmroth,MEUR/GW,2040,Heat|Industrial|Solar,27.055
+183,DolAmroth,MEUR/GW,2040,Heat|Residential and Commercial|Biomass,75.25
+184,DolAmroth,MEUR/GW,2040,Heat|Residential and Commercial|Coal,63.0
+185,DolAmroth,MEUR/GW,2040,Heat|Residential and Commercial|Electricity,22.25
+186,DolAmroth,MEUR/GW,2040,Heat|Residential and Commercial|Gas,6.825
+187,DolAmroth,MEUR/GW,2040,Heat|Residential and Commercial|Geothermal,140.7
+188,DolAmroth,MEUR/GW,2040,Heat|Residential and Commercial|Oil,17.325
+189,DolAmroth,MEUR/GW,2040,Heat|Residential and Commercial|Solar,27.055
+190,DolAmroth,MEUR/GW,2045,Electricity|Battery|Lithium-Ion,0.28
+191,DolAmroth,MEUR/GW,2045,Electricity|Battery|Redox Flow,6.2
+192,DolAmroth,MEUR/GW,2045,Electricity|Biomass|w/ CCS,62.2
+193,DolAmroth,MEUR/GW,2045,Electricity|Biomass|w/o CCS,35.0
+194,DolAmroth,MEUR/GW,2045,Electricity|Coal|Hard coal|w/ CCS,66.60714286
+195,DolAmroth,MEUR/GW,2045,Electricity|Coal|Hard coal|w/o CCS,39.1
+196,DolAmroth,MEUR/GW,2045,Electricity|Coal|Lignite|w/ CCS,87.5
+197,DolAmroth,MEUR/GW,2045,Electricity|Coal|Lignite|w/o CCS,44.875
+198,DolAmroth,MEUR/GW,2045,Electricity|Compressed Air,6.24
+199,DolAmroth,MEUR/GW,2045,Electricity|Gas|CCGT|w/ CCS,37.5
+200,DolAmroth,MEUR/GW,2045,Electricity|Geothermal,80.0
+201,DolAmroth,MEUR/GW,2045,Electricity|Hydro|Pumped Storage,22.5
+202,DolAmroth,MEUR/GW,2045,Electricity|Hydro|Reservoir,49.5
+203,DolAmroth,MEUR/GW,2045,Electricity|Hydro|Run of River,76.8
+204,DolAmroth,MEUR/GW,2045,Electricity|Nuclear,106.5
+205,DolAmroth,MEUR/GW,2045,Electricity|Ocean,25.75
+206,DolAmroth,MEUR/GW,2045,Electricity|Oil|w/o CCS,6.06
+207,DolAmroth,MEUR/GW,2045,Electricity|Solar|CSP,156.579
+208,DolAmroth,MEUR/GW,2045,Electricity|Solar|PV|Rooftop|Commercial,4.75
+209,DolAmroth,MEUR/GW,2045,Electricity|Solar|PV|Rooftop|Residential,4.75
+210,DolAmroth,MEUR/GW,2045,Electricity|Solar|PV|Utility,4.04
+211,DolAmroth,MEUR/GW,2045,Electricity|Wind|Offshore,31.333333333333332
+212,DolAmroth,MEUR/GW,2045,Electricity|Wind|Onshore,18.3
+213,DolAmroth,MEUR/GW,2045,Heat|Industrial|Biomass,62.685333333333325
+214,DolAmroth,MEUR/GW,2045,Heat|Industrial|Coal,61.63
+215,DolAmroth,MEUR/GW,2045,Heat|Industrial|Electricity,62.9805357075
+216,DolAmroth,MEUR/GW,2045,Heat|Industrial|Gas,52.62459493600001
+217,DolAmroth,MEUR/GW,2045,Heat|Industrial|Geothermal,133.525
+218,DolAmroth,MEUR/GW,2045,Heat|Industrial|Hydrogen,47.42542858
+219,DolAmroth,MEUR/GW,2045,Heat|Industrial|Oil,10.5175
+220,DolAmroth,MEUR/GW,2045,Heat|Industrial|Solar,27.055
+221,DolAmroth,MEUR/GW,2045,Heat|Residential and Commercial|Biomass,71.75
+222,DolAmroth,MEUR/GW,2045,Heat|Residential and Commercial|Coal,63.0
+223,DolAmroth,MEUR/GW,2045,Heat|Residential and Commercial|Electricity,21.866666666666664
+224,DolAmroth,MEUR/GW,2045,Heat|Residential and Commercial|Gas,6.825
+225,DolAmroth,MEUR/GW,2045,Heat|Residential and Commercial|Geothermal,133.525
+226,DolAmroth,MEUR/GW,2045,Heat|Residential and Commercial|Oil,17.325
+227,DolAmroth,MEUR/GW,2045,Heat|Residential and Commercial|Solar,27.055
+228,DolAmroth,MEUR/GW,2050,Electricity|Battery|Lithium-Ion,0.28
+229,DolAmroth,MEUR/GW,2050,Electricity|Battery|Redox Flow,6.2
+230,DolAmroth,MEUR/GW,2050,Electricity|Biomass|w/ CCS,61.4
+231,DolAmroth,MEUR/GW,2050,Electricity|Biomass|w/o CCS,32.9
+232,DolAmroth,MEUR/GW,2050,Electricity|Coal|Hard coal|w/ CCS,63.75
+233,DolAmroth,MEUR/GW,2050,Electricity|Coal|Hard coal|w/o CCS,38.85
+234,DolAmroth,MEUR/GW,2050,Electricity|Coal|Lignite|w/ CCS,87.5
+235,DolAmroth,MEUR/GW,2050,Electricity|Coal|Lignite|w/o CCS,44.875
+236,DolAmroth,MEUR/GW,2050,Electricity|Compressed Air,5.85
+237,DolAmroth,MEUR/GW,2050,Electricity|Gas|CCGT|w/ CCS,37.5
+238,DolAmroth,MEUR/GW,2050,Electricity|Geothermal,80.0
+239,DolAmroth,MEUR/GW,2050,Electricity|Hydro|Pumped Storage,22.5
+240,DolAmroth,MEUR/GW,2050,Electricity|Hydro|Reservoir,49.5
+241,DolAmroth,MEUR/GW,2050,Electricity|Hydro|Run of River,76.8
+242,DolAmroth,MEUR/GW,2050,Electricity|Nuclear,105.0
+243,DolAmroth,MEUR/GW,2050,Electricity|Ocean,23.5
+244,DolAmroth,MEUR/GW,2050,Electricity|Oil|w/o CCS,5.91
+245,DolAmroth,MEUR/GW,2050,Electricity|Solar|CSP,152.76
+246,DolAmroth,MEUR/GW,2050,Electricity|Solar|PV|Rooftop|Commercial,4.36
+247,DolAmroth,MEUR/GW,2050,Electricity|Solar|PV|Rooftop|Residential,4.36
+248,DolAmroth,MEUR/GW,2050,Electricity|Solar|PV|Utility,3.7000000000000006
+249,DolAmroth,MEUR/GW,2050,Electricity|Wind|Offshore,31.0
+250,DolAmroth,MEUR/GW,2050,Electricity|Wind|Onshore,18.0
+251,DolAmroth,MEUR/GW,2050,Heat|Industrial|Biomass,61.51866666666666
+252,DolAmroth,MEUR/GW,2050,Heat|Industrial|Coal,61.57666666666666
+253,DolAmroth,MEUR/GW,2050,Heat|Industrial|Electricity,58.44375
+254,DolAmroth,MEUR/GW,2050,Heat|Industrial|Gas,47.958272728
+255,DolAmroth,MEUR/GW,2050,Heat|Industrial|Geothermal,126.35
+256,DolAmroth,MEUR/GW,2050,Heat|Industrial|Hydrogen,45.439
+257,DolAmroth,MEUR/GW,2050,Heat|Industrial|Oil,10.5175
+258,DolAmroth,MEUR/GW,2050,Heat|Industrial|Solar,27.055
+259,DolAmroth,MEUR/GW,2050,Heat|Residential and Commercial|Biomass,68.25
+260,DolAmroth,MEUR/GW,2050,Heat|Residential and Commercial|Coal,63.0
+261,DolAmroth,MEUR/GW,2050,Heat|Residential and Commercial|Electricity,21.483333333333334
+262,DolAmroth,MEUR/GW,2050,Heat|Residential and Commercial|Gas,6.825
+263,DolAmroth,MEUR/GW,2050,Heat|Residential and Commercial|Geothermal,126.35
+264,DolAmroth,MEUR/GW,2050,Heat|Residential and Commercial|Oil,17.325
+265,DolAmroth,MEUR/GW,2050,Heat|Residential and Commercial|Solar,27.055
+266,DolAmroth,MEUR/GW,2018,Electricity|Biomass|w/ CCS,81.5
+267,DolAmroth,MEUR/GW,2018,Electricity|Biomass|w/o CCS,47.2
+268,DolAmroth,MEUR/GW,2018,Electricity|Coal|Hard coal|w/ CCS,83.75
+269,DolAmroth,MEUR/GW,2018,Electricity|Coal|Hard coal|w/o CCS,41.0
+270,DolAmroth,MEUR/GW,2018,Electricity|Coal|Lignite|w/ CCS,87.5
+271,DolAmroth,MEUR/GW,2018,Electricity|Coal|Lignite|w/o CCS,47.0
+272,DolAmroth,MEUR/GW,2018,Electricity|Gas|CCGT|w/ CCS,37.5
+273,DolAmroth,MEUR/GW,2018,Electricity|Geothermal,80.0
+274,DolAmroth,MEUR/GW,2018,Electricity|Hydro|Reservoir,49.5
+275,DolAmroth,MEUR/GW,2018,Electricity|Hydro|Run of River,76.8
+276,DolAmroth,MEUR/GW,2018,Electricity|Nuclear,120.0
+277,DolAmroth,MEUR/GW,2018,Electricity|Ocean,39.6
+278,DolAmroth,MEUR/GW,2018,Electricity|Oil|w/o CCS,6.96
+279,DolAmroth,MEUR/GW,2018,Electricity|Solar|CSP,193.496
+280,DolAmroth,MEUR/GW,2018,Electricity|Solar|PV|Rooftop|Commercial,9.13
+281,DolAmroth,MEUR/GW,2018,Electricity|Solar|PV|Rooftop|Residential,9.13
+282,DolAmroth,MEUR/GW,2018,Electricity|Solar|PV|Utility,7.760000000000001
+283,DolAmroth,MEUR/GW,2018,Electricity|Wind|Offshore,43.333333333333336
+284,DolAmroth,MEUR/GW,2018,Electricity|Wind|Onshore,23.0
+285,DolAmroth,MEUR/GW,2025,Electricity|Biomass|w/ CCS,75.3
+286,DolAmroth,MEUR/GW,2025,Electricity|Biomass|w/o CCS,44.6
+287,DolAmroth,MEUR/GW,2025,Electricity|Coal|Hard coal|w/ CCS,78.03571429
+288,DolAmroth,MEUR/GW,2025,Electricity|Coal|Hard coal|w/o CCS,38.5
+289,DolAmroth,MEUR/GW,2025,Electricity|Coal|Lignite|w/ CCS,87.5
+290,DolAmroth,MEUR/GW,2025,Electricity|Coal|Lignite|w/o CCS,44.5
+291,DolAmroth,MEUR/GW,2025,Electricity|Gas|CCGT|w/ CCS,37.5
+292,DolAmroth,MEUR/GW,2025,Electricity|Geothermal,80.0
+293,DolAmroth,MEUR/GW,2025,Electricity|Hydro|Reservoir,49.5
+294,DolAmroth,MEUR/GW,2025,Electricity|Hydro|Run of River,76.8
+295,DolAmroth,MEUR/GW,2025,Electricity|Nuclear,117.5
+296,DolAmroth,MEUR/GW,2025,Electricity|Ocean,36.45
+297,DolAmroth,MEUR/GW,2025,Electricity|Oil|w/o CCS,6.66
+298,DolAmroth,MEUR/GW,2025,Electricity|Solar|CSP,183.312
+299,DolAmroth,MEUR/GW,2025,Electricity|Solar|PV|Rooftop|Commercial,7.66
+300,DolAmroth,MEUR/GW,2025,Electricity|Solar|PV|Rooftop|Residential,7.66
+301,DolAmroth,MEUR/GW,2025,Electricity|Solar|PV|Utility,6.510000000000001
+302,DolAmroth,MEUR/GW,2025,Electricity|Wind|Offshore,38.5
+303,DolAmroth,MEUR/GW,2025,Electricity|Wind|Onshore,21.2
+304,DolAmroth,MEUR/GW,2030,Electricity|Biomass|w/ CCS,69.1
+305,DolAmroth,MEUR/GW,2030,Electricity|Biomass|w/o CCS,41.9
+306,DolAmroth,MEUR/GW,2030,Electricity|Coal|Hard coal|w/ CCS,75.17857143
+307,DolAmroth,MEUR/GW,2030,Electricity|Coal|Hard coal|w/o CCS,36.0
+308,DolAmroth,MEUR/GW,2030,Electricity|Coal|Lignite|w/ CCS,87.5
+309,DolAmroth,MEUR/GW,2030,Electricity|Coal|Lignite|w/o CCS,42.0
+310,DolAmroth,MEUR/GW,2030,Electricity|Gas|CCGT|w/ CCS,37.5
+311,DolAmroth,MEUR/GW,2030,Electricity|Geothermal,80.0
+312,DolAmroth,MEUR/GW,2030,Electricity|Hydro|Reservoir,49.5
+313,DolAmroth,MEUR/GW,2030,Electricity|Hydro|Run of River,76.8
+314,DolAmroth,MEUR/GW,2030,Electricity|Nuclear,115.0
+315,DolAmroth,MEUR/GW,2030,Electricity|Ocean,33.3
+316,DolAmroth,MEUR/GW,2030,Electricity|Oil|w/o CCS,6.51
+317,DolAmroth,MEUR/GW,2030,Electricity|Solar|CSP,178.22
+318,DolAmroth,MEUR/GW,2030,Electricity|Solar|PV|Rooftop|Commercial,6.66
+319,DolAmroth,MEUR/GW,2030,Electricity|Solar|PV|Rooftop|Residential,6.66
+320,DolAmroth,MEUR/GW,2030,Electricity|Solar|PV|Utility,5.66
+321,DolAmroth,MEUR/GW,2030,Electricity|Wind|Offshore,33.666666666666664
+322,DolAmroth,MEUR/GW,2030,Electricity|Wind|Onshore,20.0
+323,DolAmroth,MEUR/GW,2035,Electricity|Biomass|w/ CCS,66.05
+324,DolAmroth,MEUR/GW,2035,Electricity|Biomass|w/o CCS,39.5
+325,DolAmroth,MEUR/GW,2035,Electricity|Coal|Hard coal|w/ CCS,72.32142857
+326,DolAmroth,MEUR/GW,2035,Electricity|Coal|Hard coal|w/o CCS,34.0
+327,DolAmroth,MEUR/GW,2035,Electricity|Coal|Lignite|w/ CCS,87.5
+328,DolAmroth,MEUR/GW,2035,Electricity|Coal|Lignite|w/o CCS,40.5
+329,DolAmroth,MEUR/GW,2035,Electricity|Gas|CCGT|w/ CCS,37.5
+330,DolAmroth,MEUR/GW,2035,Electricity|Geothermal,80.0
+331,DolAmroth,MEUR/GW,2035,Electricity|Hydro|Reservoir,49.5
+332,DolAmroth,MEUR/GW,2035,Electricity|Hydro|Run of River,76.8
+333,DolAmroth,MEUR/GW,2035,Electricity|Nuclear,111.5
+334,DolAmroth,MEUR/GW,2035,Electricity|Ocean,30.65
+335,DolAmroth,MEUR/GW,2035,Electricity|Oil|w/o CCS,6.36
+336,DolAmroth,MEUR/GW,2035,Electricity|Solar|CSP,170.582
+337,DolAmroth,MEUR/GW,2035,Electricity|Solar|PV|Rooftop|Commercial,5.88
+338,DolAmroth,MEUR/GW,2035,Electricity|Solar|PV|Rooftop|Residential,5.88
+339,DolAmroth,MEUR/GW,2035,Electricity|Solar|PV|Utility,5.0
+340,DolAmroth,MEUR/GW,2035,Electricity|Wind|Offshore,32.666666666666664
+341,DolAmroth,MEUR/GW,2035,Electricity|Wind|Onshore,19.3
+342,DolAmroth,MEUR/GW,2040,Electricity|Biomass|w/ CCS,63.0
+343,DolAmroth,MEUR/GW,2040,Electricity|Biomass|w/o CCS,37.1
+344,DolAmroth,MEUR/GW,2040,Electricity|Coal|Hard coal|w/ CCS,69.46428571
+345,DolAmroth,MEUR/GW,2040,Electricity|Coal|Hard coal|w/o CCS,32.0
+346,DolAmroth,MEUR/GW,2040,Electricity|Coal|Lignite|w/ CCS,87.5
+347,DolAmroth,MEUR/GW,2040,Electricity|Coal|Lignite|w/o CCS,39.0
+348,DolAmroth,MEUR/GW,2040,Electricity|Gas|CCGT|w/ CCS,37.5
+349,DolAmroth,MEUR/GW,2040,Electricity|Geothermal,80.0
+350,DolAmroth,MEUR/GW,2040,Electricity|Hydro|Reservoir,49.5
+351,DolAmroth,MEUR/GW,2040,Electricity|Hydro|Run of River,76.8
+352,DolAmroth,MEUR/GW,2040,Electricity|Nuclear,108.0
+353,DolAmroth,MEUR/GW,2040,Electricity|Ocean,28.0
+354,DolAmroth,MEUR/GW,2040,Electricity|Oil|w/o CCS,6.21
+355,DolAmroth,MEUR/GW,2040,Electricity|Solar|CSP,162.944
+356,DolAmroth,MEUR/GW,2040,Electricity|Solar|PV|Rooftop|Commercial,5.26
+357,DolAmroth,MEUR/GW,2040,Electricity|Solar|PV|Rooftop|Residential,5.26
+358,DolAmroth,MEUR/GW,2040,Electricity|Solar|PV|Utility,4.47
+359,DolAmroth,MEUR/GW,2040,Electricity|Wind|Offshore,31.666666666666668
+360,DolAmroth,MEUR/GW,2040,Electricity|Wind|Onshore,18.8
+361,DolAmroth,MEUR/GW,2045,Electricity|Biomass|w/ CCS,62.2
+362,DolAmroth,MEUR/GW,2045,Electricity|Biomass|w/o CCS,35.0
+363,DolAmroth,MEUR/GW,2045,Electricity|Coal|Hard coal|w/ CCS,66.60714286
+364,DolAmroth,MEUR/GW,2045,Electricity|Coal|Hard coal|w/o CCS,31.5
+365,DolAmroth,MEUR/GW,2045,Electricity|Coal|Lignite|w/ CCS,87.5
+366,DolAmroth,MEUR/GW,2045,Electricity|Coal|Lignite|w/o CCS,39.0
+367,DolAmroth,MEUR/GW,2045,Electricity|Gas|CCGT|w/ CCS,37.5
+368,DolAmroth,MEUR/GW,2045,Electricity|Geothermal,80.0
+369,DolAmroth,MEUR/GW,2045,Electricity|Hydro|Reservoir,49.5
+370,DolAmroth,MEUR/GW,2045,Electricity|Hydro|Run of River,76.8
+371,DolAmroth,MEUR/GW,2045,Electricity|Nuclear,106.5
+372,DolAmroth,MEUR/GW,2045,Electricity|Ocean,25.75
+373,DolAmroth,MEUR/GW,2045,Electricity|Oil|w/o CCS,6.06
+374,DolAmroth,MEUR/GW,2045,Electricity|Solar|CSP,156.579
+375,DolAmroth,MEUR/GW,2045,Electricity|Solar|PV|Rooftop|Commercial,4.75
+376,DolAmroth,MEUR/GW,2045,Electricity|Solar|PV|Rooftop|Residential,4.75
+377,DolAmroth,MEUR/GW,2045,Electricity|Solar|PV|Utility,4.04
+378,DolAmroth,MEUR/GW,2045,Electricity|Wind|Offshore,31.333333333333332
+379,DolAmroth,MEUR/GW,2045,Electricity|Wind|Onshore,18.3
+380,DolAmroth,MEUR/GW,2050,Electricity|Biomass|w/ CCS,61.4
+381,DolAmroth,MEUR/GW,2050,Electricity|Biomass|w/o CCS,32.9
+382,DolAmroth,MEUR/GW,2050,Electricity|Coal|Hard coal|w/ CCS,63.75
+383,DolAmroth,MEUR/GW,2050,Electricity|Coal|Hard coal|w/o CCS,31.0
+384,DolAmroth,MEUR/GW,2050,Electricity|Coal|Lignite|w/ CCS,87.5
+385,DolAmroth,MEUR/GW,2050,Electricity|Coal|Lignite|w/o CCS,39.0
+386,DolAmroth,MEUR/GW,2050,Electricity|Gas|CCGT|w/ CCS,37.5
+387,DolAmroth,MEUR/GW,2050,Electricity|Geothermal,80.0
+388,DolAmroth,MEUR/GW,2050,Electricity|Hydro|Reservoir,49.5
+389,DolAmroth,MEUR/GW,2050,Electricity|Hydro|Run of River,76.8
+390,DolAmroth,MEUR/GW,2050,Electricity|Nuclear,105.0
+391,DolAmroth,MEUR/GW,2050,Electricity|Ocean,23.5
+392,DolAmroth,MEUR/GW,2050,Electricity|Oil|w/o CCS,5.91
+393,DolAmroth,MEUR/GW,2050,Electricity|Solar|CSP,152.76
+394,DolAmroth,MEUR/GW,2050,Electricity|Solar|PV|Rooftop|Commercial,4.36
+395,DolAmroth,MEUR/GW,2050,Electricity|Solar|PV|Rooftop|Residential,4.36
+396,DolAmroth,MEUR/GW,2050,Electricity|Solar|PV|Utility,3.7000000000000006
+397,DolAmroth,MEUR/GW,2050,Electricity|Wind|Offshore,31.0
+398,DolAmroth,MEUR/GW,2050,Electricity|Wind|Onshore,18.0
+399,Gondor,MEUR/GW,2018,Electricity|Battery|Lithium-Ion,0.686
+400,Gondor,MEUR/GW,2018,Electricity|Battery|Redox Flow,24.8
+401,Gondor,MEUR/GW,2018,Electricity|Biomass|w/ CCS,81.5
+402,Gondor,MEUR/GW,2018,Electricity|Biomass|w/o CCS,47.2
+403,Gondor,MEUR/GW,2018,Electricity|Coal|Hard coal|w/ CCS,83.75
+404,Gondor,MEUR/GW,2018,Electricity|Coal|Hard coal|w/o CCS,43.85
+405,Gondor,MEUR/GW,2018,Electricity|Coal|Lignite|w/ CCS,87.5
+406,Gondor,MEUR/GW,2018,Electricity|Coal|Lignite|w/o CCS,48.875
+407,Gondor,MEUR/GW,2018,Electricity|Compressed Air,7.8
+408,Gondor,MEUR/GW,2018,Electricity|Gas|CCGT|w/ CCS,37.5
+409,Gondor,MEUR/GW,2018,Electricity|Geothermal,80.0
+410,Gondor,MEUR/GW,2018,Electricity|Hydro|Pumped Storage,22.5
+411,Gondor,MEUR/GW,2018,Electricity|Hydro|Reservoir,49.5
+412,Gondor,MEUR/GW,2018,Electricity|Hydro|Run of River,76.8
+413,Gondor,MEUR/GW,2018,Electricity|Nuclear,120.0
+414,Gondor,MEUR/GW,2018,Electricity|Ocean,39.6
+415,Gondor,MEUR/GW,2018,Electricity|Oil|w/o CCS,6.96
+416,Gondor,MEUR/GW,2018,Electricity|Solar|CSP,193.496
+417,Gondor,MEUR/GW,2018,Electricity|Solar|PV|Rooftop|Commercial,9.13
+418,Gondor,MEUR/GW,2018,Electricity|Solar|PV|Rooftop|Residential,9.13
+419,Gondor,MEUR/GW,2018,Electricity|Solar|PV|Utility,7.760000000000001
+420,Gondor,MEUR/GW,2018,Electricity|Wind|Offshore,43.333333333333336
+421,Gondor,MEUR/GW,2018,Electricity|Wind|Onshore,23.0
+422,Gondor,MEUR/GW,2018,Heat|Industrial|Biomass,72.48533333333333
+423,Gondor,MEUR/GW,2018,Heat|Industrial|Coal,61.949999999999996
+424,Gondor,MEUR/GW,2018,Heat|Industrial|Electricity,90.20125
+425,Gondor,MEUR/GW,2018,Heat|Industrial|Gas,80.583461538
+426,Gondor,MEUR/GW,2018,Heat|Industrial|Geothermal,183.75
+427,Gondor,MEUR/GW,2018,Heat|Industrial|Hydrogen,68.969
+428,Gondor,MEUR/GW,2018,Heat|Industrial|Oil,10.5175
+429,Gondor,MEUR/GW,2018,Heat|Industrial|Solar,27.055
+430,Gondor,MEUR/GW,2018,Heat|Residential and Commercial|Biomass,101.15
+431,Gondor,MEUR/GW,2018,Heat|Residential and Commercial|Coal,63.0
+432,Gondor,MEUR/GW,2018,Heat|Residential and Commercial|Electricity,30.0
+433,Gondor,MEUR/GW,2018,Heat|Residential and Commercial|Gas,6.825
+434,Gondor,MEUR/GW,2018,Heat|Residential and Commercial|Geothermal,183.75
+435,Gondor,MEUR/GW,2018,Heat|Residential and Commercial|Oil,17.325
+436,Gondor,MEUR/GW,2018,Heat|Residential and Commercial|Solar,27.055
+437,Gondor,MEUR/GW,2025,Electricity|Battery|Lithium-Ion,0.31
+438,Gondor,MEUR/GW,2025,Electricity|Battery|Redox Flow,15.4
+439,Gondor,MEUR/GW,2025,Electricity|Biomass|w/ CCS,75.3
+440,Gondor,MEUR/GW,2025,Electricity|Biomass|w/o CCS,44.6
+441,Gondor,MEUR/GW,2025,Electricity|Coal|Hard coal|w/ CCS,78.03571429
+442,Gondor,MEUR/GW,2025,Electricity|Coal|Hard coal|w/o CCS,42.6
+443,Gondor,MEUR/GW,2025,Electricity|Coal|Lignite|w/ CCS,87.5
+444,Gondor,MEUR/GW,2025,Electricity|Coal|Lignite|w/o CCS,47.625
+445,Gondor,MEUR/GW,2025,Electricity|Compressed Air,7.345
+446,Gondor,MEUR/GW,2025,Electricity|Gas|CCGT|w/ CCS,37.5
+447,Gondor,MEUR/GW,2025,Electricity|Geothermal,80.0
+448,Gondor,MEUR/GW,2025,Electricity|Hydro|Pumped Storage,22.5
+449,Gondor,MEUR/GW,2025,Electricity|Hydro|Reservoir,49.5
+450,Gondor,MEUR/GW,2025,Electricity|Hydro|Run of River,76.8
+451,Gondor,MEUR/GW,2025,Electricity|Nuclear,117.5
+452,Gondor,MEUR/GW,2025,Electricity|Ocean,36.45
+453,Gondor,MEUR/GW,2025,Electricity|Oil|w/o CCS,6.66
+454,Gondor,MEUR/GW,2025,Electricity|Solar|CSP,183.312
+455,Gondor,MEUR/GW,2025,Electricity|Solar|PV|Rooftop|Commercial,7.66
+456,Gondor,MEUR/GW,2025,Electricity|Solar|PV|Rooftop|Residential,7.66
+457,Gondor,MEUR/GW,2025,Electricity|Solar|PV|Utility,6.510000000000001
+458,Gondor,MEUR/GW,2025,Electricity|Wind|Offshore,38.5
+459,Gondor,MEUR/GW,2025,Electricity|Wind|Onshore,21.2
+460,Gondor,MEUR/GW,2025,Heat|Industrial|Biomass,67.877
+461,Gondor,MEUR/GW,2025,Heat|Industrial|Coal,61.843333333333334
+462,Gondor,MEUR/GW,2025,Heat|Industrial|Electricity,81.12767856
+463,Gondor,MEUR/GW,2025,Heat|Industrial|Gas,71.270425288
+464,Gondor,MEUR/GW,2025,Heat|Industrial|Geothermal,165.2
+465,Gondor,MEUR/GW,2025,Heat|Industrial|Hydrogen,57.576142860000004
+466,Gondor,MEUR/GW,2025,Heat|Industrial|Oil,10.5175
+467,Gondor,MEUR/GW,2025,Heat|Industrial|Solar,27.055
+468,Gondor,MEUR/GW,2025,Heat|Residential and Commercial|Biomass,87.325
+469,Gondor,MEUR/GW,2025,Heat|Residential and Commercial|Coal,63.0
+470,Gondor,MEUR/GW,2025,Heat|Residential and Commercial|Electricity,26.141666666666666
+471,Gondor,MEUR/GW,2025,Heat|Residential and Commercial|Gas,6.825
+472,Gondor,MEUR/GW,2025,Heat|Residential and Commercial|Geothermal,165.2
+473,Gondor,MEUR/GW,2025,Heat|Residential and Commercial|Oil,17.325
+474,Gondor,MEUR/GW,2025,Heat|Residential and Commercial|Solar,27.055
+475,Gondor,MEUR/GW,2030,Electricity|Battery|Lithium-Ion,0.28
+476,Gondor,MEUR/GW,2030,Electricity|Battery|Redox Flow,14.6
+477,Gondor,MEUR/GW,2030,Electricity|Biomass|w/ CCS,69.1
+478,Gondor,MEUR/GW,2030,Electricity|Biomass|w/o CCS,41.9
+479,Gondor,MEUR/GW,2030,Electricity|Coal|Hard coal|w/ CCS,75.17857143
+480,Gondor,MEUR/GW,2030,Electricity|Coal|Hard coal|w/o CCS,41.35
+481,Gondor,MEUR/GW,2030,Electricity|Coal|Lignite|w/ CCS,87.5
+482,Gondor,MEUR/GW,2030,Electricity|Coal|Lignite|w/o CCS,46.375
+483,Gondor,MEUR/GW,2030,Electricity|Compressed Air,6.89
+484,Gondor,MEUR/GW,2030,Electricity|Gas|CCGT|w/ CCS,37.5
+485,Gondor,MEUR/GW,2030,Electricity|Geothermal,80.0
+486,Gondor,MEUR/GW,2030,Electricity|Hydro|Pumped Storage,22.5
+487,Gondor,MEUR/GW,2030,Electricity|Hydro|Reservoir,49.5
+488,Gondor,MEUR/GW,2030,Electricity|Hydro|Run of River,76.8
+489,Gondor,MEUR/GW,2030,Electricity|Nuclear,115.0
+490,Gondor,MEUR/GW,2030,Electricity|Ocean,33.3
+491,Gondor,MEUR/GW,2030,Electricity|Oil|w/o CCS,6.51
+492,Gondor,MEUR/GW,2030,Electricity|Solar|CSP,178.22
+493,Gondor,MEUR/GW,2030,Electricity|Solar|PV|Rooftop|Commercial,6.66
+494,Gondor,MEUR/GW,2030,Electricity|Solar|PV|Rooftop|Residential,6.66
+495,Gondor,MEUR/GW,2030,Electricity|Solar|PV|Utility,5.66
+496,Gondor,MEUR/GW,2030,Electricity|Wind|Offshore,33.666666666666664
+497,Gondor,MEUR/GW,2030,Electricity|Wind|Onshore,20.0
+498,Gondor,MEUR/GW,2030,Heat|Industrial|Biomass,66.41866666666667
+499,Gondor,MEUR/GW,2030,Heat|Industrial|Coal,61.79
+500,Gondor,MEUR/GW,2030,Heat|Industrial|Electricity,76.59089285249999
+501,Gondor,MEUR/GW,2030,Heat|Industrial|Gas,66.611611764
+502,Gondor,MEUR/GW,2030,Heat|Industrial|Geothermal,156.45
+503,Gondor,MEUR/GW,2030,Heat|Industrial|Hydrogen,53.94471428000001
+504,Gondor,MEUR/GW,2030,Heat|Industrial|Oil,10.5175
+505,Gondor,MEUR/GW,2030,Heat|Industrial|Solar,27.055
+506,Gondor,MEUR/GW,2030,Heat|Residential and Commercial|Biomass,82.95
+507,Gondor,MEUR/GW,2030,Heat|Residential and Commercial|Coal,63.0
+508,Gondor,MEUR/GW,2030,Heat|Residential and Commercial|Electricity,23.016666666666666
+509,Gondor,MEUR/GW,2030,Heat|Residential and Commercial|Gas,6.825
+510,Gondor,MEUR/GW,2030,Heat|Residential and Commercial|Geothermal,156.45
+511,Gondor,MEUR/GW,2030,Heat|Residential and Commercial|Oil,17.325
+512,Gondor,MEUR/GW,2030,Heat|Residential and Commercial|Solar,27.055
+513,Gondor,MEUR/GW,2035,Electricity|Battery|Lithium-Ion,0.28
+514,Gondor,MEUR/GW,2035,Electricity|Battery|Redox Flow,10.4
+515,Gondor,MEUR/GW,2035,Electricity|Biomass|w/ CCS,66.05
+516,Gondor,MEUR/GW,2035,Electricity|Biomass|w/o CCS,39.5
+517,Gondor,MEUR/GW,2035,Electricity|Coal|Hard coal|w/ CCS,72.32142857
+518,Gondor,MEUR/GW,2035,Electricity|Coal|Hard coal|w/o CCS,40.35
+519,Gondor,MEUR/GW,2035,Electricity|Coal|Lignite|w/ CCS,87.5
+520,Gondor,MEUR/GW,2035,Electricity|Coal|Lignite|w/o CCS,45.625
+521,Gondor,MEUR/GW,2035,Electricity|Compressed Air,6.76
+522,Gondor,MEUR/GW,2035,Electricity|Gas|CCGT|w/ CCS,37.5
+523,Gondor,MEUR/GW,2035,Electricity|Geothermal,80.0
+524,Gondor,MEUR/GW,2035,Electricity|Hydro|Pumped Storage,22.5
+525,Gondor,MEUR/GW,2035,Electricity|Hydro|Reservoir,49.5
+526,Gondor,MEUR/GW,2035,Electricity|Hydro|Run of River,76.8
+527,Gondor,MEUR/GW,2035,Electricity|Nuclear,111.5
+528,Gondor,MEUR/GW,2035,Electricity|Ocean,30.65
+529,Gondor,MEUR/GW,2035,Electricity|Oil|w/o CCS,6.36
+530,Gondor,MEUR/GW,2035,Electricity|Solar|CSP,170.582
+531,Gondor,MEUR/GW,2035,Electricity|Solar|PV|Rooftop|Commercial,5.88
+532,Gondor,MEUR/GW,2035,Electricity|Solar|PV|Rooftop|Residential,5.88
+533,Gondor,MEUR/GW,2035,Electricity|Solar|PV|Utility,5.0
+534,Gondor,MEUR/GW,2035,Electricity|Wind|Offshore,32.666666666666664
+535,Gondor,MEUR/GW,2035,Electricity|Wind|Onshore,19.3
+536,Gondor,MEUR/GW,2035,Heat|Industrial|Biomass,65.13533333333332
+537,Gondor,MEUR/GW,2035,Heat|Industrial|Coal,61.73666666666667
+538,Gondor,MEUR/GW,2035,Heat|Industrial|Electricity,72.0541071475
+539,Gondor,MEUR/GW,2035,Heat|Industrial|Gas,61.951120482
+540,Gondor,MEUR/GW,2035,Heat|Industrial|Geothermal,148.575
+541,Gondor,MEUR/GW,2035,Heat|Industrial|Hydrogen,51.67828572
+542,Gondor,MEUR/GW,2035,Heat|Industrial|Oil,10.5175
+543,Gondor,MEUR/GW,2035,Heat|Industrial|Solar,27.055
+544,Gondor,MEUR/GW,2035,Heat|Residential and Commercial|Biomass,79.1
+545,Gondor,MEUR/GW,2035,Heat|Residential and Commercial|Coal,63.0
+546,Gondor,MEUR/GW,2035,Heat|Residential and Commercial|Electricity,22.633333333333336
+547,Gondor,MEUR/GW,2035,Heat|Residential and Commercial|Gas,6.825
+548,Gondor,MEUR/GW,2035,Heat|Residential and Commercial|Geothermal,148.575
+549,Gondor,MEUR/GW,2035,Heat|Residential and Commercial|Oil,17.325
+550,Gondor,MEUR/GW,2035,Heat|Residential and Commercial|Solar,27.055
+551,Gondor,MEUR/GW,2040,Electricity|Battery|Lithium-Ion,0.28
+552,Gondor,MEUR/GW,2040,Electricity|Battery|Redox Flow,6.2
+553,Gondor,MEUR/GW,2040,Electricity|Biomass|w/ CCS,63.0
+554,Gondor,MEUR/GW,2040,Electricity|Biomass|w/o CCS,37.1
+555,Gondor,MEUR/GW,2040,Electricity|Coal|Hard coal|w/ CCS,69.46428571
+556,Gondor,MEUR/GW,2040,Electricity|Coal|Hard coal|w/o CCS,39.35
+557,Gondor,MEUR/GW,2040,Electricity|Coal|Lignite|w/ CCS,87.5
+558,Gondor,MEUR/GW,2040,Electricity|Coal|Lignite|w/o CCS,44.875
+559,Gondor,MEUR/GW,2040,Electricity|Compressed Air,6.63
+560,Gondor,MEUR/GW,2040,Electricity|Gas|CCGT|w/ CCS,37.5
+561,Gondor,MEUR/GW,2040,Electricity|Geothermal,80.0
+562,Gondor,MEUR/GW,2040,Electricity|Hydro|Pumped Storage,22.5
+563,Gondor,MEUR/GW,2040,Electricity|Hydro|Reservoir,49.5
+564,Gondor,MEUR/GW,2040,Electricity|Hydro|Run of River,76.8
+565,Gondor,MEUR/GW,2040,Electricity|Nuclear,108.0
+566,Gondor,MEUR/GW,2040,Electricity|Ocean,28.0
+567,Gondor,MEUR/GW,2040,Electricity|Oil|w/o CCS,6.21
+568,Gondor,MEUR/GW,2040,Electricity|Solar|CSP,162.944
+569,Gondor,MEUR/GW,2040,Electricity|Solar|PV|Rooftop|Commercial,5.26
+570,Gondor,MEUR/GW,2040,Electricity|Solar|PV|Rooftop|Residential,5.26
+571,Gondor,MEUR/GW,2040,Electricity|Solar|PV|Utility,4.47
+572,Gondor,MEUR/GW,2040,Electricity|Wind|Offshore,31.666666666666668
+573,Gondor,MEUR/GW,2040,Electricity|Wind|Onshore,18.8
+574,Gondor,MEUR/GW,2040,Heat|Industrial|Biomass,63.852
+575,Gondor,MEUR/GW,2040,Heat|Industrial|Coal,61.68333333333334
+576,Gondor,MEUR/GW,2040,Heat|Industrial|Electricity,67.51732144
+577,Gondor,MEUR/GW,2040,Heat|Industrial|Gas,57.28882716
+578,Gondor,MEUR/GW,2040,Heat|Industrial|Geothermal,140.7
+579,Gondor,MEUR/GW,2040,Heat|Industrial|Hydrogen,49.41185714
+580,Gondor,MEUR/GW,2040,Heat|Industrial|Oil,10.5175
+581,Gondor,MEUR/GW,2040,Heat|Industrial|Solar,27.055
+582,Gondor,MEUR/GW,2040,Heat|Residential and Commercial|Biomass,75.25
+583,Gondor,MEUR/GW,2040,Heat|Residential and Commercial|Coal,63.0
+584,Gondor,MEUR/GW,2040,Heat|Residential and Commercial|Electricity,22.25
+585,Gondor,MEUR/GW,2040,Heat|Residential and Commercial|Gas,6.825
+586,Gondor,MEUR/GW,2040,Heat|Residential and Commercial|Geothermal,140.7
+587,Gondor,MEUR/GW,2040,Heat|Residential and Commercial|Oil,17.325
+588,Gondor,MEUR/GW,2040,Heat|Residential and Commercial|Solar,27.055
+589,Gondor,MEUR/GW,2045,Electricity|Battery|Lithium-Ion,0.28
+590,Gondor,MEUR/GW,2045,Electricity|Battery|Redox Flow,6.2
+591,Gondor,MEUR/GW,2045,Electricity|Biomass|w/ CCS,62.2
+592,Gondor,MEUR/GW,2045,Electricity|Biomass|w/o CCS,35.0
+593,Gondor,MEUR/GW,2045,Electricity|Coal|Hard coal|w/ CCS,66.60714286
+594,Gondor,MEUR/GW,2045,Electricity|Coal|Hard coal|w/o CCS,39.1
+595,Gondor,MEUR/GW,2045,Electricity|Coal|Lignite|w/ CCS,87.5
+596,Gondor,MEUR/GW,2045,Electricity|Coal|Lignite|w/o CCS,44.875
+597,Gondor,MEUR/GW,2045,Electricity|Compressed Air,6.24
+598,Gondor,MEUR/GW,2045,Electricity|Gas|CCGT|w/ CCS,37.5
+599,Gondor,MEUR/GW,2045,Electricity|Geothermal,80.0
+600,Gondor,MEUR/GW,2045,Electricity|Hydro|Pumped Storage,22.5
+601,Gondor,MEUR/GW,2045,Electricity|Hydro|Reservoir,49.5
+602,Gondor,MEUR/GW,2045,Electricity|Hydro|Run of River,76.8
+603,Gondor,MEUR/GW,2045,Electricity|Nuclear,106.5
+604,Gondor,MEUR/GW,2045,Electricity|Ocean,25.75
+605,Gondor,MEUR/GW,2045,Electricity|Oil|w/o CCS,6.06
+606,Gondor,MEUR/GW,2045,Electricity|Solar|CSP,156.579
+607,Gondor,MEUR/GW,2045,Electricity|Solar|PV|Rooftop|Commercial,4.75
+608,Gondor,MEUR/GW,2045,Electricity|Solar|PV|Rooftop|Residential,4.75
+609,Gondor,MEUR/GW,2045,Electricity|Solar|PV|Utility,4.04
+610,Gondor,MEUR/GW,2045,Electricity|Wind|Offshore,31.333333333333332
+611,Gondor,MEUR/GW,2045,Electricity|Wind|Onshore,18.3
+612,Gondor,MEUR/GW,2045,Heat|Industrial|Biomass,62.685333333333325
+613,Gondor,MEUR/GW,2045,Heat|Industrial|Coal,61.63
+614,Gondor,MEUR/GW,2045,Heat|Industrial|Electricity,62.9805357075
+615,Gondor,MEUR/GW,2045,Heat|Industrial|Gas,52.62459493600001
+616,Gondor,MEUR/GW,2045,Heat|Industrial|Geothermal,133.525
+617,Gondor,MEUR/GW,2045,Heat|Industrial|Hydrogen,47.42542858
+618,Gondor,MEUR/GW,2045,Heat|Industrial|Oil,10.5175
+619,Gondor,MEUR/GW,2045,Heat|Industrial|Solar,27.055
+620,Gondor,MEUR/GW,2045,Heat|Residential and Commercial|Biomass,71.75
+621,Gondor,MEUR/GW,2045,Heat|Residential and Commercial|Coal,63.0
+622,Gondor,MEUR/GW,2045,Heat|Residential and Commercial|Electricity,21.866666666666664
+623,Gondor,MEUR/GW,2045,Heat|Residential and Commercial|Gas,6.825
+624,Gondor,MEUR/GW,2045,Heat|Residential and Commercial|Geothermal,133.525
+625,Gondor,MEUR/GW,2045,Heat|Residential and Commercial|Oil,17.325
+626,Gondor,MEUR/GW,2045,Heat|Residential and Commercial|Solar,27.055
+627,Gondor,MEUR/GW,2050,Electricity|Battery|Lithium-Ion,0.28
+628,Gondor,MEUR/GW,2050,Electricity|Battery|Redox Flow,6.2
+629,Gondor,MEUR/GW,2050,Electricity|Biomass|w/ CCS,61.4
+630,Gondor,MEUR/GW,2050,Electricity|Biomass|w/o CCS,32.9
+631,Gondor,MEUR/GW,2050,Electricity|Coal|Hard coal|w/ CCS,63.75
+632,Gondor,MEUR/GW,2050,Electricity|Coal|Hard coal|w/o CCS,38.85
+633,Gondor,MEUR/GW,2050,Electricity|Coal|Lignite|w/ CCS,87.5
+634,Gondor,MEUR/GW,2050,Electricity|Coal|Lignite|w/o CCS,44.875
+635,Gondor,MEUR/GW,2050,Electricity|Compressed Air,5.85
+636,Gondor,MEUR/GW,2050,Electricity|Gas|CCGT|w/ CCS,37.5
+637,Gondor,MEUR/GW,2050,Electricity|Geothermal,80.0
+638,Gondor,MEUR/GW,2050,Electricity|Hydro|Pumped Storage,22.5
+639,Gondor,MEUR/GW,2050,Electricity|Hydro|Reservoir,49.5
+640,Gondor,MEUR/GW,2050,Electricity|Hydro|Run of River,76.8
+641,Gondor,MEUR/GW,2050,Electricity|Nuclear,105.0
+642,Gondor,MEUR/GW,2050,Electricity|Ocean,23.5
+643,Gondor,MEUR/GW,2050,Electricity|Oil|w/o CCS,5.91
+644,Gondor,MEUR/GW,2050,Electricity|Solar|CSP,152.76
+645,Gondor,MEUR/GW,2050,Electricity|Solar|PV|Rooftop|Commercial,4.36
+646,Gondor,MEUR/GW,2050,Electricity|Solar|PV|Rooftop|Residential,4.36
+647,Gondor,MEUR/GW,2050,Electricity|Solar|PV|Utility,3.7000000000000006
+648,Gondor,MEUR/GW,2050,Electricity|Wind|Offshore,31.0
+649,Gondor,MEUR/GW,2050,Electricity|Wind|Onshore,18.0
+650,Gondor,MEUR/GW,2050,Heat|Industrial|Biomass,61.51866666666666
+651,Gondor,MEUR/GW,2050,Heat|Industrial|Coal,61.57666666666666
+652,Gondor,MEUR/GW,2050,Heat|Industrial|Electricity,58.44375
+653,Gondor,MEUR/GW,2050,Heat|Industrial|Gas,47.958272728
+654,Gondor,MEUR/GW,2050,Heat|Industrial|Geothermal,126.35
+655,Gondor,MEUR/GW,2050,Heat|Industrial|Hydrogen,45.439
+656,Gondor,MEUR/GW,2050,Heat|Industrial|Oil,10.5175
+657,Gondor,MEUR/GW,2050,Heat|Industrial|Solar,27.055
+658,Gondor,MEUR/GW,2050,Heat|Residential and Commercial|Biomass,68.25
+659,Gondor,MEUR/GW,2050,Heat|Residential and Commercial|Coal,63.0
+660,Gondor,MEUR/GW,2050,Heat|Residential and Commercial|Electricity,21.483333333333334
+661,Gondor,MEUR/GW,2050,Heat|Residential and Commercial|Gas,6.825
+662,Gondor,MEUR/GW,2050,Heat|Residential and Commercial|Geothermal,126.35
+663,Gondor,MEUR/GW,2050,Heat|Residential and Commercial|Oil,17.325
+664,Gondor,MEUR/GW,2050,Heat|Residential and Commercial|Solar,27.055
+665,Gondor,MEUR/GW,2018,Electricity|Biomass|w/ CCS,81.5
+666,Gondor,MEUR/GW,2018,Electricity|Biomass|w/o CCS,47.2
+667,Gondor,MEUR/GW,2018,Electricity|Coal|Hard coal|w/ CCS,83.75
+668,Gondor,MEUR/GW,2018,Electricity|Coal|Hard coal|w/o CCS,41.0
+669,Gondor,MEUR/GW,2018,Electricity|Coal|Lignite|w/ CCS,87.5
+670,Gondor,MEUR/GW,2018,Electricity|Coal|Lignite|w/o CCS,47.0
+671,Gondor,MEUR/GW,2018,Electricity|Gas|CCGT|w/ CCS,37.5
+672,Gondor,MEUR/GW,2018,Electricity|Geothermal,80.0
+673,Gondor,MEUR/GW,2018,Electricity|Hydro|Reservoir,49.5
+674,Gondor,MEUR/GW,2018,Electricity|Hydro|Run of River,76.8
+675,Gondor,MEUR/GW,2018,Electricity|Nuclear,120.0
+676,Gondor,MEUR/GW,2018,Electricity|Ocean,39.6
+677,Gondor,MEUR/GW,2018,Electricity|Oil|w/o CCS,6.96
+678,Gondor,MEUR/GW,2018,Electricity|Solar|CSP,193.496
+679,Gondor,MEUR/GW,2018,Electricity|Solar|PV|Rooftop|Commercial,9.13
+680,Gondor,MEUR/GW,2018,Electricity|Solar|PV|Rooftop|Residential,9.13
+681,Gondor,MEUR/GW,2018,Electricity|Solar|PV|Utility,7.760000000000001
+682,Gondor,MEUR/GW,2018,Electricity|Wind|Offshore,43.333333333333336
+683,Gondor,MEUR/GW,2018,Electricity|Wind|Onshore,23.0
+684,Gondor,MEUR/GW,2025,Electricity|Biomass|w/ CCS,75.3
+685,Gondor,MEUR/GW,2025,Electricity|Biomass|w/o CCS,44.6
+686,Gondor,MEUR/GW,2025,Electricity|Coal|Hard coal|w/ CCS,78.03571429
+687,Gondor,MEUR/GW,2025,Electricity|Coal|Hard coal|w/o CCS,38.5
+688,Gondor,MEUR/GW,2025,Electricity|Coal|Lignite|w/ CCS,87.5
+689,Gondor,MEUR/GW,2025,Electricity|Coal|Lignite|w/o CCS,44.5
+690,Gondor,MEUR/GW,2025,Electricity|Gas|CCGT|w/ CCS,37.5
+691,Gondor,MEUR/GW,2025,Electricity|Geothermal,80.0
+692,Gondor,MEUR/GW,2025,Electricity|Hydro|Reservoir,49.5
+693,Gondor,MEUR/GW,2025,Electricity|Hydro|Run of River,76.8
+694,Gondor,MEUR/GW,2025,Electricity|Nuclear,117.5
+695,Gondor,MEUR/GW,2025,Electricity|Ocean,36.45
+696,Gondor,MEUR/GW,2025,Electricity|Oil|w/o CCS,6.66
+697,Gondor,MEUR/GW,2025,Electricity|Solar|CSP,183.312
+698,Gondor,MEUR/GW,2025,Electricity|Solar|PV|Rooftop|Commercial,7.66
+699,Gondor,MEUR/GW,2025,Electricity|Solar|PV|Rooftop|Residential,7.66
+700,Gondor,MEUR/GW,2025,Electricity|Solar|PV|Utility,6.510000000000001
+701,Gondor,MEUR/GW,2025,Electricity|Wind|Offshore,38.5
+702,Gondor,MEUR/GW,2025,Electricity|Wind|Onshore,21.2
+703,Gondor,MEUR/GW,2030,Electricity|Biomass|w/ CCS,69.1
+704,Gondor,MEUR/GW,2030,Electricity|Biomass|w/o CCS,41.9
+705,Gondor,MEUR/GW,2030,Electricity|Coal|Hard coal|w/ CCS,75.17857143
+706,Gondor,MEUR/GW,2030,Electricity|Coal|Hard coal|w/o CCS,36.0
+707,Gondor,MEUR/GW,2030,Electricity|Coal|Lignite|w/ CCS,87.5
+708,Gondor,MEUR/GW,2030,Electricity|Coal|Lignite|w/o CCS,42.0
+709,Gondor,MEUR/GW,2030,Electricity|Gas|CCGT|w/ CCS,37.5
+710,Gondor,MEUR/GW,2030,Electricity|Geothermal,80.0
+711,Gondor,MEUR/GW,2030,Electricity|Hydro|Reservoir,49.5
+712,Gondor,MEUR/GW,2030,Electricity|Hydro|Run of River,76.8
+713,Gondor,MEUR/GW,2030,Electricity|Nuclear,115.0
+714,Gondor,MEUR/GW,2030,Electricity|Ocean,33.3
+715,Gondor,MEUR/GW,2030,Electricity|Oil|w/o CCS,6.51
+716,Gondor,MEUR/GW,2030,Electricity|Solar|CSP,178.22
+717,Gondor,MEUR/GW,2030,Electricity|Solar|PV|Rooftop|Commercial,6.66
+718,Gondor,MEUR/GW,2030,Electricity|Solar|PV|Rooftop|Residential,6.66
+719,Gondor,MEUR/GW,2030,Electricity|Solar|PV|Utility,5.66
+720,Gondor,MEUR/GW,2030,Electricity|Wind|Offshore,33.666666666666664
+721,Gondor,MEUR/GW,2030,Electricity|Wind|Onshore,20.0
+722,Gondor,MEUR/GW,2035,Electricity|Biomass|w/ CCS,66.05
+723,Gondor,MEUR/GW,2035,Electricity|Biomass|w/o CCS,39.5
+724,Gondor,MEUR/GW,2035,Electricity|Coal|Hard coal|w/ CCS,72.32142857
+725,Gondor,MEUR/GW,2035,Electricity|Coal|Hard coal|w/o CCS,34.0
+726,Gondor,MEUR/GW,2035,Electricity|Coal|Lignite|w/ CCS,87.5
+727,Gondor,MEUR/GW,2035,Electricity|Coal|Lignite|w/o CCS,40.5
+728,Gondor,MEUR/GW,2035,Electricity|Gas|CCGT|w/ CCS,37.5
+729,Gondor,MEUR/GW,2035,Electricity|Geothermal,80.0
+730,Gondor,MEUR/GW,2035,Electricity|Hydro|Reservoir,49.5
+731,Gondor,MEUR/GW,2035,Electricity|Hydro|Run of River,76.8
+732,Gondor,MEUR/GW,2035,Electricity|Nuclear,111.5
+733,Gondor,MEUR/GW,2035,Electricity|Ocean,30.65
+734,Gondor,MEUR/GW,2035,Electricity|Oil|w/o CCS,6.36
+735,Gondor,MEUR/GW,2035,Electricity|Solar|CSP,170.582
+736,Gondor,MEUR/GW,2035,Electricity|Solar|PV|Rooftop|Commercial,5.88
+737,Gondor,MEUR/GW,2035,Electricity|Solar|PV|Rooftop|Residential,5.88
+738,Gondor,MEUR/GW,2035,Electricity|Solar|PV|Utility,5.0
+739,Gondor,MEUR/GW,2035,Electricity|Wind|Offshore,32.666666666666664
+740,Gondor,MEUR/GW,2035,Electricity|Wind|Onshore,19.3
+741,Gondor,MEUR/GW,2040,Electricity|Biomass|w/ CCS,63.0
+742,Gondor,MEUR/GW,2040,Electricity|Biomass|w/o CCS,37.1
+743,Gondor,MEUR/GW,2040,Electricity|Coal|Hard coal|w/ CCS,69.46428571
+744,Gondor,MEUR/GW,2040,Electricity|Coal|Hard coal|w/o CCS,32.0
+745,Gondor,MEUR/GW,2040,Electricity|Coal|Lignite|w/ CCS,87.5
+746,Gondor,MEUR/GW,2040,Electricity|Coal|Lignite|w/o CCS,39.0
+747,Gondor,MEUR/GW,2040,Electricity|Gas|CCGT|w/ CCS,37.5
+748,Gondor,MEUR/GW,2040,Electricity|Geothermal,80.0
+749,Gondor,MEUR/GW,2040,Electricity|Hydro|Reservoir,49.5
+750,Gondor,MEUR/GW,2040,Electricity|Hydro|Run of River,76.8
+751,Gondor,MEUR/GW,2040,Electricity|Nuclear,108.0
+752,Gondor,MEUR/GW,2040,Electricity|Ocean,28.0
+753,Gondor,MEUR/GW,2040,Electricity|Oil|w/o CCS,6.21
+754,Gondor,MEUR/GW,2040,Electricity|Solar|CSP,162.944
+755,Gondor,MEUR/GW,2040,Electricity|Solar|PV|Rooftop|Commercial,5.26
+756,Gondor,MEUR/GW,2040,Electricity|Solar|PV|Rooftop|Residential,5.26
+757,Gondor,MEUR/GW,2040,Electricity|Solar|PV|Utility,4.47
+758,Gondor,MEUR/GW,2040,Electricity|Wind|Offshore,31.666666666666668
+759,Gondor,MEUR/GW,2040,Electricity|Wind|Onshore,18.8
+760,Gondor,MEUR/GW,2045,Electricity|Biomass|w/ CCS,62.2
+761,Gondor,MEUR/GW,2045,Electricity|Biomass|w/o CCS,35.0
+762,Gondor,MEUR/GW,2045,Electricity|Coal|Hard coal|w/ CCS,66.60714286
+763,Gondor,MEUR/GW,2045,Electricity|Coal|Hard coal|w/o CCS,31.5
+764,Gondor,MEUR/GW,2045,Electricity|Coal|Lignite|w/ CCS,87.5
+765,Gondor,MEUR/GW,2045,Electricity|Coal|Lignite|w/o CCS,39.0
+766,Gondor,MEUR/GW,2045,Electricity|Gas|CCGT|w/ CCS,37.5
+767,Gondor,MEUR/GW,2045,Electricity|Geothermal,80.0
+768,Gondor,MEUR/GW,2045,Electricity|Hydro|Reservoir,49.5
+769,Gondor,MEUR/GW,2045,Electricity|Hydro|Run of River,76.8
+770,Gondor,MEUR/GW,2045,Electricity|Nuclear,106.5
+771,Gondor,MEUR/GW,2045,Electricity|Ocean,25.75
+772,Gondor,MEUR/GW,2045,Electricity|Oil|w/o CCS,6.06
+773,Gondor,MEUR/GW,2045,Electricity|Solar|CSP,156.579
+774,Gondor,MEUR/GW,2045,Electricity|Solar|PV|Rooftop|Commercial,4.75
+775,Gondor,MEUR/GW,2045,Electricity|Solar|PV|Rooftop|Residential,4.75
+776,Gondor,MEUR/GW,2045,Electricity|Solar|PV|Utility,4.04
+777,Gondor,MEUR/GW,2045,Electricity|Wind|Offshore,31.333333333333332
+778,Gondor,MEUR/GW,2045,Electricity|Wind|Onshore,18.3
+779,Gondor,MEUR/GW,2050,Electricity|Biomass|w/ CCS,61.4
+780,Gondor,MEUR/GW,2050,Electricity|Biomass|w/o CCS,32.9
+781,Gondor,MEUR/GW,2050,Electricity|Coal|Hard coal|w/ CCS,63.75
+782,Gondor,MEUR/GW,2050,Electricity|Coal|Hard coal|w/o CCS,31.0
+783,Gondor,MEUR/GW,2050,Electricity|Coal|Lignite|w/ CCS,87.5
+784,Gondor,MEUR/GW,2050,Electricity|Coal|Lignite|w/o CCS,39.0
+785,Gondor,MEUR/GW,2050,Electricity|Gas|CCGT|w/ CCS,37.5
+786,Gondor,MEUR/GW,2050,Electricity|Geothermal,80.0
+787,Gondor,MEUR/GW,2050,Electricity|Hydro|Reservoir,49.5
+788,Gondor,MEUR/GW,2050,Electricity|Hydro|Run of River,76.8
+789,Gondor,MEUR/GW,2050,Electricity|Nuclear,105.0
+790,Gondor,MEUR/GW,2050,Electricity|Ocean,23.5
+791,Gondor,MEUR/GW,2050,Electricity|Oil|w/o CCS,5.91
+792,Gondor,MEUR/GW,2050,Electricity|Solar|CSP,152.76
+793,Gondor,MEUR/GW,2050,Electricity|Solar|PV|Rooftop|Commercial,4.36
+794,Gondor,MEUR/GW,2050,Electricity|Solar|PV|Rooftop|Residential,4.36
+795,Gondor,MEUR/GW,2050,Electricity|Solar|PV|Utility,3.7000000000000006
+796,Gondor,MEUR/GW,2050,Electricity|Wind|Offshore,31.0
+797,Gondor,MEUR/GW,2050,Electricity|Wind|Onshore,18.0
+798,Harad,MEUR/GW,2018,Electricity|Battery|Lithium-Ion,0.686
+799,Harad,MEUR/GW,2018,Electricity|Battery|Redox Flow,24.8
+800,Harad,MEUR/GW,2018,Electricity|Biomass|w/ CCS,81.5
+801,Harad,MEUR/GW,2018,Electricity|Biomass|w/o CCS,47.2
+802,Harad,MEUR/GW,2018,Electricity|Coal|Hard coal|w/ CCS,83.75
+803,Harad,MEUR/GW,2018,Electricity|Coal|Hard coal|w/o CCS,43.85
+804,Harad,MEUR/GW,2018,Electricity|Coal|Lignite|w/ CCS,87.5
+805,Harad,MEUR/GW,2018,Electricity|Coal|Lignite|w/o CCS,48.875
+806,Harad,MEUR/GW,2018,Electricity|Compressed Air,7.8
+807,Harad,MEUR/GW,2018,Electricity|Gas|CCGT|w/ CCS,37.5
+808,Harad,MEUR/GW,2018,Electricity|Geothermal,80.0
+809,Harad,MEUR/GW,2018,Electricity|Hydro|Pumped Storage,22.5
+810,Harad,MEUR/GW,2018,Electricity|Hydro|Reservoir,49.5
+811,Harad,MEUR/GW,2018,Electricity|Hydro|Run of River,76.8
+812,Harad,MEUR/GW,2018,Electricity|Nuclear,120.0
+813,Harad,MEUR/GW,2018,Electricity|Ocean,39.6
+814,Harad,MEUR/GW,2018,Electricity|Oil|w/o CCS,6.96
+815,Harad,MEUR/GW,2018,Electricity|Solar|CSP,193.496
+816,Harad,MEUR/GW,2018,Electricity|Solar|PV|Rooftop|Commercial,9.13
+817,Harad,MEUR/GW,2018,Electricity|Solar|PV|Rooftop|Residential,9.13
+818,Harad,MEUR/GW,2018,Electricity|Solar|PV|Utility,7.760000000000001
+819,Harad,MEUR/GW,2018,Electricity|Wind|Offshore,43.333333333333336
+820,Harad,MEUR/GW,2018,Electricity|Wind|Onshore,23.0
+821,Harad,MEUR/GW,2018,Heat|Industrial|Biomass,72.48533333333333
+822,Harad,MEUR/GW,2018,Heat|Industrial|Coal,61.949999999999996
+823,Harad,MEUR/GW,2018,Heat|Industrial|Electricity,90.20125
+824,Harad,MEUR/GW,2018,Heat|Industrial|Gas,80.583461538
+825,Harad,MEUR/GW,2018,Heat|Industrial|Geothermal,183.75
+826,Harad,MEUR/GW,2018,Heat|Industrial|Hydrogen,68.969
+827,Harad,MEUR/GW,2018,Heat|Industrial|Oil,10.5175
+828,Harad,MEUR/GW,2018,Heat|Industrial|Solar,27.055
+829,Harad,MEUR/GW,2018,Heat|Residential and Commercial|Biomass,101.15
+830,Harad,MEUR/GW,2018,Heat|Residential and Commercial|Coal,63.0
+831,Harad,MEUR/GW,2018,Heat|Residential and Commercial|Electricity,30.0
+832,Harad,MEUR/GW,2018,Heat|Residential and Commercial|Gas,6.825
+833,Harad,MEUR/GW,2018,Heat|Residential and Commercial|Geothermal,183.75
+834,Harad,MEUR/GW,2018,Heat|Residential and Commercial|Oil,17.325
+835,Harad,MEUR/GW,2018,Heat|Residential and Commercial|Solar,27.055
+836,Harad,MEUR/GW,2025,Electricity|Battery|Lithium-Ion,0.31
+837,Harad,MEUR/GW,2025,Electricity|Battery|Redox Flow,15.4
+838,Harad,MEUR/GW,2025,Electricity|Biomass|w/ CCS,75.3
+839,Harad,MEUR/GW,2025,Electricity|Biomass|w/o CCS,44.6
+840,Harad,MEUR/GW,2025,Electricity|Coal|Hard coal|w/ CCS,78.03571429
+841,Harad,MEUR/GW,2025,Electricity|Coal|Hard coal|w/o CCS,42.6
+842,Harad,MEUR/GW,2025,Electricity|Coal|Lignite|w/ CCS,87.5
+843,Harad,MEUR/GW,2025,Electricity|Coal|Lignite|w/o CCS,47.625
+844,Harad,MEUR/GW,2025,Electricity|Compressed Air,7.345
+845,Harad,MEUR/GW,2025,Electricity|Gas|CCGT|w/ CCS,37.5
+846,Harad,MEUR/GW,2025,Electricity|Geothermal,80.0
+847,Harad,MEUR/GW,2025,Electricity|Hydro|Pumped Storage,22.5
+848,Harad,MEUR/GW,2025,Electricity|Hydro|Reservoir,49.5
+849,Harad,MEUR/GW,2025,Electricity|Hydro|Run of River,76.8
+850,Harad,MEUR/GW,2025,Electricity|Nuclear,117.5
+851,Harad,MEUR/GW,2025,Electricity|Ocean,36.45
+852,Harad,MEUR/GW,2025,Electricity|Oil|w/o CCS,6.66
+853,Harad,MEUR/GW,2025,Electricity|Solar|CSP,183.312
+854,Harad,MEUR/GW,2025,Electricity|Solar|PV|Rooftop|Commercial,7.66
+855,Harad,MEUR/GW,2025,Electricity|Solar|PV|Rooftop|Residential,7.66
+856,Harad,MEUR/GW,2025,Electricity|Solar|PV|Utility,6.510000000000001
+857,Harad,MEUR/GW,2025,Electricity|Wind|Offshore,38.5
+858,Harad,MEUR/GW,2025,Electricity|Wind|Onshore,21.2
+859,Harad,MEUR/GW,2025,Heat|Industrial|Biomass,67.877
+860,Harad,MEUR/GW,2025,Heat|Industrial|Coal,61.843333333333334
+861,Harad,MEUR/GW,2025,Heat|Industrial|Electricity,81.12767856
+862,Harad,MEUR/GW,2025,Heat|Industrial|Gas,71.270425288
+863,Harad,MEUR/GW,2025,Heat|Industrial|Geothermal,165.2
+864,Harad,MEUR/GW,2025,Heat|Industrial|Hydrogen,57.576142860000004
+865,Harad,MEUR/GW,2025,Heat|Industrial|Oil,10.5175
+866,Harad,MEUR/GW,2025,Heat|Industrial|Solar,27.055
+867,Harad,MEUR/GW,2025,Heat|Residential and Commercial|Biomass,87.325
+868,Harad,MEUR/GW,2025,Heat|Residential and Commercial|Coal,63.0
+869,Harad,MEUR/GW,2025,Heat|Residential and Commercial|Electricity,26.141666666666666
+870,Harad,MEUR/GW,2025,Heat|Residential and Commercial|Gas,6.825
+871,Harad,MEUR/GW,2025,Heat|Residential and Commercial|Geothermal,165.2
+872,Harad,MEUR/GW,2025,Heat|Residential and Commercial|Oil,17.325
+873,Harad,MEUR/GW,2025,Heat|Residential and Commercial|Solar,27.055
+874,Harad,MEUR/GW,2030,Electricity|Battery|Lithium-Ion,0.28
+875,Harad,MEUR/GW,2030,Electricity|Battery|Redox Flow,14.6
+876,Harad,MEUR/GW,2030,Electricity|Biomass|w/ CCS,69.1
+877,Harad,MEUR/GW,2030,Electricity|Biomass|w/o CCS,41.9
+878,Harad,MEUR/GW,2030,Electricity|Coal|Hard coal|w/ CCS,75.17857143
+879,Harad,MEUR/GW,2030,Electricity|Coal|Hard coal|w/o CCS,41.35
+880,Harad,MEUR/GW,2030,Electricity|Coal|Lignite|w/ CCS,87.5
+881,Harad,MEUR/GW,2030,Electricity|Coal|Lignite|w/o CCS,46.375
+882,Harad,MEUR/GW,2030,Electricity|Compressed Air,6.89
+883,Harad,MEUR/GW,2030,Electricity|Gas|CCGT|w/ CCS,37.5
+884,Harad,MEUR/GW,2030,Electricity|Geothermal,80.0
+885,Harad,MEUR/GW,2030,Electricity|Hydro|Pumped Storage,22.5
+886,Harad,MEUR/GW,2030,Electricity|Hydro|Reservoir,49.5
+887,Harad,MEUR/GW,2030,Electricity|Hydro|Run of River,76.8
+888,Harad,MEUR/GW,2030,Electricity|Nuclear,115.0
+889,Harad,MEUR/GW,2030,Electricity|Ocean,33.3
+890,Harad,MEUR/GW,2030,Electricity|Oil|w/o CCS,6.51
+891,Harad,MEUR/GW,2030,Electricity|Solar|CSP,178.22
+892,Harad,MEUR/GW,2030,Electricity|Solar|PV|Rooftop|Commercial,6.66
+893,Harad,MEUR/GW,2030,Electricity|Solar|PV|Rooftop|Residential,6.66
+894,Harad,MEUR/GW,2030,Electricity|Solar|PV|Utility,5.66
+895,Harad,MEUR/GW,2030,Electricity|Wind|Offshore,33.666666666666664
+896,Harad,MEUR/GW,2030,Electricity|Wind|Onshore,20.0
+897,Harad,MEUR/GW,2030,Heat|Industrial|Biomass,66.41866666666667
+898,Harad,MEUR/GW,2030,Heat|Industrial|Coal,61.79
+899,Harad,MEUR/GW,2030,Heat|Industrial|Electricity,76.59089285249999
+900,Harad,MEUR/GW,2030,Heat|Industrial|Gas,66.611611764
+901,Harad,MEUR/GW,2030,Heat|Industrial|Geothermal,156.45
+902,Harad,MEUR/GW,2030,Heat|Industrial|Hydrogen,53.94471428000001
+903,Harad,MEUR/GW,2030,Heat|Industrial|Oil,10.5175
+904,Harad,MEUR/GW,2030,Heat|Industrial|Solar,27.055
+905,Harad,MEUR/GW,2030,Heat|Residential and Commercial|Biomass,82.95
+906,Harad,MEUR/GW,2030,Heat|Residential and Commercial|Coal,63.0
+907,Harad,MEUR/GW,2030,Heat|Residential and Commercial|Electricity,23.016666666666666
+908,Harad,MEUR/GW,2030,Heat|Residential and Commercial|Gas,6.825
+909,Harad,MEUR/GW,2030,Heat|Residential and Commercial|Geothermal,156.45
+910,Harad,MEUR/GW,2030,Heat|Residential and Commercial|Oil,17.325
+911,Harad,MEUR/GW,2030,Heat|Residential and Commercial|Solar,27.055
+912,Harad,MEUR/GW,2035,Electricity|Battery|Lithium-Ion,0.28
+913,Harad,MEUR/GW,2035,Electricity|Battery|Redox Flow,10.4
+914,Harad,MEUR/GW,2035,Electricity|Biomass|w/ CCS,66.05
+915,Harad,MEUR/GW,2035,Electricity|Biomass|w/o CCS,39.5
+916,Harad,MEUR/GW,2035,Electricity|Coal|Hard coal|w/ CCS,72.32142857
+917,Harad,MEUR/GW,2035,Electricity|Coal|Hard coal|w/o CCS,40.35
+918,Harad,MEUR/GW,2035,Electricity|Coal|Lignite|w/ CCS,87.5
+919,Harad,MEUR/GW,2035,Electricity|Coal|Lignite|w/o CCS,45.625
+920,Harad,MEUR/GW,2035,Electricity|Compressed Air,6.76
+921,Harad,MEUR/GW,2035,Electricity|Gas|CCGT|w/ CCS,37.5
+922,Harad,MEUR/GW,2035,Electricity|Geothermal,80.0
+923,Harad,MEUR/GW,2035,Electricity|Hydro|Pumped Storage,22.5
+924,Harad,MEUR/GW,2035,Electricity|Hydro|Reservoir,49.5
+925,Harad,MEUR/GW,2035,Electricity|Hydro|Run of River,76.8
+926,Harad,MEUR/GW,2035,Electricity|Nuclear,111.5
+927,Harad,MEUR/GW,2035,Electricity|Ocean,30.65
+928,Harad,MEUR/GW,2035,Electricity|Oil|w/o CCS,6.36
+929,Harad,MEUR/GW,2035,Electricity|Solar|CSP,170.582
+930,Harad,MEUR/GW,2035,Electricity|Solar|PV|Rooftop|Commercial,5.88
+931,Harad,MEUR/GW,2035,Electricity|Solar|PV|Rooftop|Residential,5.88
+932,Harad,MEUR/GW,2035,Electricity|Solar|PV|Utility,5.0
+933,Harad,MEUR/GW,2035,Electricity|Wind|Offshore,32.666666666666664
+934,Harad,MEUR/GW,2035,Electricity|Wind|Onshore,19.3
+935,Harad,MEUR/GW,2035,Heat|Industrial|Biomass,65.13533333333332
+936,Harad,MEUR/GW,2035,Heat|Industrial|Coal,61.73666666666667
+937,Harad,MEUR/GW,2035,Heat|Industrial|Electricity,72.0541071475
+938,Harad,MEUR/GW,2035,Heat|Industrial|Gas,61.951120482
+939,Harad,MEUR/GW,2035,Heat|Industrial|Geothermal,148.575
+940,Harad,MEUR/GW,2035,Heat|Industrial|Hydrogen,51.67828572
+941,Harad,MEUR/GW,2035,Heat|Industrial|Oil,10.5175
+942,Harad,MEUR/GW,2035,Heat|Industrial|Solar,27.055
+943,Harad,MEUR/GW,2035,Heat|Residential and Commercial|Biomass,79.1
+944,Harad,MEUR/GW,2035,Heat|Residential and Commercial|Coal,63.0
+945,Harad,MEUR/GW,2035,Heat|Residential and Commercial|Electricity,22.633333333333336
+946,Harad,MEUR/GW,2035,Heat|Residential and Commercial|Gas,6.825
+947,Harad,MEUR/GW,2035,Heat|Residential and Commercial|Geothermal,148.575
+948,Harad,MEUR/GW,2035,Heat|Residential and Commercial|Oil,17.325
+949,Harad,MEUR/GW,2035,Heat|Residential and Commercial|Solar,27.055
+950,Harad,MEUR/GW,2040,Electricity|Battery|Lithium-Ion,0.28
+951,Harad,MEUR/GW,2040,Electricity|Battery|Redox Flow,6.2
+952,Harad,MEUR/GW,2040,Electricity|Biomass|w/ CCS,63.0
+953,Harad,MEUR/GW,2040,Electricity|Biomass|w/o CCS,37.1
+954,Harad,MEUR/GW,2040,Electricity|Coal|Hard coal|w/ CCS,69.46428571
+955,Harad,MEUR/GW,2040,Electricity|Coal|Hard coal|w/o CCS,39.35
+956,Harad,MEUR/GW,2040,Electricity|Coal|Lignite|w/ CCS,87.5
+957,Harad,MEUR/GW,2040,Electricity|Coal|Lignite|w/o CCS,44.875
+958,Harad,MEUR/GW,2040,Electricity|Compressed Air,6.63
+959,Harad,MEUR/GW,2040,Electricity|Gas|CCGT|w/ CCS,37.5
+960,Harad,MEUR/GW,2040,Electricity|Geothermal,80.0
+961,Harad,MEUR/GW,2040,Electricity|Hydro|Pumped Storage,22.5
+962,Harad,MEUR/GW,2040,Electricity|Hydro|Reservoir,49.5
+963,Harad,MEUR/GW,2040,Electricity|Hydro|Run of River,76.8
+964,Harad,MEUR/GW,2040,Electricity|Nuclear,108.0
+965,Harad,MEUR/GW,2040,Electricity|Ocean,28.0
+966,Harad,MEUR/GW,2040,Electricity|Oil|w/o CCS,6.21
+967,Harad,MEUR/GW,2040,Electricity|Solar|CSP,162.944
+968,Harad,MEUR/GW,2040,Electricity|Solar|PV|Rooftop|Commercial,5.26
+969,Harad,MEUR/GW,2040,Electricity|Solar|PV|Rooftop|Residential,5.26
+970,Harad,MEUR/GW,2040,Electricity|Solar|PV|Utility,4.47
+971,Harad,MEUR/GW,2040,Electricity|Wind|Offshore,31.666666666666668
+972,Harad,MEUR/GW,2040,Electricity|Wind|Onshore,18.8
+973,Harad,MEUR/GW,2040,Heat|Industrial|Biomass,63.852
+974,Harad,MEUR/GW,2040,Heat|Industrial|Coal,61.68333333333334
+975,Harad,MEUR/GW,2040,Heat|Industrial|Electricity,67.51732144
+976,Harad,MEUR/GW,2040,Heat|Industrial|Gas,57.28882716
+977,Harad,MEUR/GW,2040,Heat|Industrial|Geothermal,140.7
+978,Harad,MEUR/GW,2040,Heat|Industrial|Hydrogen,49.41185714
+979,Harad,MEUR/GW,2040,Heat|Industrial|Oil,10.5175
+980,Harad,MEUR/GW,2040,Heat|Industrial|Solar,27.055
+981,Harad,MEUR/GW,2040,Heat|Residential and Commercial|Biomass,75.25
+982,Harad,MEUR/GW,2040,Heat|Residential and Commercial|Coal,63.0
+983,Harad,MEUR/GW,2040,Heat|Residential and Commercial|Electricity,22.25
+984,Harad,MEUR/GW,2040,Heat|Residential and Commercial|Gas,6.825
+985,Harad,MEUR/GW,2040,Heat|Residential and Commercial|Geothermal,140.7
+986,Harad,MEUR/GW,2040,Heat|Residential and Commercial|Oil,17.325
+987,Harad,MEUR/GW,2040,Heat|Residential and Commercial|Solar,27.055
+988,Harad,MEUR/GW,2045,Electricity|Battery|Lithium-Ion,0.28
+989,Harad,MEUR/GW,2045,Electricity|Battery|Redox Flow,6.2
+990,Harad,MEUR/GW,2045,Electricity|Biomass|w/ CCS,62.2
+991,Harad,MEUR/GW,2045,Electricity|Biomass|w/o CCS,35.0
+992,Harad,MEUR/GW,2045,Electricity|Coal|Hard coal|w/ CCS,66.60714286
+993,Harad,MEUR/GW,2045,Electricity|Coal|Hard coal|w/o CCS,39.1
+994,Harad,MEUR/GW,2045,Electricity|Coal|Lignite|w/ CCS,87.5
+995,Harad,MEUR/GW,2045,Electricity|Coal|Lignite|w/o CCS,44.875
+996,Harad,MEUR/GW,2045,Electricity|Compressed Air,6.24
+997,Harad,MEUR/GW,2045,Electricity|Gas|CCGT|w/ CCS,37.5
+998,Harad,MEUR/GW,2045,Electricity|Geothermal,80.0
+999,Harad,MEUR/GW,2045,Electricity|Hydro|Pumped Storage,22.5
+1000,Harad,MEUR/GW,2045,Electricity|Hydro|Reservoir,49.5
+1001,Harad,MEUR/GW,2045,Electricity|Hydro|Run of River,76.8
+1002,Harad,MEUR/GW,2045,Electricity|Nuclear,106.5
+1003,Harad,MEUR/GW,2045,Electricity|Ocean,25.75
+1004,Harad,MEUR/GW,2045,Electricity|Oil|w/o CCS,6.06
+1005,Harad,MEUR/GW,2045,Electricity|Solar|CSP,156.579
+1006,Harad,MEUR/GW,2045,Electricity|Solar|PV|Rooftop|Commercial,4.75
+1007,Harad,MEUR/GW,2045,Electricity|Solar|PV|Rooftop|Residential,4.75
+1008,Harad,MEUR/GW,2045,Electricity|Solar|PV|Utility,4.04
+1009,Harad,MEUR/GW,2045,Electricity|Wind|Offshore,31.333333333333332
+1010,Harad,MEUR/GW,2045,Electricity|Wind|Onshore,18.3
+1011,Harad,MEUR/GW,2045,Heat|Industrial|Biomass,62.685333333333325
+1012,Harad,MEUR/GW,2045,Heat|Industrial|Coal,61.63
+1013,Harad,MEUR/GW,2045,Heat|Industrial|Electricity,62.9805357075
+1014,Harad,MEUR/GW,2045,Heat|Industrial|Gas,52.62459493600001
+1015,Harad,MEUR/GW,2045,Heat|Industrial|Geothermal,133.525
+1016,Harad,MEUR/GW,2045,Heat|Industrial|Hydrogen,47.42542858
+1017,Harad,MEUR/GW,2045,Heat|Industrial|Oil,10.5175
+1018,Harad,MEUR/GW,2045,Heat|Industrial|Solar,27.055
+1019,Harad,MEUR/GW,2045,Heat|Residential and Commercial|Biomass,71.75
+1020,Harad,MEUR/GW,2045,Heat|Residential and Commercial|Coal,63.0
+1021,Harad,MEUR/GW,2045,Heat|Residential and Commercial|Electricity,21.866666666666664
+1022,Harad,MEUR/GW,2045,Heat|Residential and Commercial|Gas,6.825
+1023,Harad,MEUR/GW,2045,Heat|Residential and Commercial|Geothermal,133.525
+1024,Harad,MEUR/GW,2045,Heat|Residential and Commercial|Oil,17.325
+1025,Harad,MEUR/GW,2045,Heat|Residential and Commercial|Solar,27.055
+1026,Harad,MEUR/GW,2050,Electricity|Battery|Lithium-Ion,0.28
+1027,Harad,MEUR/GW,2050,Electricity|Battery|Redox Flow,6.2
+1028,Harad,MEUR/GW,2050,Electricity|Biomass|w/ CCS,61.4
+1029,Harad,MEUR/GW,2050,Electricity|Biomass|w/o CCS,32.9
+1030,Harad,MEUR/GW,2050,Electricity|Coal|Hard coal|w/ CCS,63.75
+1031,Harad,MEUR/GW,2050,Electricity|Coal|Hard coal|w/o CCS,38.85
+1032,Harad,MEUR/GW,2050,Electricity|Coal|Lignite|w/ CCS,87.5
+1033,Harad,MEUR/GW,2050,Electricity|Coal|Lignite|w/o CCS,44.875
+1034,Harad,MEUR/GW,2050,Electricity|Compressed Air,5.85
+1035,Harad,MEUR/GW,2050,Electricity|Gas|CCGT|w/ CCS,37.5
+1036,Harad,MEUR/GW,2050,Electricity|Geothermal,80.0
+1037,Harad,MEUR/GW,2050,Electricity|Hydro|Pumped Storage,22.5
+1038,Harad,MEUR/GW,2050,Electricity|Hydro|Reservoir,49.5
+1039,Harad,MEUR/GW,2050,Electricity|Hydro|Run of River,76.8
+1040,Harad,MEUR/GW,2050,Electricity|Nuclear,105.0
+1041,Harad,MEUR/GW,2050,Electricity|Ocean,23.5
+1042,Harad,MEUR/GW,2050,Electricity|Oil|w/o CCS,5.91
+1043,Harad,MEUR/GW,2050,Electricity|Solar|CSP,152.76
+1044,Harad,MEUR/GW,2050,Electricity|Solar|PV|Rooftop|Commercial,4.36
+1045,Harad,MEUR/GW,2050,Electricity|Solar|PV|Rooftop|Residential,4.36
+1046,Harad,MEUR/GW,2050,Electricity|Solar|PV|Utility,3.7000000000000006
+1047,Harad,MEUR/GW,2050,Electricity|Wind|Offshore,31.0
+1048,Harad,MEUR/GW,2050,Electricity|Wind|Onshore,18.0
+1049,Harad,MEUR/GW,2050,Heat|Industrial|Biomass,61.51866666666666
+1050,Harad,MEUR/GW,2050,Heat|Industrial|Coal,61.57666666666666
+1051,Harad,MEUR/GW,2050,Heat|Industrial|Electricity,58.44375
+1052,Harad,MEUR/GW,2050,Heat|Industrial|Gas,47.958272728
+1053,Harad,MEUR/GW,2050,Heat|Industrial|Geothermal,126.35
+1054,Harad,MEUR/GW,2050,Heat|Industrial|Hydrogen,45.439
+1055,Harad,MEUR/GW,2050,Heat|Industrial|Oil,10.5175
+1056,Harad,MEUR/GW,2050,Heat|Industrial|Solar,27.055
+1057,Harad,MEUR/GW,2050,Heat|Residential and Commercial|Biomass,68.25
+1058,Harad,MEUR/GW,2050,Heat|Residential and Commercial|Coal,63.0
+1059,Harad,MEUR/GW,2050,Heat|Residential and Commercial|Electricity,21.483333333333334
+1060,Harad,MEUR/GW,2050,Heat|Residential and Commercial|Gas,6.825
+1061,Harad,MEUR/GW,2050,Heat|Residential and Commercial|Geothermal,126.35
+1062,Harad,MEUR/GW,2050,Heat|Residential and Commercial|Oil,17.325
+1063,Harad,MEUR/GW,2050,Heat|Residential and Commercial|Solar,27.055
+1064,Harad,MEUR/GW,2018,Electricity|Biomass|w/ CCS,81.5
+1065,Harad,MEUR/GW,2018,Electricity|Biomass|w/o CCS,47.2
+1066,Harad,MEUR/GW,2018,Electricity|Coal|Hard coal|w/ CCS,83.75
+1067,Harad,MEUR/GW,2018,Electricity|Coal|Hard coal|w/o CCS,41.0
+1068,Harad,MEUR/GW,2018,Electricity|Coal|Lignite|w/ CCS,87.5
+1069,Harad,MEUR/GW,2018,Electricity|Coal|Lignite|w/o CCS,47.0
+1070,Harad,MEUR/GW,2018,Electricity|Gas|CCGT|w/ CCS,37.5
+1071,Harad,MEUR/GW,2018,Electricity|Geothermal,80.0
+1072,Harad,MEUR/GW,2018,Electricity|Hydro|Reservoir,49.5
+1073,Harad,MEUR/GW,2018,Electricity|Hydro|Run of River,76.8
+1074,Harad,MEUR/GW,2018,Electricity|Nuclear,120.0
+1075,Harad,MEUR/GW,2018,Electricity|Ocean,39.6
+1076,Harad,MEUR/GW,2018,Electricity|Oil|w/o CCS,6.96
+1077,Harad,MEUR/GW,2018,Electricity|Solar|CSP,193.496
+1078,Harad,MEUR/GW,2018,Electricity|Solar|PV|Rooftop|Commercial,9.13
+1079,Harad,MEUR/GW,2018,Electricity|Solar|PV|Rooftop|Residential,9.13
+1080,Harad,MEUR/GW,2018,Electricity|Solar|PV|Utility,7.760000000000001
+1081,Harad,MEUR/GW,2018,Electricity|Wind|Offshore,43.333333333333336
+1082,Harad,MEUR/GW,2018,Electricity|Wind|Onshore,23.0
+1083,Harad,MEUR/GW,2025,Electricity|Biomass|w/ CCS,75.3
+1084,Harad,MEUR/GW,2025,Electricity|Biomass|w/o CCS,44.6
+1085,Harad,MEUR/GW,2025,Electricity|Coal|Hard coal|w/ CCS,78.03571429
+1086,Harad,MEUR/GW,2025,Electricity|Coal|Hard coal|w/o CCS,38.5
+1087,Harad,MEUR/GW,2025,Electricity|Coal|Lignite|w/ CCS,87.5
+1088,Harad,MEUR/GW,2025,Electricity|Coal|Lignite|w/o CCS,44.5
+1089,Harad,MEUR/GW,2025,Electricity|Gas|CCGT|w/ CCS,37.5
+1090,Harad,MEUR/GW,2025,Electricity|Geothermal,80.0
+1091,Harad,MEUR/GW,2025,Electricity|Hydro|Reservoir,49.5
+1092,Harad,MEUR/GW,2025,Electricity|Hydro|Run of River,76.8
+1093,Harad,MEUR/GW,2025,Electricity|Nuclear,117.5
+1094,Harad,MEUR/GW,2025,Electricity|Ocean,36.45
+1095,Harad,MEUR/GW,2025,Electricity|Oil|w/o CCS,6.66
+1096,Harad,MEUR/GW,2025,Electricity|Solar|CSP,183.312
+1097,Harad,MEUR/GW,2025,Electricity|Solar|PV|Rooftop|Commercial,7.66
+1098,Harad,MEUR/GW,2025,Electricity|Solar|PV|Rooftop|Residential,7.66
+1099,Harad,MEUR/GW,2025,Electricity|Solar|PV|Utility,6.510000000000001
+1100,Harad,MEUR/GW,2025,Electricity|Wind|Offshore,38.5
+1101,Harad,MEUR/GW,2025,Electricity|Wind|Onshore,21.2
+1102,Harad,MEUR/GW,2030,Electricity|Biomass|w/ CCS,69.1
+1103,Harad,MEUR/GW,2030,Electricity|Biomass|w/o CCS,41.9
+1104,Harad,MEUR/GW,2030,Electricity|Coal|Hard coal|w/ CCS,75.17857143
+1105,Harad,MEUR/GW,2030,Electricity|Coal|Hard coal|w/o CCS,36.0
+1106,Harad,MEUR/GW,2030,Electricity|Coal|Lignite|w/ CCS,87.5
+1107,Harad,MEUR/GW,2030,Electricity|Coal|Lignite|w/o CCS,42.0
+1108,Harad,MEUR/GW,2030,Electricity|Gas|CCGT|w/ CCS,37.5
+1109,Harad,MEUR/GW,2030,Electricity|Geothermal,80.0
+1110,Harad,MEUR/GW,2030,Electricity|Hydro|Reservoir,49.5
+1111,Harad,MEUR/GW,2030,Electricity|Hydro|Run of River,76.8
+1112,Harad,MEUR/GW,2030,Electricity|Nuclear,115.0
+1113,Harad,MEUR/GW,2030,Electricity|Ocean,33.3
+1114,Harad,MEUR/GW,2030,Electricity|Oil|w/o CCS,6.51
+1115,Harad,MEUR/GW,2030,Electricity|Solar|CSP,178.22
+1116,Harad,MEUR/GW,2030,Electricity|Solar|PV|Rooftop|Commercial,6.66
+1117,Harad,MEUR/GW,2030,Electricity|Solar|PV|Rooftop|Residential,6.66
+1118,Harad,MEUR/GW,2030,Electricity|Solar|PV|Utility,5.66
+1119,Harad,MEUR/GW,2030,Electricity|Wind|Offshore,33.666666666666664
+1120,Harad,MEUR/GW,2030,Electricity|Wind|Onshore,20.0
+1121,Harad,MEUR/GW,2035,Electricity|Biomass|w/ CCS,66.05
+1122,Harad,MEUR/GW,2035,Electricity|Biomass|w/o CCS,39.5
+1123,Harad,MEUR/GW,2035,Electricity|Coal|Hard coal|w/ CCS,72.32142857
+1124,Harad,MEUR/GW,2035,Electricity|Coal|Hard coal|w/o CCS,34.0
+1125,Harad,MEUR/GW,2035,Electricity|Coal|Lignite|w/ CCS,87.5
+1126,Harad,MEUR/GW,2035,Electricity|Coal|Lignite|w/o CCS,40.5
+1127,Harad,MEUR/GW,2035,Electricity|Gas|CCGT|w/ CCS,37.5
+1128,Harad,MEUR/GW,2035,Electricity|Geothermal,80.0
+1129,Harad,MEUR/GW,2035,Electricity|Hydro|Reservoir,49.5
+1130,Harad,MEUR/GW,2035,Electricity|Hydro|Run of River,76.8
+1131,Harad,MEUR/GW,2035,Electricity|Nuclear,111.5
+1132,Harad,MEUR/GW,2035,Electricity|Ocean,30.65
+1133,Harad,MEUR/GW,2035,Electricity|Oil|w/o CCS,6.36
+1134,Harad,MEUR/GW,2035,Electricity|Solar|CSP,170.582
+1135,Harad,MEUR/GW,2035,Electricity|Solar|PV|Rooftop|Commercial,5.88
+1136,Harad,MEUR/GW,2035,Electricity|Solar|PV|Rooftop|Residential,5.88
+1137,Harad,MEUR/GW,2035,Electricity|Solar|PV|Utility,5.0
+1138,Harad,MEUR/GW,2035,Electricity|Wind|Offshore,32.666666666666664
+1139,Harad,MEUR/GW,2035,Electricity|Wind|Onshore,19.3
+1140,Harad,MEUR/GW,2040,Electricity|Biomass|w/ CCS,63.0
+1141,Harad,MEUR/GW,2040,Electricity|Biomass|w/o CCS,37.1
+1142,Harad,MEUR/GW,2040,Electricity|Coal|Hard coal|w/ CCS,69.46428571
+1143,Harad,MEUR/GW,2040,Electricity|Coal|Hard coal|w/o CCS,32.0
+1144,Harad,MEUR/GW,2040,Electricity|Coal|Lignite|w/ CCS,87.5
+1145,Harad,MEUR/GW,2040,Electricity|Coal|Lignite|w/o CCS,39.0
+1146,Harad,MEUR/GW,2040,Electricity|Gas|CCGT|w/ CCS,37.5
+1147,Harad,MEUR/GW,2040,Electricity|Geothermal,80.0
+1148,Harad,MEUR/GW,2040,Electricity|Hydro|Reservoir,49.5
+1149,Harad,MEUR/GW,2040,Electricity|Hydro|Run of River,76.8
+1150,Harad,MEUR/GW,2040,Electricity|Nuclear,108.0
+1151,Harad,MEUR/GW,2040,Electricity|Ocean,28.0
+1152,Harad,MEUR/GW,2040,Electricity|Oil|w/o CCS,6.21
+1153,Harad,MEUR/GW,2040,Electricity|Solar|CSP,162.944
+1154,Harad,MEUR/GW,2040,Electricity|Solar|PV|Rooftop|Commercial,5.26
+1155,Harad,MEUR/GW,2040,Electricity|Solar|PV|Rooftop|Residential,5.26
+1156,Harad,MEUR/GW,2040,Electricity|Solar|PV|Utility,4.47
+1157,Harad,MEUR/GW,2040,Electricity|Wind|Offshore,31.666666666666668
+1158,Harad,MEUR/GW,2040,Electricity|Wind|Onshore,18.8
+1159,Harad,MEUR/GW,2045,Electricity|Biomass|w/ CCS,62.2
+1160,Harad,MEUR/GW,2045,Electricity|Biomass|w/o CCS,35.0
+1161,Harad,MEUR/GW,2045,Electricity|Coal|Hard coal|w/ CCS,66.60714286
+1162,Harad,MEUR/GW,2045,Electricity|Coal|Hard coal|w/o CCS,31.5
+1163,Harad,MEUR/GW,2045,Electricity|Coal|Lignite|w/ CCS,87.5
+1164,Harad,MEUR/GW,2045,Electricity|Coal|Lignite|w/o CCS,39.0
+1165,Harad,MEUR/GW,2045,Electricity|Gas|CCGT|w/ CCS,37.5
+1166,Harad,MEUR/GW,2045,Electricity|Geothermal,80.0
+1167,Harad,MEUR/GW,2045,Electricity|Hydro|Reservoir,49.5
+1168,Harad,MEUR/GW,2045,Electricity|Hydro|Run of River,76.8
+1169,Harad,MEUR/GW,2045,Electricity|Nuclear,106.5
+1170,Harad,MEUR/GW,2045,Electricity|Ocean,25.75
+1171,Harad,MEUR/GW,2045,Electricity|Oil|w/o CCS,6.06
+1172,Harad,MEUR/GW,2045,Electricity|Solar|CSP,156.579
+1173,Harad,MEUR/GW,2045,Electricity|Solar|PV|Rooftop|Commercial,4.75
+1174,Harad,MEUR/GW,2045,Electricity|Solar|PV|Rooftop|Residential,4.75
+1175,Harad,MEUR/GW,2045,Electricity|Solar|PV|Utility,4.04
+1176,Harad,MEUR/GW,2045,Electricity|Wind|Offshore,31.333333333333332
+1177,Harad,MEUR/GW,2045,Electricity|Wind|Onshore,18.3
+1178,Harad,MEUR/GW,2050,Electricity|Biomass|w/ CCS,61.4
+1179,Harad,MEUR/GW,2050,Electricity|Biomass|w/o CCS,32.9
+1180,Harad,MEUR/GW,2050,Electricity|Coal|Hard coal|w/ CCS,63.75
+1181,Harad,MEUR/GW,2050,Electricity|Coal|Hard coal|w/o CCS,31.0
+1182,Harad,MEUR/GW,2050,Electricity|Coal|Lignite|w/ CCS,87.5
+1183,Harad,MEUR/GW,2050,Electricity|Coal|Lignite|w/o CCS,39.0
+1184,Harad,MEUR/GW,2050,Electricity|Gas|CCGT|w/ CCS,37.5
+1185,Harad,MEUR/GW,2050,Electricity|Geothermal,80.0
+1186,Harad,MEUR/GW,2050,Electricity|Hydro|Reservoir,49.5
+1187,Harad,MEUR/GW,2050,Electricity|Hydro|Run of River,76.8
+1188,Harad,MEUR/GW,2050,Electricity|Nuclear,105.0
+1189,Harad,MEUR/GW,2050,Electricity|Ocean,23.5
+1190,Harad,MEUR/GW,2050,Electricity|Oil|w/o CCS,5.91
+1191,Harad,MEUR/GW,2050,Electricity|Solar|CSP,152.76
+1192,Harad,MEUR/GW,2050,Electricity|Solar|PV|Rooftop|Commercial,4.36
+1193,Harad,MEUR/GW,2050,Electricity|Solar|PV|Rooftop|Residential,4.36
+1194,Harad,MEUR/GW,2050,Electricity|Solar|PV|Utility,3.7000000000000006
+1195,Harad,MEUR/GW,2050,Electricity|Wind|Offshore,31.0
+1196,Harad,MEUR/GW,2050,Electricity|Wind|Onshore,18.0
+1197,Mordor,MEUR/GW,2018,Electricity|Battery|Lithium-Ion,0.686
+1198,Mordor,MEUR/GW,2018,Electricity|Battery|Redox Flow,24.8
+1199,Mordor,MEUR/GW,2018,Electricity|Biomass|w/ CCS,81.5
+1200,Mordor,MEUR/GW,2018,Electricity|Biomass|w/o CCS,47.2
+1201,Mordor,MEUR/GW,2018,Electricity|Coal|Hard coal|w/ CCS,83.75
+1202,Mordor,MEUR/GW,2018,Electricity|Coal|Hard coal|w/o CCS,43.85
+1203,Mordor,MEUR/GW,2018,Electricity|Coal|Lignite|w/ CCS,87.5
+1204,Mordor,MEUR/GW,2018,Electricity|Coal|Lignite|w/o CCS,48.875
+1205,Mordor,MEUR/GW,2018,Electricity|Compressed Air,7.8
+1206,Mordor,MEUR/GW,2018,Electricity|Gas|CCGT|w/ CCS,37.5
+1207,Mordor,MEUR/GW,2018,Electricity|Geothermal,80.0
+1208,Mordor,MEUR/GW,2018,Electricity|Hydro|Pumped Storage,22.5
+1209,Mordor,MEUR/GW,2018,Electricity|Hydro|Reservoir,49.5
+1210,Mordor,MEUR/GW,2018,Electricity|Hydro|Run of River,76.8
+1211,Mordor,MEUR/GW,2018,Electricity|Nuclear,120.0
+1212,Mordor,MEUR/GW,2018,Electricity|Ocean,39.6
+1213,Mordor,MEUR/GW,2018,Electricity|Oil|w/o CCS,6.96
+1214,Mordor,MEUR/GW,2018,Electricity|Solar|CSP,193.496
+1215,Mordor,MEUR/GW,2018,Electricity|Solar|PV|Rooftop|Commercial,9.13
+1216,Mordor,MEUR/GW,2018,Electricity|Solar|PV|Rooftop|Residential,9.13
+1217,Mordor,MEUR/GW,2018,Electricity|Solar|PV|Utility,7.760000000000001
+1218,Mordor,MEUR/GW,2018,Electricity|Wind|Offshore,43.333333333333336
+1219,Mordor,MEUR/GW,2018,Electricity|Wind|Onshore,23.0
+1220,Mordor,MEUR/GW,2018,Heat|Industrial|Biomass,72.48533333333333
+1221,Mordor,MEUR/GW,2018,Heat|Industrial|Coal,61.949999999999996
+1222,Mordor,MEUR/GW,2018,Heat|Industrial|Electricity,90.20125
+1223,Mordor,MEUR/GW,2018,Heat|Industrial|Gas,80.583461538
+1224,Mordor,MEUR/GW,2018,Heat|Industrial|Geothermal,183.75
+1225,Mordor,MEUR/GW,2018,Heat|Industrial|Hydrogen,68.969
+1226,Mordor,MEUR/GW,2018,Heat|Industrial|Oil,10.5175
+1227,Mordor,MEUR/GW,2018,Heat|Industrial|Solar,27.055
+1228,Mordor,MEUR/GW,2018,Heat|Residential and Commercial|Biomass,101.15
+1229,Mordor,MEUR/GW,2018,Heat|Residential and Commercial|Coal,63.0
+1230,Mordor,MEUR/GW,2018,Heat|Residential and Commercial|Electricity,30.0
+1231,Mordor,MEUR/GW,2018,Heat|Residential and Commercial|Gas,6.825
+1232,Mordor,MEUR/GW,2018,Heat|Residential and Commercial|Geothermal,183.75
+1233,Mordor,MEUR/GW,2018,Heat|Residential and Commercial|Oil,17.325
+1234,Mordor,MEUR/GW,2018,Heat|Residential and Commercial|Solar,27.055
+1235,Mordor,MEUR/GW,2025,Electricity|Battery|Lithium-Ion,0.31
+1236,Mordor,MEUR/GW,2025,Electricity|Battery|Redox Flow,15.4
+1237,Mordor,MEUR/GW,2025,Electricity|Biomass|w/ CCS,75.3
+1238,Mordor,MEUR/GW,2025,Electricity|Biomass|w/o CCS,44.6
+1239,Mordor,MEUR/GW,2025,Electricity|Coal|Hard coal|w/ CCS,78.03571429
+1240,Mordor,MEUR/GW,2025,Electricity|Coal|Hard coal|w/o CCS,42.6
+1241,Mordor,MEUR/GW,2025,Electricity|Coal|Lignite|w/ CCS,87.5
+1242,Mordor,MEUR/GW,2025,Electricity|Coal|Lignite|w/o CCS,47.625
+1243,Mordor,MEUR/GW,2025,Electricity|Compressed Air,7.345
+1244,Mordor,MEUR/GW,2025,Electricity|Gas|CCGT|w/ CCS,37.5
+1245,Mordor,MEUR/GW,2025,Electricity|Geothermal,80.0
+1246,Mordor,MEUR/GW,2025,Electricity|Hydro|Pumped Storage,22.5
+1247,Mordor,MEUR/GW,2025,Electricity|Hydro|Reservoir,49.5
+1248,Mordor,MEUR/GW,2025,Electricity|Hydro|Run of River,76.8
+1249,Mordor,MEUR/GW,2025,Electricity|Nuclear,117.5
+1250,Mordor,MEUR/GW,2025,Electricity|Ocean,36.45
+1251,Mordor,MEUR/GW,2025,Electricity|Oil|w/o CCS,6.66
+1252,Mordor,MEUR/GW,2025,Electricity|Solar|CSP,183.312
+1253,Mordor,MEUR/GW,2025,Electricity|Solar|PV|Rooftop|Commercial,7.66
+1254,Mordor,MEUR/GW,2025,Electricity|Solar|PV|Rooftop|Residential,7.66
+1255,Mordor,MEUR/GW,2025,Electricity|Solar|PV|Utility,6.510000000000001
+1256,Mordor,MEUR/GW,2025,Electricity|Wind|Offshore,38.5
+1257,Mordor,MEUR/GW,2025,Electricity|Wind|Onshore,21.2
+1258,Mordor,MEUR/GW,2025,Heat|Industrial|Biomass,67.877
+1259,Mordor,MEUR/GW,2025,Heat|Industrial|Coal,61.843333333333334
+1260,Mordor,MEUR/GW,2025,Heat|Industrial|Electricity,81.12767856
+1261,Mordor,MEUR/GW,2025,Heat|Industrial|Gas,71.270425288
+1262,Mordor,MEUR/GW,2025,Heat|Industrial|Geothermal,165.2
+1263,Mordor,MEUR/GW,2025,Heat|Industrial|Hydrogen,57.576142860000004
+1264,Mordor,MEUR/GW,2025,Heat|Industrial|Oil,10.5175
+1265,Mordor,MEUR/GW,2025,Heat|Industrial|Solar,27.055
+1266,Mordor,MEUR/GW,2025,Heat|Residential and Commercial|Biomass,87.325
+1267,Mordor,MEUR/GW,2025,Heat|Residential and Commercial|Coal,63.0
+1268,Mordor,MEUR/GW,2025,Heat|Residential and Commercial|Electricity,26.141666666666666
+1269,Mordor,MEUR/GW,2025,Heat|Residential and Commercial|Gas,6.825
+1270,Mordor,MEUR/GW,2025,Heat|Residential and Commercial|Geothermal,165.2
+1271,Mordor,MEUR/GW,2025,Heat|Residential and Commercial|Oil,17.325
+1272,Mordor,MEUR/GW,2025,Heat|Residential and Commercial|Solar,27.055
+1273,Mordor,MEUR/GW,2030,Electricity|Battery|Lithium-Ion,0.28
+1274,Mordor,MEUR/GW,2030,Electricity|Battery|Redox Flow,14.6
+1275,Mordor,MEUR/GW,2030,Electricity|Biomass|w/ CCS,69.1
+1276,Mordor,MEUR/GW,2030,Electricity|Biomass|w/o CCS,41.9
+1277,Mordor,MEUR/GW,2030,Electricity|Coal|Hard coal|w/ CCS,75.17857143
+1278,Mordor,MEUR/GW,2030,Electricity|Coal|Hard coal|w/o CCS,41.35
+1279,Mordor,MEUR/GW,2030,Electricity|Coal|Lignite|w/ CCS,87.5
+1280,Mordor,MEUR/GW,2030,Electricity|Coal|Lignite|w/o CCS,46.375
+1281,Mordor,MEUR/GW,2030,Electricity|Compressed Air,6.89
+1282,Mordor,MEUR/GW,2030,Electricity|Gas|CCGT|w/ CCS,37.5
+1283,Mordor,MEUR/GW,2030,Electricity|Geothermal,80.0
+1284,Mordor,MEUR/GW,2030,Electricity|Hydro|Pumped Storage,22.5
+1285,Mordor,MEUR/GW,2030,Electricity|Hydro|Reservoir,49.5
+1286,Mordor,MEUR/GW,2030,Electricity|Hydro|Run of River,76.8
+1287,Mordor,MEUR/GW,2030,Electricity|Nuclear,115.0
+1288,Mordor,MEUR/GW,2030,Electricity|Ocean,33.3
+1289,Mordor,MEUR/GW,2030,Electricity|Oil|w/o CCS,6.51
+1290,Mordor,MEUR/GW,2030,Electricity|Solar|CSP,178.22
+1291,Mordor,MEUR/GW,2030,Electricity|Solar|PV|Rooftop|Commercial,6.66
+1292,Mordor,MEUR/GW,2030,Electricity|Solar|PV|Rooftop|Residential,6.66
+1293,Mordor,MEUR/GW,2030,Electricity|Solar|PV|Utility,5.66
+1294,Mordor,MEUR/GW,2030,Electricity|Wind|Offshore,33.666666666666664
+1295,Mordor,MEUR/GW,2030,Electricity|Wind|Onshore,20.0
+1296,Mordor,MEUR/GW,2030,Heat|Industrial|Biomass,66.41866666666667
+1297,Mordor,MEUR/GW,2030,Heat|Industrial|Coal,61.79
+1298,Mordor,MEUR/GW,2030,Heat|Industrial|Electricity,76.59089285249999
+1299,Mordor,MEUR/GW,2030,Heat|Industrial|Gas,66.611611764
+1300,Mordor,MEUR/GW,2030,Heat|Industrial|Geothermal,156.45
+1301,Mordor,MEUR/GW,2030,Heat|Industrial|Hydrogen,53.94471428000001
+1302,Mordor,MEUR/GW,2030,Heat|Industrial|Oil,10.5175
+1303,Mordor,MEUR/GW,2030,Heat|Industrial|Solar,27.055
+1304,Mordor,MEUR/GW,2030,Heat|Residential and Commercial|Biomass,82.95
+1305,Mordor,MEUR/GW,2030,Heat|Residential and Commercial|Coal,63.0
+1306,Mordor,MEUR/GW,2030,Heat|Residential and Commercial|Electricity,23.016666666666666
+1307,Mordor,MEUR/GW,2030,Heat|Residential and Commercial|Gas,6.825
+1308,Mordor,MEUR/GW,2030,Heat|Residential and Commercial|Geothermal,156.45
+1309,Mordor,MEUR/GW,2030,Heat|Residential and Commercial|Oil,17.325
+1310,Mordor,MEUR/GW,2030,Heat|Residential and Commercial|Solar,27.055
+1311,Mordor,MEUR/GW,2035,Electricity|Battery|Lithium-Ion,0.28
+1312,Mordor,MEUR/GW,2035,Electricity|Battery|Redox Flow,10.4
+1313,Mordor,MEUR/GW,2035,Electricity|Biomass|w/ CCS,66.05
+1314,Mordor,MEUR/GW,2035,Electricity|Biomass|w/o CCS,39.5
+1315,Mordor,MEUR/GW,2035,Electricity|Coal|Hard coal|w/ CCS,72.32142857
+1316,Mordor,MEUR/GW,2035,Electricity|Coal|Hard coal|w/o CCS,40.35
+1317,Mordor,MEUR/GW,2035,Electricity|Coal|Lignite|w/ CCS,87.5
+1318,Mordor,MEUR/GW,2035,Electricity|Coal|Lignite|w/o CCS,45.625
+1319,Mordor,MEUR/GW,2035,Electricity|Compressed Air,6.76
+1320,Mordor,MEUR/GW,2035,Electricity|Gas|CCGT|w/ CCS,37.5
+1321,Mordor,MEUR/GW,2035,Electricity|Geothermal,80.0
+1322,Mordor,MEUR/GW,2035,Electricity|Hydro|Pumped Storage,22.5
+1323,Mordor,MEUR/GW,2035,Electricity|Hydro|Reservoir,49.5
+1324,Mordor,MEUR/GW,2035,Electricity|Hydro|Run of River,76.8
+1325,Mordor,MEUR/GW,2035,Electricity|Nuclear,111.5
+1326,Mordor,MEUR/GW,2035,Electricity|Ocean,30.65
+1327,Mordor,MEUR/GW,2035,Electricity|Oil|w/o CCS,6.36
+1328,Mordor,MEUR/GW,2035,Electricity|Solar|CSP,170.582
+1329,Mordor,MEUR/GW,2035,Electricity|Solar|PV|Rooftop|Commercial,5.88
+1330,Mordor,MEUR/GW,2035,Electricity|Solar|PV|Rooftop|Residential,5.88
+1331,Mordor,MEUR/GW,2035,Electricity|Solar|PV|Utility,5.0
+1332,Mordor,MEUR/GW,2035,Electricity|Wind|Offshore,32.666666666666664
+1333,Mordor,MEUR/GW,2035,Electricity|Wind|Onshore,19.3
+1334,Mordor,MEUR/GW,2035,Heat|Industrial|Biomass,65.13533333333332
+1335,Mordor,MEUR/GW,2035,Heat|Industrial|Coal,61.73666666666667
+1336,Mordor,MEUR/GW,2035,Heat|Industrial|Electricity,72.0541071475
+1337,Mordor,MEUR/GW,2035,Heat|Industrial|Gas,61.951120482
+1338,Mordor,MEUR/GW,2035,Heat|Industrial|Geothermal,148.575
+1339,Mordor,MEUR/GW,2035,Heat|Industrial|Hydrogen,51.67828572
+1340,Mordor,MEUR/GW,2035,Heat|Industrial|Oil,10.5175
+1341,Mordor,MEUR/GW,2035,Heat|Industrial|Solar,27.055
+1342,Mordor,MEUR/GW,2035,Heat|Residential and Commercial|Biomass,79.1
+1343,Mordor,MEUR/GW,2035,Heat|Residential and Commercial|Coal,63.0
+1344,Mordor,MEUR/GW,2035,Heat|Residential and Commercial|Electricity,22.633333333333336
+1345,Mordor,MEUR/GW,2035,Heat|Residential and Commercial|Gas,6.825
+1346,Mordor,MEUR/GW,2035,Heat|Residential and Commercial|Geothermal,148.575
+1347,Mordor,MEUR/GW,2035,Heat|Residential and Commercial|Oil,17.325
+1348,Mordor,MEUR/GW,2035,Heat|Residential and Commercial|Solar,27.055
+1349,Mordor,MEUR/GW,2040,Electricity|Battery|Lithium-Ion,0.28
+1350,Mordor,MEUR/GW,2040,Electricity|Battery|Redox Flow,6.2
+1351,Mordor,MEUR/GW,2040,Electricity|Biomass|w/ CCS,63.0
+1352,Mordor,MEUR/GW,2040,Electricity|Biomass|w/o CCS,37.1
+1353,Mordor,MEUR/GW,2040,Electricity|Coal|Hard coal|w/ CCS,69.46428571
+1354,Mordor,MEUR/GW,2040,Electricity|Coal|Hard coal|w/o CCS,39.35
+1355,Mordor,MEUR/GW,2040,Electricity|Coal|Lignite|w/ CCS,87.5
+1356,Mordor,MEUR/GW,2040,Electricity|Coal|Lignite|w/o CCS,44.875
+1357,Mordor,MEUR/GW,2040,Electricity|Compressed Air,6.63
+1358,Mordor,MEUR/GW,2040,Electricity|Gas|CCGT|w/ CCS,37.5
+1359,Mordor,MEUR/GW,2040,Electricity|Geothermal,80.0
+1360,Mordor,MEUR/GW,2040,Electricity|Hydro|Pumped Storage,22.5
+1361,Mordor,MEUR/GW,2040,Electricity|Hydro|Reservoir,49.5
+1362,Mordor,MEUR/GW,2040,Electricity|Hydro|Run of River,76.8
+1363,Mordor,MEUR/GW,2040,Electricity|Nuclear,108.0
+1364,Mordor,MEUR/GW,2040,Electricity|Ocean,28.0
+1365,Mordor,MEUR/GW,2040,Electricity|Oil|w/o CCS,6.21
+1366,Mordor,MEUR/GW,2040,Electricity|Solar|CSP,162.944
+1367,Mordor,MEUR/GW,2040,Electricity|Solar|PV|Rooftop|Commercial,5.26
+1368,Mordor,MEUR/GW,2040,Electricity|Solar|PV|Rooftop|Residential,5.26
+1369,Mordor,MEUR/GW,2040,Electricity|Solar|PV|Utility,4.47
+1370,Mordor,MEUR/GW,2040,Electricity|Wind|Offshore,31.666666666666668
+1371,Mordor,MEUR/GW,2040,Electricity|Wind|Onshore,18.8
+1372,Mordor,MEUR/GW,2040,Heat|Industrial|Biomass,63.852
+1373,Mordor,MEUR/GW,2040,Heat|Industrial|Coal,61.68333333333334
+1374,Mordor,MEUR/GW,2040,Heat|Industrial|Electricity,67.51732144
+1375,Mordor,MEUR/GW,2040,Heat|Industrial|Gas,57.28882716
+1376,Mordor,MEUR/GW,2040,Heat|Industrial|Geothermal,140.7
+1377,Mordor,MEUR/GW,2040,Heat|Industrial|Hydrogen,49.41185714
+1378,Mordor,MEUR/GW,2040,Heat|Industrial|Oil,10.5175
+1379,Mordor,MEUR/GW,2040,Heat|Industrial|Solar,27.055
+1380,Mordor,MEUR/GW,2040,Heat|Residential and Commercial|Biomass,75.25
+1381,Mordor,MEUR/GW,2040,Heat|Residential and Commercial|Coal,63.0
+1382,Mordor,MEUR/GW,2040,Heat|Residential and Commercial|Electricity,22.25
+1383,Mordor,MEUR/GW,2040,Heat|Residential and Commercial|Gas,6.825
+1384,Mordor,MEUR/GW,2040,Heat|Residential and Commercial|Geothermal,140.7
+1385,Mordor,MEUR/GW,2040,Heat|Residential and Commercial|Oil,17.325
+1386,Mordor,MEUR/GW,2040,Heat|Residential and Commercial|Solar,27.055
+1387,Mordor,MEUR/GW,2045,Electricity|Battery|Lithium-Ion,0.28
+1388,Mordor,MEUR/GW,2045,Electricity|Battery|Redox Flow,6.2
+1389,Mordor,MEUR/GW,2045,Electricity|Biomass|w/ CCS,62.2
+1390,Mordor,MEUR/GW,2045,Electricity|Biomass|w/o CCS,35.0
+1391,Mordor,MEUR/GW,2045,Electricity|Coal|Hard coal|w/ CCS,66.60714286
+1392,Mordor,MEUR/GW,2045,Electricity|Coal|Hard coal|w/o CCS,39.1
+1393,Mordor,MEUR/GW,2045,Electricity|Coal|Lignite|w/ CCS,87.5
+1394,Mordor,MEUR/GW,2045,Electricity|Coal|Lignite|w/o CCS,44.875
+1395,Mordor,MEUR/GW,2045,Electricity|Compressed Air,6.24
+1396,Mordor,MEUR/GW,2045,Electricity|Gas|CCGT|w/ CCS,37.5
+1397,Mordor,MEUR/GW,2045,Electricity|Geothermal,80.0
+1398,Mordor,MEUR/GW,2045,Electricity|Hydro|Pumped Storage,22.5
+1399,Mordor,MEUR/GW,2045,Electricity|Hydro|Reservoir,49.5
+1400,Mordor,MEUR/GW,2045,Electricity|Hydro|Run of River,76.8
+1401,Mordor,MEUR/GW,2045,Electricity|Nuclear,106.5
+1402,Mordor,MEUR/GW,2045,Electricity|Ocean,25.75
+1403,Mordor,MEUR/GW,2045,Electricity|Oil|w/o CCS,6.06
+1404,Mordor,MEUR/GW,2045,Electricity|Solar|CSP,156.579
+1405,Mordor,MEUR/GW,2045,Electricity|Solar|PV|Rooftop|Commercial,4.75
+1406,Mordor,MEUR/GW,2045,Electricity|Solar|PV|Rooftop|Residential,4.75
+1407,Mordor,MEUR/GW,2045,Electricity|Solar|PV|Utility,4.04
+1408,Mordor,MEUR/GW,2045,Electricity|Wind|Offshore,31.333333333333332
+1409,Mordor,MEUR/GW,2045,Electricity|Wind|Onshore,18.3
+1410,Mordor,MEUR/GW,2045,Heat|Industrial|Biomass,62.685333333333325
+1411,Mordor,MEUR/GW,2045,Heat|Industrial|Coal,61.63
+1412,Mordor,MEUR/GW,2045,Heat|Industrial|Electricity,62.9805357075
+1413,Mordor,MEUR/GW,2045,Heat|Industrial|Gas,52.62459493600001
+1414,Mordor,MEUR/GW,2045,Heat|Industrial|Geothermal,133.525
+1415,Mordor,MEUR/GW,2045,Heat|Industrial|Hydrogen,47.42542858
+1416,Mordor,MEUR/GW,2045,Heat|Industrial|Oil,10.5175
+1417,Mordor,MEUR/GW,2045,Heat|Industrial|Solar,27.055
+1418,Mordor,MEUR/GW,2045,Heat|Residential and Commercial|Biomass,71.75
+1419,Mordor,MEUR/GW,2045,Heat|Residential and Commercial|Coal,63.0
+1420,Mordor,MEUR/GW,2045,Heat|Residential and Commercial|Electricity,21.866666666666664
+1421,Mordor,MEUR/GW,2045,Heat|Residential and Commercial|Gas,6.825
+1422,Mordor,MEUR/GW,2045,Heat|Residential and Commercial|Geothermal,133.525
+1423,Mordor,MEUR/GW,2045,Heat|Residential and Commercial|Oil,17.325
+1424,Mordor,MEUR/GW,2045,Heat|Residential and Commercial|Solar,27.055
+1425,Mordor,MEUR/GW,2050,Electricity|Battery|Lithium-Ion,0.28
+1426,Mordor,MEUR/GW,2050,Electricity|Battery|Redox Flow,6.2
+1427,Mordor,MEUR/GW,2050,Electricity|Biomass|w/ CCS,61.4
+1428,Mordor,MEUR/GW,2050,Electricity|Biomass|w/o CCS,32.9
+1429,Mordor,MEUR/GW,2050,Electricity|Coal|Hard coal|w/ CCS,63.75
+1430,Mordor,MEUR/GW,2050,Electricity|Coal|Hard coal|w/o CCS,38.85
+1431,Mordor,MEUR/GW,2050,Electricity|Coal|Lignite|w/ CCS,87.5
+1432,Mordor,MEUR/GW,2050,Electricity|Coal|Lignite|w/o CCS,44.875
+1433,Mordor,MEUR/GW,2050,Electricity|Compressed Air,5.85
+1434,Mordor,MEUR/GW,2050,Electricity|Gas|CCGT|w/ CCS,37.5
+1435,Mordor,MEUR/GW,2050,Electricity|Geothermal,80.0
+1436,Mordor,MEUR/GW,2050,Electricity|Hydro|Pumped Storage,22.5
+1437,Mordor,MEUR/GW,2050,Electricity|Hydro|Reservoir,49.5
+1438,Mordor,MEUR/GW,2050,Electricity|Hydro|Run of River,76.8
+1439,Mordor,MEUR/GW,2050,Electricity|Nuclear,105.0
+1440,Mordor,MEUR/GW,2050,Electricity|Ocean,23.5
+1441,Mordor,MEUR/GW,2050,Electricity|Oil|w/o CCS,5.91
+1442,Mordor,MEUR/GW,2050,Electricity|Solar|CSP,152.76
+1443,Mordor,MEUR/GW,2050,Electricity|Solar|PV|Rooftop|Commercial,4.36
+1444,Mordor,MEUR/GW,2050,Electricity|Solar|PV|Rooftop|Residential,4.36
+1445,Mordor,MEUR/GW,2050,Electricity|Solar|PV|Utility,3.7000000000000006
+1446,Mordor,MEUR/GW,2050,Electricity|Wind|Offshore,31.0
+1447,Mordor,MEUR/GW,2050,Electricity|Wind|Onshore,18.0
+1448,Mordor,MEUR/GW,2050,Heat|Industrial|Biomass,61.51866666666666
+1449,Mordor,MEUR/GW,2050,Heat|Industrial|Coal,61.57666666666666
+1450,Mordor,MEUR/GW,2050,Heat|Industrial|Electricity,58.44375
+1451,Mordor,MEUR/GW,2050,Heat|Industrial|Gas,47.958272728
+1452,Mordor,MEUR/GW,2050,Heat|Industrial|Geothermal,126.35
+1453,Mordor,MEUR/GW,2050,Heat|Industrial|Hydrogen,45.439
+1454,Mordor,MEUR/GW,2050,Heat|Industrial|Oil,10.5175
+1455,Mordor,MEUR/GW,2050,Heat|Industrial|Solar,27.055
+1456,Mordor,MEUR/GW,2050,Heat|Residential and Commercial|Biomass,68.25
+1457,Mordor,MEUR/GW,2050,Heat|Residential and Commercial|Coal,63.0
+1458,Mordor,MEUR/GW,2050,Heat|Residential and Commercial|Electricity,21.483333333333334
+1459,Mordor,MEUR/GW,2050,Heat|Residential and Commercial|Gas,6.825
+1460,Mordor,MEUR/GW,2050,Heat|Residential and Commercial|Geothermal,126.35
+1461,Mordor,MEUR/GW,2050,Heat|Residential and Commercial|Oil,17.325
+1462,Mordor,MEUR/GW,2050,Heat|Residential and Commercial|Solar,27.055
+1463,Mordor,MEUR/GW,2018,Electricity|Biomass|w/ CCS,81.5
+1464,Mordor,MEUR/GW,2018,Electricity|Biomass|w/o CCS,47.2
+1465,Mordor,MEUR/GW,2018,Electricity|Coal|Hard coal|w/ CCS,83.75
+1466,Mordor,MEUR/GW,2018,Electricity|Coal|Hard coal|w/o CCS,41.0
+1467,Mordor,MEUR/GW,2018,Electricity|Coal|Lignite|w/ CCS,87.5
+1468,Mordor,MEUR/GW,2018,Electricity|Coal|Lignite|w/o CCS,47.0
+1469,Mordor,MEUR/GW,2018,Electricity|Gas|CCGT|w/ CCS,37.5
+1470,Mordor,MEUR/GW,2018,Electricity|Geothermal,80.0
+1471,Mordor,MEUR/GW,2018,Electricity|Hydro|Reservoir,49.5
+1472,Mordor,MEUR/GW,2018,Electricity|Hydro|Run of River,76.8
+1473,Mordor,MEUR/GW,2018,Electricity|Nuclear,120.0
+1474,Mordor,MEUR/GW,2018,Electricity|Ocean,39.6
+1475,Mordor,MEUR/GW,2018,Electricity|Oil|w/o CCS,6.96
+1476,Mordor,MEUR/GW,2018,Electricity|Solar|CSP,193.496
+1477,Mordor,MEUR/GW,2018,Electricity|Solar|PV|Rooftop|Commercial,9.13
+1478,Mordor,MEUR/GW,2018,Electricity|Solar|PV|Rooftop|Residential,9.13
+1479,Mordor,MEUR/GW,2018,Electricity|Solar|PV|Utility,7.760000000000001
+1480,Mordor,MEUR/GW,2018,Electricity|Wind|Offshore,43.333333333333336
+1481,Mordor,MEUR/GW,2018,Electricity|Wind|Onshore,23.0
+1482,Mordor,MEUR/GW,2025,Electricity|Biomass|w/ CCS,75.3
+1483,Mordor,MEUR/GW,2025,Electricity|Biomass|w/o CCS,44.6
+1484,Mordor,MEUR/GW,2025,Electricity|Coal|Hard coal|w/ CCS,78.03571429
+1485,Mordor,MEUR/GW,2025,Electricity|Coal|Hard coal|w/o CCS,38.5
+1486,Mordor,MEUR/GW,2025,Electricity|Coal|Lignite|w/ CCS,87.5
+1487,Mordor,MEUR/GW,2025,Electricity|Coal|Lignite|w/o CCS,44.5
+1488,Mordor,MEUR/GW,2025,Electricity|Gas|CCGT|w/ CCS,37.5
+1489,Mordor,MEUR/GW,2025,Electricity|Geothermal,80.0
+1490,Mordor,MEUR/GW,2025,Electricity|Hydro|Reservoir,49.5
+1491,Mordor,MEUR/GW,2025,Electricity|Hydro|Run of River,76.8
+1492,Mordor,MEUR/GW,2025,Electricity|Nuclear,117.5
+1493,Mordor,MEUR/GW,2025,Electricity|Ocean,36.45
+1494,Mordor,MEUR/GW,2025,Electricity|Oil|w/o CCS,6.66
+1495,Mordor,MEUR/GW,2025,Electricity|Solar|CSP,183.312
+1496,Mordor,MEUR/GW,2025,Electricity|Solar|PV|Rooftop|Commercial,7.66
+1497,Mordor,MEUR/GW,2025,Electricity|Solar|PV|Rooftop|Residential,7.66
+1498,Mordor,MEUR/GW,2025,Electricity|Solar|PV|Utility,6.510000000000001
+1499,Mordor,MEUR/GW,2025,Electricity|Wind|Offshore,38.5
+1500,Mordor,MEUR/GW,2025,Electricity|Wind|Onshore,21.2
+1501,Mordor,MEUR/GW,2030,Electricity|Biomass|w/ CCS,69.1
+1502,Mordor,MEUR/GW,2030,Electricity|Biomass|w/o CCS,41.9
+1503,Mordor,MEUR/GW,2030,Electricity|Coal|Hard coal|w/ CCS,75.17857143
+1504,Mordor,MEUR/GW,2030,Electricity|Coal|Hard coal|w/o CCS,36.0
+1505,Mordor,MEUR/GW,2030,Electricity|Coal|Lignite|w/ CCS,87.5
+1506,Mordor,MEUR/GW,2030,Electricity|Coal|Lignite|w/o CCS,42.0
+1507,Mordor,MEUR/GW,2030,Electricity|Gas|CCGT|w/ CCS,37.5
+1508,Mordor,MEUR/GW,2030,Electricity|Geothermal,80.0
+1509,Mordor,MEUR/GW,2030,Electricity|Hydro|Reservoir,49.5
+1510,Mordor,MEUR/GW,2030,Electricity|Hydro|Run of River,76.8
+1511,Mordor,MEUR/GW,2030,Electricity|Nuclear,115.0
+1512,Mordor,MEUR/GW,2030,Electricity|Ocean,33.3
+1513,Mordor,MEUR/GW,2030,Electricity|Oil|w/o CCS,6.51
+1514,Mordor,MEUR/GW,2030,Electricity|Solar|CSP,178.22
+1515,Mordor,MEUR/GW,2030,Electricity|Solar|PV|Rooftop|Commercial,6.66
+1516,Mordor,MEUR/GW,2030,Electricity|Solar|PV|Rooftop|Residential,6.66
+1517,Mordor,MEUR/GW,2030,Electricity|Solar|PV|Utility,5.66
+1518,Mordor,MEUR/GW,2030,Electricity|Wind|Offshore,33.666666666666664
+1519,Mordor,MEUR/GW,2030,Electricity|Wind|Onshore,20.0
+1520,Mordor,MEUR/GW,2035,Electricity|Biomass|w/ CCS,66.05
+1521,Mordor,MEUR/GW,2035,Electricity|Biomass|w/o CCS,39.5
+1522,Mordor,MEUR/GW,2035,Electricity|Coal|Hard coal|w/ CCS,72.32142857
+1523,Mordor,MEUR/GW,2035,Electricity|Coal|Hard coal|w/o CCS,34.0
+1524,Mordor,MEUR/GW,2035,Electricity|Coal|Lignite|w/ CCS,87.5
+1525,Mordor,MEUR/GW,2035,Electricity|Coal|Lignite|w/o CCS,40.5
+1526,Mordor,MEUR/GW,2035,Electricity|Gas|CCGT|w/ CCS,37.5
+1527,Mordor,MEUR/GW,2035,Electricity|Geothermal,80.0
+1528,Mordor,MEUR/GW,2035,Electricity|Hydro|Reservoir,49.5
+1529,Mordor,MEUR/GW,2035,Electricity|Hydro|Run of River,76.8
+1530,Mordor,MEUR/GW,2035,Electricity|Nuclear,111.5
+1531,Mordor,MEUR/GW,2035,Electricity|Ocean,30.65
+1532,Mordor,MEUR/GW,2035,Electricity|Oil|w/o CCS,6.36
+1533,Mordor,MEUR/GW,2035,Electricity|Solar|CSP,170.582
+1534,Mordor,MEUR/GW,2035,Electricity|Solar|PV|Rooftop|Commercial,5.88
+1535,Mordor,MEUR/GW,2035,Electricity|Solar|PV|Rooftop|Residential,5.88
+1536,Mordor,MEUR/GW,2035,Electricity|Solar|PV|Utility,5.0
+1537,Mordor,MEUR/GW,2035,Electricity|Wind|Offshore,32.666666666666664
+1538,Mordor,MEUR/GW,2035,Electricity|Wind|Onshore,19.3
+1539,Mordor,MEUR/GW,2040,Electricity|Biomass|w/ CCS,63.0
+1540,Mordor,MEUR/GW,2040,Electricity|Biomass|w/o CCS,37.1
+1541,Mordor,MEUR/GW,2040,Electricity|Coal|Hard coal|w/ CCS,69.46428571
+1542,Mordor,MEUR/GW,2040,Electricity|Coal|Hard coal|w/o CCS,32.0
+1543,Mordor,MEUR/GW,2040,Electricity|Coal|Lignite|w/ CCS,87.5
+1544,Mordor,MEUR/GW,2040,Electricity|Coal|Lignite|w/o CCS,39.0
+1545,Mordor,MEUR/GW,2040,Electricity|Gas|CCGT|w/ CCS,37.5
+1546,Mordor,MEUR/GW,2040,Electricity|Geothermal,80.0
+1547,Mordor,MEUR/GW,2040,Electricity|Hydro|Reservoir,49.5
+1548,Mordor,MEUR/GW,2040,Electricity|Hydro|Run of River,76.8
+1549,Mordor,MEUR/GW,2040,Electricity|Nuclear,108.0
+1550,Mordor,MEUR/GW,2040,Electricity|Ocean,28.0
+1551,Mordor,MEUR/GW,2040,Electricity|Oil|w/o CCS,6.21
+1552,Mordor,MEUR/GW,2040,Electricity|Solar|CSP,162.944
+1553,Mordor,MEUR/GW,2040,Electricity|Solar|PV|Rooftop|Commercial,5.26
+1554,Mordor,MEUR/GW,2040,Electricity|Solar|PV|Rooftop|Residential,5.26
+1555,Mordor,MEUR/GW,2040,Electricity|Solar|PV|Utility,4.47
+1556,Mordor,MEUR/GW,2040,Electricity|Wind|Offshore,31.666666666666668
+1557,Mordor,MEUR/GW,2040,Electricity|Wind|Onshore,18.8
+1558,Mordor,MEUR/GW,2045,Electricity|Biomass|w/ CCS,62.2
+1559,Mordor,MEUR/GW,2045,Electricity|Biomass|w/o CCS,35.0
+1560,Mordor,MEUR/GW,2045,Electricity|Coal|Hard coal|w/ CCS,66.60714286
+1561,Mordor,MEUR/GW,2045,Electricity|Coal|Hard coal|w/o CCS,31.5
+1562,Mordor,MEUR/GW,2045,Electricity|Coal|Lignite|w/ CCS,87.5
+1563,Mordor,MEUR/GW,2045,Electricity|Coal|Lignite|w/o CCS,39.0
+1564,Mordor,MEUR/GW,2045,Electricity|Gas|CCGT|w/ CCS,37.5
+1565,Mordor,MEUR/GW,2045,Electricity|Geothermal,80.0
+1566,Mordor,MEUR/GW,2045,Electricity|Hydro|Reservoir,49.5
+1567,Mordor,MEUR/GW,2045,Electricity|Hydro|Run of River,76.8
+1568,Mordor,MEUR/GW,2045,Electricity|Nuclear,106.5
+1569,Mordor,MEUR/GW,2045,Electricity|Ocean,25.75
+1570,Mordor,MEUR/GW,2045,Electricity|Oil|w/o CCS,6.06
+1571,Mordor,MEUR/GW,2045,Electricity|Solar|CSP,156.579
+1572,Mordor,MEUR/GW,2045,Electricity|Solar|PV|Rooftop|Commercial,4.75
+1573,Mordor,MEUR/GW,2045,Electricity|Solar|PV|Rooftop|Residential,4.75
+1574,Mordor,MEUR/GW,2045,Electricity|Solar|PV|Utility,4.04
+1575,Mordor,MEUR/GW,2045,Electricity|Wind|Offshore,31.333333333333332
+1576,Mordor,MEUR/GW,2045,Electricity|Wind|Onshore,18.3
+1577,Mordor,MEUR/GW,2050,Electricity|Biomass|w/ CCS,61.4
+1578,Mordor,MEUR/GW,2050,Electricity|Biomass|w/o CCS,32.9
+1579,Mordor,MEUR/GW,2050,Electricity|Coal|Hard coal|w/ CCS,63.75
+1580,Mordor,MEUR/GW,2050,Electricity|Coal|Hard coal|w/o CCS,31.0
+1581,Mordor,MEUR/GW,2050,Electricity|Coal|Lignite|w/ CCS,87.5
+1582,Mordor,MEUR/GW,2050,Electricity|Coal|Lignite|w/o CCS,39.0
+1583,Mordor,MEUR/GW,2050,Electricity|Gas|CCGT|w/ CCS,37.5
+1584,Mordor,MEUR/GW,2050,Electricity|Geothermal,80.0
+1585,Mordor,MEUR/GW,2050,Electricity|Hydro|Reservoir,49.5
+1586,Mordor,MEUR/GW,2050,Electricity|Hydro|Run of River,76.8
+1587,Mordor,MEUR/GW,2050,Electricity|Nuclear,105.0
+1588,Mordor,MEUR/GW,2050,Electricity|Ocean,23.5
+1589,Mordor,MEUR/GW,2050,Electricity|Oil|w/o CCS,5.91
+1590,Mordor,MEUR/GW,2050,Electricity|Solar|CSP,152.76
+1591,Mordor,MEUR/GW,2050,Electricity|Solar|PV|Rooftop|Commercial,4.36
+1592,Mordor,MEUR/GW,2050,Electricity|Solar|PV|Rooftop|Residential,4.36
+1593,Mordor,MEUR/GW,2050,Electricity|Solar|PV|Utility,3.7000000000000006
+1594,Mordor,MEUR/GW,2050,Electricity|Wind|Offshore,31.0
+1595,Mordor,MEUR/GW,2050,Electricity|Wind|Onshore,18.0
+1596,Rohan,MEUR/GW,2018,Electricity|Battery|Lithium-Ion,0.686
+1597,Rohan,MEUR/GW,2018,Electricity|Battery|Redox Flow,24.8
+1598,Rohan,MEUR/GW,2018,Electricity|Biomass|w/ CCS,81.5
+1599,Rohan,MEUR/GW,2018,Electricity|Biomass|w/o CCS,47.2
+1600,Rohan,MEUR/GW,2018,Electricity|Coal|Hard coal|w/ CCS,83.75
+1601,Rohan,MEUR/GW,2018,Electricity|Coal|Hard coal|w/o CCS,43.85
+1602,Rohan,MEUR/GW,2018,Electricity|Coal|Lignite|w/ CCS,87.5
+1603,Rohan,MEUR/GW,2018,Electricity|Coal|Lignite|w/o CCS,48.875
+1604,Rohan,MEUR/GW,2018,Electricity|Compressed Air,7.8
+1605,Rohan,MEUR/GW,2018,Electricity|Gas|CCGT|w/ CCS,37.5
+1606,Rohan,MEUR/GW,2018,Electricity|Geothermal,80.0
+1607,Rohan,MEUR/GW,2018,Electricity|Hydro|Pumped Storage,22.5
+1608,Rohan,MEUR/GW,2018,Electricity|Hydro|Reservoir,49.5
+1609,Rohan,MEUR/GW,2018,Electricity|Hydro|Run of River,76.8
+1610,Rohan,MEUR/GW,2018,Electricity|Nuclear,120.0
+1611,Rohan,MEUR/GW,2018,Electricity|Ocean,39.6
+1612,Rohan,MEUR/GW,2018,Electricity|Oil|w/o CCS,6.96
+1613,Rohan,MEUR/GW,2018,Electricity|Solar|CSP,193.496
+1614,Rohan,MEUR/GW,2018,Electricity|Solar|PV|Rooftop|Commercial,9.13
+1615,Rohan,MEUR/GW,2018,Electricity|Solar|PV|Rooftop|Residential,9.13
+1616,Rohan,MEUR/GW,2018,Electricity|Solar|PV|Utility,7.760000000000001
+1617,Rohan,MEUR/GW,2018,Electricity|Wind|Offshore,43.333333333333336
+1618,Rohan,MEUR/GW,2018,Electricity|Wind|Onshore,23.0
+1619,Rohan,MEUR/GW,2018,Heat|Industrial|Biomass,72.48533333333333
+1620,Rohan,MEUR/GW,2018,Heat|Industrial|Coal,61.949999999999996
+1621,Rohan,MEUR/GW,2018,Heat|Industrial|Electricity,90.20125
+1622,Rohan,MEUR/GW,2018,Heat|Industrial|Gas,80.583461538
+1623,Rohan,MEUR/GW,2018,Heat|Industrial|Geothermal,183.75
+1624,Rohan,MEUR/GW,2018,Heat|Industrial|Hydrogen,68.969
+1625,Rohan,MEUR/GW,2018,Heat|Industrial|Oil,10.5175
+1626,Rohan,MEUR/GW,2018,Heat|Industrial|Solar,27.055
+1627,Rohan,MEUR/GW,2018,Heat|Residential and Commercial|Biomass,101.15
+1628,Rohan,MEUR/GW,2018,Heat|Residential and Commercial|Coal,63.0
+1629,Rohan,MEUR/GW,2018,Heat|Residential and Commercial|Electricity,30.0
+1630,Rohan,MEUR/GW,2018,Heat|Residential and Commercial|Gas,6.825
+1631,Rohan,MEUR/GW,2018,Heat|Residential and Commercial|Geothermal,183.75
+1632,Rohan,MEUR/GW,2018,Heat|Residential and Commercial|Oil,17.325
+1633,Rohan,MEUR/GW,2018,Heat|Residential and Commercial|Solar,27.055
+1634,Rohan,MEUR/GW,2025,Electricity|Battery|Lithium-Ion,0.31
+1635,Rohan,MEUR/GW,2025,Electricity|Battery|Redox Flow,15.4
+1636,Rohan,MEUR/GW,2025,Electricity|Biomass|w/ CCS,75.3
+1637,Rohan,MEUR/GW,2025,Electricity|Biomass|w/o CCS,44.6
+1638,Rohan,MEUR/GW,2025,Electricity|Coal|Hard coal|w/ CCS,78.03571429
+1639,Rohan,MEUR/GW,2025,Electricity|Coal|Hard coal|w/o CCS,42.6
+1640,Rohan,MEUR/GW,2025,Electricity|Coal|Lignite|w/ CCS,87.5
+1641,Rohan,MEUR/GW,2025,Electricity|Coal|Lignite|w/o CCS,47.625
+1642,Rohan,MEUR/GW,2025,Electricity|Compressed Air,7.345
+1643,Rohan,MEUR/GW,2025,Electricity|Gas|CCGT|w/ CCS,37.5
+1644,Rohan,MEUR/GW,2025,Electricity|Geothermal,80.0
+1645,Rohan,MEUR/GW,2025,Electricity|Hydro|Pumped Storage,22.5
+1646,Rohan,MEUR/GW,2025,Electricity|Hydro|Reservoir,49.5
+1647,Rohan,MEUR/GW,2025,Electricity|Hydro|Run of River,76.8
+1648,Rohan,MEUR/GW,2025,Electricity|Nuclear,117.5
+1649,Rohan,MEUR/GW,2025,Electricity|Ocean,36.45
+1650,Rohan,MEUR/GW,2025,Electricity|Oil|w/o CCS,6.66
+1651,Rohan,MEUR/GW,2025,Electricity|Solar|CSP,183.312
+1652,Rohan,MEUR/GW,2025,Electricity|Solar|PV|Rooftop|Commercial,7.66
+1653,Rohan,MEUR/GW,2025,Electricity|Solar|PV|Rooftop|Residential,7.66
+1654,Rohan,MEUR/GW,2025,Electricity|Solar|PV|Utility,6.510000000000001
+1655,Rohan,MEUR/GW,2025,Electricity|Wind|Offshore,38.5
+1656,Rohan,MEUR/GW,2025,Electricity|Wind|Onshore,21.2
+1657,Rohan,MEUR/GW,2025,Heat|Industrial|Biomass,67.877
+1658,Rohan,MEUR/GW,2025,Heat|Industrial|Coal,61.843333333333334
+1659,Rohan,MEUR/GW,2025,Heat|Industrial|Electricity,81.12767856
+1660,Rohan,MEUR/GW,2025,Heat|Industrial|Gas,71.270425288
+1661,Rohan,MEUR/GW,2025,Heat|Industrial|Geothermal,165.2
+1662,Rohan,MEUR/GW,2025,Heat|Industrial|Hydrogen,57.576142860000004
+1663,Rohan,MEUR/GW,2025,Heat|Industrial|Oil,10.5175
+1664,Rohan,MEUR/GW,2025,Heat|Industrial|Solar,27.055
+1665,Rohan,MEUR/GW,2025,Heat|Residential and Commercial|Biomass,87.325
+1666,Rohan,MEUR/GW,2025,Heat|Residential and Commercial|Coal,63.0
+1667,Rohan,MEUR/GW,2025,Heat|Residential and Commercial|Electricity,26.141666666666666
+1668,Rohan,MEUR/GW,2025,Heat|Residential and Commercial|Gas,6.825
+1669,Rohan,MEUR/GW,2025,Heat|Residential and Commercial|Geothermal,165.2
+1670,Rohan,MEUR/GW,2025,Heat|Residential and Commercial|Oil,17.325
+1671,Rohan,MEUR/GW,2025,Heat|Residential and Commercial|Solar,27.055
+1672,Rohan,MEUR/GW,2030,Electricity|Battery|Lithium-Ion,0.28
+1673,Rohan,MEUR/GW,2030,Electricity|Battery|Redox Flow,14.6
+1674,Rohan,MEUR/GW,2030,Electricity|Biomass|w/ CCS,69.1
+1675,Rohan,MEUR/GW,2030,Electricity|Biomass|w/o CCS,41.9
+1676,Rohan,MEUR/GW,2030,Electricity|Coal|Hard coal|w/ CCS,75.17857143
+1677,Rohan,MEUR/GW,2030,Electricity|Coal|Hard coal|w/o CCS,41.35
+1678,Rohan,MEUR/GW,2030,Electricity|Coal|Lignite|w/ CCS,87.5
+1679,Rohan,MEUR/GW,2030,Electricity|Coal|Lignite|w/o CCS,46.375
+1680,Rohan,MEUR/GW,2030,Electricity|Compressed Air,6.89
+1681,Rohan,MEUR/GW,2030,Electricity|Gas|CCGT|w/ CCS,37.5
+1682,Rohan,MEUR/GW,2030,Electricity|Geothermal,80.0
+1683,Rohan,MEUR/GW,2030,Electricity|Hydro|Pumped Storage,22.5
+1684,Rohan,MEUR/GW,2030,Electricity|Hydro|Reservoir,49.5
+1685,Rohan,MEUR/GW,2030,Electricity|Hydro|Run of River,76.8
+1686,Rohan,MEUR/GW,2030,Electricity|Nuclear,115.0
+1687,Rohan,MEUR/GW,2030,Electricity|Ocean,33.3
+1688,Rohan,MEUR/GW,2030,Electricity|Oil|w/o CCS,6.51
+1689,Rohan,MEUR/GW,2030,Electricity|Solar|CSP,178.22
+1690,Rohan,MEUR/GW,2030,Electricity|Solar|PV|Rooftop|Commercial,6.66
+1691,Rohan,MEUR/GW,2030,Electricity|Solar|PV|Rooftop|Residential,6.66
+1692,Rohan,MEUR/GW,2030,Electricity|Solar|PV|Utility,5.66
+1693,Rohan,MEUR/GW,2030,Electricity|Wind|Offshore,33.666666666666664
+1694,Rohan,MEUR/GW,2030,Electricity|Wind|Onshore,20.0
+1695,Rohan,MEUR/GW,2030,Heat|Industrial|Biomass,66.41866666666667
+1696,Rohan,MEUR/GW,2030,Heat|Industrial|Coal,61.79
+1697,Rohan,MEUR/GW,2030,Heat|Industrial|Electricity,76.59089285249999
+1698,Rohan,MEUR/GW,2030,Heat|Industrial|Gas,66.611611764
+1699,Rohan,MEUR/GW,2030,Heat|Industrial|Geothermal,156.45
+1700,Rohan,MEUR/GW,2030,Heat|Industrial|Hydrogen,53.94471428000001
+1701,Rohan,MEUR/GW,2030,Heat|Industrial|Oil,10.5175
+1702,Rohan,MEUR/GW,2030,Heat|Industrial|Solar,27.055
+1703,Rohan,MEUR/GW,2030,Heat|Residential and Commercial|Biomass,82.95
+1704,Rohan,MEUR/GW,2030,Heat|Residential and Commercial|Coal,63.0
+1705,Rohan,MEUR/GW,2030,Heat|Residential and Commercial|Electricity,23.016666666666666
+1706,Rohan,MEUR/GW,2030,Heat|Residential and Commercial|Gas,6.825
+1707,Rohan,MEUR/GW,2030,Heat|Residential and Commercial|Geothermal,156.45
+1708,Rohan,MEUR/GW,2030,Heat|Residential and Commercial|Oil,17.325
+1709,Rohan,MEUR/GW,2030,Heat|Residential and Commercial|Solar,27.055
+1710,Rohan,MEUR/GW,2035,Electricity|Battery|Lithium-Ion,0.28
+1711,Rohan,MEUR/GW,2035,Electricity|Battery|Redox Flow,10.4
+1712,Rohan,MEUR/GW,2035,Electricity|Biomass|w/ CCS,66.05
+1713,Rohan,MEUR/GW,2035,Electricity|Biomass|w/o CCS,39.5
+1714,Rohan,MEUR/GW,2035,Electricity|Coal|Hard coal|w/ CCS,72.32142857
+1715,Rohan,MEUR/GW,2035,Electricity|Coal|Hard coal|w/o CCS,40.35
+1716,Rohan,MEUR/GW,2035,Electricity|Coal|Lignite|w/ CCS,87.5
+1717,Rohan,MEUR/GW,2035,Electricity|Coal|Lignite|w/o CCS,45.625
+1718,Rohan,MEUR/GW,2035,Electricity|Compressed Air,6.76
+1719,Rohan,MEUR/GW,2035,Electricity|Gas|CCGT|w/ CCS,37.5
+1720,Rohan,MEUR/GW,2035,Electricity|Geothermal,80.0
+1721,Rohan,MEUR/GW,2035,Electricity|Hydro|Pumped Storage,22.5
+1722,Rohan,MEUR/GW,2035,Electricity|Hydro|Reservoir,49.5
+1723,Rohan,MEUR/GW,2035,Electricity|Hydro|Run of River,76.8
+1724,Rohan,MEUR/GW,2035,Electricity|Nuclear,111.5
+1725,Rohan,MEUR/GW,2035,Electricity|Ocean,30.65
+1726,Rohan,MEUR/GW,2035,Electricity|Oil|w/o CCS,6.36
+1727,Rohan,MEUR/GW,2035,Electricity|Solar|CSP,170.582
+1728,Rohan,MEUR/GW,2035,Electricity|Solar|PV|Rooftop|Commercial,5.88
+1729,Rohan,MEUR/GW,2035,Electricity|Solar|PV|Rooftop|Residential,5.88
+1730,Rohan,MEUR/GW,2035,Electricity|Solar|PV|Utility,5.0
+1731,Rohan,MEUR/GW,2035,Electricity|Wind|Offshore,32.666666666666664
+1732,Rohan,MEUR/GW,2035,Electricity|Wind|Onshore,19.3
+1733,Rohan,MEUR/GW,2035,Heat|Industrial|Biomass,65.13533333333332
+1734,Rohan,MEUR/GW,2035,Heat|Industrial|Coal,61.73666666666667
+1735,Rohan,MEUR/GW,2035,Heat|Industrial|Electricity,72.0541071475
+1736,Rohan,MEUR/GW,2035,Heat|Industrial|Gas,61.951120482
+1737,Rohan,MEUR/GW,2035,Heat|Industrial|Geothermal,148.575
+1738,Rohan,MEUR/GW,2035,Heat|Industrial|Hydrogen,51.67828572
+1739,Rohan,MEUR/GW,2035,Heat|Industrial|Oil,10.5175
+1740,Rohan,MEUR/GW,2035,Heat|Industrial|Solar,27.055
+1741,Rohan,MEUR/GW,2035,Heat|Residential and Commercial|Biomass,79.1
+1742,Rohan,MEUR/GW,2035,Heat|Residential and Commercial|Coal,63.0
+1743,Rohan,MEUR/GW,2035,Heat|Residential and Commercial|Electricity,22.633333333333336
+1744,Rohan,MEUR/GW,2035,Heat|Residential and Commercial|Gas,6.825
+1745,Rohan,MEUR/GW,2035,Heat|Residential and Commercial|Geothermal,148.575
+1746,Rohan,MEUR/GW,2035,Heat|Residential and Commercial|Oil,17.325
+1747,Rohan,MEUR/GW,2035,Heat|Residential and Commercial|Solar,27.055
+1748,Rohan,MEUR/GW,2040,Electricity|Battery|Lithium-Ion,0.28
+1749,Rohan,MEUR/GW,2040,Electricity|Battery|Redox Flow,6.2
+1750,Rohan,MEUR/GW,2040,Electricity|Biomass|w/ CCS,63.0
+1751,Rohan,MEUR/GW,2040,Electricity|Biomass|w/o CCS,37.1
+1752,Rohan,MEUR/GW,2040,Electricity|Coal|Hard coal|w/ CCS,69.46428571
+1753,Rohan,MEUR/GW,2040,Electricity|Coal|Hard coal|w/o CCS,39.35
+1754,Rohan,MEUR/GW,2040,Electricity|Coal|Lignite|w/ CCS,87.5
+1755,Rohan,MEUR/GW,2040,Electricity|Coal|Lignite|w/o CCS,44.875
+1756,Rohan,MEUR/GW,2040,Electricity|Compressed Air,6.63
+1757,Rohan,MEUR/GW,2040,Electricity|Gas|CCGT|w/ CCS,37.5
+1758,Rohan,MEUR/GW,2040,Electricity|Geothermal,80.0
+1759,Rohan,MEUR/GW,2040,Electricity|Hydro|Pumped Storage,22.5
+1760,Rohan,MEUR/GW,2040,Electricity|Hydro|Reservoir,49.5
+1761,Rohan,MEUR/GW,2040,Electricity|Hydro|Run of River,76.8
+1762,Rohan,MEUR/GW,2040,Electricity|Nuclear,108.0
+1763,Rohan,MEUR/GW,2040,Electricity|Ocean,28.0
+1764,Rohan,MEUR/GW,2040,Electricity|Oil|w/o CCS,6.21
+1765,Rohan,MEUR/GW,2040,Electricity|Solar|CSP,162.944
+1766,Rohan,MEUR/GW,2040,Electricity|Solar|PV|Rooftop|Commercial,5.26
+1767,Rohan,MEUR/GW,2040,Electricity|Solar|PV|Rooftop|Residential,5.26
+1768,Rohan,MEUR/GW,2040,Electricity|Solar|PV|Utility,4.47
+1769,Rohan,MEUR/GW,2040,Electricity|Wind|Offshore,31.666666666666668
+1770,Rohan,MEUR/GW,2040,Electricity|Wind|Onshore,18.8
+1771,Rohan,MEUR/GW,2040,Heat|Industrial|Biomass,63.852
+1772,Rohan,MEUR/GW,2040,Heat|Industrial|Coal,61.68333333333334
+1773,Rohan,MEUR/GW,2040,Heat|Industrial|Electricity,67.51732144
+1774,Rohan,MEUR/GW,2040,Heat|Industrial|Gas,57.28882716
+1775,Rohan,MEUR/GW,2040,Heat|Industrial|Geothermal,140.7
+1776,Rohan,MEUR/GW,2040,Heat|Industrial|Hydrogen,49.41185714
+1777,Rohan,MEUR/GW,2040,Heat|Industrial|Oil,10.5175
+1778,Rohan,MEUR/GW,2040,Heat|Industrial|Solar,27.055
+1779,Rohan,MEUR/GW,2040,Heat|Residential and Commercial|Biomass,75.25
+1780,Rohan,MEUR/GW,2040,Heat|Residential and Commercial|Coal,63.0
+1781,Rohan,MEUR/GW,2040,Heat|Residential and Commercial|Electricity,22.25
+1782,Rohan,MEUR/GW,2040,Heat|Residential and Commercial|Gas,6.825
+1783,Rohan,MEUR/GW,2040,Heat|Residential and Commercial|Geothermal,140.7
+1784,Rohan,MEUR/GW,2040,Heat|Residential and Commercial|Oil,17.325
+1785,Rohan,MEUR/GW,2040,Heat|Residential and Commercial|Solar,27.055
+1786,Rohan,MEUR/GW,2045,Electricity|Battery|Lithium-Ion,0.28
+1787,Rohan,MEUR/GW,2045,Electricity|Battery|Redox Flow,6.2
+1788,Rohan,MEUR/GW,2045,Electricity|Biomass|w/ CCS,62.2
+1789,Rohan,MEUR/GW,2045,Electricity|Biomass|w/o CCS,35.0
+1790,Rohan,MEUR/GW,2045,Electricity|Coal|Hard coal|w/ CCS,66.60714286
+1791,Rohan,MEUR/GW,2045,Electricity|Coal|Hard coal|w/o CCS,39.1
+1792,Rohan,MEUR/GW,2045,Electricity|Coal|Lignite|w/ CCS,87.5
+1793,Rohan,MEUR/GW,2045,Electricity|Coal|Lignite|w/o CCS,44.875
+1794,Rohan,MEUR/GW,2045,Electricity|Compressed Air,6.24
+1795,Rohan,MEUR/GW,2045,Electricity|Gas|CCGT|w/ CCS,37.5
+1796,Rohan,MEUR/GW,2045,Electricity|Geothermal,80.0
+1797,Rohan,MEUR/GW,2045,Electricity|Hydro|Pumped Storage,22.5
+1798,Rohan,MEUR/GW,2045,Electricity|Hydro|Reservoir,49.5
+1799,Rohan,MEUR/GW,2045,Electricity|Hydro|Run of River,76.8
+1800,Rohan,MEUR/GW,2045,Electricity|Nuclear,106.5
+1801,Rohan,MEUR/GW,2045,Electricity|Ocean,25.75
+1802,Rohan,MEUR/GW,2045,Electricity|Oil|w/o CCS,6.06
+1803,Rohan,MEUR/GW,2045,Electricity|Solar|CSP,156.579
+1804,Rohan,MEUR/GW,2045,Electricity|Solar|PV|Rooftop|Commercial,4.75
+1805,Rohan,MEUR/GW,2045,Electricity|Solar|PV|Rooftop|Residential,4.75
+1806,Rohan,MEUR/GW,2045,Electricity|Solar|PV|Utility,4.04
+1807,Rohan,MEUR/GW,2045,Electricity|Wind|Offshore,31.333333333333332
+1808,Rohan,MEUR/GW,2045,Electricity|Wind|Onshore,18.3
+1809,Rohan,MEUR/GW,2045,Heat|Industrial|Biomass,62.685333333333325
+1810,Rohan,MEUR/GW,2045,Heat|Industrial|Coal,61.63
+1811,Rohan,MEUR/GW,2045,Heat|Industrial|Electricity,62.9805357075
+1812,Rohan,MEUR/GW,2045,Heat|Industrial|Gas,52.62459493600001
+1813,Rohan,MEUR/GW,2045,Heat|Industrial|Geothermal,133.525
+1814,Rohan,MEUR/GW,2045,Heat|Industrial|Hydrogen,47.42542858
+1815,Rohan,MEUR/GW,2045,Heat|Industrial|Oil,10.5175
+1816,Rohan,MEUR/GW,2045,Heat|Industrial|Solar,27.055
+1817,Rohan,MEUR/GW,2045,Heat|Residential and Commercial|Biomass,71.75
+1818,Rohan,MEUR/GW,2045,Heat|Residential and Commercial|Coal,63.0
+1819,Rohan,MEUR/GW,2045,Heat|Residential and Commercial|Electricity,21.866666666666664
+1820,Rohan,MEUR/GW,2045,Heat|Residential and Commercial|Gas,6.825
+1821,Rohan,MEUR/GW,2045,Heat|Residential and Commercial|Geothermal,133.525
+1822,Rohan,MEUR/GW,2045,Heat|Residential and Commercial|Oil,17.325
+1823,Rohan,MEUR/GW,2045,Heat|Residential and Commercial|Solar,27.055
+1824,Rohan,MEUR/GW,2050,Electricity|Battery|Lithium-Ion,0.28
+1825,Rohan,MEUR/GW,2050,Electricity|Battery|Redox Flow,6.2
+1826,Rohan,MEUR/GW,2050,Electricity|Biomass|w/ CCS,61.4
+1827,Rohan,MEUR/GW,2050,Electricity|Biomass|w/o CCS,32.9
+1828,Rohan,MEUR/GW,2050,Electricity|Coal|Hard coal|w/ CCS,63.75
+1829,Rohan,MEUR/GW,2050,Electricity|Coal|Hard coal|w/o CCS,38.85
+1830,Rohan,MEUR/GW,2050,Electricity|Coal|Lignite|w/ CCS,87.5
+1831,Rohan,MEUR/GW,2050,Electricity|Coal|Lignite|w/o CCS,44.875
+1832,Rohan,MEUR/GW,2050,Electricity|Compressed Air,5.85
+1833,Rohan,MEUR/GW,2050,Electricity|Gas|CCGT|w/ CCS,37.5
+1834,Rohan,MEUR/GW,2050,Electricity|Geothermal,80.0
+1835,Rohan,MEUR/GW,2050,Electricity|Hydro|Pumped Storage,22.5
+1836,Rohan,MEUR/GW,2050,Electricity|Hydro|Reservoir,49.5
+1837,Rohan,MEUR/GW,2050,Electricity|Hydro|Run of River,76.8
+1838,Rohan,MEUR/GW,2050,Electricity|Nuclear,105.0
+1839,Rohan,MEUR/GW,2050,Electricity|Ocean,23.5
+1840,Rohan,MEUR/GW,2050,Electricity|Oil|w/o CCS,5.91
+1841,Rohan,MEUR/GW,2050,Electricity|Solar|CSP,152.76
+1842,Rohan,MEUR/GW,2050,Electricity|Solar|PV|Rooftop|Commercial,4.36
+1843,Rohan,MEUR/GW,2050,Electricity|Solar|PV|Rooftop|Residential,4.36
+1844,Rohan,MEUR/GW,2050,Electricity|Solar|PV|Utility,3.7000000000000006
+1845,Rohan,MEUR/GW,2050,Electricity|Wind|Offshore,31.0
+1846,Rohan,MEUR/GW,2050,Electricity|Wind|Onshore,18.0
+1847,Rohan,MEUR/GW,2050,Heat|Industrial|Biomass,61.51866666666666
+1848,Rohan,MEUR/GW,2050,Heat|Industrial|Coal,61.57666666666666
+1849,Rohan,MEUR/GW,2050,Heat|Industrial|Electricity,58.44375
+1850,Rohan,MEUR/GW,2050,Heat|Industrial|Gas,47.958272728
+1851,Rohan,MEUR/GW,2050,Heat|Industrial|Geothermal,126.35
+1852,Rohan,MEUR/GW,2050,Heat|Industrial|Hydrogen,45.439
+1853,Rohan,MEUR/GW,2050,Heat|Industrial|Oil,10.5175
+1854,Rohan,MEUR/GW,2050,Heat|Industrial|Solar,27.055
+1855,Rohan,MEUR/GW,2050,Heat|Residential and Commercial|Biomass,68.25
+1856,Rohan,MEUR/GW,2050,Heat|Residential and Commercial|Coal,63.0
+1857,Rohan,MEUR/GW,2050,Heat|Residential and Commercial|Electricity,21.483333333333334
+1858,Rohan,MEUR/GW,2050,Heat|Residential and Commercial|Gas,6.825
+1859,Rohan,MEUR/GW,2050,Heat|Residential and Commercial|Geothermal,126.35
+1860,Rohan,MEUR/GW,2050,Heat|Residential and Commercial|Oil,17.325
+1861,Rohan,MEUR/GW,2050,Heat|Residential and Commercial|Solar,27.055
+1862,Rohan,MEUR/GW,2018,Electricity|Biomass|w/ CCS,81.5
+1863,Rohan,MEUR/GW,2018,Electricity|Biomass|w/o CCS,47.2
+1864,Rohan,MEUR/GW,2018,Electricity|Coal|Hard coal|w/ CCS,83.75
+1865,Rohan,MEUR/GW,2018,Electricity|Coal|Hard coal|w/o CCS,41.0
+1866,Rohan,MEUR/GW,2018,Electricity|Coal|Lignite|w/ CCS,87.5
+1867,Rohan,MEUR/GW,2018,Electricity|Coal|Lignite|w/o CCS,47.0
+1868,Rohan,MEUR/GW,2018,Electricity|Gas|CCGT|w/ CCS,37.5
+1869,Rohan,MEUR/GW,2018,Electricity|Geothermal,80.0
+1870,Rohan,MEUR/GW,2018,Electricity|Hydro|Reservoir,49.5
+1871,Rohan,MEUR/GW,2018,Electricity|Hydro|Run of River,76.8
+1872,Rohan,MEUR/GW,2018,Electricity|Nuclear,120.0
+1873,Rohan,MEUR/GW,2018,Electricity|Ocean,39.6
+1874,Rohan,MEUR/GW,2018,Electricity|Oil|w/o CCS,6.96
+1875,Rohan,MEUR/GW,2018,Electricity|Solar|CSP,193.496
+1876,Rohan,MEUR/GW,2018,Electricity|Solar|PV|Rooftop|Commercial,9.13
+1877,Rohan,MEUR/GW,2018,Electricity|Solar|PV|Rooftop|Residential,9.13
+1878,Rohan,MEUR/GW,2018,Electricity|Solar|PV|Utility,7.760000000000001
+1879,Rohan,MEUR/GW,2018,Electricity|Wind|Offshore,43.333333333333336
+1880,Rohan,MEUR/GW,2018,Electricity|Wind|Onshore,23.0
+1881,Rohan,MEUR/GW,2025,Electricity|Biomass|w/ CCS,75.3
+1882,Rohan,MEUR/GW,2025,Electricity|Biomass|w/o CCS,44.6
+1883,Rohan,MEUR/GW,2025,Electricity|Coal|Hard coal|w/ CCS,78.03571429
+1884,Rohan,MEUR/GW,2025,Electricity|Coal|Hard coal|w/o CCS,38.5
+1885,Rohan,MEUR/GW,2025,Electricity|Coal|Lignite|w/ CCS,87.5
+1886,Rohan,MEUR/GW,2025,Electricity|Coal|Lignite|w/o CCS,44.5
+1887,Rohan,MEUR/GW,2025,Electricity|Gas|CCGT|w/ CCS,37.5
+1888,Rohan,MEUR/GW,2025,Electricity|Geothermal,80.0
+1889,Rohan,MEUR/GW,2025,Electricity|Hydro|Reservoir,49.5
+1890,Rohan,MEUR/GW,2025,Electricity|Hydro|Run of River,76.8
+1891,Rohan,MEUR/GW,2025,Electricity|Nuclear,117.5
+1892,Rohan,MEUR/GW,2025,Electricity|Ocean,36.45
+1893,Rohan,MEUR/GW,2025,Electricity|Oil|w/o CCS,6.66
+1894,Rohan,MEUR/GW,2025,Electricity|Solar|CSP,183.312
+1895,Rohan,MEUR/GW,2025,Electricity|Solar|PV|Rooftop|Commercial,7.66
+1896,Rohan,MEUR/GW,2025,Electricity|Solar|PV|Rooftop|Residential,7.66
+1897,Rohan,MEUR/GW,2025,Electricity|Solar|PV|Utility,6.510000000000001
+1898,Rohan,MEUR/GW,2025,Electricity|Wind|Offshore,38.5
+1899,Rohan,MEUR/GW,2025,Electricity|Wind|Onshore,21.2
+1900,Rohan,MEUR/GW,2030,Electricity|Biomass|w/ CCS,69.1
+1901,Rohan,MEUR/GW,2030,Electricity|Biomass|w/o CCS,41.9
+1902,Rohan,MEUR/GW,2030,Electricity|Coal|Hard coal|w/ CCS,75.17857143
+1903,Rohan,MEUR/GW,2030,Electricity|Coal|Hard coal|w/o CCS,36.0
+1904,Rohan,MEUR/GW,2030,Electricity|Coal|Lignite|w/ CCS,87.5
+1905,Rohan,MEUR/GW,2030,Electricity|Coal|Lignite|w/o CCS,42.0
+1906,Rohan,MEUR/GW,2030,Electricity|Gas|CCGT|w/ CCS,37.5
+1907,Rohan,MEUR/GW,2030,Electricity|Geothermal,80.0
+1908,Rohan,MEUR/GW,2030,Electricity|Hydro|Reservoir,49.5
+1909,Rohan,MEUR/GW,2030,Electricity|Hydro|Run of River,76.8
+1910,Rohan,MEUR/GW,2030,Electricity|Nuclear,115.0
+1911,Rohan,MEUR/GW,2030,Electricity|Ocean,33.3
+1912,Rohan,MEUR/GW,2030,Electricity|Oil|w/o CCS,6.51
+1913,Rohan,MEUR/GW,2030,Electricity|Solar|CSP,178.22
+1914,Rohan,MEUR/GW,2030,Electricity|Solar|PV|Rooftop|Commercial,6.66
+1915,Rohan,MEUR/GW,2030,Electricity|Solar|PV|Rooftop|Residential,6.66
+1916,Rohan,MEUR/GW,2030,Electricity|Solar|PV|Utility,5.66
+1917,Rohan,MEUR/GW,2030,Electricity|Wind|Offshore,33.666666666666664
+1918,Rohan,MEUR/GW,2030,Electricity|Wind|Onshore,20.0
+1919,Rohan,MEUR/GW,2035,Electricity|Biomass|w/ CCS,66.05
+1920,Rohan,MEUR/GW,2035,Electricity|Biomass|w/o CCS,39.5
+1921,Rohan,MEUR/GW,2035,Electricity|Coal|Hard coal|w/ CCS,72.32142857
+1922,Rohan,MEUR/GW,2035,Electricity|Coal|Hard coal|w/o CCS,34.0
+1923,Rohan,MEUR/GW,2035,Electricity|Coal|Lignite|w/ CCS,87.5
+1924,Rohan,MEUR/GW,2035,Electricity|Coal|Lignite|w/o CCS,40.5
+1925,Rohan,MEUR/GW,2035,Electricity|Gas|CCGT|w/ CCS,37.5
+1926,Rohan,MEUR/GW,2035,Electricity|Geothermal,80.0
+1927,Rohan,MEUR/GW,2035,Electricity|Hydro|Reservoir,49.5
+1928,Rohan,MEUR/GW,2035,Electricity|Hydro|Run of River,76.8
+1929,Rohan,MEUR/GW,2035,Electricity|Nuclear,111.5
+1930,Rohan,MEUR/GW,2035,Electricity|Ocean,30.65
+1931,Rohan,MEUR/GW,2035,Electricity|Oil|w/o CCS,6.36
+1932,Rohan,MEUR/GW,2035,Electricity|Solar|CSP,170.582
+1933,Rohan,MEUR/GW,2035,Electricity|Solar|PV|Rooftop|Commercial,5.88
+1934,Rohan,MEUR/GW,2035,Electricity|Solar|PV|Rooftop|Residential,5.88
+1935,Rohan,MEUR/GW,2035,Electricity|Solar|PV|Utility,5.0
+1936,Rohan,MEUR/GW,2035,Electricity|Wind|Offshore,32.666666666666664
+1937,Rohan,MEUR/GW,2035,Electricity|Wind|Onshore,19.3
+1938,Rohan,MEUR/GW,2040,Electricity|Biomass|w/ CCS,63.0
+1939,Rohan,MEUR/GW,2040,Electricity|Biomass|w/o CCS,37.1
+1940,Rohan,MEUR/GW,2040,Electricity|Coal|Hard coal|w/ CCS,69.46428571
+1941,Rohan,MEUR/GW,2040,Electricity|Coal|Hard coal|w/o CCS,32.0
+1942,Rohan,MEUR/GW,2040,Electricity|Coal|Lignite|w/ CCS,87.5
+1943,Rohan,MEUR/GW,2040,Electricity|Coal|Lignite|w/o CCS,39.0
+1944,Rohan,MEUR/GW,2040,Electricity|Gas|CCGT|w/ CCS,37.5
+1945,Rohan,MEUR/GW,2040,Electricity|Geothermal,80.0
+1946,Rohan,MEUR/GW,2040,Electricity|Hydro|Reservoir,49.5
+1947,Rohan,MEUR/GW,2040,Electricity|Hydro|Run of River,76.8
+1948,Rohan,MEUR/GW,2040,Electricity|Nuclear,108.0
+1949,Rohan,MEUR/GW,2040,Electricity|Ocean,28.0
+1950,Rohan,MEUR/GW,2040,Electricity|Oil|w/o CCS,6.21
+1951,Rohan,MEUR/GW,2040,Electricity|Solar|CSP,162.944
+1952,Rohan,MEUR/GW,2040,Electricity|Solar|PV|Rooftop|Commercial,5.26
+1953,Rohan,MEUR/GW,2040,Electricity|Solar|PV|Rooftop|Residential,5.26
+1954,Rohan,MEUR/GW,2040,Electricity|Solar|PV|Utility,4.47
+1955,Rohan,MEUR/GW,2040,Electricity|Wind|Offshore,31.666666666666668
+1956,Rohan,MEUR/GW,2040,Electricity|Wind|Onshore,18.8
+1957,Rohan,MEUR/GW,2045,Electricity|Biomass|w/ CCS,62.2
+1958,Rohan,MEUR/GW,2045,Electricity|Biomass|w/o CCS,35.0
+1959,Rohan,MEUR/GW,2045,Electricity|Coal|Hard coal|w/ CCS,66.60714286
+1960,Rohan,MEUR/GW,2045,Electricity|Coal|Hard coal|w/o CCS,31.5
+1961,Rohan,MEUR/GW,2045,Electricity|Coal|Lignite|w/ CCS,87.5
+1962,Rohan,MEUR/GW,2045,Electricity|Coal|Lignite|w/o CCS,39.0
+1963,Rohan,MEUR/GW,2045,Electricity|Gas|CCGT|w/ CCS,37.5
+1964,Rohan,MEUR/GW,2045,Electricity|Geothermal,80.0
+1965,Rohan,MEUR/GW,2045,Electricity|Hydro|Reservoir,49.5
+1966,Rohan,MEUR/GW,2045,Electricity|Hydro|Run of River,76.8
+1967,Rohan,MEUR/GW,2045,Electricity|Nuclear,106.5
+1968,Rohan,MEUR/GW,2045,Electricity|Ocean,25.75
+1969,Rohan,MEUR/GW,2045,Electricity|Oil|w/o CCS,6.06
+1970,Rohan,MEUR/GW,2045,Electricity|Solar|CSP,156.579
+1971,Rohan,MEUR/GW,2045,Electricity|Solar|PV|Rooftop|Commercial,4.75
+1972,Rohan,MEUR/GW,2045,Electricity|Solar|PV|Rooftop|Residential,4.75
+1973,Rohan,MEUR/GW,2045,Electricity|Solar|PV|Utility,4.04
+1974,Rohan,MEUR/GW,2045,Electricity|Wind|Offshore,31.333333333333332
+1975,Rohan,MEUR/GW,2045,Electricity|Wind|Onshore,18.3
+1976,Rohan,MEUR/GW,2050,Electricity|Biomass|w/ CCS,61.4
+1977,Rohan,MEUR/GW,2050,Electricity|Biomass|w/o CCS,32.9
+1978,Rohan,MEUR/GW,2050,Electricity|Coal|Hard coal|w/ CCS,63.75
+1979,Rohan,MEUR/GW,2050,Electricity|Coal|Hard coal|w/o CCS,31.0
+1980,Rohan,MEUR/GW,2050,Electricity|Coal|Lignite|w/ CCS,87.5
+1981,Rohan,MEUR/GW,2050,Electricity|Coal|Lignite|w/o CCS,39.0
+1982,Rohan,MEUR/GW,2050,Electricity|Gas|CCGT|w/ CCS,37.5
+1983,Rohan,MEUR/GW,2050,Electricity|Geothermal,80.0
+1984,Rohan,MEUR/GW,2050,Electricity|Hydro|Reservoir,49.5
+1985,Rohan,MEUR/GW,2050,Electricity|Hydro|Run of River,76.8
+1986,Rohan,MEUR/GW,2050,Electricity|Nuclear,105.0
+1987,Rohan,MEUR/GW,2050,Electricity|Ocean,23.5
+1988,Rohan,MEUR/GW,2050,Electricity|Oil|w/o CCS,5.91
+1989,Rohan,MEUR/GW,2050,Electricity|Solar|CSP,152.76
+1990,Rohan,MEUR/GW,2050,Electricity|Solar|PV|Rooftop|Commercial,4.36
+1991,Rohan,MEUR/GW,2050,Electricity|Solar|PV|Rooftop|Residential,4.36
+1992,Rohan,MEUR/GW,2050,Electricity|Solar|PV|Utility,3.7000000000000006
+1993,Rohan,MEUR/GW,2050,Electricity|Wind|Offshore,31.0
+1994,Rohan,MEUR/GW,2050,Electricity|Wind|Onshore,18.0

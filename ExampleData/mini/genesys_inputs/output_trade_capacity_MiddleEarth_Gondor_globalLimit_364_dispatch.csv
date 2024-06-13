@@ -1,0 +1,212 @@
+Region,Region2,Type,Year,Value
+Gondor,DolAmroth,Power Transmissions Capacity,2018,2.2
+Gondor,DolAmroth,Power Transmissions Capacity,2025,2.2
+Gondor,DolAmroth,Power Transmissions Capacity,2030,2.2
+Gondor,DolAmroth,Power Transmissions Capacity,2035,2.2
+Gondor,DolAmroth,Power Transmissions Capacity,2040,2.2
+Gondor,DolAmroth,Power Transmissions Capacity,2045,2.2
+Gondor,DolAmroth,Power Transmissions Capacity,2050,2.2
+Harad,DolAmroth,Power Transmissions Capacity,2018,0.1
+Harad,DolAmroth,Power Transmissions Capacity,2025,0.1
+Harad,DolAmroth,Power Transmissions Capacity,2030,0.1
+Harad,DolAmroth,Power Transmissions Capacity,2035,0.1
+Harad,DolAmroth,Power Transmissions Capacity,2040,0.1
+Harad,DolAmroth,Power Transmissions Capacity,2045,0.1
+Harad,DolAmroth,Power Transmissions Capacity,2050,0.1
+DolAmroth,Gondor,Power Transmissions Capacity,2018,2.0
+DolAmroth,Gondor,Power Transmissions Capacity,2025,2.0
+DolAmroth,Gondor,Power Transmissions Capacity,2030,2.0
+DolAmroth,Gondor,Power Transmissions Capacity,2035,2.0
+DolAmroth,Gondor,Power Transmissions Capacity,2040,2.0
+DolAmroth,Gondor,Power Transmissions Capacity,2045,2.0
+DolAmroth,Gondor,Power Transmissions Capacity,2050,2.0
+Rohan,Gondor,Power Transmissions Capacity,2018,1.8
+Rohan,Gondor,Power Transmissions Capacity,2025,1.8
+Rohan,Gondor,Power Transmissions Capacity,2030,1.8
+Rohan,Gondor,Power Transmissions Capacity,2035,1.8
+Rohan,Gondor,Power Transmissions Capacity,2040,1.8
+Rohan,Gondor,Power Transmissions Capacity,2045,1.8
+Rohan,Gondor,Power Transmissions Capacity,2050,1.8
+Harad,Gondor,Power Transmissions Capacity,2018,1.16
+Harad,Gondor,Power Transmissions Capacity,2025,1.16
+Harad,Gondor,Power Transmissions Capacity,2030,1.16
+Harad,Gondor,Power Transmissions Capacity,2035,1.16
+Harad,Gondor,Power Transmissions Capacity,2040,1.16
+Harad,Gondor,Power Transmissions Capacity,2045,1.16
+Harad,Gondor,Power Transmissions Capacity,2050,1.16
+Mordor,Gondor,Power Transmissions Capacity,2018,0.225
+Mordor,Gondor,Power Transmissions Capacity,2025,0.225
+Mordor,Gondor,Power Transmissions Capacity,2030,0.225
+Mordor,Gondor,Power Transmissions Capacity,2035,0.225
+Mordor,Gondor,Power Transmissions Capacity,2040,0.225
+Mordor,Gondor,Power Transmissions Capacity,2045,0.225
+Mordor,Gondor,Power Transmissions Capacity,2050,0.225
+Gondor,Rohan,Power Transmissions Capacity,2018,1.675
+Gondor,Rohan,Power Transmissions Capacity,2025,1.675
+Gondor,Rohan,Power Transmissions Capacity,2030,1.675
+Gondor,Rohan,Power Transmissions Capacity,2035,1.675
+Gondor,Rohan,Power Transmissions Capacity,2040,1.675
+Gondor,Rohan,Power Transmissions Capacity,2045,1.675
+Gondor,Rohan,Power Transmissions Capacity,2050,1.675
+DolAmroth,Harad,Power Transmissions Capacity,2018,0.071
+DolAmroth,Harad,Power Transmissions Capacity,2025,0.071
+DolAmroth,Harad,Power Transmissions Capacity,2030,0.071
+DolAmroth,Harad,Power Transmissions Capacity,2035,0.071
+DolAmroth,Harad,Power Transmissions Capacity,2040,0.071
+DolAmroth,Harad,Power Transmissions Capacity,2045,0.071
+DolAmroth,Harad,Power Transmissions Capacity,2050,0.071
+Gondor,Harad,Power Transmissions Capacity,2018,0.866
+Gondor,Harad,Power Transmissions Capacity,2025,0.866
+Gondor,Harad,Power Transmissions Capacity,2030,0.866
+Gondor,Harad,Power Transmissions Capacity,2035,0.866
+Gondor,Harad,Power Transmissions Capacity,2040,0.866
+Gondor,Harad,Power Transmissions Capacity,2045,0.866
+Gondor,Harad,Power Transmissions Capacity,2050,0.866
+Gondor,Mordor,Power Transmissions Capacity,2018,0.1
+Gondor,Mordor,Power Transmissions Capacity,2025,0.1
+Gondor,Mordor,Power Transmissions Capacity,2030,0.1
+Gondor,Mordor,Power Transmissions Capacity,2035,0.1
+Gondor,Mordor,Power Transmissions Capacity,2040,0.1
+Gondor,Mordor,Power Transmissions Capacity,2045,0.1
+Gondor,Mordor,Power Transmissions Capacity,2050,0.1
+Gondor,DolAmroth,Transmission Expansion Costs in MEUR/GW,2018,1025.6289102884086
+Gondor,DolAmroth,Transmission Expansion Costs in MEUR/GW,2025,1025.6289102884086
+Gondor,DolAmroth,Transmission Expansion Costs in MEUR/GW,2030,1025.6289102884086
+Gondor,DolAmroth,Transmission Expansion Costs in MEUR/GW,2035,1025.6289102884086
+Gondor,DolAmroth,Transmission Expansion Costs in MEUR/GW,2040,1025.6289102884086
+Gondor,DolAmroth,Transmission Expansion Costs in MEUR/GW,2045,1025.6289102884086
+Gondor,DolAmroth,Transmission Expansion Costs in MEUR/GW,2050,1025.6289102884086
+Rohan,DolAmroth,Transmission Expansion Costs in MEUR/GW,2018,3144.3829490772873
+Rohan,DolAmroth,Transmission Expansion Costs in MEUR/GW,2025,3144.3829490772873
+Rohan,DolAmroth,Transmission Expansion Costs in MEUR/GW,2030,3144.3829490772873
+Rohan,DolAmroth,Transmission Expansion Costs in MEUR/GW,2035,3144.3829490772873
+Rohan,DolAmroth,Transmission Expansion Costs in MEUR/GW,2040,3144.3829490772873
+Rohan,DolAmroth,Transmission Expansion Costs in MEUR/GW,2045,3144.3829490772873
+Rohan,DolAmroth,Transmission Expansion Costs in MEUR/GW,2050,3144.3829490772873
+Harad,DolAmroth,Transmission Expansion Costs in MEUR/GW,2018,1199.0390612091821
+Harad,DolAmroth,Transmission Expansion Costs in MEUR/GW,2025,1199.0390612091821
+Harad,DolAmroth,Transmission Expansion Costs in MEUR/GW,2030,1199.0390612091821
+Harad,DolAmroth,Transmission Expansion Costs in MEUR/GW,2035,1199.0390612091821
+Harad,DolAmroth,Transmission Expansion Costs in MEUR/GW,2040,1199.0390612091821
+Harad,DolAmroth,Transmission Expansion Costs in MEUR/GW,2045,1199.0390612091821
+Harad,DolAmroth,Transmission Expansion Costs in MEUR/GW,2050,1199.0390612091821
+Mordor,DolAmroth,Transmission Expansion Costs in MEUR/GW,2018,1355.2704411862032
+Mordor,DolAmroth,Transmission Expansion Costs in MEUR/GW,2025,1355.2704411862032
+Mordor,DolAmroth,Transmission Expansion Costs in MEUR/GW,2030,1355.2704411862032
+Mordor,DolAmroth,Transmission Expansion Costs in MEUR/GW,2035,1355.2704411862032
+Mordor,DolAmroth,Transmission Expansion Costs in MEUR/GW,2040,1355.2704411862032
+Mordor,DolAmroth,Transmission Expansion Costs in MEUR/GW,2045,1355.2704411862032
+Mordor,DolAmroth,Transmission Expansion Costs in MEUR/GW,2050,1355.2704411862032
+DolAmroth,Gondor,Transmission Expansion Costs in MEUR/GW,2018,1025.6289102884086
+DolAmroth,Gondor,Transmission Expansion Costs in MEUR/GW,2025,1025.6289102884086
+DolAmroth,Gondor,Transmission Expansion Costs in MEUR/GW,2030,1025.6289102884086
+DolAmroth,Gondor,Transmission Expansion Costs in MEUR/GW,2035,1025.6289102884086
+DolAmroth,Gondor,Transmission Expansion Costs in MEUR/GW,2040,1025.6289102884086
+DolAmroth,Gondor,Transmission Expansion Costs in MEUR/GW,2045,1025.6289102884086
+DolAmroth,Gondor,Transmission Expansion Costs in MEUR/GW,2050,1025.6289102884086
+Rohan,Gondor,Transmission Expansion Costs in MEUR/GW,2018,3033.121941667767
+Rohan,Gondor,Transmission Expansion Costs in MEUR/GW,2025,3033.121941667767
+Rohan,Gondor,Transmission Expansion Costs in MEUR/GW,2030,3033.121941667767
+Rohan,Gondor,Transmission Expansion Costs in MEUR/GW,2035,3033.121941667767
+Rohan,Gondor,Transmission Expansion Costs in MEUR/GW,2040,3033.121941667767
+Rohan,Gondor,Transmission Expansion Costs in MEUR/GW,2045,3033.121941667767
+Rohan,Gondor,Transmission Expansion Costs in MEUR/GW,2050,3033.121941667767
+Harad,Gondor,Transmission Expansion Costs in MEUR/GW,2018,2008.42832419024
+Harad,Gondor,Transmission Expansion Costs in MEUR/GW,2025,2008.42832419024
+Harad,Gondor,Transmission Expansion Costs in MEUR/GW,2030,2008.42832419024
+Harad,Gondor,Transmission Expansion Costs in MEUR/GW,2035,2008.42832419024
+Harad,Gondor,Transmission Expansion Costs in MEUR/GW,2040,2008.42832419024
+Harad,Gondor,Transmission Expansion Costs in MEUR/GW,2045,2008.42832419024
+Harad,Gondor,Transmission Expansion Costs in MEUR/GW,2050,2008.42832419024
+Mordor,Gondor,Transmission Expansion Costs in MEUR/GW,2018,1362.8279140029324
+Mordor,Gondor,Transmission Expansion Costs in MEUR/GW,2025,1362.8279140029324
+Mordor,Gondor,Transmission Expansion Costs in MEUR/GW,2030,1362.8279140029324
+Mordor,Gondor,Transmission Expansion Costs in MEUR/GW,2035,1362.8279140029324
+Mordor,Gondor,Transmission Expansion Costs in MEUR/GW,2040,1362.8279140029324
+Mordor,Gondor,Transmission Expansion Costs in MEUR/GW,2045,1362.8279140029324
+Mordor,Gondor,Transmission Expansion Costs in MEUR/GW,2050,1362.8279140029324
+DolAmroth,Rohan,Transmission Expansion Costs in MEUR/GW,2018,3144.3829490772873
+DolAmroth,Rohan,Transmission Expansion Costs in MEUR/GW,2025,3144.3829490772873
+DolAmroth,Rohan,Transmission Expansion Costs in MEUR/GW,2030,3144.3829490772873
+DolAmroth,Rohan,Transmission Expansion Costs in MEUR/GW,2035,3144.3829490772873
+DolAmroth,Rohan,Transmission Expansion Costs in MEUR/GW,2040,3144.3829490772873
+DolAmroth,Rohan,Transmission Expansion Costs in MEUR/GW,2045,3144.3829490772873
+DolAmroth,Rohan,Transmission Expansion Costs in MEUR/GW,2050,3144.3829490772873
+Gondor,Rohan,Transmission Expansion Costs in MEUR/GW,2018,3033.121941667767
+Gondor,Rohan,Transmission Expansion Costs in MEUR/GW,2025,3033.121941667767
+Gondor,Rohan,Transmission Expansion Costs in MEUR/GW,2030,3033.121941667767
+Gondor,Rohan,Transmission Expansion Costs in MEUR/GW,2035,3033.121941667767
+Gondor,Rohan,Transmission Expansion Costs in MEUR/GW,2040,3033.121941667767
+Gondor,Rohan,Transmission Expansion Costs in MEUR/GW,2045,3033.121941667767
+Gondor,Rohan,Transmission Expansion Costs in MEUR/GW,2050,3033.121941667767
+Harad,Rohan,Transmission Expansion Costs in MEUR/GW,2018,2150.0
+Harad,Rohan,Transmission Expansion Costs in MEUR/GW,2025,2150.0
+Harad,Rohan,Transmission Expansion Costs in MEUR/GW,2030,2150.0
+Harad,Rohan,Transmission Expansion Costs in MEUR/GW,2035,2150.0
+Harad,Rohan,Transmission Expansion Costs in MEUR/GW,2040,2150.0
+Harad,Rohan,Transmission Expansion Costs in MEUR/GW,2045,2150.0
+Harad,Rohan,Transmission Expansion Costs in MEUR/GW,2050,2150.0
+Mordor,Rohan,Transmission Expansion Costs in MEUR/GW,2018,4301.294533549103
+Mordor,Rohan,Transmission Expansion Costs in MEUR/GW,2025,4301.294533549103
+Mordor,Rohan,Transmission Expansion Costs in MEUR/GW,2030,4301.294533549103
+Mordor,Rohan,Transmission Expansion Costs in MEUR/GW,2035,4301.294533549103
+Mordor,Rohan,Transmission Expansion Costs in MEUR/GW,2040,4301.294533549103
+Mordor,Rohan,Transmission Expansion Costs in MEUR/GW,2045,4301.294533549103
+Mordor,Rohan,Transmission Expansion Costs in MEUR/GW,2050,4301.294533549103
+DolAmroth,Harad,Transmission Expansion Costs in MEUR/GW,2018,1199.0390612091821
+DolAmroth,Harad,Transmission Expansion Costs in MEUR/GW,2025,1199.0390612091821
+DolAmroth,Harad,Transmission Expansion Costs in MEUR/GW,2030,1199.0390612091821
+DolAmroth,Harad,Transmission Expansion Costs in MEUR/GW,2035,1199.0390612091821
+DolAmroth,Harad,Transmission Expansion Costs in MEUR/GW,2040,1199.0390612091821
+DolAmroth,Harad,Transmission Expansion Costs in MEUR/GW,2045,1199.0390612091821
+DolAmroth,Harad,Transmission Expansion Costs in MEUR/GW,2050,1199.0390612091821
+Gondor,Harad,Transmission Expansion Costs in MEUR/GW,2018,2008.42832419024
+Gondor,Harad,Transmission Expansion Costs in MEUR/GW,2025,2008.42832419024
+Gondor,Harad,Transmission Expansion Costs in MEUR/GW,2030,2008.42832419024
+Gondor,Harad,Transmission Expansion Costs in MEUR/GW,2035,2008.42832419024
+Gondor,Harad,Transmission Expansion Costs in MEUR/GW,2040,2008.42832419024
+Gondor,Harad,Transmission Expansion Costs in MEUR/GW,2045,2008.42832419024
+Gondor,Harad,Transmission Expansion Costs in MEUR/GW,2050,2008.42832419024
+Rohan,Harad,Transmission Expansion Costs in MEUR/GW,2018,2150.0
+Rohan,Harad,Transmission Expansion Costs in MEUR/GW,2025,2150.0
+Rohan,Harad,Transmission Expansion Costs in MEUR/GW,2030,2150.0
+Rohan,Harad,Transmission Expansion Costs in MEUR/GW,2035,2150.0
+Rohan,Harad,Transmission Expansion Costs in MEUR/GW,2040,2150.0
+Rohan,Harad,Transmission Expansion Costs in MEUR/GW,2045,2150.0
+Rohan,Harad,Transmission Expansion Costs in MEUR/GW,2050,2150.0
+Mordor,Harad,Transmission Expansion Costs in MEUR/GW,2018,2525.525291083911
+Mordor,Harad,Transmission Expansion Costs in MEUR/GW,2025,2525.525291083911
+Mordor,Harad,Transmission Expansion Costs in MEUR/GW,2030,2525.525291083911
+Mordor,Harad,Transmission Expansion Costs in MEUR/GW,2035,2525.525291083911
+Mordor,Harad,Transmission Expansion Costs in MEUR/GW,2040,2525.525291083911
+Mordor,Harad,Transmission Expansion Costs in MEUR/GW,2045,2525.525291083911
+Mordor,Harad,Transmission Expansion Costs in MEUR/GW,2050,2525.525291083911
+DolAmroth,Mordor,Transmission Expansion Costs in MEUR/GW,2018,1355.2704411862032
+DolAmroth,Mordor,Transmission Expansion Costs in MEUR/GW,2025,1355.2704411862032
+DolAmroth,Mordor,Transmission Expansion Costs in MEUR/GW,2030,1355.2704411862032
+DolAmroth,Mordor,Transmission Expansion Costs in MEUR/GW,2035,1355.2704411862032
+DolAmroth,Mordor,Transmission Expansion Costs in MEUR/GW,2040,1355.2704411862032
+DolAmroth,Mordor,Transmission Expansion Costs in MEUR/GW,2045,1355.2704411862032
+DolAmroth,Mordor,Transmission Expansion Costs in MEUR/GW,2050,1355.2704411862032
+Gondor,Mordor,Transmission Expansion Costs in MEUR/GW,2018,1362.8279140029324
+Gondor,Mordor,Transmission Expansion Costs in MEUR/GW,2025,1362.8279140029324
+Gondor,Mordor,Transmission Expansion Costs in MEUR/GW,2030,1362.8279140029324
+Gondor,Mordor,Transmission Expansion Costs in MEUR/GW,2035,1362.8279140029324
+Gondor,Mordor,Transmission Expansion Costs in MEUR/GW,2040,1362.8279140029324
+Gondor,Mordor,Transmission Expansion Costs in MEUR/GW,2045,1362.8279140029324
+Gondor,Mordor,Transmission Expansion Costs in MEUR/GW,2050,1362.8279140029324
+Rohan,Mordor,Transmission Expansion Costs in MEUR/GW,2018,4301.294533549103
+Rohan,Mordor,Transmission Expansion Costs in MEUR/GW,2025,4301.294533549103
+Rohan,Mordor,Transmission Expansion Costs in MEUR/GW,2030,4301.294533549103
+Rohan,Mordor,Transmission Expansion Costs in MEUR/GW,2035,4301.294533549103
+Rohan,Mordor,Transmission Expansion Costs in MEUR/GW,2040,4301.294533549103
+Rohan,Mordor,Transmission Expansion Costs in MEUR/GW,2045,4301.294533549103
+Rohan,Mordor,Transmission Expansion Costs in MEUR/GW,2050,4301.294533549103
+Harad,Mordor,Transmission Expansion Costs in MEUR/GW,2018,2525.525291083911
+Harad,Mordor,Transmission Expansion Costs in MEUR/GW,2025,2525.525291083911
+Harad,Mordor,Transmission Expansion Costs in MEUR/GW,2030,2525.525291083911
+Harad,Mordor,Transmission Expansion Costs in MEUR/GW,2035,2525.525291083911
+Harad,Mordor,Transmission Expansion Costs in MEUR/GW,2040,2525.525291083911
+Harad,Mordor,Transmission Expansion Costs in MEUR/GW,2045,2525.525291083911
+Harad,Mordor,Transmission Expansion Costs in MEUR/GW,2050,2525.525291083911
+General,General,Transmission Expansion Costs in MEUR/GW/km,General,2.15
