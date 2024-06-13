@@ -16,18 +16,18 @@ source scripts/include/utils.sh
 # comment if you are using handmade datasets
 phasecreate="invest"
 echo -e "\n${print_orange}Step 1 - Create plan4res input files ${no_color}"
-#source scripts/include/create.sh 
+source scripts/include/create.sh 
 
 # run script to create netcdf files for ssv
 # comment if you are using aleady created nc4
 echo -e "\n${print_orange}Step 2 - Create netcdf input files to run the SSV "
 phaseformat="optim"
-#source scripts/include/format.sh 
+source scripts/include/format.sh 
 
 
 # run sddp solver
 echo -e "\n${print_orange}Step 3 - run SSV with sddp_solver to compute Bellman values for storages${no_color}"
-#source scripts/include/ssv.sh
+source scripts/include/ssv.sh
 
 rm -r ${INSTANCE}/results_invest
 mkdir ${INSTANCE}/results_invest
