@@ -1,12 +1,17 @@
 #/bin/bash
 
 # this script launches creation of nc4 files for running investment_solver 
-source include/utils.sh
+source scripts/include/utils.sh
 echo -e "\n${print_green}Launching netcdf dataset creation for $DATASET - [$start_time]${no_color}"
 
 if [ $# -ne 2 ]; then
-    echo -n "$0 requires a second argument that can be either invest, optim or simul."
-    read phaseformat
+    echo " requires a second argument that can be either invest, optim or simul "
+    echo " depending if you intend to create a plan4res dataset for: " 
+    echo "     - launching computation of bellman values -optim-, "
+	echo "     - launching simulation -simul-, "
+	echo "     - launching investments with investment_solver -invest- ."
+    echo -n "$0 please choose: "
+	read phaseformat
 else
 	phaseformat="$2"
 fi
@@ -15,16 +20,21 @@ if echo "$argumentsFORMAT" | grep -qw "$phaseformat"; then
     :
 else
 	echo "${phaseformat} is not a valid argument: must be either ${argumentsFORMAT}"
+	echo -n "$0 please choose between invest, optim, simul: "
     read phaseformat
 fi
 
-if [ "$phaseformat" = "simul" ]; then
-    phasecreate = "simul"
-elif [ "$phaseformat" = "invest" ]; then
-    phasecreate = "invest"
+if [ "$phaseformat" == "simul" ]; then
+    phasecreate="simul"
+elif [ "$phaseformat" == "invest" ]; then
+    phasecreate="invest"
 else
 	if [ $# -ne 3 ]; then
-		echo -n "$0 requires a third argument that can be either invest, optim or simul."
+		echo " requires a third argument that can be either invest or simul "
+		echo " depending if your dataset will be used in a case study : " 
+		echo "     - with investment optimisation -invest-, "
+		echo "     - without investment optimisation -simul- ."
+		echo -n "$0 please choose: "
 		read phasecreate
 	else
 		phasecreate="$3"
@@ -36,7 +46,5 @@ else
 		read phasecreate
 	fi
 fi
-
-echo -e "\n${print_orange}Step 1 - Create netcdf input files to run the CEM: ${no_color}${P4R_ENV} python -W ignore ${PYTHONSCRIPTS}format.py /${CONFIG}settings_format_invest.yml /${CONFIG}settingsCreateInputPlan4res_invest.yml ${DATASET}"
 # run formatting script to create netcdf input files
-source scripts/include/formatCEM.sh
+source scripts/include/format.sh

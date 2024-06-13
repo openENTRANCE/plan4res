@@ -5,7 +5,7 @@
 # 2 - creates nc4 files 
 # 3 - launches SSV alone
 
-source include/utils.sh
+source scripts/include/utils.sh
 
 if [ $# -ne 2 ]; then
     echo -n "$0 requires a second argument that can be either invest or simul."
@@ -17,7 +17,7 @@ fi
 if echo "$argumentsCREATE" | grep -qw "$phasecreate"; then
     :
 else
-	echo "${phasecreate} is not a valid argument: must be either ${argumentsCREATE}"
+	echo "${phasecreate} is not a valid argument: must be either invest or simul"
     read phasecreate
 fi
 
