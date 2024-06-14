@@ -1,0 +1,87 @@
+ZV: 
+    AirCondition:
+        DolAmroth : EDF__HourlyCoef-AirCondition-PresentClimate-AT__20062019__28062019__v1.csv
+        Gondor : EDF__HourlyCoef-AirCondition-PresentClimate-DE__20062019__28062019__v1.csv
+        Harad : EDF__HourlyCoef-AirCondition-PresentClimate-ES__20062019__28062019__v1.csv
+        Mordor : EDF__HourlyCoef-AirCondition-PresentClimate-FR__20062019__28062019__v1.csv
+        Rohan : EDF__HourlyCoef-AirCondition-PresentClimate-IT__20062019__28062019__v1.csv
+    ElecHeating:
+        DolAmroth : EDF__HourlyCoef-Heating-PresentClimate-AT__20062019__28062019__v1.csv
+        Gondor : EDF__HourlyCoef-Heating-PresentClimate-DE__20062019__28062019__v1.csv
+        Harad : EDF__HourlyCoef-Heating-PresentClimate-ES__20062019__28062019__v1.csv
+        Mordor : EDF__HourlyCoef-Heating-PresentClimate-FR__20062019__28062019__v1.csv
+        Rohan : EDF__HourlyCoef-Heating-PresentClimate-IT__20062019__28062019__v1.csv
+    ElecVehicle:
+        DolAmroth : EDF__HourlyCoef-ElecVehicle__20062019__28062019__v1.csv
+        Gondor : EDF__HourlyCoef-ElecVehicle__20062019__28062019__v1.csv
+        Harad : EDF__HourlyCoef-ElecVehicle__20062019__28062019__v1.csv
+        Mordor : EDF__HourlyCoef-ElecVehicle__20062019__28062019__v1.csv
+        Rohan : EDF__HourlyCoef-ElecVehicle__20062019__28062019__v1.csv
+    OtherExclHeatTransp: 
+        DolAmroth : EDF__HourlyCoef-non-thermo-PresentClimate-AT__20062019__28062019__v1.csv
+        Gondor : EDF__HourlyCoef-non-thermo-PresentClimate-DE__20062019__28062019__v1.csv
+        Harad : EDF__HourlyCoef-non-thermo-PresentClimate-ES__20062019__28062019__v1.csv
+        Mordor : EDF__HourlyCoef-non-thermo-PresentClimate-FR__20062019__28062019__v1.csv
+        Rohan : EDF__HourlyCoef-non-thermo-PresentClimate-IT__20062019__28062019__v1.csv
+    OtherExclHeatTranspCool: 
+        DolAmroth : EDF__HourlyCoef-non-thermo-PresentClimate-AT__20062019__28062019__v1.csv
+        Gondor : EDF__HourlyCoef-non-thermo-PresentClimate-DE__20062019__28062019__v1.csv
+        Harad : EDF__HourlyCoef-non-thermo-PresentClimate-ES__20062019__28062019__v1.csv
+        Mordor : EDF__HourlyCoef-non-thermo-PresentClimate-FR__20062019__28062019__v1.csv
+        Rohan : EDF__HourlyCoef-non-thermo-PresentClimate-IT__20062019__28062019__v1.csv
+    Total: 
+        Harad: Profile-Iberia.csv
+        Gondor: Profile-Germany.csv
+        Mordor: Profile-France.csv
+        Rohan: Profile-Italy.csv
+        DolAmroth: Profile-EasternEurope.csv
+SS:
+    Inflows:
+        Harad: EDF__Inflow-HourlyCoefficient-PresentClimate-AT__18092019__18092019__v1.csv
+        Gondor: EDF__Inflow-HourlyCoefficient-PresentClimate-AT__18092019__18092019__v1.csv
+        Mordor: EDF__Inflow-HourlyCoefficient-PresentClimate-FR__18092019__18092019__v1.csv
+        Rohan : EDF__Inflow-HourlyCoefficient-PresentClimate-IT__18092019__18092019__v1.csv
+        DolAmroth: EDF__Inflow-HourlyCoefficient-PresentClimate-AT__18092019__18092019__v1.csv
+RES:
+    Solar|PV|Rooftop|Commercial:
+        Harad: EDF__PV-LoadFactor-PresentClimate-CH__13082019__13082019__v1.csv
+        Gondor: EDF__PV-LoadFactor-PresentClimate-IT__13082019__13082019__v1.csv
+        Mordor: EDF__PV-LoadFactor-PresentClimate-FR_C8__13082019__13082019__v1.csv
+        Rohan: EDF__PV-LoadFactor-PresentClimate-ES__13082019__13082019__v1.csv
+        DolAmroth: EDF__PV-LoadFactor-PresentClimate-DE__13082019__13082019__v1.csv
+    Solar|PV|Rooftop|Residential:
+        Harad: EDF__PV-LoadFactor-PresentClimate-CH__13082019__13082019__v1.csv
+        Gondor: EDF__PV-LoadFactor-PresentClimate-IT__13082019__13082019__v1.csv
+        Mordor: EDF__PV-LoadFactor-PresentClimate-FR_C8__13082019__13082019__v1.csv
+        Rohan: EDF__PV-LoadFactor-PresentClimate-ES__13082019__13082019__v1.csv
+        DolAmroth: EDF__PV-LoadFactor-PresentClimate-DE__13082019__13082019__v1.csv
+    Solar|PV|Utility:
+        Harad: EDF__PV-LoadFactor-PresentClimate-CH__13082019__13082019__v1.csv
+        Gondor: EDF__PV-LoadFactor-PresentClimate-IT__13082019__13082019__v1.csv
+        Mordor: EDF__PV-LoadFactor-PresentClimate-FR_C8__13082019__13082019__v1.csv
+        Rohan: EDF__PV-LoadFactor-PresentClimate-ES__13082019__13082019__v1.csv
+        DolAmroth: EDF__PV-LoadFactor-PresentClimate-DE__13082019__13082019__v1.csv
+    Solar|PV:
+        Harad: EDF__PV-LoadFactor-PresentClimate-CH__13082019__13082019__v1.csv
+        Gondor: EDF__PV-LoadFactor-PresentClimate-IT__13082019__13082019__v1.csv
+        Mordor: EDF__PV-LoadFactor-PresentClimate-FR_C8__13082019__13082019__v1.csv
+        Rohan: EDF__PV-LoadFactor-PresentClimate-ES__13082019__13082019__v1.csv
+        DolAmroth: EDF__PV-LoadFactor-PresentClimate-DE__13082019__13082019__v1.csv
+    Wind|Onshore:
+        Harad: EDF__WindOnshore-LoadFactor-PresentClimate-CH__13082019__13082019__v1.csv
+        Gondor: EDF__WindOnshore-LoadFactor-PresentClimate-IT__13082019__13082019__v1.csv
+        Mordor: EDF__WindOnshore-LoadFactor-PresentClimate-FR__13082019__13082019__v1.csv
+        Rohan: EDF__WindOnshore-LoadFactor-PresentClimate-ES__13082019__13082019__v1.csv
+        DolAmroth: EDF__WindOnshore-LoadFactor-PresentClimate-DE__13082019__13082019__v1.csv
+    Wind|Offshore:
+        Harad: EDF__WindOffshore-LoadFactor-PresentClimate-DE__25112019__25112019__v1.csv
+        Gondor: EDF__WindOffshore-LoadFactor-PresentClimate-UK__25112019__25112019__v1.csv
+        Mordor: EDF__WindOffshore-LoadFactor-PresentClimate-UK__25112019__25112019__v1.csv
+        Rohan: EDF__WindOffshore-LoadFactor-PresentClimate-UK__25112019__25112019__v1.csv
+        DolAmroth: EDF__WindOffshore-LoadFactor-PresentClimate-DE__25112019__25112019__v1.csv
+    Hydro|Run of River:
+        Harad: EDF__RunOfRiver-HourlyCoefficient-PresentClimate-CH__18092019__18092019__v1.csv
+        Gondor: EDF__RunOfRiver-HourlyCoefficient-PresentClimate-IT__18092019__18092019__v1.csv
+        Mordor: EDF__RunOfRiver-HourlyCoefficient-PresentClimate-FR__18092019__18092019__v1.csv
+        Rohan: EDF__RunOfRiver-HourlyCoefficient-PresentClimate-ES__18092019__18092019__v1.csv
+        DolAmroth: EDF__RunOfRiver-HourlyCoefficient-PresentClimate-DE__18092019__18092019__v1.csv
