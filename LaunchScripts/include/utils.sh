@@ -6,6 +6,9 @@ P4R_ENV="bin/p4r"
 PYTHONSCRIPTS="scripts/python/plan4res-scripts/"
 DATA="data/local/"
 
+outputs="Demand Volume Flows ActivePower MaxPower Primary Secondary"
+MarginalCosts="MarginalCostActivePowerDemand MarginalCostFlows MarginalCostInertia MarginalCostPrimary MarginalCostSecondary"
+
 # Do not modify below
 no_symlinks='on'
 function get_realpath() { # taken and adapted from bin/p4r, 
@@ -84,10 +87,10 @@ function read_python_status {
 }
 
 function sddp_status {
-    if [[ -f "$1BellmanValuesOUT.csv" ]]; then
+    if [[ -f "${INSTANCE}BellmanValuesOUT.csv" ]]; then
         echo -e "${print_green}$(date +'%m/%d/%Y %H:%M:%S') - successfully ran SSV with SDDP solver (convergence OK).${no_color}"
     else
-        if [[ -f "$1cuts.txt" ]]; then
+        if [[ -f "${INSTANCE}cuts.txt" ]]; then
             echo -e "${print_orange}$(date +'%m/%d/%Y %H:%M:%S') - partially ran SSV with SDDP solver${no_color}${print_red} (no convergence).${no_color}"
         else
             echo -e "${print_red}$(date +'%m/%d/%Y %H:%M:%S') - error while running sddp_solver.${no_color}"
@@ -97,7 +100,7 @@ function sddp_status {
 }
 
 function invest_status {
-    if [[ -f "$1Solution_OUT.csv" ]]; then
+    if [[ -f "${INSTANCE}Solution_OUT.csv" ]]; then
         echo -e "${print_green}$(date +'%m/%d/%Y %H:%M:%S') - successfully ran CEM with investment_solver.${no_color}"
     else
         echo -e "${print_red}$(date +'%m/%d/%Y %H:%M:%S') - error while running CEM with investment_solver.${no_color}"
