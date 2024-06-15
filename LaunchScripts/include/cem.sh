@@ -24,9 +24,9 @@ mkdir ${INSTANCE}/results_invest/MaxPower
 # run investment solver
 echo -e "\n${print_orange} - run CEM using investment_solver:${no_color}${P4R_ENV} investment_solver -l ${INSTANCE_IN_P4R}/results_invest/bellmanvalues.csv -o -e -S ${CONFIG_IN_P4R}/BSPar-Investment.txt -c ${CONFIG_IN_P4R} -p ${INSTANCE_IN_P4R}/nc4_invest/ ${INSTANCE_IN_P4R}/nc4_invest/InvestmentBlock.nc4"
 ${P4R_ENV} investment_solver -l ${INSTANCE_IN_P4R}/results_invest/bellmanvalues.csv -o -e -S ${CONFIG_IN_P4R}/BSPar-Investment.txt -c ${CONFIG_IN_P4R} -p ${INSTANCE_IN_P4R}/nc4_invest/ ${INSTANCE_IN_P4R}/nc4_invest/InvestmentBlock.nc4
-invest_status ./
 
 ${P4R_ENV} mv *_OUT.csv ${INSTANCE_IN_P4R}/
+
 mv ${INSTANCE}/Solution_OUT.csv ${INSTANCE}/results_invest/
 
 for (( scen=0; scen<$NBSCEN_CEM; scen++ ))
@@ -45,3 +45,4 @@ do
 	mv ${INSTANCE}/Secondary_Scen${scen}_OUT.csv ${INSTANCE}/results_invest/Secondary/Secondary${scen}.csv
 done
 rm uc.lp
+invest_status ./

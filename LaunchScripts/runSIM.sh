@@ -25,9 +25,9 @@ rm -r ${INSTANCE}/nc4_simul
 source scripts/include/format.sh
 
 # run simulations using sddp_solver
-source scripts/include/sim.sh
+#source scripts/include/sim.sh
 # alternative: run simulations using investment_solver
-#source scripts/include/simCEM.sh
+source scripts/include/simCEM.sh
 
 # run post treatment script
 source scripts/include/postreat.sh

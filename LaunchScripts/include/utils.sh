@@ -100,7 +100,7 @@ function sddp_status {
 }
 
 function invest_status {
-    if [[ -f "${INSTANCE}Solution_OUT.csv" ]]; then
+    if [[ -f "${INSTANCE}/results_invest/Solution_OUT.csv" ]]; then
         echo -e "${print_green}$(date +'%m/%d/%Y %H:%M:%S') - successfully ran CEM with investment_solver.${no_color}"
     else
         echo -e "${print_red}$(date +'%m/%d/%Y %H:%M:%S') - error while running CEM with investment_solver.${no_color}"

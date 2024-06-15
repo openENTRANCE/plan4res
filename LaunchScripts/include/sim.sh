@@ -38,6 +38,6 @@ do
 	mv ${INSTANCE}/MaxPowerOUT.csv ${INSTANCE}/results_simul/MaxPower/MaxPower${scen}.csv
 	mv ${INSTANCE}/PrimaryOUT.csv ${INSTANCE}/results_simul/Primary/Primary${scen}.csv
 	mv ${INSTANCE}/SecondaryOUT.csv ${INSTANCE}/results_simul/Secondary/Secondary${scen}.csv
-	#rm uc.lp
+	rm uc.lp
 done 
 echo -e "\n${print_blue}- simulations completed"
