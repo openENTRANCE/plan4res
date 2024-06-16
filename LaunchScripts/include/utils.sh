@@ -57,11 +57,10 @@ if [ -f ${vagrant_cwd_file} ]; then
     export INSTANCE_IN_P4R=$(echo "$INSTANCE" | sed "s|$vagrant_cwd|$p4r_vagrant_home|")
     export CONFIG_IN_P4R=$(echo "$CONFIG" | sed "s|$vagrant_cwd|$p4r_vagrant_home|")
     echo "Path used in the Vagrant container:"
-    echo -e "\tP4R_ENV       = ${P4R_ENV_VAGRANT}"
-    echo -e "\tPYTHONSCRIPTS = ${PYTHONSCRIPTS_VAGRANT}"
-    echo -e "\tDATA          = ${DATA_VAGRANT}"
-    echo -e "\tINSTANCE      = ${INSTANCE_VAGRANT}"
-    echo -e "\tCONFIG        = ${CONFIG_VAGRANT}"
+    echo -e "\tPYTHONSCRIPTS = ${PYTHONSCRIPTS_IN_P4R}"
+    echo -e "\tDATA          = ${DATA_IN_P4R}"
+    echo -e "\tINSTANCE      = ${INSTANCE_IN_P4R}"
+    echo -e "\tCONFIG        = ${CONFIG_IN_P4R}"
 else
     export PYTHONSCRIPTS_IN_P4R=${PYTHONSCRIPTS}
     export DATA_IN_P4R=${DATA}
