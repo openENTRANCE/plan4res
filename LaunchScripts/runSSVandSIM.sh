@@ -44,7 +44,7 @@ source scripts/include/format.sh
 #source scripts/include/sim.sh
 # alternative: run simulations using investment_solver
 echo -e "\n${print_orange}Step 5 - run SIM using investment_solver${no_color}"
-source scripts/scripts/include/simCEM.sh
+source scripts/include/simCEM.sh
 
 # run post treatment script
 phasepostreat="simul"
