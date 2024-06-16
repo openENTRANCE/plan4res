@@ -23,13 +23,8 @@ else
 	echo -e "\n${P4R_ENV}sddp_solver -S ${CONFIG_IN_P4R}/sddp_solver.txt -c ${CONFIG_IN_P4R} -p ${INSTANCE_IN_P4R}/nc4_optim/ ${INSTANCE_IN_P4R}/nc4_optim/SDDPBlock.nc4"
 	${P4R_ENV} sddp_solver -S ${CONFIG_IN_P4R}/sddp_solver.txt -c ${CONFIG_IN_P4R} -p ${INSTANCE_IN_P4R}/nc4_optim/ ${INSTANCE_IN_P4R}/nc4_optim/SDDPBlock.nc4
 fi
-#${P4R_ENV} sddp_status ./
 
-#${P4R_ENV} mv Bellman* ${INSTANCE}
-#${P4R_ENV} mv cuts.txt ${INSTANCE}
-#rm regressors.sddp.* visited_states.sddp.* cuts.sddp* uc.lp
-
+rm regressors.sddp.* visited_states.sddp.* cuts.sddp* uc.lp
 ${P4R_ENV} cp Bellman* ${INSTANCE_IN_P4R}
 ${P4R_ENV} cp cuts.txt ${INSTANCE_IN_P4R}
-#rm regressors.sddp.* visited_states.sddp.* cuts.sddp* uc.lp
 sddp_status ./
