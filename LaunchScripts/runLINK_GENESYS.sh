@@ -8,7 +8,7 @@ echo -e "\n${print_green}Launching GENeSYS-MOD linkage script for $DATASET - [$s
 
 echo -e "\n${print_orange}Step 1 - Create IAMC file from inputs/outputs of GENeSYS-MOD: ${no_color}${P4R_ENV} python -W ignore ${PYTHONSCRIPTS}LinkageGENeSYS.py /${CONFIG}settingsLinkageGENeSYS.yml ${DATASET}"
 # run script to create plan4res input dataset (ZV_ZineValues.csv ...)
-${P4R_ENV} python -W ignore ${PYTHONSCRIPTS}LinkageGENeSYS.py /${CONFIG}settingsLinkageGENeSYS.yml ${DATASET}
+${P4R_ENV} python -W ignore ${PYTHONSCRIPTS_IN_P4R}LinkageGENeSYS.py /${CONFIG_IN_P4R}settingsLinkageGENeSYS.yml ${DATASET}
 python_script_return_status=$(read_python_status ${INSTANCE}python_return_status)
 if [[ $python_script_return_status -ne 0 ]]; then
     echo -e "${print_red}Script exited with error code ${python_script_return_status}. See above error messages.${no_color}"
