@@ -40,11 +40,11 @@ rm -r ${INSTANCE}/nc4_simul
 source scripts/include/format.sh
 
 # run simulations using sddp_solver
-echo -e "\n${print_orange}Step 5 - run SIM using sddp_solver${no_color}"
-source scripts/include/sim.sh
+#echo -e "\n${print_orange}Step 5 - run SIM using sddp_solver${no_color}"
+#source scripts/include/sim.sh
 # alternative: run simulations using investment_solver
-#echo -e "\n${print_orange}Step 5 - run SIM using investment_solver${no_color}"
-#source scripts/scripts/include/simCEM.sh
+echo -e "\n${print_orange}Step 5 - run SIM using investment_solver${no_color}"
+source scripts/scripts/include/simCEM.sh
 
 # run post treatment script
 phasepostreat="simul"
