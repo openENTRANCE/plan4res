@@ -1,0 +1,5 @@
+Name,Zone,NumberUnits,MaxPower,MaxVolume,TurbineEfficiency,PumpingEfficiency,MinPower,MinVolume,MaxAddedCapacity,MaxRetCapacity,InvestmentCost
+Hydro|Pumped Storage,Harad,1,5920.72,592072.0,0.866,0.866,-5920.72,0,0.0,0.0,10.0
+Hydro|Pumped Storage,Gondor,1,6414.21,641420.9999999999,0.866,0.866,-6414.21,0,0.0,0.0,10.0
+Battery|Lithium-Ion,Harad,1,1.0,4.0,0.95,0.95,-1.0,0,0.0,0.0,10.0
+Battery|Lithium-Ion,Gondor,1,1.0,4.0,0.95,0.95,-1.0,0,0.0,0.0,10.0

@@ -1,0 +1,13 @@
+Type,Zone,value,Profile_Timeserie
+Total,Gondor,207057387.757567,Profile-Germany.csv
+ElecHeating,Gondor,105709910.98506157,
+OtherExclHeatTransp,Gondor,43738038.74188725,
+ElecVehicle,Gondor,101347476.77250543,
+Total,Harad,137192890.0724028,Profile-Iberia.csv
+ElecHeating,Harad,78952662.44536658,
+OtherExclHeatTransp,Harad,516379611.34386694,
+ElecVehicle,Harad,58240227.627036214,
+MaxActivePowerDemand,Gondor,1500000.0,
+CostActivePowerDemand,Gondor,10000.0,
+MaxActivePowerDemand,Harad,1500000.0,
+CostActivePowerDemand,Harad,10000.0,

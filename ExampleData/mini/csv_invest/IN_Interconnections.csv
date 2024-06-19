@@ -1,0 +1,2 @@
+Name,StartLine,EndLine,MaxPowerFlow,MinPowerFlow,MaxAddedCapacity,MaxRetCapacity,InvestmentCost
+Gondor>Harad,Gondor,Harad,866.0,-1160,1732.0,0.0,2008428.32419024

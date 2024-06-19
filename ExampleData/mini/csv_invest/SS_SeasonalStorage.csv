@@ -1,0 +1,3 @@
+Name,Zone,HydroSystem,NumberUnits,MaxPower,MinPower,MaxVolume,MinVolume,Inflows,InflowsProfile,InitialVolume,TurbineEfficiency,PumpingEfficiency
+Hydro|Reservoir,Harad,0,1,5084.840265911997,0,10169680.531823995,0,14699256.240698399,EDF__Inflow-HourlyCoefficient-PresentClimate-AT__18092019__18092019__v1.csv,5084840.265911997,1.0,0.0
+Hydro|Reservoir,Gondor,0,1,30545.979776,0,61091959.552,0,84129077.76,EDF__Inflow-HourlyCoefficient-PresentClimate-AT__18092019__18092019__v1.csv,42764371.6864,1.0,0.0
