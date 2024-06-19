@@ -6,7 +6,7 @@
 USEPLAN4RESROOT: True
 
 genesys_datafiles: 
-    input: 'inputdata_LOTR_joh_v01_04-03-2024.xlsx'
+    input: 'inputdata_LOTR_joh_v03_19-03-2024.xlsx'
     input_sheets: ['Sets','Par_TradeLossFactor','Par_EmissionActivityRatio','Par_EmissionContentPerFuel','Par_TechnologyToStorage','Par_TechnologyFromStorage','Par_TradeCapacityGrowthCosts','Par_InputActivityRatio','Par_OperationalLife','Par_OperationalLifeStorage']
     capacity: 'output_capacity_MiddleEarth_Gondor_globalLimit_364_dispatch.csv'
     exogenous_costs: 'output_exogenous_costs_MiddleEarth_Gondor_globalLimit_364_dispatch.csv'
