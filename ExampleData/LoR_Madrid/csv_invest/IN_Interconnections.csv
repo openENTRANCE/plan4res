@@ -1,0 +1,4 @@
+Name,StartLine,EndLine,MaxPowerFlow,MinPowerFlow,MaxAddedCapacity,MaxRetCapacity,InvestmentCost
+DolAmroth>Harad,DolAmroth,Harad,71.0,-100,142.0,0.0,1199039.061209182
+RoGonDor>DolAmroth,RoGonDor,DolAmroth,2200.0,-2000,4400.0,0.0,1841760.7668506333
+RoGonDor>Harad,RoGonDor,Harad,866.0,-1160,1732.0,0.0,2227984.538424717

@@ -1,0 +1,19 @@
+,Variable Cost (Euro)
+Hydro|Run of River,0.0
+Nuclear,0.0
+Coal|Hard coal|w/o CCS,0.0
+Wind|Onshore|Avg,0.0
+Solar|PV|Utility|Average,0.0
+Solar|PV|Utility|Inf,0.0
+Solar|PV|Utility|Opt,0.0
+Solar|PV|Rooftop|Commercial,0.0
+Biomass|w/o CCS,0.0
+Gas|CCGT|w/o CCS,0.0
+Gas|OCGT|w/o CCS,0.0
+Oil|w/o CCS,0.0
+Hydro|Reservoir,0.0
+Hydro|Pumped Storage,0.0
+Battery|Lithium-Ion,0.0
+SlackUnit,0.0
+Hydro|Pumped Storage_PUMP,0.0
+Battery|Lithium-Ion_PUMP,0.0

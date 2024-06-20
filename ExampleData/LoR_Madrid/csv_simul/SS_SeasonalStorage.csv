@@ -1,0 +1,4 @@
+Name,Zone,HydroSystem,NumberUnits,MaxPower,MinPower,MaxVolume,MinVolume,Inflows,InflowsProfile,InitialVolume,TurbineEfficiency,PumpingEfficiency
+Hydro|Reservoir,DolAmroth,0,1,5524.239444128706,0,11048478.888257412,0,15969471.385087265,Inflow_DolAmroth.csv,6629087.332954447,1.0,0.0
+Hydro|Reservoir,RoGonDor,0,1,25814.05,0,51628100.0,0,74623255.74000001,AggregatedTimeSerie_Inflows_RoGonDor.csv,34418733.33333333,1.0,0.0
+Hydro|Reservoir,Harad,0,1,6000.0,0,12000000.0,0,27689238.720000003,Inflow_Harad.csv,6000000.0,1.0,0.0

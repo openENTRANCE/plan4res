@@ -1,0 +1,24 @@
+,RoGonDor,DolAmroth,Harad
+Hydro|Reservoir,0.0,0.0,0.0
+Biomass|w/o CCS,0.0,11084905.5748929,15639575.082977375
+Coal|Hard coal|w/o CCS,343939965.6307224,288460.08506179345,46738612.06208576
+Coal|Lignite|w/o CCS,106269555.1291644,0.0,0.0
+Gas|CCGT|w/o CCS,12260064695.707,708919843.8517554,6891939613.049675
+Gas|OCGT|w/o CCS,910075168.8100348,0.0,10677014666.439663
+Nuclear,1989966356.8502407,210186625.74984336,2771877929.254629
+Oil|w/o CCS,2478868.524009104,0.0,1242.1343590709325
+Solar|PV|Rooftop|Commercial,0.0,0.0,0.0
+Solar|PV|Utility|Average,0.0,0.0,0.0
+Solar|PV|Utility|Inf,0.0,0.0,0.0
+Solar|PV|Utility|Opt,0.0,0.0,0.0
+Wind|Onshore|Avg,0.0,0.0,0.0
+Wind|Onshore|Opt,0.0,0.0,0.0
+Wind|Offshore|Deep,0.0,0.0,0.0
+Wind|Offshore|Shallow,0.0,0.0,0.0
+Wind|Offshore|Transitional,0.0,0.0,0.0
+Hydro|Run of River,0.0,0.0,0.0
+Hydro|Pumped Storage,0.0,0.0,0.0
+Hydro|Pumped Storage_PUMP,0.0,0.0,0.0
+Battery|Lithium-Ion,0.0,0.0,0.0
+Battery|Lithium-Ion_PUMP,0.0,0.0,0.0
+SlackUnit,0.0,0.0,0.0

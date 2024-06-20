@@ -1,0 +1,24 @@
+,Energy (MWh)
+Hydro|Run of River,27676101.6
+Nuclear,239325560.40000004
+Coal|Hard coal|w/o CCS,109002672.19999997
+Coal|Lignite|w/o CCS,33970538.5
+Wind|Offshore|Deep,75009059.2
+Wind|Offshore|Shallow,132457912.5
+Wind|Offshore|Transitional,90806972.19999999
+Wind|Onshore|Avg,70713408.2
+Wind|Onshore|Opt,206666135.0
+Solar|PV|Utility|Average,36865934.5
+Solar|PV|Utility|Inf,30479916.299999997
+Solar|PV|Utility|Opt,75863826.30000001
+Solar|PV|Rooftop|Commercial,51885306.0
+Biomass|w/o CCS,0.0
+Gas|CCGT|w/o CCS,121482311.2
+Gas|OCGT|w/o CCS,5946240.899999999
+Oil|w/o CCS,66634216.0
+Hydro|Reservoir,92724043.7
+Hydro|Pumped Storage,1284507.9
+Battery|Lithium-Ion,22050822.8
+SlackUnit,1936910.2
+Hydro|Pumped Storage_PUMP,-1731006.5
+Battery|Lithium-Ion_PUMP,-24433044.4

@@ -1,0 +1,99 @@
+ZV: 
+    Cooking:
+        Harad: TS_COOKING_Harad.csv
+        Gondor: TS_COOKING_Gondor.csv
+        Mordor: TS_COOKING_Mordor.csv
+        Rohan: TS_COOKING_Rohan.csv
+        DolAmroth: TS_COOKING_DolAmroth.csv
+    ElecHeating:
+        Harad: TS_HEAT_LOW_Harad.csv
+        Gondor: TS_HEAT_LOW_Gondor.csv
+        Mordor: TS_HEAT_LOW_Mordor.csv
+        Rohan: TS_HEAT_LOW_Rohan.csv
+        DolAmroth: TS_HEAT_LOW_DolAmroth.csv
+    ElecVehicle:
+        Harad: TS_MOBILITY_PSNG_Harad.csv
+        Gondor: TS_MOBILITY_PSNG_Gondor.csv
+        Mordor: TS_MOBILITY_PSNG_Mordor.csv
+        Rohan: TS_MOBILITY_PSNG_Rohan.csv
+        DolAmroth: TS_MOBILITY_PSNG_DolAmroth.csv
+    OtherExclHeatTranspCooking:
+        Harad: TS_LOAD_Harad.csv
+        Gondor: TS_LOAD_Gondor.csv
+        Mordor: TS_LOAD_Mordor.csv
+        Rohan: TS_LOAD_Rohan.csv
+        DolAmroth: TS_LOAD_DolAmroth.csv
+    Total: 
+        Harad: Profile-Switzerland.csv
+        Gondor: Profile-Italy.csv
+        Mordor: Profile-France.csv
+        Rohan: Profile-Iberia.csv
+        DolAmroth: Profile-Germany.csv
+SS:
+    Inflows:
+        Harad: Inflow_Harad.csv
+        Gondor: Inflow_Gondor.csv
+        Mordor: Inflow_Mordor.csv
+        Rohan: Inflow_Rohan.csv
+        DolAmroth: Inflow_DolAmroth.csv
+RES:
+    Solar|PV|Rooftop|Commercial:
+        Harad: TS_PV_AVG_Harad.csv
+        Gondor: TS_PV_AVG_Gondor.csv
+        Mordor: TS_PV_AVG_Mordor.csv
+        Rohan: TS_PV_AVG_Rohan.csv
+        DolAmroth: TS_PV_AVG_DolAmroth.csv
+    Solar|PV|Utility|Average:
+        Harad: TS_PV_AVG_Harad.csv
+        Gondor: TS_PV_AVG_Gondor.csv
+        Mordor: TS_PV_AVG_Mordor.csv
+        Rohan: TS_PV_AVG_Rohan.csv
+        DolAmroth: TS_PV_AVG_DolAmroth.csv
+    Solar|PV|Utility|Inf:
+        Harad: TS_PV_INF_Harad.csv
+        Gondor: TS_PV_INF_Gondor.csv
+        Mordor: TS_PV_INF_Mordor.csv
+        Rohan: TS_PV_INF_Rohan.csv
+        DolAmroth: TS_PV_INF_DolAmroth.csv
+    Solar|PV|Utility|Opt:
+        Harad: TS_PV_OPT_Harad.csv
+        Gondor: TS_PV_OPT_Gondor.csv
+        Mordor: TS_PV_OPT_Mordor.csv
+        Rohan: TS_PV_OPT_Rohan.csv
+        DolAmroth: TS_PV_OPT_DolAmroth.csv
+    Wind|Onshore|Avg:
+        Harad: TS_WIND_ONSHORE_AVG_Harad.csv
+        Gondor: TS_WIND_ONSHORE_AVG_Gondor.csv
+        Mordor: TS_WIND_ONSHORE_AVG_Mordor.csv
+        Rohan: TS_WIND_ONSHORE_AVG_Rohan.csv
+        DolAmroth: TS_WIND_ONSHORE_AVG_DolAmroth.csv 
+    Wind|Onshore|Opt:
+        Harad: TS_WIND_ONSHORE_OPT_Harad.csv
+        Gondor: TS_WIND_ONSHORE_OPT_Gondor.csv
+        Mordor: TS_WIND_ONSHORE_OPT_Mordor.csv
+        Rohan: TS_WIND_ONSHORE_OPT_Rohan.csv
+        DolAmroth: TS_WIND_ONSHORE_OPT_DolAmroth.csv 
+    Wind|Offshore|Deep:
+        Harad: TS_WIND_OFFSHORE_DEEP_Harad.csv
+        Gondor: TS_WIND_OFFSHORE_DEEP_Gondor.csv
+        Mordor: TS_WIND_OFFSHORE_DEEP_Mordor.csv
+        Rohan: TS_WIND_OFFSHORE_DEEP_Rohan.csv
+        DolAmroth: TS_WIND_OFFSHORE_DEEP_DolAmroth.csv
+    Wind|Offshore|Shallow:
+        Harad: TS_WIND_OFFSHORE_SHALLOW_Harad.csv
+        Gondor: TS_WIND_OFFSHORE_SHALLOW_Gondor.csv
+        Mordor: TS_WIND_OFFSHORE_SHALLOW_Mordor.csv
+        Rohan: TS_WIND_OFFSHORE_SHALLOW_Rohan.csv
+        DolAmroth: TS_WIND_OFFSHORE_SHALLOW_DolAmroth.csv
+    Wind|Offshore|Transitional:
+        Harad: TS_WIND_OFFSHORE_Harad.csv
+        Gondor: TS_WIND_OFFSHORE_Gondor.csv
+        Mordor: TS_WIND_OFFSHORE_Mordor.csv
+        Rohan: TS_WIND_OFFSHORE_Rohan.csv
+        DolAmroth: TS_WIND_OFFSHORE_DolAmroth.csv
+    Hydro|Run of River:
+        Harad: TS_HYDRO_ROR_Harad.csv
+        Gondor: TS_HYDRO_ROR_Gondor.csv
+        Mordor: TS_HYDRO_ROR_Mordor.csv
+        Rohan: TS_HYDRO_ROR_Rohan.csv
+        DolAmroth: TS_HYDRO_ROR_DolAmroth.csv
