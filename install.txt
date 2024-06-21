@@ -1,0 +1,45 @@
+launch Oracle VM VirtualBox
+If some mac hines exist, delete them (stop then remove)
+
+##########   install the container #######################
+mkdir MY_P4R
+cd MY_P4R
+export http_proxy=http://vip-users.proxy.edf.fr:3131    # for those behind proxies
+export https_proxy=http://vip-users.proxy.edf.fr:3131   # for those behind proxies
+git clone https://github.com/openENTRANCE/plan4res
+git clone --recursive https://gitlab.com/cerl/plan4res/p4r-env
+cd p4r-env
+vi Vagrantfile    (change 2048 to 8192)   # give more memory, depends on the memory you have
+git config submodule.recurse true
+vagrant plugin install vagrant-proxyconf
+vagrant up      # starts the virtual machine
+
+##########   install sms++  ####################################
+bin/p4r add-on stopt   # first downloads the image then install stopt
+vi config/plan4res.conf   => change  #, uncomment , to avoid further downloads of the image
+bin/p4r add-on sms++ CPLEX=cplex_.....bin/p4r
+bin/p4r add-on sms++ uninstall   # first install of sms++ never works.....
+bin/p4r add-on sms++ CPLEX=cplex....
+
+##########   install scripts  ####################################
+cd scripts/
+mkdir python
+cd python
+git clone https://github.com/openENTRANCE/openentrance
+mkdir plan4res-scripts/
+cp ../../../plan4res/pythonscripts/*.py plan4res-scripts/
+cp ../../../plan4res/pythonscripts/VariablesDictionnary.yml plan4res-scripts/settings/
+cd ../..
+cp ../plan4res/LaunchScripts/run* .
+cp -r ../plan4res/LaunchScripts/include scripts/
+
+##########   copy data  ####################################
+cp -r ../plan4res/ExampleData/LoR_Madrid data/local/
+
+##########   run plan4res  ####################################
+./runCREATE.sh LoR_Madrid
+./runSSV.sh LoR_Madrid
+
+
+
+
