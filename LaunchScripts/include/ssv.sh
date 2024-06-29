@@ -5,7 +5,7 @@ echo -e "\n${print_blue} - Update sddp_solver configuration file to account for 
 newNbScen=$NBSCEN_OPT
 rowconfig=$(grep "intNbSimulCheckForConv" ${CONFIG}sddp_solver.txt)
 intNbSimulCheckForConv=$(echo "$rowconfig" | cut -d ' ' -f 2-)
-let "oldNbScen=$intNbSimulCheckForConv"
+oldNbScen="$intNbSimulCheckForConv"								   
 toreplace="$oldNbScen"
 replacement="$newNbScen"
 newrowconfig=${rowconfig/"$toreplace"/"$replacement"}
