@@ -3,8 +3,8 @@
 # this script launches creation of nc4 files for running investment_solver 
 source scripts/include/utils.sh
 echo -e "\n${print_green}Launching netcdf dataset creation for $DATASET - [$start_time]${no_color}"
-
-if [ $# -ne 2 ]; then
+if [ "$2" == "" ]; then
+#if [ $# -ne 2 ]; then
     echo " requires a second argument that can be either invest, optim or simul "
     echo " depending if you intend to create a plan4res dataset for: " 
     echo "     - launching computation of bellman values -optim-, "
@@ -14,6 +14,7 @@ if [ $# -ne 2 ]; then
 	read phaseformat
 else
 	phaseformat="$2"
+	echo "creating blocks for $phaseformat"										
 fi
 
 if echo "$argumentsFORMAT" | grep -qw "$phaseformat"; then
@@ -29,13 +30,17 @@ if [ "$phaseformat" == "simul" ]; then
 elif [ "$phaseformat" == "invest" ]; then
     phasecreate="invest"
 else
-	if [ $# -ne 3 ]; then
+	#if [ $# -ne 3 ]; then
+    echo "Usage: $0 arg1 arg2 arg3 [arg4 ...]"
+    exit 1
+	if [ "$#" -lt 3 ]; then
+	#if [ $3 == "" ]; then
 		echo " requires a third argument that can be either invest or simul "
 		echo " depending if your dataset will be used in a case study : " 
 		echo "     - with investment optimisation -invest-, "
 		echo "     - without investment optimisation -simul- ."
-		echo -n "$0 please choose: "
-		read phasecreate
+		echo "Usage: $0 $1 $2 arg2"
+		exit 1
 	else
 		phasecreate="$3"
 	fi
