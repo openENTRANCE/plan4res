@@ -1,0 +1,327 @@
+Model,Scenario,Region,Variable,Unit,2030
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Austria>Czech Republic,Network|Electricity|Maximum Flow,MW,1181.449263
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Austria>Germany,Network|Electricity|Maximum Flow,MW,2000.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Austria>Hungary,Network|Electricity|Maximum Flow,MW,800.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Austria>Italy,Network|Electricity|Maximum Flow,MW,443.75
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Austria>Slovenia,Network|Electricity|Maximum Flow,MW,1099.581382
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Austria>Switzerland,Network|Electricity|Maximum Flow,MW,434.25
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Belgium>France,Network|Electricity|Maximum Flow,MW,3745.19456
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Belgium>The Netherlands,Network|Electricity|Maximum Flow,MW,2214.647372
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Capacity|Electricity|Biomass|w/o CCS,MW,22215.738816177636
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Capacity|Electricity|Coal|Hard coal|w/ CCS,MW,19.925501156099
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Capacity|Electricity|Coal|Hard coal|w/o CCS,MW,19615.642512259034
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Capacity|Electricity|Coal|Lignite|w/o CCS,MW,5288.981669934422
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Capacity|Electricity|Gas|CCGT|w/ CCS,MW,2377.75377232269
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Capacity|Electricity|Gas|CCGT|w/o CCS,MW,103279.7369609109
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Capacity|Electricity|Gas|OCGT|w/o CCS,MW,6097.008105935399
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Capacity|Electricity|Hydrogen|OCGT,MW,2140.371621838265
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Capacity|Electricity|Hydro|Pumped Storage,MW,21415.135491208086
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Capacity|Electricity|Hydro|Reservoir,MW,41917.020333
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Capacity|Electricity|Hydro|Run of River,MW,26508.246667
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Capacity|Electricity|Nuclear,MW,64730.40464645817
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Capacity|Electricity|Oil|w/o CCS,MW,19794.516585899957
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Capacity|Electricity|Solar|PV,MW,367510.1248336191
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Capacity|Electricity|Wind|Offshore,MW,62886.81891284822
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Capacity|Electricity|Wind|Onshore,MW,231281.85652637598
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Capital Cost|Electricity|Biomass|w/ CCS,EUR/MW,8613734.999999998
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Capital Cost|Electricity|Biomass|w/o CCS,EUR/MW,2511014.999999999
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Capital Cost|Electricity|Coal|Hard coal|w/ CCS,EUR/MW,4779101.7857142845
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Capital Cost|Electricity|Coal|Hard coal|w/o CCS,EUR/MW,1695199.9999999998
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Capital Cost|Electricity|Coal|Lignite|w/o CCS,EUR/MW,2013049.9999999998
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Capital Cost|Electricity|Gas|CCGT|w/ CCS,EUR/MW,2383875.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Capital Cost|Electricity|Gas|CCGT|w/o CCS,EUR/MW,663122.3529411763
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Capital Cost|Electricity|Gas|OCGT|w/o CCS,EUR/MW,394232.55813953484
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Capital Cost|Electricity|Geothermal,EUR/MW,4735964.999999999
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Capital Cost|Electricity|Hydrogen|OCGT,EUR/MW,362076.17874999996
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Capital Cost|Electricity|Nuclear,EUR/MW,6356999.999999998
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Capital Cost|Electricity|Oil|w/o CCS,EUR/MW,688674.9999999999
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Capital Cost|Electricity|Solar|PV,EUR/MW,476774.9999999997
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Capital Cost|Electricity|Wind|Offshore,EUR/MW,2051191.9999999998
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Capital Cost|Electricity|Wind|Onshore,EUR/MW,1059499.9999999998
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Final Energy|Electricity,MWh/yr,2256973915.6851854
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Final Energy|Electricity|Heat,MWh,580159732.555488
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Final Energy|Electricity|Transportation,MWh,416784327.81130695
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Fixed Cost|Electricity|Biomass|w/ CCS,EUR/MW/yr,82863.49499999997
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Fixed Cost|Electricity|Biomass|w/o CCS,EUR/MW/yr,55242.32999999998
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Fixed Cost|Electricity|Coal|Hard coal|w/ CCS,EUR/MW/yr,79651.69642857143
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Fixed Cost|Electricity|Coal|Hard coal|w/o CCS,EUR/MW/yr,42379.999999999985
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Fixed Cost|Electricity|Coal|Lignite|w/o CCS,EUR/MW/yr,40260.99999999999
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Fixed Cost|Electricity|Gas|CCGT|w/ CCS,EUR/MW/yr,39731.24999999999
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Fixed Cost|Electricity|Gas|CCGT|w/o CCS,EUR/MW/yr,18011.499999999993
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Fixed Cost|Electricity|Gas|OCGT|w/o CCS,EUR/MW/yr,8475.999999999998
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Fixed Cost|Electricity|Geothermal,EUR/MW/yr,84759.99999999997
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Fixed Cost|Electricity|Hydrogen|OCGT,EUR/MW/yr,10862.285362499999
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Fixed Cost|Electricity|Nuclear,EUR/MW/yr,100122.75
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Fixed Cost|Electricity|Oil|w/o CCS,EUR/MW/yr,6897.344999999998
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Fixed Cost|Electricity|Wind|Offshore,EUR/MW/yr,61535.75999999997
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Fixed Cost|Electricity|Wind|Onshore,EUR/MW/yr,21189.999999999993
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Maximum Storage|Electricity|Energy Storage System|Hydro|Pumped Storage,MWh,2141513.5491208085
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Maximum Storage|Electricity|Energy Storage System|Lithium-Ion,MWh,387909.01662148815
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Price|Carbon,EUR_2020/t CO2,132.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Secondary Energy|Electricity|Biomass|w/o CCS,MWh/yr,57953379.033650585
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Secondary Energy|Electricity|Coal|Hard coal|w/ CCS,MWh/yr,165820.02062105556
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Secondary Energy|Electricity|Coal|Hard coal|w/o CCS,MWh/yr,2650393.3614100004
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Secondary Energy|Electricity|Coal|Lignite|w/o CCS,MWh/yr,7102144.681548055
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Secondary Energy|Electricity|Gas|CCGT|w/ CCS,MWh/yr,17709955.824889448
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Secondary Energy|Electricity|Gas|CCGT|w/o CCS,MWh/yr,158427455.05903697
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Secondary Energy|Electricity|Hydro|Reservoir,MWh,96118939.76277778
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Secondary Energy|Electricity|Hydro|Run of River,MWh,86294837.00055555
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Secondary Energy|Electricity|Nuclear,MWh/yr,482739965.7933464
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Secondary Energy|Electricity|Solar|PV,MWh/yr,522510525.34034365
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Secondary Energy|Electricity|Wind|Offshore,MWh/yr,268127931.7124242
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Secondary Energy|Electricity|Wind|Onshore,MWh/yr,515510696.91874975
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Variable Cost|Electricity|Biomass|w/ CCS,EUR/MWh,41.36332040031596
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Variable Cost|Electricity|Biomass|w/o CCS,EUR/MWh,64.02184635651166
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Variable Cost|Electricity|Coal|Hard coal|w/ CCS,EUR/MWh,21.33967041944816
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Variable Cost|Electricity|Coal|Hard coal|w/o CCS,EUR/MWh,13.05253920699918
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Variable Cost|Electricity|Coal|Lignite|w/o CCS,EUR/MWh,9.72193607895402
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Variable Cost|Electricity|Gas|CCGT|w/ CCS,EUR/MWh,40.48321540763101
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Variable Cost|Electricity|Gas|CCGT|w/o CCS,EUR/MWh,31.24058558037973
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Variable Cost|Electricity|Gas|OCGT|w/o CCS,EUR/MWh,44.00609786326235
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Variable Cost|Electricity|Geothermal,EUR/MWh,2.55000000204
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Variable Cost|Electricity|Hydrogen|OCGT,EUR/MWh,224.2926233766234
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Variable Cost|Electricity|Nuclear,EUR/MWh,12.41513513513513
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Variable Cost|Electricity|Oil|w/o CCS,EUR/MWh,78.91973908674551
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Variable Cost|Electricity|Wind|Offshore,EUR/MWh,0.036
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,BigFrance,Variable Cost|Electricity|Wind|Onshore,EUR/MWh,0.036
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Bulgaria>Greece,Network|Electricity|Maximum Flow,MW,350.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Bulgaria>Non-EU-Balkans,Network|Electricity|Maximum Flow,MW,350.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Bulgaria>Romania,Network|Electricity|Maximum Flow,MW,150.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Bulgaria>Turkey,Network|Electricity|Maximum Flow,MW,1000.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Croatia>Hungary,Network|Electricity|Maximum Flow,MW,1000.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Croatia>Non-EU-Balkans,Network|Electricity|Maximum Flow,MW,1100.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Croatia>Slovenia,Network|Electricity|Maximum Flow,MW,1342.719662
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Czech Republic>Austria,Network|Electricity|Maximum Flow,MW,1039.231874
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Czech Republic>Germany,Network|Electricity|Maximum Flow,MW,2388.314826
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Czech Republic>Poland,Network|Electricity|Maximum Flow,MW,275.0103215
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Czech Republic>Slovakia,Network|Electricity|Maximum Flow,MW,1700.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Denmark>Germany,Network|Electricity|Maximum Flow,MW,3100.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Denmark>Norway,Network|Electricity|Maximum Flow,MW,1700.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Denmark>Sweden,Network|Electricity|Maximum Flow,MW,2440.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Denmark>The Netherlands,Network|Electricity|Maximum Flow,MW,700.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Denmark>United Kingdom,Network|Electricity|Maximum Flow,MW,1400.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Estonia>Finland,Network|Electricity|Maximum Flow,MW,365.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Estonia>Latvia,Network|Electricity|Maximum Flow,MW,800.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Europe (incl. Turkey),Pumping Efficiency|Electricity|Hydro|Pumped Storage,%,0.866
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Europe (incl. Turkey),Roundtrip Efficiency|Electricity|Energy Storage System|Compressed Air,%,0.837
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Europe (incl. Turkey),Roundtrip Efficiency|Electricity|Energy Storage System|Lithium-Ion,%,0.95
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Finland>Estonia,Network|Electricity|Maximum Flow,MW,365.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Finland>Sweden,Network|Electricity|Maximum Flow,MW,1950.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,France>Belgium,Network|Electricity|Maximum Flow,MW,5241.405364
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,France>Germany,Network|Electricity|Maximum Flow,MW,9547.99513
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,France>Italy,Network|Electricity|Maximum Flow,MW,866.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,France>Spain,Network|Electricity|Maximum Flow,MW,5000.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,France>Switzerland,Network|Electricity|Maximum Flow,MW,3200.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,France>United Kingdom,Network|Electricity|Maximum Flow,MW,2000.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Germany>Austria,Network|Electricity|Maximum Flow,MW,2200.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Germany>Czech Republic,Network|Electricity|Maximum Flow,MW,1821.546854
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Germany>Denmark,Network|Electricity|Maximum Flow,MW,3100.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Germany>France,Network|Electricity|Maximum Flow,MW,8260.79586
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Germany>Luxembourg,Network|Electricity|Maximum Flow,MW,980.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Germany>Norway,Network|Electricity|Maximum Flow,MW,1444.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Germany>Poland,Network|Electricity|Maximum Flow,MW,100.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Germany>Sweden,Network|Electricity|Maximum Flow,MW,353.958333
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Germany>Switzerland,Network|Electricity|Maximum Flow,MW,3500.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Germany>The Netherlands,Network|Electricity|Maximum Flow,MW,2850.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Greece>Bulgaria,Network|Electricity|Maximum Flow,MW,500.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Greece>Italy,Network|Electricity|Maximum Flow,MW,500.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Greece>Non-EU-Balkans,Network|Electricity|Maximum Flow,MW,300.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Greece>Turkey,Network|Electricity|Maximum Flow,MW,1000.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Hungary>Austria,Network|Electricity|Maximum Flow,MW,800.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Hungary>Croatia,Network|Electricity|Maximum Flow,MW,1200.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Hungary>Non-EU-Balkans,Network|Electricity|Maximum Flow,MW,700.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Hungary>Romania,Network|Electricity|Maximum Flow,MW,400.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Hungary>Slovakia,Network|Electricity|Maximum Flow,MW,1595.861921
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Ireland>United Kingdom,Network|Electricity|Maximum Flow,MW,450.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Italy>Austria,Network|Electricity|Maximum Flow,MW,416.8375
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Italy>France,Network|Electricity|Maximum Flow,MW,1160.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Italy>Greece,Network|Electricity|Maximum Flow,MW,500.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Italy>Slovenia,Network|Electricity|Maximum Flow,MW,784.132566
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Italy>Switzerland,Network|Electricity|Maximum Flow,MW,1910.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Latvia>Estonia,Network|Electricity|Maximum Flow,MW,750.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Latvia>Lithuania,Network|Electricity|Maximum Flow,MW,1450.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Lithuania>Latvia,Network|Electricity|Maximum Flow,MW,1500.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Luxembourg>Germany,Network|Electricity|Maximum Flow,MW,980.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Non-EU-Balkans>Bulgaria,Network|Electricity|Maximum Flow,MW,350.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Non-EU-Balkans>Croatia,Network|Electricity|Maximum Flow,MW,1100.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Non-EU-Balkans>Greece,Network|Electricity|Maximum Flow,MW,300.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Non-EU-Balkans>Hungary,Network|Electricity|Maximum Flow,MW,700.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Non-EU-Balkans>Romania,Network|Electricity|Maximum Flow,MW,200.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Norway>Denmark,Network|Electricity|Maximum Flow,MW,1700.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Norway>Germany,Network|Electricity|Maximum Flow,MW,1444.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Norway>Sweden,Network|Electricity|Maximum Flow,MW,3445.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Norway>The Netherlands,Network|Electricity|Maximum Flow,MW,723.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Norway>United Kingdom,Network|Electricity|Maximum Flow,MW,2800.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Poland>Czech Republic,Network|Electricity|Maximum Flow,MW,298.4508378
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Poland>Germany,Network|Electricity|Maximum Flow,MW,225.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Poland>Slovakia,Network|Electricity|Maximum Flow,MW,1049.593336
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Poland>Sweden,Network|Electricity|Maximum Flow,MW,265.916667
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Portugal,Capacity|Electricity|Biomass|w/o CCS,MW,737.896451404882
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Portugal,Capacity|Electricity|Coal|Hard coal|w/o CCS,MW,1756.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Portugal,Capacity|Electricity|Gas|CCGT|w/o CCS,MW,3465.662801543978
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Portugal,Capacity|Electricity|Hydro|Run of River,MW,4373.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Portugal,Capacity|Electricity|Solar|PV,MW,11553.53323567708
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Portugal,Capacity|Electricity|Wind|Onshore,MW,14351.49046815422
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Portugal,Capital Cost|Electricity|Biomass|w/ CCS,EUR/MW,8613734.999999998
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Portugal,Capital Cost|Electricity|Biomass|w/o CCS,EUR/MW,2511014.999999999
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Portugal,Capital Cost|Electricity|Coal|Hard coal|w/ CCS,EUR/MW,4779101.7857142845
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Portugal,Capital Cost|Electricity|Coal|Hard coal|w/o CCS,EUR/MW,1695199.9999999998
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Portugal,Capital Cost|Electricity|Coal|Lignite|w/o CCS,EUR/MW,2013049.9999999998
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Portugal,Capital Cost|Electricity|Gas|CCGT|w/ CCS,EUR/MW,2383875.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Portugal,Capital Cost|Electricity|Gas|CCGT|w/o CCS,EUR/MW,663122.3529411763
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Portugal,Capital Cost|Electricity|Gas|OCGT|w/o CCS,EUR/MW,394232.55813953484
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Portugal,Capital Cost|Electricity|Geothermal,EUR/MW,4735964.999999999
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Portugal,Capital Cost|Electricity|Hydrogen|OCGT,EUR/MW,362076.17874999996
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Portugal,Capital Cost|Electricity|Nuclear,EUR/MW,6356999.999999998
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Portugal,Capital Cost|Electricity|Oil|w/o CCS,EUR/MW,688674.9999999999
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Portugal,Capital Cost|Electricity|Solar|PV,EUR/MW,476774.99999999977
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Portugal,Capital Cost|Electricity|Wind|Offshore,EUR/MW,2051191.9999999998
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Portugal,Capital Cost|Electricity|Wind|Onshore,EUR/MW,1059499.9999999998
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Portugal,Final Energy|Electricity,MWh/yr,75667584.46808057
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Portugal,Final Energy|Electricity|Heat,MWh,23648226.95429531
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Portugal,Final Energy|Electricity|Transportation,MWh,10527100.23634957
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Portugal,Fixed Cost|Electricity|Biomass|w/ CCS,EUR/MW/yr,82863.49499999997
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Portugal,Fixed Cost|Electricity|Biomass|w/o CCS,EUR/MW/yr,55242.32999999998
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Portugal,Fixed Cost|Electricity|Coal|Hard coal|w/ CCS,EUR/MW/yr,79651.69642857142
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Portugal,Fixed Cost|Electricity|Coal|Hard coal|w/o CCS,EUR/MW/yr,42379.999999999985
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Portugal,Fixed Cost|Electricity|Coal|Lignite|w/o CCS,EUR/MW/yr,40260.99999999999
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Portugal,Fixed Cost|Electricity|Gas|CCGT|w/ CCS,EUR/MW/yr,39731.24999999999
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Portugal,Fixed Cost|Electricity|Gas|CCGT|w/o CCS,EUR/MW/yr,18011.499999999993
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Portugal,Fixed Cost|Electricity|Gas|OCGT|w/o CCS,EUR/MW/yr,8475.999999999998
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Portugal,Fixed Cost|Electricity|Geothermal,EUR/MW/yr,84759.99999999997
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Portugal,Fixed Cost|Electricity|Hydrogen|OCGT,EUR/MW/yr,10862.285362499999
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Portugal,Fixed Cost|Electricity|Nuclear,EUR/MW/yr,100122.75
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Portugal,Fixed Cost|Electricity|Oil|w/o CCS,EUR/MW/yr,6897.344999999998
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Portugal,Fixed Cost|Electricity|Wind|Offshore,EUR/MW/yr,61535.75999999998
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Portugal,Fixed Cost|Electricity|Wind|Onshore,EUR/MW/yr,21189.999999999993
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Portugal,Maximum Storage|Electricity|Energy Storage System|Lithium-Ion,MWh,11716.41580275327
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Portugal,Price|Carbon,EUR_2020/t CO2,132.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Portugal,Secondary Energy|Electricity|Biomass|w/o CCS,MWh/yr,2967786.269379445
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Portugal,Secondary Energy|Electricity|Coal|Hard coal|w/o CCS,MWh/yr,587805.625
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Portugal,Secondary Energy|Electricity|Gas|CCGT|w/o CCS,MWh/yr,1417480.7813597226
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Portugal,Secondary Energy|Electricity|Hydro|Run of River,MWh,13873513.166666666
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Portugal,Secondary Energy|Electricity|Solar|PV,MWh/yr,21688434.805922225
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Portugal,Secondary Energy|Electricity|Wind|Onshore,MWh/yr,35851599.91865112
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Portugal,Variable Cost|Electricity|Biomass|w/ CCS,EUR/MWh,41.36332040031596
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Portugal,Variable Cost|Electricity|Biomass|w/o CCS,EUR/MWh,64.02184635651166
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Portugal,Variable Cost|Electricity|Coal|Hard coal|w/ CCS,EUR/MWh,21.33967041944816
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Portugal,Variable Cost|Electricity|Coal|Hard coal|w/o CCS,EUR/MWh,13.05253920699918
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Portugal,Variable Cost|Electricity|Coal|Lignite|w/o CCS,EUR/MWh,9.72193607895402
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Portugal,Variable Cost|Electricity|Gas|CCGT|w/ CCS,EUR/MWh,40.48321540763101
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Portugal,Variable Cost|Electricity|Gas|CCGT|w/o CCS,EUR/MWh,31.24058558037973
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Portugal,Variable Cost|Electricity|Gas|OCGT|w/o CCS,EUR/MWh,44.00609786326235
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Portugal,Variable Cost|Electricity|Geothermal,EUR/MWh,2.55000000204
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Portugal,Variable Cost|Electricity|Hydrogen|OCGT,EUR/MWh,224.2926233766234
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Portugal,Variable Cost|Electricity|Nuclear,EUR/MWh,12.41513513513513
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Portugal,Variable Cost|Electricity|Oil|w/o CCS,EUR/MWh,78.91973908674551
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Portugal,Variable Cost|Electricity|Wind|Offshore,EUR/MWh,0.036
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Portugal,Variable Cost|Electricity|Wind|Onshore,EUR/MWh,0.036
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Portugal>Spain,Network|Electricity|Maximum Flow,MW,4500.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Romania>Bulgaria,Network|Electricity|Maximum Flow,MW,600.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Romania>Hungary,Network|Electricity|Maximum Flow,MW,700.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Romania>Non-EU-Balkans,Network|Electricity|Maximum Flow,MW,200.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Slovakia>Czech Republic,Network|Electricity|Maximum Flow,MW,1200.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Slovakia>Hungary,Network|Electricity|Maximum Flow,MW,1976.482633
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Slovakia>Poland,Network|Electricity|Maximum Flow,MW,882.1543352
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Slovenia>Austria,Network|Electricity|Maximum Flow,MW,1077.073342
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Slovenia>Croatia,Network|Electricity|Maximum Flow,MW,1491.311712
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Slovenia>Italy,Network|Electricity|Maximum Flow,MW,913.7441953
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Capacity|Electricity|Biomass|w/o CCS,MW,1747.2806060886198
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Capacity|Electricity|Coal|Hard coal|w/o CCS,MW,3946.899889463788
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Capacity|Electricity|Coal|Lignite|w/o CCS,MW,360.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Capacity|Electricity|Gas|CCGT|w/ CCS,MW,448.83892055151904
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Capacity|Electricity|Gas|CCGT|w/o CCS,MW,21434.73883218593
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Capacity|Electricity|Gas|OCGT|w/o CCS,MW,246.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Capacity|Electricity|Hydro|Pumped Storage,MW,12371.79467268018
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Capacity|Electricity|Hydro|Reservoir,MW,7490.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Capacity|Electricity|Hydro|Run of River,MW,1330.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Capacity|Electricity|Nuclear,MW,3119.17765279154
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Capacity|Electricity|Oil|w/o CCS,MW,1007.308828125
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Capacity|Electricity|Solar|PV,MW,107656.49900399601
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Capacity|Electricity|Wind|Onshore,MW,69005.61018476724
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Capital Cost|Electricity|Biomass|w/ CCS,EUR/MW,8613734.999999998
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Capital Cost|Electricity|Biomass|w/o CCS,EUR/MW,2511014.999999999
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Capital Cost|Electricity|Coal|Hard coal|w/ CCS,EUR/MW,4779101.7857142845
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Capital Cost|Electricity|Coal|Hard coal|w/o CCS,EUR/MW,1695199.9999999998
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Capital Cost|Electricity|Coal|Lignite|w/o CCS,EUR/MW,2013049.9999999998
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Capital Cost|Electricity|Gas|CCGT|w/ CCS,EUR/MW,2383875.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Capital Cost|Electricity|Gas|CCGT|w/o CCS,EUR/MW,663122.3529411763
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Capital Cost|Electricity|Gas|OCGT|w/o CCS,EUR/MW,394232.55813953484
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Capital Cost|Electricity|Geothermal,EUR/MW,4735964.999999999
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Capital Cost|Electricity|Hydrogen|OCGT,EUR/MW,362076.17874999996
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Capital Cost|Electricity|Nuclear,EUR/MW,6356999.999999998
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Capital Cost|Electricity|Oil|w/o CCS,EUR/MW,688674.9999999999
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Capital Cost|Electricity|Solar|PV,EUR/MW,476774.99999999977
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Capital Cost|Electricity|Wind|Offshore,EUR/MW,2051191.9999999998
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Capital Cost|Electricity|Wind|Onshore,EUR/MW,1059499.9999999998
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Final Energy|Electricity,MWh/yr,357831438.52732056
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Final Energy|Electricity|Heat,MWh,103297973.2313392
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Final Energy|Electricity|Transportation,MWh,65064931.5770934
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Fixed Cost|Electricity|Biomass|w/ CCS,EUR/MW/yr,82863.49499999997
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Fixed Cost|Electricity|Biomass|w/o CCS,EUR/MW/yr,55242.32999999998
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Fixed Cost|Electricity|Coal|Hard coal|w/ CCS,EUR/MW/yr,79651.69642857142
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Fixed Cost|Electricity|Coal|Hard coal|w/o CCS,EUR/MW/yr,42379.999999999985
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Fixed Cost|Electricity|Coal|Lignite|w/o CCS,EUR/MW/yr,40260.99999999999
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Fixed Cost|Electricity|Gas|CCGT|w/ CCS,EUR/MW/yr,39731.24999999999
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Fixed Cost|Electricity|Gas|CCGT|w/o CCS,EUR/MW/yr,18011.499999999993
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Fixed Cost|Electricity|Gas|OCGT|w/o CCS,EUR/MW/yr,8475.999999999998
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Fixed Cost|Electricity|Geothermal,EUR/MW/yr,84759.99999999997
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Fixed Cost|Electricity|Hydrogen|OCGT,EUR/MW/yr,10862.285362499999
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Fixed Cost|Electricity|Nuclear,EUR/MW/yr,100122.75
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Fixed Cost|Electricity|Oil|w/o CCS,EUR/MW/yr,6897.344999999998
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Fixed Cost|Electricity|Wind|Offshore,EUR/MW/yr,61535.75999999998
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Fixed Cost|Electricity|Wind|Onshore,EUR/MW/yr,21189.999999999993
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Maximum Storage|Electricity|Energy Storage System|Hydro|Pumped Storage,MWh,1237179.467268018
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Maximum Storage|Electricity|Energy Storage System|Lithium-Ion,MWh,54923.097346945804
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Price|Carbon,EUR_2020/t CO2,132.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Secondary Energy|Electricity|Biomass|w/o CCS,MWh/yr,4097888.0953300004
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Secondary Energy|Electricity|Gas|CCGT|w/ CCS,MWh/yr,2949905.2430905555
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Secondary Energy|Electricity|Gas|CCGT|w/o CCS,MWh/yr,4123016.1308850003
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Secondary Energy|Electricity|Hydro|Reservoir,MWh,27075319.09166666
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Secondary Energy|Electricity|Hydro|Run of River,MWh,3314753.675
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Secondary Energy|Electricity|Nuclear,MWh/yr,23908496.708646946
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Secondary Energy|Electricity|Solar|PV,MWh/yr,202737929.41437143
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Secondary Energy|Electricity|Wind|Onshore,MWh/yr,153658850.01371253
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Variable Cost|Electricity|Biomass|w/ CCS,EUR/MWh,41.36332040031596
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Variable Cost|Electricity|Biomass|w/o CCS,EUR/MWh,64.02184635651166
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Variable Cost|Electricity|Coal|Hard coal|w/ CCS,EUR/MWh,21.33967041944816
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Variable Cost|Electricity|Coal|Hard coal|w/o CCS,EUR/MWh,13.05253920699918
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Variable Cost|Electricity|Coal|Lignite|w/o CCS,EUR/MWh,9.72193607895402
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Variable Cost|Electricity|Gas|CCGT|w/ CCS,EUR/MWh,40.48321540763101
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Variable Cost|Electricity|Gas|CCGT|w/o CCS,EUR/MWh,31.24058558037973
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Variable Cost|Electricity|Gas|OCGT|w/o CCS,EUR/MWh,44.00609786326235
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Variable Cost|Electricity|Geothermal,EUR/MWh,2.55000000204
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Variable Cost|Electricity|Hydrogen|OCGT,EUR/MWh,224.2926233766234
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Variable Cost|Electricity|Nuclear,EUR/MWh,12.41513513513513
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Variable Cost|Electricity|Oil|w/o CCS,EUR/MWh,78.91973908674551
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Variable Cost|Electricity|Wind|Offshore,EUR/MWh,0.036
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain,Variable Cost|Electricity|Wind|Onshore,EUR/MWh,0.036
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain>France,Network|Electricity|Maximum Flow,MW,5000.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Spain>Portugal,Network|Electricity|Maximum Flow,MW,4100.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Sweden>Denmark,Network|Electricity|Maximum Flow,MW,2440.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Sweden>Finland,Network|Electricity|Maximum Flow,MW,2250.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Sweden>Germany,Network|Electricity|Maximum Flow,MW,610.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Sweden>Norway,Network|Electricity|Maximum Flow,MW,3695.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Sweden>Poland,Network|Electricity|Maximum Flow,MW,341.666667
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Switzerland>Austria,Network|Electricity|Maximum Flow,MW,1200.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Switzerland>France,Network|Electricity|Maximum Flow,MW,1100.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Switzerland>Germany,Network|Electricity|Maximum Flow,MW,3500.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Switzerland>Italy,Network|Electricity|Maximum Flow,MW,1336.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,The Netherlands>Belgium,Network|Electricity|Maximum Flow,MW,2353.820438
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,The Netherlands>Denmark,Network|Electricity|Maximum Flow,MW,700.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,The Netherlands>Germany,Network|Electricity|Maximum Flow,MW,2400.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,The Netherlands>Norway,Network|Electricity|Maximum Flow,MW,723.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,The Netherlands>United Kingdom,Network|Electricity|Maximum Flow,MW,1016.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Turkey>Bulgaria,Network|Electricity|Maximum Flow,MW,1000.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,Turkey>Greece,Network|Electricity|Maximum Flow,MW,1000.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,United Kingdom>Denmark,Network|Electricity|Maximum Flow,MW,1400.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,United Kingdom>France,Network|Electricity|Maximum Flow,MW,2000.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,United Kingdom>Ireland,Network|Electricity|Maximum Flow,MW,450.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,United Kingdom>Norway,Network|Electricity|Maximum Flow,MW,2800.0
+GENeSYS-MOD 3.1,Techno-Friendly 2.0,United Kingdom>The Netherlands,Network|Electricity|Maximum Flow,MW,1016.0
+plan4eu-V1.1,ENTSOETransparency,BigFrance,Maximum Storage|Electricity|Hydro|Reservoir,MWh,16256280.724
+plan4eu-V1.1,ENTSOETransparency,Portugal,Maximum Storage|Electricity|Hydro|Reservoir,MWh,3477325.2
+plan4eu-V1.1,ENTSOETransparency,Spain,Maximum Storage|Electricity|Hydro|Reservoir,MWh,16409036.879999999
+plan4eu-V1.1,eHighway2050,BigFrance,Share|Final Energy|Electricity|Cooling,%,0.4167192524285714
+plan4eu-V1.1,eHighway2050,Portugal,Share|Final Energy|Electricity|Cooling,%,2.397611213
+plan4eu-V1.1,eHighway2050,Spain,Share|Final Energy|Electricity|Cooling,%,2.399272149

@@ -1,0 +1,51 @@
+Type,Zone,value,Profile_Timeserie
+Total,Balkans,336526624.9,Profile-Balkans.csv
+Total,Baltics,75325714.23,Profile-Baltics.csv
+Total,Benelux,345280938.3,Profile-Benelux.csv
+Total,Britain,590391161.3,Profile-Britain.csv
+Total,Eastern Europe,497193352,Profile-EasternEurope.csv
+Total,France,804287504.1,Profile-France.csv
+Total,Germany,815155185.2,Profile-Germany.csv
+Total,Italy,528235619.4,Profile-Italy.csv
+Total,Portugal,86869899.94,Profile-Iberia.csv
+Total,Scandinavia,424729617.6,Profile-Scandinavia.csv
+Total,Switzerland,81730778.38,Profile-Switzerland.csv
+Total,Spain,609825583.7,Profile-Iberia.csv
+Total,Outside,0,Profile-Iberia.csv
+InertiaDemand,Europe,40000,One.csv
+PrimaryDemand,Balkans,194,One.csv
+PrimaryDemand,Baltics,43,One.csv
+PrimaryDemand,Benelux,85,One.csv
+PrimaryDemand,Benelux,114,One.csv
+PrimaryDemand,Britain,30,One.csv
+PrimaryDemand,Britain,310,One.csv
+PrimaryDemand,Eastern Europe,54,One.csv
+PrimaryDemand,Eastern Europe,51,One.csv
+PrimaryDemand,Eastern Europe,42,One.csv
+PrimaryDemand,Eastern Europe,122,One.csv
+PrimaryDemand,Eastern Europe,19,One.csv
+PrimaryDemand,France,464,One.csv
+PrimaryDemand,Germany,470,One.csv
+PrimaryDemand,Italy,305,One.csv
+PrimaryDemand,Portugal,50,One.csv
+PrimaryDemand,Scandinavia,245,One.csv
+PrimaryDemand,Spain,352,One.csv
+PrimaryDemand,Switzerland,47,One.csv
+SecondaryDemand,Balkans,580,One.csv
+SecondaryDemand,Baltics,0,One.csv
+SecondaryDemand,Benelux,145,One.csv
+SecondaryDemand,Benelux,550,One.csv
+SecondaryDemand,Britain,0,One.csv
+SecondaryDemand,Britain,0,One.csv
+SecondaryDemand,Eastern Europe,280,One.csv
+SecondaryDemand,Eastern Europe,350,One.csv
+SecondaryDemand,Eastern Europe,350,One.csv
+SecondaryDemand,Eastern Europe,560,One.csv
+SecondaryDemand,Eastern Europe,130,One.csv
+SecondaryDemand,France,690,One.csv
+SecondaryDemand,Germany,2000,One.csv
+SecondaryDemand,Italy,0,One.csv
+SecondaryDemand,Portugal,230,One.csv
+SecondaryDemand,Scandinavia,260,One.csv
+SecondaryDemand,Spain,1300,One.csv
+SecondaryDemand,Switzerland,400,One.csv

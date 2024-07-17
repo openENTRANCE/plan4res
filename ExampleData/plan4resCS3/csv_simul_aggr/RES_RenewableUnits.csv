@@ -1,0 +1,36 @@
+Name,Zone,NumberUnits,MaxPower,Capacity,MinPower,MaxPowerProfile,Inertia,Gamma,PrimaryRho,SecondaryRho
+PV,France,1,33090,33090,0,EDF__PV-LoadFactor-PresentClimate-FR__13082019__13082019__v1.csv,0,0.5,0.1,0.1
+PV,Germany,1,54428,54428,0,EDF__PV-LoadFactor-PresentClimate-DE__13082019__13082019__v1.csv,0,0.5,0.1,0.1
+PV,Balkans,1,23653,23653,0,EDF__PV-LoadFactor-PresentClimate-RO__13082019__13082019__v1.csv,0,0.5,0.1,0.1
+PV,Baltics,1,1363,1363,0,EDF__PV-LoadFactor-PresentClimate-LV__13082019__13082019__v1.csv,0,0.5,0.1,0.1
+PV,Benelux,1,14715,14715,0,EDF__PV-LoadFactor-PresentClimate-NL__13082019__13082019__v1.csv,0,0.5,0.1,0.1
+PV,Britain,1,6644,6644,0,EDF__PV-LoadFactor-PresentClimate-UK__13082019__13082019__v1.csv,0,0.5,0.1,0.1
+PV,Eastern Europe,1,19089,19089,0,EDF__PV-LoadFactor-PresentClimate-AT__13082019__13082019__v1.csv,0,0.5,0.1,0.1
+PV,Italy,1,30252,30252,0,EDF__PV-LoadFactor-PresentClimate-IT__13082019__13082019__v1.csv,0,0.5,0.1,0.1
+PV,Scandinavia,1,6215,6215,0,EDF__PV-LoadFactor-PresentClimate-NO__13082019__13082019__v1.csv,0,0.5,0.1,0.1
+PV,Spain,1,50822,50822,0,EDF__PV-LoadFactor-PresentClimate-ES__13082019__13082019__v1.csv,0,0.5,0.1,0.1
+PV,Switzerland,1,10500,10500,0,EDF__PV-LoadFactor-PresentClimate-CH__13082019__13082019__v1.csv,0,0.5,0.1,0.1
+RoR,France,1,57525604.59,6566.849839,0,EDF__RunOfRiver-HourlyCoefficient-PresentClimate-FR__18092019__18092019__v1.csv,4.5,1,0.1,0.1
+RoR,Germany,1,24700000,2819.634703,0,EDF__RunOfRiver-HourlyCoefficient-PresentClimate-DE__18092019__18092019__v1.csv,4.5,1,0.1,0.1
+RoR,Balkans,1,29951602.62,3419.132719,0,EDF__RunOfRiver-HourlyCoefficient-PresentClimate-RO__18092019__18092019__v1.csv,4.5,1,0.1,0.1
+RoR,Eastern Europe,1,51028131.28,5825.129142,0,EDF__RunOfRiver-HourlyCoefficient-PresentClimate-AT__18092019__18092019__v1.csv,4.5,1,0.1,0.1
+RoR,Italy,1,23870000,2724.885845,0,EDF__RunOfRiver-HourlyCoefficient-PresentClimate-IT__18092019__18092019__v1.csv,4.5,1,0.1,0.1
+RoR,Portugal,1,14539000,1659.703196,0,EDF__RunOfRiver-HourlyCoefficient-PresentClimate-PT__18092019__18092019__v1.csv,4.5,1,0.1,0.1
+RoR,Scandinavia,1,83766260.49,9562.358503,0,EDF__RunOfRiver-HourlyCoefficient-PresentClimate-NO__18092019__18092019__v1.csv,4.5,1,0.1,0.1
+RoR,Spain,1,35895000,4097.60274,0,EDF__RunOfRiver-HourlyCoefficient-PresentClimate-ES__18092019__18092019__v1.csv,4.5,1,0.1,0.1
+RoR,Switzerland,1,19604000,2237.899543,0,EDF__RunOfRiver-HourlyCoefficient-PresentClimate-CH__18092019__18092019__v1.csv,4.5,1,0.1,0.1
+WindOffshore,Benelux,1,10923,10923,0,EDF__WindOffshore-LoadFactor-PresentClimate-BE__25112019__25112019__v1.csv,0,0.5,0.1,0.1
+WindOffshore,Britain,1,40154,40154,0,EDF__WindOffshore-LoadFactor-PresentClimate-UK__25112019__25112019__v1.csv,0,0.5,0.1,0.1
+WindOffshore,Scandinavia,1,32569,32569,0,EDF__WindOffshore-LoadFactor-PresentClimate-NO__25112019__25112019__v1.csv,0,0.5,0.1,0.1
+WindOnshore,France,1,84219,84219,0,EDF__WindOnshore-LoadFactor-PresentClimate-FR__13082019__13082019__v1.csv,0,0.5,0.1,0.1
+WindOnshore,Germany,1,98600,98600,0,EDF__WindOnshore-LoadFactor-PresentClimate-DE__13082019__13082019__v1.csv,0,0.5,0.1,0.1
+WindOnshore,Balkans,1,49151,49151,0,EDF__WindOnshore-LoadFactor-PresentClimate-RO__13082019__13082019__v1.csv,0,0.5,0.1,0.1
+WindOnshore,Baltics,1,36912,36912,0,EDF__WindOnshore-LoadFactor-PresentClimate-EE__13082019__13082019__v1.csv,0,0.5,0.1,0.1
+WindOnshore,Benelux,1,26511,26511,0,EDF__WindOnshore-LoadFactor-PresentClimate-NL__13082019__13082019__v1.csv,0,0.5,0.1,0.1
+WindOnshore,Britain,1,99066,99066,0,EDF__WindOnshore-LoadFactor-PresentClimate-UK__13082019__13082019__v1.csv,0,0.5,0.1,0.1
+WindOnshore,Eastern Europe,1,89260,89260,0,EDF__WindOnshore-LoadFactor-PresentClimate-AT__13082019__13082019__v1.csv,0,0.5,0.1,0.1
+WindOnshore,Italy,1,41293,41293,0,EDF__WindOnshore-LoadFactor-PresentClimate-IT__13082019__13082019__v1.csv,0,0.5,0.1,0.1
+WindOnshore,Portugal,1,11474,11474,0,EDF__WindOnshore-LoadFactor-PresentClimate-PT__13082019__13082019__v1.csv,0,0.5,0.1,0.1
+WindOnshore,Scandinavia,1,104427,104427,0,EDF__WindOnshore-LoadFactor-PresentClimate-NO__13082019__13082019__v1.csv,0,0.5,0.1,0.1
+WindOnshore,Spain,1,67448,67448,0,EDF__WindOnshore-LoadFactor-PresentClimate-ES__13082019__13082019__v1.csv,0,0.5,0.1,0.1
+WindOnshore,Switzerland,1,1382,1382,0,EDF__WindOnshore-LoadFactor-PresentClimate-CH__13082019__13082019__v1.csv,0,0.5,0.1,0.1

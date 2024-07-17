@@ -1,0 +1,9 @@
+Name,Zone,NumberUnits,HydroSystem,WaterValues,MaxPower,Capacity,MinPower,MaxVolume,MinVolume,TurbineEfficiency,PumpingEfficiency,Inflows,InflowsProfile,PrimaryRho,SecondaryRho,Inertia,InitialVolume
+Reservoir,Balkans,1,0,BellmanValuesOUT.csv,12995.3856,12995.3856,0,3914060.4,0,1,0,18105640,EDF__Inflow-HourlyCoefficient-PresentClimate-BG__18092019__18092019__v1.csv,0.1,0.1,4.5,2348436.24
+Reservoir,Eastern Europe,1,0,,5676,5676,0,2298865.332,0,1,0,11455724,EDF__Inflow-HourlyCoefficient-PresentClimate-AT__18092019__18092019__v1.csv,0.1,0.1,4.5,1379319.199
+Reservoir,France,1,0,,18200,18200,0,2986771,0,1,0,33235835,EDF__Inflow-HourlyCoefficient-PresentClimate-FR__18092019__18092019__v1.csv,0.1,0.1,4.5,1792062.6
+Reservoir,Portugal,1,0,,2890,2890,0,3477325.2,0,1,0,9717949,EDF__Inflow-HourlyCoefficient-PresentClimate-PT__18092019__18092019__v1.csv,0.1,0.1,4.5,2086395.12
+Reservoir,Italy,1,0,,15214,15214,0,5382043.2,0,1,0,31029889,EDF__Inflow-HourlyCoefficient-PresentClimate-IT__18092019__18092019__v1.csv,0.1,0.1,4.5,3229225.92
+Reservoir,Switzerland,1,0,,8130,8130,0,7887466.524,0,1,0,21338004,EDF__Inflow-HourlyCoefficient-PresentClimate-CH__18092019__18092019__v1.csv,0.1,0.1,4.5,4732479.914
+Reservoir,Scandinavia,1,0,,66770.63022,66770.63022,0,137083920,0,1,0,215443020,EDF__Inflow-HourlyCoefficient-PresentClimate-NO__18092019__18092019__v1.csv,0.1,0.1,4.5,82250352
+Reservoir,Spain,1,0,,19267,19267,0,16409036.88,0,1,0,24568393,EDF__Inflow-HourlyCoefficient-PresentClimate-ES__18092019__18092019__v1.csv,0.1,0.1,4.5,9845422.128
