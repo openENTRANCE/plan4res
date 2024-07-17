@@ -1,0 +1,212 @@
+##############################################################################
+# inputs for creating the plan4res parameter sheet
+# also used for treating the data
+##############################################################################
+# list of different scenarios and years (eg. from GENeSYS-MOD results) for which we want to create a dataset
+scenarios: ['eHighway2050']
+years: [2050]
+
+# if data are located within the plan4res container, use plan4res path
+USEPLAN4RESROOT: True
+
+# path where to output the plan4res format csv data
+#path: '/data/local/WimNUTS2b/'
+# path where to find the stochastic time series csv files
+#timeseriespath: '/data/local/WimNUTS2/TimeSeries/'
+# path where config files are
+#configDir: '/data/local/WimNUTS2b/settings/'
+# path where openentrance nomenclature is cloned
+#nomenclatureDir: '/scripts/python/openentrance/definitions/'
+csvfiles: # list of csv files to create in the plan4res excel file (comment line if not treated)
+    ZP_ZonePartition: 'ZP_ZonePartition.csv'  # mandatory, contains description of regions
+    IN_Interconnections: 'IN_Interconnections.csv'  # optionnal, contains description of network
+    ZV_ZoneValues: 'ZV_ZoneValues.csv' # mandatory, contains description of coupling constraints
+    TU_ThermalUnits: 'TU_ThermalUnits.csv' # optionnal, contains description of thermal units
+    SS_SeasonalStorage: 'SS_SeasonalStorage.csv' # optionnal, containsescription of seasonal storages
+    STS_ShortTermStorage: 'STS_ShortTermStorage.csv' # optionnal, contains description of short term storages
+    RES_RenewableUnits: 'RES_RenewableUnits.csv' # optionnal, contains description of renewable units
+    #SYN_SynchCond: 'SYN.csv' # optionnal, contains description of synchronous condensers
+
+# Regions
+#######################################
+
+# list of regions to get from data sources 
+listregionsGET: ['Austria' , 'Belgium' , 'Bulgaria' , 'Croatia' , 'Czech Republic' , 'Denmark' , 'Estonia' , 'Finland' , 'France' , 'Germany' ,'Greece' , 'Hungary' , 'Ireland' , 'Italy' , 'Latvia' , 'Lithuania' , 'Luxembourg' , 'Non-EU-Balkans' , 'North Macedonia', 'Norway' , 'Poland' , 'Portugal' , 'Romania' , 'Slovakia' , 'Slovenia' , 'Spain' , 'Sweden' , 'Switzerland' , 'The Netherlands' , 'Turkey' ,'United Kingdom']
+aggregateregions: # how to aggregate regions in plan4res dataset
+    #'Iberia': ['Spain','Portugal']
+    'Benelux': ['Belgium', 'Luxembourg' , 'The Netherlands']
+    'Baltics': ['Estonia', 'Latvia', 'Lithuania']
+    'Balkans': ['Non-EU-Balkans', 'Bulgaria', 'Croatia','Greece','Romania','Slovenia','North Macedonia']   #for CS1
+    'Eastern Europe': ['Austria' ,  'Czech Republic', 'Hungary' , 'Poland' , 'Slovakia' ]
+    'Britain': ['Ireland' ,'United Kingdom'] 
+    'Scandinavia': ['Norway','Sweden','Finland','Denmark']
+    '01_ES': ['ES111','ES112','ES113','ES114']
+    '02_ES': ['ES120','ES130','ES413','ES419','ES415']
+    '03_ES': ['ES412','ES414','ES418','ES416','ES411','ES417','ES424']
+    '04_ES': ['ES213','ES212','ES211','ES220','ES230']
+    '05_ES': ['ES241','ES243','ES242']
+    '06_ES': ['ES513','ES514','ES511','ES512']
+    '07_ES': ['ES300']
+    '08_ES': ['ES431','ES432','ES422','ES425']
+    '09_ES': ['ES615','ES618','ES612','ES617']
+    '10_ES': ['ES613','ES616','ES614','ES611']
+    '11_ES': ['ES423','ES421','ES620','ES521','ES523','ES522']
+
+      #'BigFrance': ['Belgium' , 'France' , 'Germany' , 'Italy' , 'Luxembourg' ,  'Switzerland' , 'The Netherlands' ]
+
+# regional partitions in plan4res (partitions are used for coupling constraints)
+partition:
+    #Countries: ['France' , 'Germany' , 'Italy' ,  'Switzerland' , 'EasternEurope', 'Benelux', 'Spain', 'Portugal', 'Britain', 'Balkans', 'Baltics', 'Scandinavia', 'Outside']
+    Cluster: ['France' , 'Germany' , 'Italy' ,  'Switzerland' , 'Eastern Europe', 'Benelux', '01_ES','02_ES','03_ES','04_ES','05_ES','06_ES','07_ES','08_ES','09_ES','10_ES','11_ES', 'Portugal', 'Britain', 'Balkans', 'Baltics', 'Scandinavia', 'Outside']
+    Continent: ['Europe']
+
+technos: # list of technologies and link to modelling in plan4res
+# thermal= modelled as ThermalUnit (TU), reservoir= modelled as HydroUnit (SS), 
+# hydrostorage/battery=modelled as ShortTermStorage (STS), res/runofriver=modelled as IntermittentUnit (RES)
+    thermal: ['Biomass I ','Biomass II ','Gas without CCS ','Coal without CCS ','Lignite without CCS ','Nuclear ','OCGT ','Import']
+    reservoir: ['Reservoir']
+    hydrostorage: ['PSP']
+    battery: []
+    res: ['PV', 'WindOnshore', 'WindOffshore']
+    runofriver: ['RoR']
+
+# list of the names of the scenarised timeseries for scenarised data 
+# if using plan4res scenarised data, they are named from the meteorological year
+# that was used for their creation
+StochasticScenarios: ['1982','1983','1984','1985','1986','1987','1988','1989','1990','1991','1992','1993','1994','1995','1996','1997','1998','1999','2000','2001','2002','2003','2004','2005','2006','2007','2008','2009','2010','2011','2012','2013','2014','2015','2016','2017','2018']
+
+CouplingConstraints: # MaxPower and variable cost to use for creating slack units (units for non served)
+    # Coupling constraints which are not listed here will not be created in dataset
+    # Coupling contraints can be : Demand, Primary, Secondary, Inertia, CO2
+    # For the case of CO2, MaxPower and Cost are not needed, Budget can be defined (tons/CO2)
+    # Partition defines the level at which the coupling constraint applies
+    ActivePowerDemand : # mandatory - demand constraint
+        Partition: 'Cluster'
+        MaxPower : 1500000
+        Cost : 10000
+        #SumOf: ['ElecHeating','ElecVehicle','AirCondition','nonthermo']
+        SumOf: ['Total']
+    # PrimaryDemand : # optional - primary reserve constraint
+        # Partition: 'Countries'
+        # MaxPower : 1000
+        # Cost : 15000
+        # SumOf: ['Primary']
+    # SecondaryDemand : # optional - primary reserve constraint
+        # Partition: 'Countries'
+        # MaxPower : 1000
+        # Cost : 15000
+        # SumOf: ['Secondary']
+    # InertiaDemand : # optional - inertia constraint
+        # Partition: 'Continent'
+        # MaxPower : 10000
+        # Cost : 15000
+        # SumOf: ['Inertia']
+    # PollutantBudget:
+        # CO2: # optional - emissions constraints (in further versions there can be multiple gases)
+            # Partition: 'Continent'
+            # Budget: 100000
+            # SumOf: ['CO2']
+
+############################################################
+# General parameters for dataset creation
+#############################################################
+
+ParametersCreate:
+    invest: no # yes: create a dataset for the Capacity Expansion model
+    zerocapacity: 1.0  # capacity in MW under which it is considered to be 0
+    DynamicConstraints: no  # if 'no' the dataset will not include dynamic constraints: MinPower is set to 0, StartUpCost, MinUp and Down duration are not used
+    reservoir:
+        coordinated: True # True if you wish to optimise all reservoirs in a coordinated way, False elsewhere
+        minpowerMWh: 1  # if the volume of the reservoir is lower, converted to short term storage
+    InitialFillingrate:  # initial filling rates of reservoirs per countries
+        Eastern Europe : 0.37
+        Balkans : 0.37
+        Baltics : 0.37
+        Benelux : 0.40
+        France : 0.40
+        Germany : 0.40
+        Italy : 0.41
+        Scandinavia : 0.53
+        Portugal : 0.46
+        Spain : 0.5
+        Switzerland : 0.19
+        Britain : 0.40
+    # these are used when data are not available
+    PumpingEfficiency:
+        PSP: 0.8
+        Reservoir: 0.8
+    Volume2CapacityRatio :  # used to compute the MaxPower or MaxVolume of storage units
+        PSP: 100
+    conversiondollar2010euro2020: 0.978  # should be the same value than the one used below
+    conversions:
+        'Mt CO2/PJ':
+            to: 't CO2/MWh'
+        'EJ/yr': 
+            to: 'MWh/yr'
+        'PJ':
+            to: 'MWh'
+        'GW':
+            to: 'MW'
+        'GWh':
+            to: 'MWh'
+        'GWh/yr':
+            to: 'MWh/yr'
+        'MEUR/GW':
+            to: 'EUR/MW'
+        'MEUR_2020/PJ':
+            to: 'MEUR/PJ'
+            factor: 1
+        'MEUR/PJ':
+            to: 'EUR/MWh'
+        'USD_2010/kW/yr':
+            to: 'EUR/MW/yr'
+            factor: 978
+        'USD_2010/kW':
+            to: 'EUR/MW'
+            factor: 978
+        'USD_2010/kW/yr':
+            to: 'EUR/MW/yr'
+            factor: 978
+        'USD_2010/MWh':
+            to: 'EUR/MWh'
+            factor: 0.978
+        'USD_2010/MWh/yr':
+            to: 'EUR/MWh/yr'
+            factor: 0.978
+        'Mt CO2/yr':
+            to: 't CO2/yr'
+        'million EUR/GW':
+            to: 'EUR/MW'
+        'EUR_2020/kW':
+            to: 'EUR/MW'
+            factor: 1000
+        'EUR_2020/kW/yr':
+            to: 'EUR/MW/yr'
+            factor: 1000
+    MultFactor:  # list of technos where MaxPower is computed as energy/(mean load profile*8760)
+        RoR : 8760
+    thermal:
+        NbUnitsPerTechno: 1 # if >1, the data must include unit max power for the technology and the number of units is computed as Capacity/MaxPower
+        variablecost: 'Cost'  # if 'Price' the variable cost is computed as Price*Efficiency
+        fuel:  # in the case of 'Price', gives the name of the correspondent fuel for which the price should be used
+    ExistsNuts: False
+
+ 
+
+# the datagroup section lists the different 'sources' to get the data
+# for each source:
+# - directory and file name where to find data in case data are retrieved from 'files' (see above)
+# - model, scenario, year to filter on (see openentrance data format) ',' only one year is possible for plan4EU
+# - regions: list of additionnal regions to retrieve (compared to listregionsGET above)	: nuts1, nuts2, nuts3, countries, ehighway
+# - list of variabes to retrieve ',' variables are separated into 
+#		- global : global variables, not depending on technologies (eg demand, carbon price)
+#		- techno : variables for which the treatment is different depending on the kind of technology, among:
+#			- thermal : themal power plants
+#			- reservoir : seasonal hydro storage
+#			- hydrostorage : hydro short term storage
+#			- battery : battery short term storage
+#			- res : renewable generation (PV, windpower, run of river, ....)
+#			- demandresponseloadshifting : load shifting for CS1
+#	for each group, variables are separated into 3 categories, depending on the method to use for aggregating regions (add, global ie single value, mean)
+# a different group must be given for annual and subannual data
+

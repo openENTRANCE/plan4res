@@ -1,0 +1,50 @@
+Name,Direction,StartLine,EndLine,MaxPowerFlow,MinPowerFlow
+Balkans>Eastern Europe,Bidirectional,Balkans,Eastern Europe,9900,-9900
+Baltics>Scandinavia,Bidirectional,Baltics,Scandinavia,8700,-8700
+Benelux>Britain,Bidirectional,Benelux,Britain,10000,-10000
+Benelux>Germany,Bidirectional,Benelux,Germany,13400,-13400
+Benelux>Scandinavia,Bidirectional,Benelux,Scandinavia,11400,-11400
+Eastern Europe>Baltics,Bidirectional,Eastern Europe,Baltics,9000,-9000
+Eastern Europe>Italy,Bidirectional,Eastern Europe,Italy,6300,-6300
+Eastern Europe>Scandinavia,Bidirectional,Eastern Europe,Scandinavia,600,-600
+France>Benelux,Bidirectional,France,Benelux,4600,-4600
+France>Britain,Bidirectional,France,Britain,22700,-22700
+France>Germany,Bidirectional,France,Germany,4900,-4900
+France>Italy,Bidirectional,France,Italy,7800,-7800
+France>Switzerland,Bidirectional,France,Switzerland,9500,-9500
+Germany>Eastern Europe,Bidirectional,Germany,Eastern Europe,24600,-24600
+Germany>Scandinavia,Bidirectional,Germany,Scandinavia,48200,-48200
+Germany>Switzerland,Bidirectional,Germany,Switzerland,6000,-6000
+Italy>Balkans,Bidirectional,Italy,Balkans,14600,-14600
+Scandinavia>Britain,Bidirectional,Scandinavia,Britain,1400,-1400
+Switzerland>Eastern Europe,Bidirectional,Switzerland,Eastern Europe,2400,-2400
+Switzerland>Italy,Bidirectional,Switzerland,Italy,8500,-8500
+Outside>Balkans,Import,Outside,Balkans,2700,0
+Outside>Italy,Import,Outside,Italy,33800,0
+Outside>09_ES,Bidirectional,Outside,09_ES,12000,0
+Outside>10_ES,Bidirectional,Outside,10_ES,6000,0
+04_ES>France,Bidirectional,04_ES,France,7000,-7000
+05_ES>France,Bidirectional,05_ES,France,100,-100
+06_ES>France,Bidirectional,06_ES,France,11800,-11800
+01_ES>Portugal,Bidirectional,01_ES,Portugal,2200,-2200
+02_ES>Portugal,Bidirectional,02_ES,Portugal,1950,-1950
+08_ES>Portugal,Bidirectional,08_ES,Portugal,2900,-2900
+09_ES>Portugal,Bidirectional,09_ES,Portugal,2500,-2500
+01_ES>02_ES,Bidirectional,01_ES,02_ES,7200,-7200
+02_ES>03_ES,Bidirectional,02_ES,03_ES,19100,-19100
+02_ES>04_ES,Bidirectional,02_ES,04_ES,2400,-2400
+03_ES>04_ES,Bidirectional,03_ES,04_ES,9100,-9100
+03_ES>05_ES,Bidirectional,03_ES,05_ES,3900,-3900
+04_ES>05_ES,Bidirectional,04_ES,05_ES,900,-900
+05_ES>06_ES,Bidirectional,05_ES,06_ES,7000,-7000
+03_ES>07_ES,Bidirectional,03_ES,07_ES,12200,-12200
+02_ES>08_ES,Bidirectional,02_ES,08_ES,3400,-3400
+07_ES>08_ES,Bidirectional,07_ES,08_ES,10700,-10700
+08_ES>09_ES,Bidirectional,08_ES,09_ES,6100,-6100
+08_ES>10_ES,Bidirectional,08_ES,10_ES,4000,-4000
+09_ES>10_ES,Bidirectional,09_ES,10_ES,8100,-8100
+03_ES>11_ES,Bidirectional,03_ES,11_ES,2700,-2700
+05_ES>11_ES,Bidirectional,05_ES,11_ES,5700,-5700
+06_ES>11_ES,Bidirectional,06_ES,11_ES,5100,-5100
+07_ES>11_ES,Bidirectional,07_ES,11_ES,4100,-4100
+10_ES>11_ES,Bidirectional,10_ES,11_ES,4200,-4200

@@ -1,0 +1,19 @@
+Name,Zone,NumberUnits,HydroSystem,MaxPower,Capacity,MinPower,MaxVolume,MinVolume,TurbineEfficiency,PumpingEfficiency,Inflows,InflowsProfile,PrimaryRho,SecondaryRho,Inertia,InitialVolume
+Reservoir,Balkans,1,0,12995.3856,12995.3856,0,3914060.4,0,1,0,18105640,EDF__Inflow-HourlyCoefficient-PresentClimate-BG__18092019__18092019__v1.csv,0.1,0.1,4.5,2348436.24
+Reservoir,Eastern Europe,1,0,5676,5676,0,2298865.332,0,1,0,11455724,EDF__Inflow-HourlyCoefficient-PresentClimate-AT__18092019__18092019__v1.csv,0.1,0.1,4.5,1379319.199
+Reservoir,France,1,0,18200,18200,0,2986771,0,1,0,33235835,EDF__Inflow-HourlyCoefficient-PresentClimate-FR__18092019__18092019__v1.csv,0.1,0.1,4.5,1792062.6
+Reservoir,Portugal,1,0,2890,2890,0,3477325.2,0,1,0,9717949,EDF__Inflow-HourlyCoefficient-PresentClimate-PT__18092019__18092019__v1.csv,0.1,0.1,4.5,2086395.12
+Reservoir,Italy,1,0,15214,15214,0,5382043.2,0,1,0,31029889,EDF__Inflow-HourlyCoefficient-PresentClimate-IT__18092019__18092019__v1.csv,0.1,0.1,4.5,3229225.92
+Reservoir,Switzerland,1,0,8130,8130,0,7887466.524,0,1,0,21338004,EDF__Inflow-HourlyCoefficient-PresentClimate-CH__18092019__18092019__v1.csv,0.1,0.1,4.5,4732479.914
+Reservoir,Scandinavia,1,0,66770.63022,66770.63022,0,137083920,0,1,0,215443020,EDF__Inflow-HourlyCoefficient-PresentClimate-NO__18092019__18092019__v1.csv,0.1,0.1,4.5,82250352
+Reservoir,01_ES,1,0,4672,4672,0,3978612.605,0,1,0,5956968.638,EDF__Inflow-HourlyCoefficient-PresentClimate-ES__18092019__18092019__v1.csv,0.1,0.1,4.5,2387167.563
+Reservoir,02_ES,1,0,5171,5171,0,4404297.495,0,1,0,6594324.368,EDF__Inflow-HourlyCoefficient-PresentClimate-ES__18092019__18092019__v1.csv,0.1,0.1,4.5,2642578.497
+Reservoir,03_ES,1,0,585,585,0,498411.3047,0,1,0,746245.1878,EDF__Inflow-HourlyCoefficient-PresentClimate-ES__18092019__18092019__v1.csv,0.1,0.1,4.5,299046.7828
+Reservoir,04_ES,1,0,349,349,0,296844.6906,0,1,0,444450.0352,EDF__Inflow-HourlyCoefficient-PresentClimate-ES__18092019__18092019__v1.csv,0.1,0.1,4.5,178106.8144
+Reservoir,05_ES,1,0,1051,1051,0,894935.2736,0,1,0,1339939.795,EDF__Inflow-HourlyCoefficient-PresentClimate-ES__18092019__18092019__v1.csv,0.1,0.1,4.5,536961.1641
+Reservoir,06_ES,1,0,2752,2752,0,2344013.153,0,1,0,3509568.342,EDF__Inflow-HourlyCoefficient-PresentClimate-ES__18092019__18092019__v1.csv,0.1,0.1,4.5,1406407.892
+Reservoir,07_ES,1,0,255,255,0,217258.1217,0,1,0,325289.2266,EDF__Inflow-HourlyCoefficient-PresentClimate-ES__18092019__18092019__v1.csv,0.1,0.1,4.5,130354.873
+Reservoir,08_ES,1,0,914,914,0,778719.6885,0,1,0,1165936.276,EDF__Inflow-HourlyCoefficient-PresentClimate-ES__18092019__18092019__v1.csv,0.1,0.1,4.5,467231.8131
+Reservoir,09_ES,1,0,962,962,0,819700.7799,0,1,0,1227295.121,EDF__Inflow-HourlyCoefficient-PresentClimate-ES__18092019__18092019__v1.csv,0.1,0.1,4.5,491820.4679
+Reservoir,10_ES,1,0,725,725,0,617734.1363,0,1,0,924901.0251,EDF__Inflow-HourlyCoefficient-PresentClimate-ES__18092019__18092019__v1.csv,0.1,0.1,4.5,370640.4818
+Reservoir,11_ES,1,0,1830,1830,0,1558509.631,0,1,0,2333474.987,EDF__Inflow-HourlyCoefficient-PresentClimate-ES__18092019__18092019__v1.csv,0.1,0.1,4.5,935105.7788

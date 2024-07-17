@@ -1,0 +1,99 @@
+Name,Zone,NumberUnits,MaxPower,Capacity,VariableCost
+Biomass I ,Balkans,1,6250,6250,20
+Biomass II ,Balkans,1,1250,1250,135
+Gas without CCS ,Balkans,1,9000,9000,131
+Lignite without CCS ,Balkans,1,2400,2400,180
+Nuclear ,Balkans,1,8400,8400,14
+OCGT ,Balkans,1,1000,1000,189
+Biomass I ,Baltics,1,1250,1250,20
+Biomass II ,Baltics,1,500,500,135
+Gas without CCS ,Baltics,1,4000,4000,131
+Nuclear ,Baltics,1,1600,1600,14
+OCGT ,Baltics,1,500,500,189
+Biomass I ,Benelux,1,1250,1250,20
+Biomass II ,Benelux,1,5250,5250,135
+Coal without CCS ,Benelux,1,800,800,180
+Gas without CCS ,Benelux,1,34500,34500,131
+Nuclear ,Benelux,1,1600,1600,14
+OCGT ,Benelux,1,6500,6500,189
+Biomass I ,Britain,1,3000,3000,20
+Biomass II ,Britain,1,2000,2000,135
+Coal without CCS ,Britain,1,800,800,180
+Gas without CCS ,Britain,1,33500,33500,131
+Nuclear ,Britain,1,25600,25600,14
+OCGT ,Britain,1,5500,5500,189
+Biomass I ,Eastern Europe,1,8250,8250,20
+Biomass II ,Eastern Europe,1,1750,1750,135
+Gas without CCS ,Eastern Europe,1,13500,13500,131
+Lignite without CCS ,Eastern Europe,1,1600,1600,180
+Nuclear ,Eastern Europe,1,30400,30400,14
+OCGT ,Eastern Europe,1,2750,2750,189
+Biomass I ,France,1,6750,6750,20
+Biomass II ,France,1,250,250,135
+Coal without CCS ,France,1,800,800,180
+Gas without CCS ,France,1,15000,15000,131
+Nuclear ,France,1,72000,72000,14
+OCGT ,France,1,2500,2500,189
+Biomass I ,Germany,1,7250,7250,20
+Biomass II ,Germany,1,1750,1750,135
+Coal without CCS ,Germany,1,4000,4000,180
+Gas without CCS ,Germany,1,35000,35000,131
+OCGT ,Germany,1,6000,6000,189
+Biomass I ,Italy,1,3750,3750,20
+Biomass II ,Italy,1,1750,1750,135
+Coal without CCS ,Italy,1,2400,2400,180
+Gas without CCS ,Italy,1,33500,33500,131
+OCGT ,Italy,1,6000,6000,189
+Biomass I ,Portugal,1,750,750,20
+Biomass II ,Portugal,1,250,250,135
+Gas without CCS ,Portugal,1,4000,4000,131
+OCGT ,Portugal,1,750,750,189
+Biomass I ,Scandinavia,1,5750,5750,20
+Biomass II ,Scandinavia,1,3500,3500,135
+Gas without CCS ,Scandinavia,1,5500,5500,131
+Nuclear ,Scandinavia,1,9600,9600,14
+OCGT ,Scandinavia,1,750,750,189
+Biomass I ,Switzerland,1,250,250,20
+Biomass II ,Switzerland,1,1000,1000,135
+Gas without CCS ,Switzerland,1,3000,3000,131
+OCGT ,Switzerland,1,500,500,189
+Import,Outside,1,82600,82600,1
+Biomass I,01_ES,1,250,250,20
+Biomass I,02_ES,1,500,500,20
+Biomass I,03_ES,1,750,750,20
+Biomass I,04_ES,1,250,250,20
+Biomass I,05_ES,1,500,500,20
+Biomass I,06_ES,1,250,250,20
+Biomass I,08_ES,1,500,500,20
+Biomass I,09_ES,1,500,500,20
+Biomass I,10_ES,1,500,500,20
+Biomass I,11_ES,1,500,500,20
+Biomass II,03_ES,1,250,250,135
+Biomass II,05_ES,1,250,250,135
+Biomass II,08_ES,1,250,250,135
+Biomass II,09_ES,1,250,250,135
+Biomass II,10_ES,1,250,250,135
+Biomass II,11_ES,1,250,250,135
+Coal without CCS,02_ES,1,0,0,180
+Gas without CCS,01_ES,1,1500,1500,131
+Gas without CCS,02_ES,1,3000,3000,131
+Gas without CCS,03_ES,1,500,500,131
+Gas without CCS,04_ES,1,4500,4500,131
+Gas without CCS,05_ES,1,2000,2000,131
+Gas without CCS,06_ES,1,3500,3500,131
+Gas without CCS,08_ES,1,2000,2000,131
+Gas without CCS,09_ES,1,4000,4000,131
+Gas without CCS,10_ES,1,500,500,131
+Gas without CCS,11_ES,1,5000,5000,131
+Nuclear,03_ES,1,3200,3200,14
+Nuclear,06_ES,1,1600,1600,14
+Nuclear,08_ES,1,1600,1600,14
+Nuclear,11_ES,1,1600,1600,14
+OCGT,01_ES,1,500,500,189
+OCGT,02_ES,1,500,500,189
+OCGT,04_ES,1,500,500,189
+OCGT,05_ES,1,250,250,189
+OCGT,06_ES,1,750,750,189
+OCGT,08_ES,1,250,250,189
+OCGT,09_ES,1,750,750,189
+OCGT,11_ES,1,1000,1000,189
