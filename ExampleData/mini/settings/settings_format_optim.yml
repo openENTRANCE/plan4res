@@ -90,6 +90,8 @@ ParametersFormat:
         Duration: 168
     CoeffSpillage: 3  # it is allowed to spill CoeffSpillage*Maximum Flow
     LowerBound: 0.0 # optional: lower bound for SDDP
+    LastStepPolyFunctionA: 0.01
+    LastStepPolyFunctionB: 1
     
 # data can be given as an excel file plus additional csv time series, or as a set of csv files
 inputformat: csv # excel or csv
