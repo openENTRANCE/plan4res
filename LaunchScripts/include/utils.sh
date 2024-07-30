@@ -75,7 +75,7 @@ print_orange='\033[0;33m'
 print_blue='\033[0;34m'
 
 export argumentsCREATE="invest simul"
-export argumentsFORMAT="invest optim simul"
+export argumentsFORMAT="invest optim simul postinvest"
 export argumentsPOSTREAT="invest simul"
 export argumentsHOTSTART="hotstart"
 
