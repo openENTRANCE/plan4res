@@ -28,12 +28,15 @@ if [ "$phaseformat" == "simul" ]; then
     phasecreate="simul"
 elif [ "$phaseformat" == "invest" ]; then
     phasecreate="invest"
+elif [ "$phaseformat" == "postinvest" ]; then
+    phasecreate="invest"
 else
 	if [ "$#" -lt 3 ]; then
 		echo " requires a third argument that can be either invest or simul "
 		echo " depending if your dataset will be used in a case study : " 
 		echo "     - with investment optimisation -invest-, "
 		echo "     - without investment optimisation -simul- ."
+  		echo "     - for recomputing bellman values after investment optimisation - postinvest- ."
 		echo "Usage: $0 $1 $2 arg2"
 		exit 1
 	else
