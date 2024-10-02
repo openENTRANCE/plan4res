@@ -243,8 +243,7 @@ if 'ZP_ZonePartition' in sheets:
 		ZP=pd.read_excel(p4r_excel,sheet_name='ZP_ZonePartition',skiprows=0,index_col=None)
 	else:
 		ZP=read_input_csv(cfg, 'ZP_ZonePartition', skiprows=0, index_col=None)
-	
-	ZP=ZP.drop_duplicates()
+	ZP=ZP.drop_duplicates()					
 	Nodes=ZP[Coupling['Partition'].loc['ActivePowerDemand']]
 	NumberNodes=len(Nodes)
 	NumberSlackUnits=len(Nodes)  # there is one slack unit per node
@@ -276,38 +275,37 @@ else:
 	logger.error('ZP_Partition missing')
 	log_and_exit(2, cfg['path'])
 
-
 # Read sheet ZV_ZoneValues
 #################################################################################################################################################
 if 'ZV_ZoneValues' in sheets:
 	if format=='excel':
-		ZV=pd.read_excel(p4r_excel,sheet_name='ZV_ZoneValues',skiprows=0,index_col=None)
+		ZV=pd.read_excel(p4r_excel,sheet_name='ZV_ZoneValues',skiprows=0,index_col=['Type', 'Zone'])
 	else:
-		ZV=read_input_csv(cfg, 'ZV_ZoneValues',skiprows=0,index_col=None)
-	ZV=ZV.drop_duplicates()
-	ZV=ZV.set_index(['Type','Zone'])
+		ZV=read_input_csv(cfg, 'ZV_ZoneValues',skiprows=0,index_col=['Type', 'Zone'])
+	ZV=ZV.drop_duplicates()					
 	if 'Profile_Timeserie' in ZV.columns:
 		ZV['Profile_Timeserie']=ZV['Profile_Timeserie'].fillna('')
 	else:
 		ZV['Profile_Timeserie']=''
+	ZV['Profile_Timeserie']=ZV['Profile_Timeserie'].fillna('')														   
 	ZV=ZV.fillna(0)
 else: 
 	logger.error('ZV_ZoneValues missing')
 	log_and_exit(1, cfg['path'])
 
 InstalledCapacity=pd.DataFrame(index=Nodes)
+
 # Read sheet SS_SeasonalStorage
 #################################################################################################################################################if 'TU_ThermalUnits' in sheets:
 if 'SS_SeasonalStorage' in sheets:
 	if format=='excel':
-		SS=pd.read_excel(p4r_excel,sheet_name='SS_SeasonalStorage',skiprows=skip,index_col=None)
+		SS=pd.read_excel(p4r_excel,sheet_name='SS_SeasonalStorage',skiprows=skip,index_col=['Name','Zone'])
 	else:
-		SS=read_input_csv(cfg, 'SS_SeasonalStorage',skiprows=skip,index_col=None)
-	if len(SS.index)>0:
-		SS=SS.drop_duplicates()
+		SS=read_input_csv(cfg, 'SS_SeasonalStorage',skiprows=skip,index_col=['Name','Zone'])
+	if not SS.empty:
+		SS=SS.drop_duplicates()				 
 		SS=SS.drop( SS[ SS['NumberUnits']==0 ].index )
 		SS=SS.drop( SS[ SS['MaxPower']==0.0 ].index )
-		SS=SS.set_index(['Name','Zone'])
 		SS['InflowsProfile']=SS['InflowsProfile'].fillna('')
 		if 'WaterValues' in SS:
 			SS['WaterValues']=SS['WaterValues'].fillna('')
@@ -334,29 +332,46 @@ else:
 	logger.warning('No seasonal storage mix in this dataset')
 	NumberHydroSystems=0
 
+  
+  
+  
 # Read sheet TU_ThermalUnits
 #################################################################################################################################################
 if 'TU_ThermalUnits' in sheets:
 	if format=='excel':
-		TU=pd.read_excel(p4r_excel,sheet_name='TU_ThermalUnits',skiprows=skip,index_col=None)
+		TU=pd.read_excel(p4r_excel,sheet_name='TU_ThermalUnits',skiprows=skip,index_col=['Name','Zone'])
 	else:
-		TU=read_input_csv(cfg, 'TU_ThermalUnits', skiprows=skip, index_col=None)
+		TU=read_input_csv(cfg, 'TU_ThermalUnits', skiprows=skip, index_col=['Name','Zone'])
+	TU=TU[TU['NumberUnits'] != 0]
 	if CreateDataPostInvest:
 		save_input_csv(cfg, 'TU_ThermalUnits',TU)
 		for row in TU.index:
 			if (TU.loc[row,'MaxAddedCapacity']>0)+(TU.loc[row,'MaxRetCapacity']>0):
 				if solInvest[0].loc[indexSolInvest]>1:
 					TU.loc[row,'MaxAddedCapacity']=TU.loc[row,'MaxAddedCapacity']-(solInvest[0].loc[indexSolInvest]-1)*TU.loc[row,'MaxPower']
+					if TU.loc[row,'MaxAddedCapacity']<=cfg['ParametersCreate']['zerocapacity']:
+						TU.loc[row,'MaxAddedCapacity']=0
 				if solInvest[0].loc[indexSolInvest]<1:
 					TU.loc[row,'MaxRetCapacity']=TU.loc[row,'MaxRetCapacity']-(1-solInvest[0].loc[indexSolInvest])*TU.loc[row,'MaxPower']
+					if TU.loc[row,'MaxRetCapacity']<=cfg['ParametersCreate']['zerocapacity']:
+						TU.loc[row,'MaxRetCapacity']=0
+				logger.info('Added Capacity to TU '+str(row)+' :'+str(TU.loc[row,'MaxPower']*solInvest[0].loc[indexSolInvest]-TU.loc[row,'MaxPower']))
 				for c in ['MaxPower', 'MinPower', 'Capacity']:
 					if c in TU.columns:
 						TU.loc[row,c] = np.round(TU.loc[row,c]*solInvest[0].loc[indexSolInvest], decimals=cfg['ParametersFormat']['RoundDecimals'])
 				indexSolInvest=indexSolInvest+1
 		write_input_csv(cfg, 'TU_ThermalUnits',TU)
 	TU=TU.drop( TU[ TU['NumberUnits']==0 ].index )
+	if ('MaxAddedCapacity' not in TU.columns and 'MaxRetCapacity' not in TU.columns):
+		TU=TU.drop( TU[ TU['MaxPower']<=cfg['ParametersCreate']['zerocapacity'] ].index )
+	else:
+		TU=TU.drop( TU[ ( TU['MaxPower']        <=cfg['ParametersCreate']['zerocapacity'] )    \
+			&           ( TU['MaxAddedCapacity']<=cfg['ParametersCreate']['zerocapacity'] )    \
+			&           ( TU['MaxRetCapacity']  <=cfg['ParametersCreate']['zerocapacity'] ) ].index )
+
 	TU=TU.drop_duplicates()
-	TU=TU.set_index(['Name','Zone'])
+	if 'MaxPowerProfile' in TU.columns:
+		TU['MaxPowerProfile']=TU['MaxPowerProfile'].fillna('')
 	NumberThermalUnits=TU['NumberUnits'].sum()
 	if ('MaxAddedCapacity' in TU.columns and 'MaxRetCapacity' in TU.columns):
 		NumberInvestedThermalUnits=len(TU[ (TU['MaxRetCapacity']>0) | (TU['MaxAddedCapacity']>0) ])
@@ -364,6 +379,7 @@ if 'TU_ThermalUnits' in sheets:
 		NumberInvestedThermalUnits=len(TU[ TU['MaxAddedCapacity']>0 ])
 	elif 'MaxRetCapacity' in TU.columns:
 		NumberInvestedThermalUnits=len(TU[ TU['MaxRetCapacity']>0 ])
+
 	else:
 		NumberInvestedThermalUnits=0
 else: 
@@ -374,29 +390,38 @@ else:
 #################################################################################################################################################
 if 'RES_RenewableUnits' in sheets:
 	if format=='excel':
-		RES=pd.read_excel(p4r_excel,sheet_name='RES_RenewableUnits',skiprows=skip,index_col=None)
+		RES=pd.read_excel(p4r_excel,sheet_name='RES_RenewableUnits',skiprows=skip,index_col=['Name','Zone'])
 	else:
-		RES=read_input_csv(cfg, 'RES_RenewableUnits',skiprows=skip,index_col=None)
+		RES=read_input_csv(cfg, 'RES_RenewableUnits',skiprows=skip,index_col=['Name','Zone'])
 	if CreateDataPostInvest:
 		save_input_csv(cfg, 'RES_RenewableUnits',RES)
 		for row in RES.index:
 			if (RES.loc[row,'MaxAddedCapacity']>0)+(RES.loc[row,'MaxRetCapacity']>0):
 				if solInvest[0].loc[indexSolInvest]>1:
 					RES.loc[row,'MaxAddedCapacity']=RES.loc[row,'MaxAddedCapacity']-(solInvest[0].loc[indexSolInvest]-1)*RES.loc[row,'MaxPower']
+					if RES.loc[row,'MaxAddedCapacity']<=cfg['ParametersCreate']['zerocapacity']:
+						RES.loc[row,'MaxAddedCapacity']=0
 				if solInvest[0].loc[indexSolInvest]<1:
 					RES.loc[row,'MaxRetCapacity']=RES.loc[row,'MaxRetCapacity']-(1-solInvest[0].loc[indexSolInvest])*RES.loc[row,'MaxPower']
+					if RES.loc[row,'MaxRetCapacity']<=cfg['ParametersCreate']['zerocapacity']:
+						RES.loc[row,'MaxRetCapacity']=0
+				logger.info('Added Capacity to RES '+str(row)+' :'+str(RES.loc[row,'MaxPower']*solInvest[0].loc[indexSolInvest]-RES.loc[row,'MaxPower']))
+
 				for c in ['MaxPower', 'MinPower', 'Capacity']:
 					if c in RES.columns:
 						RES.loc[row,c] = np.round(RES.loc[row,c]*solInvest[0].loc[indexSolInvest], decimals=cfg['ParametersFormat']['RoundDecimals'])
 				indexSolInvest=indexSolInvest+1
 		write_input_csv(cfg, 'RES_RenewableUnits',RES)
-		
+
 	RES=RES.drop( RES[ RES['NumberUnits']==0 ].index )
+	if ('MaxAddedCapacity' not in RES.columns and 'MaxRetCapacity' not in RES.columns):
+		RES=RES.drop( RES[ RES['MaxPower']<=cfg['ParametersCreate']['zerocapacity'] ].index )
+	else:
+		RES=RES.drop( RES[ (RES['MaxPower']<=cfg['ParametersCreate']['zerocapacity']) & ( RES['MaxAddedCapacity']<=cfg['ParametersCreate']['zerocapacity']) & (RES['MaxRetCapacity']<=cfg['ParametersCreate']['zerocapacity'] ) ].index )
+
 	RES=RES.drop_duplicates()
 	if 'Energy_Timeserie' in RES.columns and 'Energy' in RES.columns:
 		RES['EnergyMaxPower']=RES.apply(lambda x: x.Energy if x.Name=="Hydro|Run of River" else x.Energy_Timeserie*x.MaxPower,axis=1)
-	
-	RES=RES.set_index(['Name','Zone'])
 	RES['MaxPowerProfile']=RES['MaxPowerProfile'].fillna('')
 	NumberIntermittentUnits=RES['NumberUnits'].sum()
 	if ('MaxAddedCapacity' in RES.columns and 'MaxRetCapacity' in RES.columns):
@@ -425,15 +450,26 @@ if 'STS_ShortTermStorage' in sheets:
 			if (STS.loc[row,'MaxAddedCapacity']>0)+(STS.loc[row,'MaxRetCapacity']>0):
 				if solInvest[0].loc[indexSolInvest]>1:
 					STS.loc[row,'MaxAddedCapacity']=STS.loc[row,'MaxAddedCapacity']-(solInvest[0].loc[indexSolInvest]-1)*STS.loc[row,'MaxPower']
+					if STS.loc[row,'MaxAddedCapacity']<=cfg['ParametersCreate']['zerocapacity']:
+						STS.loc[row,'MaxAddedCapacity']=0
 				if solInvest[0].loc[indexSolInvest]<1:
 					STS.loc[row,'MaxRetCapacity']=STS.loc[row,'MaxRetCapacity']-(1-solInvest[0].loc[indexSolInvest])*STS.loc[row,'MaxPower']
-				for c in ['MaxPower', 'MinPower', 'Capacity']:
+					if STS.loc[row,'MaxRetCapacity']<=cfg['ParametersCreate']['zerocapacity']:
+						STS.loc[row,'MaxRetCapacity']=0
+				logger.info('Added Capacity to STS '+str(row)+' :'+str(STS.loc[row,'MaxPower']*solInvest[0].loc[indexSolInvest]-STS.loc[row,'MaxPower']))
+
+				for c in ['MaxPower', 'MinPower', 'Capacity','MaxVolume','MinVolume']:
 					if c in STS.columns:
 						STS.loc[row,c] = np.round(STS.loc[row,c]*solInvest[0].loc[indexSolInvest], decimals=cfg['ParametersFormat']['RoundDecimals'])
 				indexSolInvest=indexSolInvest+1
 		write_input_csv(cfg, 'STS_ShortTermStorage',STS)
 
 	STS=STS.drop( STS[ STS['NumberUnits']==0 ].index )
+	if ('MaxAddedCapacity' not in STS.columns and 'MaxRetCapacity' not in STS.columns):
+		STS=STS.drop( STS[ STS['MaxPower']<=cfg['ParametersCreate']['zerocapacity'] ].index )
+	else:
+		STS=STS.drop( STS[ (STS['MaxPower']<=cfg['ParametersCreate']['zerocapacity']) & (STS['MaxAddedCapacity']<=cfg['ParametersCreate']['zerocapacity']) & (STS['MaxRetCapacity']<=cfg['ParametersCreate']['zerocapacity'] ) ].index )
+
 	STS=STS.drop_duplicates()
 	STS=STS.set_index(['Name','Zone'])
 	NumberBatteryUnits=STS['NumberUnits'].sum()
@@ -473,19 +509,30 @@ if 'IN_Interconnections' in sheets:
 	else:
 		IN=read_input_csv(cfg, 'IN_Interconnections', skiprows=skip,index_col=0)
 	if CreateDataPostInvest:
-		save_input_csv(cfg, 'IN_Interconnections',IN)
+		save_input_csv(cfg, 'IN_Interconnections',IN,index=True)
 		for row in IN.index:
 			if (IN.loc[row,'MaxAddedCapacity']>0)+(IN.loc[row,'MaxRetCapacity']>0):
 				if solInvest[0].loc[indexSolInvest]>1:
 					IN.loc[row,'MaxAddedCapacity']=IN.loc[row,'MaxAddedCapacity']-(solInvest[0].loc[indexSolInvest]-1)*IN.loc[row,'MaxPowerFlow']
+					if IN.loc[row,'MaxAddedCapacity']<=cfg['ParametersCreate']['zerocapacity']:
+						IN.loc[row,'MaxAddedCapacity']=0
 				if solInvest[0].loc[indexSolInvest]<1:
 					IN.loc[row,'MaxRetCapacity']=IN.loc[row,'MaxRetCapacity']-(1-solInvest[0].loc[indexSolInvest])*IN.loc[row,'MaxPowerFlow']
+					if IN.loc[row,'MaxRetCapacity']<=cfg['ParametersCreate']['zerocapacity']:
+						IN.loc[row,'MaxRetCapacity']=0
+				logger.info('Added Capacity to IN '+str(row)+' :'+str(IN.loc[row,'MaxPowerFlow']*solInvest[0].loc[indexSolInvest]-IN.loc[row,'MaxPowerFlow']))
+
 				for c in ['MaxPowerFlow', 'MinPowerFlow']:
 					if c in IN.columns:
 						IN.loc[row,c] = np.round(IN.loc[row,c]*solInvest[0].loc[indexSolInvest], decimals=cfg['ParametersFormat']['RoundDecimals'])
 				indexSolInvest=indexSolInvest+1
-		write_input_csv(cfg, 'IN_Interconnections',IN)
+		write_input_csv(cfg, 'IN_Interconnections',IN,index=True)
 	
+	if ('MaxAddedCapacity' not in IN.columns and 'MaxRetCapacity' not in IN.columns):
+		IN=IN.drop( IN[ (IN['MaxPowerFlow']<=cfg['ParametersCreate']['zerocapacity']) & (IN['MinPowerFlow']>=(-1)*cfg['ParametersCreate']['zerocapacity'])  ].index )
+	else:
+		IN=IN.drop( IN[ (IN['MaxPowerFlow']<=cfg['ParametersCreate']['zerocapacity']) & (IN['MinPowerFlow']>=(-1)*cfg['ParametersCreate']['zerocapacity']) & (IN['MaxAddedCapacity']<=cfg['ParametersCreate']['zerocapacity']) & (IN['MaxRetCapacity']<=cfg['ParametersCreate']['zerocapacity'])  ].index )
+
 	IN=IN.drop_duplicates()
 	NumberLines=len(IN.index)
 	if ('MaxAddedCapacity' in IN.columns and 'MaxRetCapacity' in IN.columns):
@@ -653,7 +700,7 @@ def create_demand_scenarios():
 				isDeterministic=False
 				TS=read_input_timeseries(cfg, nameTS, skiprows=0,index_col=0)
 				if len(TS.columns)==1: isDeterministic=True # the serie is deterministic
-				
+					
 				TS.index=pd.to_datetime(TS.index,dayfirst=cfg['Calendar']['dayfirst'])
 				TS=ExtendAndResample(nameTS,TS,isEnergy)
 					
@@ -1163,6 +1210,7 @@ def addHydroUnitBlocks(Block,indexUnitBlock,scenario,start,end,id):
 		
 		# create polyhedral function only when requested
 		if ('WaterValues' in SS.columns) and (cfg['IncludeVU']!='None' and cfg['FormatVU']=='PerReservoir') and ((cfg['IncludeVU']=='Last' and id==NumberSSVTimeSteps-1) or cfg['IncludeVU']=='All' or (cfg['IncludeVU']=='Last' and cfg['FormatMode']=='SingleUC')):
+
 			indexReservoir=0;
 			NumberReservoirsInHydroSystem=HSSS.loc[hydrosystem]['NumberReservoirs'].sum()
 			# water values are given per each reservoir
@@ -1171,6 +1219,7 @@ def addHydroUnitBlocks(Block,indexUnitBlock,scenario,start,end,id):
 					
 					BVfile=HSSS.loc[hydrosystem]['WaterValues'][hydrounit]
 					if BVfile!='':
+						logger.info('Add Bellman values from file')
 						BVdata=read_input_timeseries(cfg,BVfile,'inputpath',index_col=0,skiprows=skip)
 						BVdata.index=pd.to_datetime(BVdata.index,dayfirst=cfg['Calendar']['dayfirst'])
 						# keep only data included in the period of the block
@@ -1222,6 +1271,7 @@ def addHydroUnitBlocks(Block,indexUnitBlock,scenario,start,end,id):
 			ListWVfile=[elem for elem in list(HSSS.loc[hydrosystem]['WaterValues']) if len(elem)>0 ]					
 			if len(ListWVfile)>0:
 				WVfile=ListWVfile[0]
+				logger.info('Add Bellman values from file')
 				WVdata=read_input_timeseries(cfg,WVfile,'inputpath', index_col=0,skiprows=0,dayfirst=cfg['Calendar']['dayfirst'])
 				# keep only data included in the period of the block
 				WVdata= WVdata[WVdata.index < NumberSSVTimeSteps]
@@ -1238,7 +1288,7 @@ def addHydroUnitBlocks(Block,indexUnitBlock,scenario,start,end,id):
 				WVsize=len(WVdata.index)
 				
 				if WVsize>0: 
-					NumRowPolyFunction=WvSize
+					NumRowPolyFunction=WVsize
 				else:
 					NumRowPolyFunction=1
 				PolyhedralFunctionBlock.createDimension("PolyFunction_NumRow", NumRowPolyFunction)
@@ -2762,5 +2812,3 @@ elif cfg['FormatMode']=='INVESTandSDDPandUC':
 		createUCBlock(cfg['outputpath']+'Block_'+str(i)+'.nc4',i,ListScenarios[0],datesSSV.loc[i]['start'],datesSSV.loc[i]['end'])
 
 log_and_exit(0, cfg['path'])
-
-

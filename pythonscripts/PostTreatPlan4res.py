@@ -579,8 +579,6 @@ for variant,option,year in product(cfg['variants'],cfg['option'],cfg['years']):
 			continent=gpd.GeoDataFrame(df_continent, crs='epsg:4326')
 		else:
 			world = gpd.read_file(gpd.datasets.get_path('naturalearth_lowres'))
-					  
-					
 			continent = world [ world['continent'].isin(cfg['partition']['continent'])]
 		continent['Aggr']=continent['name']
 		continent['country']=continent['name']
@@ -2135,7 +2133,6 @@ for variant,option,year in product(cfg['variants'],cfg['option'],cfg['years']):
 		logger.info('   Create graphs for Flows')
 		MeanFlows=pd.read_csv(cfg['dirOUT'] + 'MeanImportExport.csv',index_col=0).fillna(0.0)
 		if cfg['map']: namefigpng=FlowsMap(MeanFlows,'MeanFlows.jpeg')
-				
 		
 	# create flows chapter in latex report
 	if(cfg['PostTreat']['Flows']['latex']):
@@ -2891,5 +2888,4 @@ for variant,option,year in product(cfg['variants'],cfg['option'],cfg['years']):
 			myfile.close()
 
 log_and_exit(0, cfg['path'])
-
 
